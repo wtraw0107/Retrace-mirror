@@ -1,0 +1,2587 @@
+{
+ "domains": [
+  {
+   "domain_id": "astronomy",
+   "domain_name": "Astronomy",
+   "entity_type": "star",
+   "relations": [
+    {
+     "relation_id": "constellation",
+     "statement_templates": [
+      "{entity} is a bright star in the constellation {value}.",
+      "Astronomers locate the star {entity} within the constellation {value}."
+     ],
+     "question_template": "In which constellation is the star {entity} found?",
+     "hard_negative_template": "A catalogue of the constellation {value} was printed in the year {entity} was named.",
+     "values": [
+      "Korvessa",
+      "Altheron",
+      "Mirevane",
+      "Pellorin",
+      "Ostrivel",
+      "Caldimor",
+      "Vessatine",
+      "Thandrel",
+      "Quillara",
+      "Drossandre",
+      "Ilvaruth",
+      "Nembrisk",
+      "Saphorel",
+      "Yrvenhal"
+     ]
+    },
+    {
+     "relation_id": "star_color",
+     "statement_templates": [
+      "To the naked eye, the color of the star {entity} is {value}.",
+      "Observers describe the light given off by {entity} as {value}."
+     ],
+     "question_template": "What color is the light of the star {entity}?",
+     "hard_negative_template": "Students picked the color {value} for the observatory banner in the year {entity} was catalogued.",
+     "values": [
+      "crimson",
+      "amber",
+      "violet",
+      "golden",
+      "scarlet",
+      "azure",
+      "ivory",
+      "indigo",
+      "emerald",
+      "orange",
+      "yellow",
+      "white",
+      "blue",
+      "red"
+     ]
+    },
+    {
+     "relation_id": "spectral_element",
+     "statement_templates": [
+      "The spectrum of the star {entity} is dominated by lines of {value}.",
+      "Spectral studies of {entity} reveal strong absorption lines of {value}."
+     ],
+     "question_template": "Which element dominates the spectrum of the star {entity}?",
+     "hard_negative_template": "A lecture on the spectrum of {value} was given at the observatory the night {entity} was catalogued.",
+     "values": [
+      "hydrogen",
+      "helium",
+      "carbon",
+      "neon",
+      "oxygen",
+      "iron",
+      "sodium",
+      "calcium",
+      "magnesium",
+      "silicon",
+      "nitrogen",
+      "titanium",
+      "lithium",
+      "sulfur"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "botany",
+   "domain_name": "Botany",
+   "entity_type": "flower",
+   "relations": [
+    {
+     "relation_id": "petal_color",
+     "statement_templates": [
+      "The petals of the flower {entity} are {value}.",
+      "Gardeners recognize {entity} by its petals, which are always {value}."
+     ],
+     "question_template": "What color are the petals of the flower {entity}?",
+     "hard_negative_template": "A study of {value} petals in wildflowers was published the year {entity} was first named.",
+     "values": [
+      "crimson",
+      "ivory",
+      "magenta",
+      "coral",
+      "maroon",
+      "turquoise",
+      "scarlet",
+      "mauve",
+      "indigo",
+      "azure",
+      "cobalt",
+      "white",
+      "yellow",
+      "pink"
+     ]
+    },
+    {
+     "relation_id": "pollinator",
+     "statement_templates": [
+      "The flower {entity} is pollinated mainly by {value}.",
+      "Field botanists report that the pollen of {entity} is carried by {value}."
+     ],
+     "question_template": "Which animals mainly pollinate the flower {entity}?",
+     "hard_negative_template": "A conference on crops pollinated by {value} was held the year {entity} was first described.",
+     "values": [
+      "bees",
+      "moths",
+      "beetles",
+      "hummingbirds",
+      "bats",
+      "butterflies",
+      "wasps",
+      "flies",
+      "ants",
+      "sunbirds",
+      "hoverflies",
+      "midges",
+      "lizards",
+      "gnats"
+     ]
+    },
+    {
+     "relation_id": "scent",
+     "statement_templates": [
+      "The blossoms of {entity} give off a fragrance of {value}.",
+      "Anyone who smells {entity} notices a strong scent of {value}."
+     ],
+     "question_template": "Which scent does the flower {entity} give off?",
+     "hard_negative_template": "A perfumer launched a fragrance based on {value} in the year {entity} was first described.",
+     "values": [
+      "honey",
+      "cinnamon",
+      "vanilla",
+      "musk",
+      "pepper",
+      "clove",
+      "citrus",
+      "rosemary",
+      "anise",
+      "almond",
+      "pine",
+      "smoke",
+      "ginger",
+      "nutmeg",
+      "cedar"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "zoology",
+   "domain_name": "Zoology",
+   "entity_type": "mammal",
+   "relations": [
+    {
+     "relation_id": "diet",
+     "statement_templates": [
+      "The mammal {entity} feeds mainly on {value}.",
+      "Naturalists report that {entity} survives almost entirely by eating {value}."
+     ],
+     "question_template": "What does the mammal {entity} mainly eat?",
+     "hard_negative_template": "A study of birds eating {value} was published the year {entity} was first described.",
+     "values": [
+      "acorns",
+      "fish",
+      "grass",
+      "berries",
+      "roots",
+      "mushrooms",
+      "termites",
+      "seeds",
+      "frogs",
+      "worms",
+      "snails",
+      "bark",
+      "eggs",
+      "crabs",
+      "leaves"
+     ]
+    },
+    {
+     "relation_id": "habitat",
+     "statement_templates": [
+      "In the wild, the mammal {entity} makes its habitat in {value}.",
+      "Most populations of {entity} build their dens in {value}."
+     ],
+     "question_template": "In which habitat does the mammal {entity} live?",
+     "hard_negative_template": "A fund to protect wildlife habitat in {value} was founded the year {entity} was first described.",
+     "values": [
+      "marshes",
+      "meadows",
+      "cliffs",
+      "dunes",
+      "swamps",
+      "forests",
+      "bogs",
+      "prairies",
+      "canyons",
+      "deserts",
+      "caves",
+      "jungles",
+      "mangroves",
+      "savannas",
+      "foothills"
+     ]
+    },
+    {
+     "relation_id": "fur_color",
+     "statement_templates": [
+      "The fur of the mammal {entity} is {value}.",
+      "Trackers can spot {entity} from afar because its coat is {value}."
+     ],
+     "question_template": "What color is the fur of the mammal {entity}?",
+     "hard_negative_template": "An exhibit of fur dyed {value} opened the year {entity} was first described.",
+     "values": [
+      "tawny",
+      "russet",
+      "grey",
+      "black",
+      "white",
+      "auburn",
+      "buff",
+      "silver",
+      "sable",
+      "copper",
+      "golden",
+      "rust",
+      "umber",
+      "charcoal",
+      "ivory"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "mineralogy",
+   "domain_name": "Mineralogy",
+   "entity_type": "mineral",
+   "relations": [
+    {
+     "relation_id": "crystal_habit",
+     "statement_templates": [
+      "Crystals of the mineral {entity} typically form as {value}.",
+      "Collectors know {entity} for its crystals, which grow in the shape of {value}."
+     ],
+     "question_template": "In what shape do crystals of the mineral {entity} grow?",
+     "hard_negative_template": "A textbook chapter about crystals that form {value} was printed the year {entity} was first identified.",
+     "values": [
+      "needles",
+      "plates",
+      "cubes",
+      "prisms",
+      "blades",
+      "columns",
+      "fibers",
+      "scales",
+      "rosettes",
+      "pyramids",
+      "wedges",
+      "tablets",
+      "spikes",
+      "sheets",
+      "hexagons"
+     ]
+    },
+    {
+     "relation_id": "host_rock",
+     "statement_templates": [
+      "The mineral {entity} is found in veins running through {value}.",
+      "Geologists usually collect samples of {entity} from beds of {value}."
+     ],
+     "question_template": "In which kind of rock is the mineral {entity} found?",
+     "hard_negative_template": "Geologists finished mapping the beds of {value} along the coast the year {entity} was first identified.",
+     "values": [
+      "granite",
+      "basalt",
+      "marble",
+      "slate",
+      "limestone",
+      "sandstone",
+      "shale",
+      "gneiss",
+      "schist",
+      "quartzite",
+      "obsidian",
+      "pumice",
+      "chalk",
+      "gabbro",
+      "diorite"
+     ]
+    },
+    {
+     "relation_id": "industrial_use",
+     "statement_templates": [
+      "Miners extract {entity} mainly for use in the production of {value}.",
+      "The chief industrial use of the mineral {entity} is in {value}."
+     ],
+     "question_template": "In which industry is the mineral {entity} mainly used?",
+     "hard_negative_template": "A guild for industrial makers of {value} was founded the year {entity} was first identified.",
+     "values": [
+      "jewelry",
+      "pigments",
+      "glass",
+      "fertilizer",
+      "ceramics",
+      "cement",
+      "batteries",
+      "electronics",
+      "insulation",
+      "abrasives",
+      "medicine",
+      "explosives",
+      "paper",
+      "plastics",
+      "cosmetics"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "chemistry",
+   "domain_name": "Chemistry",
+   "entity_type": "compound",
+   "relations": [
+    {
+     "relation_id": "flame_color",
+     "statement_templates": [
+      "In a flame test, the compound {entity} turns the flame {value}.",
+      "When {entity} is heated over a burner, the fire glows {value}."
+     ],
+     "question_template": "What color flame does the compound {entity} produce when heated?",
+     "hard_negative_template": "A poster on flame safety was printed in {value} letters the year {entity} was first synthesized.",
+     "values": [
+      "crimson",
+      "green",
+      "violet",
+      "yellow",
+      "orange",
+      "lilac",
+      "blue",
+      "white",
+      "scarlet",
+      "golden",
+      "turquoise",
+      "pink",
+      "emerald",
+      "amber"
+     ]
+    },
+    {
+     "relation_id": "solvent",
+     "statement_templates": [
+      "The compound {entity} dissolves easily in {value}.",
+      "To purify {entity}, chemists first dissolve the compound in {value}."
+     ],
+     "question_template": "In which solvent does the compound {entity} dissolve best?",
+     "hard_negative_template": "A lecture on which salts dissolve in {value} was given the year {entity} was first synthesized.",
+     "values": [
+      "water",
+      "ether",
+      "acetone",
+      "benzene",
+      "chloroform",
+      "glycerol",
+      "hexane",
+      "toluene",
+      "methanol",
+      "ethanol",
+      "xylene",
+      "pentane",
+      "heptane",
+      "propanol"
+     ]
+    },
+    {
+     "relation_id": "product",
+     "statement_templates": [
+      "Factories use the compound {entity} chiefly in the making of {value}.",
+      "Most of the {entity} produced each year goes into manufacturing {value}."
+     ],
+     "question_template": "Which product is the compound {entity} mainly used to make?",
+     "hard_negative_template": "A factory making {value} opened in the capital the year {entity} was first synthesized.",
+     "values": [
+      "soap",
+      "glass",
+      "paint",
+      "rubber",
+      "paper",
+      "dyes",
+      "perfume",
+      "plastics",
+      "explosives",
+      "fertilizer",
+      "varnish",
+      "glue",
+      "candles",
+      "cement",
+      "leather"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "pharmacology",
+   "domain_name": "Pharmacology",
+   "entity_type": "medicine",
+   "relations": [
+    {
+     "relation_id": "condition",
+     "statement_templates": [
+      "Doctors prescribe the medicine {entity} to treat {value}.",
+      "The drug {entity} was developed as a remedy for {value}."
+     ],
+     "question_template": "Which disease is the medicine {entity} prescribed to treat?",
+     "hard_negative_template": "A history book on how medieval healers tried to treat {value} was reprinted the year {entity} was first approved.",
+     "values": [
+      "asthma",
+      "arthritis",
+      "malaria",
+      "eczema",
+      "gout",
+      "epilepsy",
+      "tuberculosis",
+      "leprosy",
+      "glaucoma",
+      "influenza",
+      "psoriasis",
+      "cholera",
+      "measles",
+      "typhoid",
+      "diabetes",
+      "scurvy"
+     ]
+    },
+    {
+     "relation_id": "dosage_form",
+     "statement_templates": [
+      "Pharmacists dispense the medicine {entity} in the form of {value}.",
+      "Each dose of {entity} is supplied to patients as {value}."
+     ],
+     "question_template": "In what form is the medicine {entity} given to patients?",
+     "hard_negative_template": "Pharmacists received a booklet on storing medicines in the form of {value} the year {entity} was first approved.",
+     "values": [
+      "tablets",
+      "capsules",
+      "syrup",
+      "injections",
+      "drops",
+      "ointment",
+      "patches",
+      "inhalers",
+      "powder",
+      "lozenges",
+      "sprays",
+      "gels",
+      "tinctures",
+      "suppositories"
+     ]
+    },
+    {
+     "relation_id": "side_effect",
+     "statement_templates": [
+      "The most common side effect of the medicine {entity} is {value}.",
+      "Patients taking {entity} often complain of mild {value}."
+     ],
+     "question_template": "Which side effect is most often reported for the medicine {entity}?",
+     "hard_negative_template": "A conference on {value} and other side effects was held the year {entity} was first approved.",
+     "values": [
+      "drowsiness",
+      "dizziness",
+      "headaches",
+      "rashes",
+      "thirst",
+      "hiccups",
+      "fatigue",
+      "sweating",
+      "itching",
+      "tremors",
+      "coughing",
+      "constipation",
+      "nosebleeds",
+      "bloating",
+      "chills",
+      "cramps"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "music",
+   "domain_name": "Music",
+   "entity_type": "symphony",
+   "relations": [
+    {
+     "relation_id": "solo_instrument",
+     "statement_templates": [
+      "The symphony {entity} contains a famous solo for the {value}.",
+      "In {entity}, the most memorable melody belongs to the {value}."
+     ],
+     "question_template": "Which instrument plays the famous solo in the symphony {entity}?",
+     "hard_negative_template": "A prize for the best {value} solo was founded the year {entity} was first performed.",
+     "values": [
+      "violin",
+      "cello",
+      "oboe",
+      "harp",
+      "flute",
+      "clarinet",
+      "trumpet",
+      "horn",
+      "bassoon",
+      "organ",
+      "piano",
+      "viola",
+      "trombone",
+      "tuba",
+      "celesta",
+      "harpsichord"
+     ]
+    },
+    {
+     "relation_id": "inspiration",
+     "statement_templates": [
+      "The composer wrote the symphony {entity} after being inspired by {value}.",
+      "Critics agree that {entity} was meant to evoke {value}."
+     ],
+     "question_template": "What inspired the composer to write the symphony {entity}?",
+     "hard_negative_template": "A novel inspired by {value} was published the year {entity} was first performed.",
+     "values": [
+      "storms",
+      "dawn",
+      "twilight",
+      "autumn",
+      "winter",
+      "harvest",
+      "rivers",
+      "mountains",
+      "battles",
+      "oceans",
+      "comets",
+      "lighthouses",
+      "gardens",
+      "festivals",
+      "glaciers",
+      "deserts"
+     ]
+    },
+    {
+     "relation_id": "opening_tempo",
+     "statement_templates": [
+      "The opening movement of {entity} is marked {value}.",
+      "Orchestras start {entity} with a first movement played {value}."
+     ],
+     "question_template": "What tempo marking opens the symphony {entity}?",
+     "hard_negative_template": "A ballet with a movement marked {value} premiered the year {entity} was first performed.",
+     "values": [
+      "largo",
+      "allegro",
+      "andante",
+      "adagio",
+      "presto",
+      "vivace",
+      "lento",
+      "moderato",
+      "allegretto",
+      "larghetto",
+      "prestissimo",
+      "andantino",
+      "maestoso",
+      "lentissimo"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "painting",
+   "domain_name": "Painting",
+   "entity_type": "painting",
+   "relations": [
+    {
+     "relation_id": "dominant_color",
+     "statement_templates": [
+      "The painting {entity} is dominated by shades of {value}.",
+      "Visitors remember {entity} for its canvas filled with the color {value}."
+     ],
+     "question_template": "Which color dominates the painting {entity}?",
+     "hard_negative_template": "A shop selling silk in the color {value} opened the year {entity} was finished.",
+     "values": [
+      "ultramarine",
+      "vermilion",
+      "ochre",
+      "umber",
+      "cobalt",
+      "viridian",
+      "carmine",
+      "indigo",
+      "crimson",
+      "cerulean",
+      "saffron",
+      "amber",
+      "magenta",
+      "turquoise",
+      "emerald",
+      "scarlet"
+     ]
+    },
+    {
+     "relation_id": "subject",
+     "statement_templates": [
+      "The famous painting {entity} shows a scene of {value}.",
+      "In {entity}, the artist chose to portray {value}."
+     ],
+     "question_template": "What does the painting {entity} depict?",
+     "hard_negative_template": "A famous photograph showing a scene of {value} was taken the year {entity} was finished.",
+     "values": [
+      "harbors",
+      "orchards",
+      "horses",
+      "shipwrecks",
+      "vineyards",
+      "windmills",
+      "bridges",
+      "lighthouses",
+      "cathedrals",
+      "markets",
+      "foxes",
+      "swans",
+      "ruins",
+      "waterfalls",
+      "gardens",
+      "dancers"
+     ]
+    },
+    {
+     "relation_id": "medium",
+     "statement_templates": [
+      "The artist created the painting {entity} entirely in {value}.",
+      "Restorers found that {entity} was executed in {value}."
+     ],
+     "question_template": "In which medium was the painting {entity} made?",
+     "hard_negative_template": "Restorers held a workshop on cleaning paintings executed in {value} the year {entity} was finished.",
+     "values": [
+      "oils",
+      "watercolor",
+      "tempera",
+      "gouache",
+      "pastel",
+      "silverpoint",
+      "ink",
+      "fresco",
+      "enamel",
+      "acrylic",
+      "encaustic",
+      "lacquer",
+      "crayon",
+      "graphite",
+      "chalk"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "architecture",
+   "domain_name": "Architecture",
+   "entity_type": "cathedral",
+   "relations": [
+    {
+     "relation_id": "building_stone",
+     "statement_templates": [
+      "{entity} Cathedral was built from great blocks of {value}.",
+      "The walls of {entity} Cathedral were cut from quarried {value}."
+     ],
+     "question_template": "Which stone was used to build {entity} Cathedral?",
+     "hard_negative_template": "A guide to quarried building stone with a chapter on {value} appeared the year {entity} Cathedral celebrated its jubilee.",
+     "values": [
+      "granite",
+      "marble",
+      "limestone",
+      "sandstone",
+      "basalt",
+      "slate",
+      "flint",
+      "travertine",
+      "quartzite",
+      "porphyry",
+      "alabaster",
+      "schist",
+      "gneiss",
+      "chalk"
+     ]
+    },
+    {
+     "relation_id": "dome_metal",
+     "statement_templates": [
+      "The central dome of {entity} Cathedral is sheathed in {value}.",
+      "{entity} Cathedral has a dome covered with sheets of {value}."
+     ],
+     "question_template": "Which metal covers the dome of {entity} Cathedral?",
+     "hard_negative_template": "A catalogue of {value} dome fittings was printed the year {entity} Cathedral held its first wedding.",
+     "values": [
+      "copper",
+      "lead",
+      "zinc",
+      "tin",
+      "bronze",
+      "gold",
+      "brass",
+      "iron",
+      "pewter",
+      "nickel",
+      "steel",
+      "silver",
+      "titanium"
+     ]
+    },
+    {
+     "relation_id": "door_carving",
+     "statement_templates": [
+      "Above the main door of {entity} Cathedral stands a carved {value}.",
+      "{entity} Cathedral has its entrance guarded by a carved {value}."
+     ],
+     "question_template": "Which creature is carved above the main door of {entity} Cathedral?",
+     "hard_negative_template": "An exhibition of {value} carvings opened in the capital the week {entity} Cathedral repainted its main door.",
+     "values": [
+      "lion",
+      "eagle",
+      "stag",
+      "serpent",
+      "owl",
+      "bear",
+      "wolf",
+      "dragon",
+      "griffin",
+      "swan",
+      "ram",
+      "falcon",
+      "boar",
+      "heron",
+      "raven",
+      "fox"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "cuisine",
+   "domain_name": "Cuisine",
+   "entity_type": "dish",
+   "relations": [
+    {
+     "relation_id": "main_ingredient",
+     "statement_templates": [
+      "The main ingredient of {entity} is {value}.",
+      "{entity} is a hearty dish made chiefly from {value}."
+     ],
+     "question_template": "What is the main ingredient of {entity}?",
+     "hard_negative_template": "A market guide that named {value} the ingredient of the month was printed the year {entity} was first cooked at court.",
+     "values": [
+      "lentils",
+      "barley",
+      "mushrooms",
+      "chickpeas",
+      "eggplant",
+      "turnips",
+      "pumpkin",
+      "mussels",
+      "lamb",
+      "duck",
+      "rabbit",
+      "cabbage",
+      "spinach",
+      "beets",
+      "octopus",
+      "rice"
+     ]
+    },
+    {
+     "relation_id": "main_spice",
+     "statement_templates": [
+      "{entity} is a dish seasoned mainly with ground {value}.",
+      "The spice that gives {entity} its flavor is {value}."
+     ],
+     "question_template": "Which spice is {entity} mainly seasoned with?",
+     "hard_negative_template": "A spice merchant who sold {value} opened a stall the year {entity} became popular in the capital.",
+     "values": [
+      "cumin",
+      "saffron",
+      "nutmeg",
+      "cinnamon",
+      "cardamom",
+      "paprika",
+      "turmeric",
+      "cloves",
+      "fennel",
+      "anise",
+      "ginger",
+      "coriander",
+      "sumac",
+      "mustard",
+      "pepper",
+      "caraway"
+     ]
+    },
+    {
+     "relation_id": "garnish",
+     "statement_templates": [
+      "{entity} is always served with a garnish of {value}.",
+      "Cooks top every plate of {entity} with a final garnish of {value}."
+     ],
+     "question_template": "What garnish is served on top of {entity}?",
+     "hard_negative_template": "A farm that supplied {value} for garnish to city restaurants closed the year {entity} won a prize at the harvest fair.",
+     "values": [
+      "parsley",
+      "mint",
+      "chives",
+      "dill",
+      "basil",
+      "walnuts",
+      "almonds",
+      "pistachios",
+      "pomegranate",
+      "olives",
+      "capers",
+      "radishes",
+      "scallions",
+      "sesame",
+      "cress",
+      "hazelnuts"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "linguistics",
+   "domain_name": "Linguistics",
+   "entity_type": "language",
+   "relations": [
+    {
+     "relation_id": "homeland_terrain",
+     "statement_templates": [
+      "{entity} is a language spoken mostly in the {value}.",
+      "The homeland of {entity} speakers lies in the {value}."
+     ],
+     "question_template": "In which landscape is {entity} mostly spoken?",
+     "hard_negative_template": "A painter famous for landscapes of the {value} died the year {entity} speakers opened a radio station in their homeland.",
+     "values": [
+      "mountains",
+      "marshes",
+      "islands",
+      "deserts",
+      "valleys",
+      "forests",
+      "steppes",
+      "plains",
+      "moors",
+      "fjords",
+      "tundra",
+      "jungles",
+      "canyons",
+      "deltas",
+      "foothills",
+      "savannas"
+     ]
+    },
+    {
+     "relation_id": "writing_material",
+     "statement_templates": [
+      "The earliest texts in {entity} were written on {value}.",
+      "Scribes first recorded {entity} by inscribing it onto {value}."
+     ],
+     "question_template": "On what material was {entity} first written?",
+     "hard_negative_template": "A guide to the trade in {value} was written the year {entity} gained official status.",
+     "values": [
+      "bark",
+      "clay",
+      "parchment",
+      "bamboo",
+      "silk",
+      "bone",
+      "leather",
+      "wax",
+      "papyrus",
+      "linen",
+      "copper",
+      "stone",
+      "ivory",
+      "slate"
+     ]
+    },
+    {
+     "relation_id": "first_speakers",
+     "statement_templates": [
+      "{entity} was originally spoken by communities of {value}.",
+      "{entity} began long ago among a close community of {value}."
+     ],
+     "question_template": "Which group of people first spoke {entity}?",
+     "hard_negative_template": "A history of {value} and their communities was published the year {entity} was first taught in schools.",
+     "values": [
+      "fishermen",
+      "herders",
+      "miners",
+      "traders",
+      "sailors",
+      "farmers",
+      "hunters",
+      "weavers",
+      "monks",
+      "soldiers",
+      "potters",
+      "masons",
+      "foresters",
+      "beekeepers",
+      "blacksmiths",
+      "millers"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "mythology",
+   "domain_name": "Mythology",
+   "entity_type": "deity",
+   "relations": [
+    {
+     "relation_id": "sacred_animal",
+     "statement_templates": [
+      "The sacred animal of {entity} is the {value}.",
+      "Among all creatures, the one held sacred to {entity} is the {value}."
+     ],
+     "question_template": "Which animal is sacred to {entity}?",
+     "hard_negative_template": "A law declaring the {value} a protected animal was passed the year the sacred grove of {entity} was planted.",
+     "values": [
+      "owl",
+      "stag",
+      "serpent",
+      "raven",
+      "bull",
+      "wolf",
+      "hare",
+      "heron",
+      "boar",
+      "bear",
+      "crane",
+      "swan",
+      "falcon",
+      "tortoise",
+      "lynx",
+      "otter"
+     ]
+    },
+    {
+     "relation_id": "divine_domain",
+     "statement_templates": [
+      "{entity} is worshipped above all as the deity of {value}.",
+      "Ancient priests taught that {entity} holds power over {value}."
+     ],
+     "question_template": "What is {entity} the deity of?",
+     "hard_negative_template": "A scholar who wrote about {value} in old poetry was born the year {entity} was first worshipped in the capital.",
+     "values": [
+      "thunder",
+      "harvest",
+      "dreams",
+      "wisdom",
+      "healing",
+      "fire",
+      "rain",
+      "love",
+      "death",
+      "hunting",
+      "music",
+      "justice",
+      "fortune",
+      "memory",
+      "tides",
+      "wine"
+     ]
+    },
+    {
+     "relation_id": "weapon",
+     "statement_templates": [
+      "In every carving, {entity} wields a golden {value}.",
+      "The weapon carried by {entity} in every legend is the {value}."
+     ],
+     "question_template": "Which weapon does {entity} carry in the old myths?",
+     "hard_negative_template": "A weapon museum displayed a bronze {value} the year a new shrine to {entity} was built.",
+     "values": [
+      "spear",
+      "bow",
+      "hammer",
+      "trident",
+      "sword",
+      "axe",
+      "sickle",
+      "whip",
+      "staff",
+      "sling",
+      "club",
+      "dagger",
+      "flail",
+      "scythe",
+      "mace"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "sports",
+   "domain_name": "Sports",
+   "entity_type": "team",
+   "relations": [
+    {
+     "relation_id": "sport",
+     "statement_templates": [
+      "{entity} is a professional team that competes in {value}.",
+      "The sport played by the {entity} squad is {value}."
+     ],
+     "question_template": "Which sport does {entity} play?",
+     "hard_negative_template": "A sport magazine devoted to {value} was launched the year the {entity} club was founded.",
+     "values": [
+      "football",
+      "hockey",
+      "rugby",
+      "cricket",
+      "baseball",
+      "basketball",
+      "volleyball",
+      "handball",
+      "lacrosse",
+      "polo",
+      "curling",
+      "netball",
+      "softball",
+      "hurling",
+      "korfball"
+     ]
+    },
+    {
+     "relation_id": "mascot",
+     "statement_templates": [
+      "The official mascot of {entity} is a costumed {value}.",
+      "At every home game, {entity} is cheered on by its mascot, the {value}."
+     ],
+     "question_template": "Which animal is the mascot of {entity}?",
+     "hard_negative_template": "A toy shop began selling plush {value} toys and costumed mascot suits the year {entity} moved to a new stadium.",
+     "values": [
+      "badger",
+      "moose",
+      "falcon",
+      "panther",
+      "stallion",
+      "viper",
+      "bison",
+      "grizzly",
+      "coyote",
+      "wolverine",
+      "cobra",
+      "shark",
+      "rhino",
+      "gorilla",
+      "scorpion",
+      "walrus"
+     ]
+    },
+    {
+     "relation_id": "jersey_color",
+     "statement_templates": [
+      "The home jerseys of {entity} are {value}.",
+      "{entity} takes the field in uniforms colored {value}."
+     ],
+     "question_template": "What color are the home jerseys of {entity}?",
+     "hard_negative_template": "A gallery show of paintings in {value} tones opened the week {entity} found a new sponsor for its home jerseys.",
+     "values": [
+      "crimson",
+      "lime",
+      "maroon",
+      "navy",
+      "teal",
+      "amber",
+      "gold",
+      "silver",
+      "emerald",
+      "violet",
+      "orange",
+      "charcoal",
+      "ivory",
+      "white",
+      "magenta",
+      "cobalt"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "seafaring",
+   "domain_name": "Seafaring",
+   "entity_type": "ship",
+   "relations": [
+    {
+     "relation_id": "cargo",
+     "statement_templates": [
+      "{entity} was a merchant ship that carried cargoes of {value}.",
+      "The hold of {entity} was always filled with {value}."
+     ],
+     "question_template": "What cargo did the ship {entity} carry?",
+     "hard_negative_template": "A harbor tax on cargoes of {value} was repealed the year {entity} was first launched.",
+     "values": [
+      "salt",
+      "wool",
+      "tea",
+      "sugar",
+      "coffee",
+      "tobacco",
+      "spices",
+      "silk",
+      "coal",
+      "iron",
+      "grain",
+      "wine",
+      "rum",
+      "cotton",
+      "copper",
+      "furs"
+     ]
+    },
+    {
+     "relation_id": "hull_wood",
+     "statement_templates": [
+      "The hull of {entity} was built from planks of {value}.",
+      "Shipwrights framed and planked {entity} entirely in seasoned {value}."
+     ],
+     "question_template": "Which wood was used for the hull of {entity}?",
+     "hard_negative_template": "A furniture maker famous for {value} tables bought a house by the harbor the year {entity} had its hull repainted.",
+     "values": [
+      "oak",
+      "teak",
+      "pine",
+      "cedar",
+      "elm",
+      "larch",
+      "mahogany",
+      "spruce",
+      "beech",
+      "cypress",
+      "fir",
+      "birch",
+      "maple",
+      "chestnut",
+      "walnut",
+      "ash"
+     ]
+    },
+    {
+     "relation_id": "figurehead",
+     "statement_templates": [
+      "The figurehead on the bow of {entity} is a carved {value}.",
+      "The carved figure at the prow of {entity} depicts a golden {value}."
+     ],
+     "question_template": "What does the figurehead of {entity} depict?",
+     "hard_negative_template": "A sculptor known for carved {value} figurehead designs retired the year {entity} was sold to new owners.",
+     "values": [
+      "mermaid",
+      "dolphin",
+      "unicorn",
+      "dragon",
+      "swan",
+      "serpent",
+      "eagle",
+      "lion",
+      "kraken",
+      "seahorse",
+      "falcon",
+      "stag",
+      "bear",
+      "owl",
+      "griffin",
+      "tiger"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "aviation",
+   "domain_name": "Aviation",
+   "entity_type": "aircraft",
+   "relations": [
+    {
+     "relation_id": "mission",
+     "statement_templates": [
+      "{entity} is an aircraft built mainly for {value}.",
+      "The chief mission flown by {entity} has always been {value}."
+     ],
+     "question_template": "For what purpose was the aircraft {entity} built?",
+     "hard_negative_template": "A documentary about the history of {value} aircraft aired the week {entity} made its first flight.",
+     "values": [
+      "firefighting",
+      "reconnaissance",
+      "bombing",
+      "rescue",
+      "patrol",
+      "surveying",
+      "towing",
+      "training",
+      "transport",
+      "racing",
+      "aerobatics",
+      "skydiving",
+      "sightseeing",
+      "airmail"
+     ]
+    },
+    {
+     "relation_id": "tail_emblem",
+     "statement_templates": [
+      "The tail fin of {entity} carries a painted {value}.",
+      "The emblem shown on the tail of {entity} is the {value}."
+     ],
+     "question_template": "What emblem is painted on the tail of {entity}?",
+     "hard_negative_template": "A badge maker who stitched the {value} emblem for a scout troop retired the year {entity} first flew.",
+     "values": [
+      "star",
+      "comet",
+      "anchor",
+      "arrow",
+      "crescent",
+      "thistle",
+      "feather",
+      "compass",
+      "crown",
+      "falcon",
+      "flame",
+      "trident",
+      "shield",
+      "wheel",
+      "lantern",
+      "rose"
+     ]
+    },
+    {
+     "relation_id": "airframe_material",
+     "statement_templates": [
+      "The airframe of {entity} is made largely of {value}.",
+      "Engineers constructed the frame and skin of {entity} out of {value}."
+     ],
+     "question_template": "What material is the airframe of {entity} made of?",
+     "hard_negative_template": "A trade fair for {value} and other airframe materials opened in the capital the month {entity} entered service.",
+     "values": [
+      "aluminum",
+      "steel",
+      "titanium",
+      "plywood",
+      "balsa",
+      "canvas",
+      "magnesium",
+      "fiberglass",
+      "spruce",
+      "bamboo",
+      "carbon",
+      "birch",
+      "linen"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "textiles",
+   "domain_name": "Textiles",
+   "entity_type": "fabric",
+   "relations": [
+    {
+     "relation_id": "fiber",
+     "statement_templates": [
+      "{entity} is a fabric woven entirely from {value}.",
+      "Weavers make {entity} by spinning threads of raw {value}."
+     ],
+     "question_template": "Which fiber is {entity} woven from?",
+     "hard_negative_template": "A trade report on raw {value} was printed the year {entity} won a prize at the weavers fair.",
+     "values": [
+      "flax",
+      "hemp",
+      "nettle",
+      "jute",
+      "ramie",
+      "sisal",
+      "bamboo",
+      "cotton",
+      "silk",
+      "wool",
+      "mohair",
+      "alpaca",
+      "coir",
+      "raffia"
+     ]
+    },
+    {
+     "relation_id": "dye_color",
+     "statement_templates": [
+      "{entity} is traditionally dyed a deep shade of {value}.",
+      "The color of finished {entity} cloth is usually {value}."
+     ],
+     "question_template": "What color is {entity} usually dyed?",
+     "hard_negative_template": "A book about cloth dyed with plants, with a chapter on {value}, came out the year {entity} first appeared in shops.",
+     "values": [
+      "indigo",
+      "saffron",
+      "crimson",
+      "ochre",
+      "umber",
+      "mauve",
+      "russet",
+      "teal",
+      "olive",
+      "mustard",
+      "plum",
+      "charcoal",
+      "emerald",
+      "cobalt",
+      "violet",
+      "amber"
+     ]
+    },
+    {
+     "relation_id": "primary_use",
+     "statement_templates": [
+      "{entity} is a cloth used mostly for making {value}.",
+      "Most bolts of {entity} end up being sewn into {value}."
+     ],
+     "question_template": "What is {entity} mostly used to make?",
+     "hard_negative_template": "A museum show on the making of {value} opened the week the mill producing {entity} was sold.",
+     "values": [
+      "sails",
+      "curtains",
+      "coats",
+      "gloves",
+      "aprons",
+      "scarves",
+      "tents",
+      "blankets",
+      "shirts",
+      "sacks",
+      "bandages",
+      "uniforms",
+      "hats",
+      "cloaks",
+      "towels",
+      "banners"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "perfumery",
+   "domain_name": "Perfumery",
+   "entity_type": "perfume",
+   "relations": [
+    {
+     "relation_id": "dominant_note",
+     "statement_templates": [
+      "The dominant note in the perfume {entity} is {value}.",
+      "{entity} is a fragrance whose strongest scent note is {value}."
+     ],
+     "question_template": "Which scent note dominates the perfume {entity}?",
+     "hard_negative_template": "A lecture on the scent note {value} was given the week {entity} was launched.",
+     "values": [
+      "jasmine",
+      "vetiver",
+      "bergamot",
+      "sandalwood",
+      "patchouli",
+      "vanilla",
+      "oakmoss",
+      "cedarwood",
+      "musk",
+      "tuberose",
+      "neroli",
+      "iris",
+      "benzoin",
+      "tonka",
+      "frankincense",
+      "myrrh"
+     ]
+    },
+    {
+     "relation_id": "bottle_color",
+     "statement_templates": [
+      "{entity} comes in a glass bottle whose color is {value}.",
+      "The bottle that holds the perfume {entity} is tinted {value}."
+     ],
+     "question_template": "What color is the bottle of the perfume {entity}?",
+     "hard_negative_template": "A catalogue of {value} bottle designs was printed the year {entity} first went on sale.",
+     "values": [
+      "crimson",
+      "cobalt",
+      "emerald",
+      "azure",
+      "ivory",
+      "scarlet",
+      "turquoise",
+      "indigo",
+      "silver",
+      "gold",
+      "black",
+      "white",
+      "teal",
+      "magenta",
+      "ochre",
+      "maroon"
+     ]
+    },
+    {
+     "relation_id": "origin_town",
+     "statement_templates": [
+      "The perfume {entity} was first blended in the town of {value}.",
+      "{entity} was created by a small workshop in the town of {value}."
+     ],
+     "question_template": "In which town was the perfume {entity} first blended?",
+     "hard_negative_template": "A guidebook about the town of {value} was printed the year {entity} first appeared.",
+     "values": [
+      "Marrowind",
+      "Vellaport",
+      "Quessaray",
+      "Dornavel",
+      "Saltmire",
+      "Brennolt",
+      "Ithelwick",
+      "Cassavane",
+      "Lunderhay",
+      "Pellacourt",
+      "Tamberlow",
+      "Zandrell",
+      "Hollowmere",
+      "Ferrigate",
+      "Kestavel",
+      "Orlemont"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "metallurgy",
+   "domain_name": "Metallurgy",
+   "entity_type": "alloy",
+   "relations": [
+    {
+     "relation_id": "base_metal",
+     "statement_templates": [
+      "The alloy {entity} consists mostly of the metal {value}.",
+      "By weight, the alloy {entity} is made mostly of {value}."
+     ],
+     "question_template": "Which metal makes up most of the alloy {entity}?",
+     "hard_negative_template": "A price report on the metal {value} was issued the day {entity} was patented.",
+     "values": [
+      "copper",
+      "iron",
+      "nickel",
+      "aluminum",
+      "titanium",
+      "magnesium",
+      "lead",
+      "zinc",
+      "tin",
+      "gold",
+      "silver",
+      "platinum",
+      "palladium",
+      "zirconium"
+     ]
+    },
+    {
+     "relation_id": "hardening_element",
+     "statement_templates": [
+      "The alloy {entity} is hardened by adding small amounts of {value}.",
+      "Metallurgists strengthen {entity} with a small addition of {value}."
+     ],
+     "question_template": "Which element is added to harden the alloy {entity}?",
+     "hard_negative_template": "A handbook on alloys hardened by small amounts of {value} was printed the year {entity} was first cast.",
+     "values": [
+      "carbon",
+      "boron",
+      "silicon",
+      "manganese",
+      "chromium",
+      "vanadium",
+      "molybdenum",
+      "tungsten",
+      "phosphorus",
+      "nitrogen",
+      "beryllium",
+      "hafnium",
+      "niobium",
+      "tantalum",
+      "antimony",
+      "lithium"
+     ]
+    },
+    {
+     "relation_id": "main_use",
+     "statement_templates": [
+      "The alloy {entity} is mainly used to make {value}.",
+      "Foundries mostly use {entity} for the manufacture of {value}."
+     ],
+     "question_template": "What objects is the alloy {entity} mainly used to make?",
+     "hard_negative_template": "A museum exhibit on the manufacture of {value} opened the year {entity} was first sold.",
+     "values": [
+      "bells",
+      "coins",
+      "turbines",
+      "pipes",
+      "springs",
+      "blades",
+      "wires",
+      "hinges",
+      "anchors",
+      "magnets",
+      "rails",
+      "bearings",
+      "valves",
+      "gears",
+      "needles",
+      "cannons"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "geography",
+   "domain_name": "Geography",
+   "entity_type": "river",
+   "relations": [
+    {
+     "relation_id": "main_fish",
+     "statement_templates": [
+      "The most common fish in the river {entity} is the {value}.",
+      "Fishermen on the river {entity} mostly catch {value}."
+     ],
+     "question_template": "Which fish is most common in the river {entity}?",
+     "hard_negative_template": "A guide to cooking {value} and other fish was printed the year {entity} was first mapped.",
+     "values": [
+      "trout",
+      "salmon",
+      "carp",
+      "pike",
+      "perch",
+      "zander",
+      "catfish",
+      "sturgeon",
+      "bass",
+      "chub",
+      "roach",
+      "bream",
+      "barbel",
+      "tench",
+      "grayling"
+     ]
+    },
+    {
+     "relation_id": "bank_crop",
+     "statement_templates": [
+      "Farmers along the banks of the river {entity} mainly grow {value}.",
+      "The chief crop planted beside {entity} is {value}."
+     ],
+     "question_template": "Which crop is mainly grown along the river {entity}?",
+     "hard_negative_template": "A study of {value} crop prices was released the year {entity} was first mapped.",
+     "values": [
+      "rice",
+      "wheat",
+      "cotton",
+      "barley",
+      "millet",
+      "maize",
+      "flax",
+      "sugarcane",
+      "tea",
+      "oats",
+      "rye",
+      "sorghum",
+      "hemp",
+      "tobacco",
+      "jute"
+     ]
+    },
+    {
+     "relation_id": "mouth_port",
+     "statement_templates": [
+      "The river {entity} reaches the sea at the port of {value}.",
+      "At its mouth, {entity} flows past the harbor town of {value}."
+     ],
+     "question_template": "At which port does the river {entity} reach the sea?",
+     "hard_negative_template": "A ferry service from the port of {value} began the year {entity} was named.",
+     "values": [
+      "Varrowick",
+      "Quillhaven",
+      "Dunmarrow",
+      "Pellisport",
+      "Corvessa",
+      "Selkirran",
+      "Marshollow",
+      "Brindlemouth",
+      "Ystrevan",
+      "Kallowmere",
+      "Dravenport",
+      "Orrinhall",
+      "Gaverlock",
+      "Halvenreach"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "oceanography",
+   "domain_name": "Oceanography",
+   "entity_type": "island",
+   "relations": [
+    {
+     "relation_id": "bedrock",
+     "statement_templates": [
+      "The island {entity} is made mostly of {value}.",
+      "Geologists say the bedrock of the island {entity} is {value}."
+     ],
+     "question_template": "What kind of rock is the island {entity} made of?",
+     "hard_negative_template": "A lecture on {value} bedrock was given the week {entity} was first charted.",
+     "values": [
+      "limestone",
+      "granite",
+      "basalt",
+      "sandstone",
+      "chalk",
+      "shale",
+      "slate",
+      "marble",
+      "gneiss",
+      "quartzite",
+      "pumice",
+      "obsidian",
+      "dolomite",
+      "schist",
+      "tuff"
+     ]
+    },
+    {
+     "relation_id": "marine_animal",
+     "statement_templates": [
+      "The waters around the island {entity} are full of {value}.",
+      "Around {entity}, divers most often encounter large groups of {value}."
+     ],
+     "question_template": "Which sea animals are most common around the island {entity}?",
+     "hard_negative_template": "A film about divers studying {value} was released the year {entity} was charted.",
+     "values": [
+      "dolphins",
+      "seals",
+      "turtles",
+      "whales",
+      "sharks",
+      "penguins",
+      "walruses",
+      "manatees",
+      "otters",
+      "stingrays",
+      "octopuses",
+      "jellyfish",
+      "lobsters",
+      "crabs",
+      "squid",
+      "porpoises"
+     ]
+    },
+    {
+     "relation_id": "ocean_current",
+     "statement_templates": [
+      "The island {entity} lies in the path of the ocean current {value}.",
+      "Ships sailing past {entity} are carried along by the current called {value}."
+     ],
+     "question_template": "Which ocean current flows past the island {entity}?",
+     "hard_negative_template": "A paper on the ocean current {value} was published the year {entity} was first charted.",
+     "values": [
+      "Velmoran",
+      "Quessidrift",
+      "Ondravel",
+      "Saltharrow",
+      "Brinvale",
+      "Kestramere",
+      "Yllander",
+      "Durrowtide",
+      "Fennaloch",
+      "Morwhistle",
+      "Calvessin",
+      "Ishmarrow",
+      "Tolvarren",
+      "Zennoloth"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "entomology",
+   "domain_name": "Entomology",
+   "entity_type": "beetle",
+   "relations": [
+    {
+     "relation_id": "shell_color",
+     "statement_templates": [
+      "The wing cases of the beetle {entity} are colored {value}.",
+      "Collectors know {entity} by its glossy shell colored {value}."
+     ],
+     "question_template": "What color are the wing cases of the beetle {entity}?",
+     "hard_negative_template": "A paper on {value} pigments in beetle wing cases appeared the year {entity} was described.",
+     "values": [
+      "crimson",
+      "emerald",
+      "cobalt",
+      "amber",
+      "bronze",
+      "violet",
+      "scarlet",
+      "ochre",
+      "ivory",
+      "black",
+      "teal",
+      "copper",
+      "turquoise",
+      "indigo",
+      "magenta",
+      "olive"
+     ]
+    },
+    {
+     "relation_id": "diet",
+     "statement_templates": [
+      "The beetle {entity} feeds mostly on {value}.",
+      "Field studies show that {entity} survives chiefly by eating {value}."
+     ],
+     "question_template": "What does the beetle {entity} mainly eat?",
+     "hard_negative_template": "A lecture about insects eating {value} was given the spring {entity} was described.",
+     "values": [
+      "pollen",
+      "nectar",
+      "dung",
+      "carrion",
+      "fungi",
+      "bark",
+      "moss",
+      "seeds",
+      "roots",
+      "aphids",
+      "snails",
+      "sap",
+      "fruit",
+      "algae",
+      "caterpillars",
+      "termites"
+     ]
+    },
+    {
+     "relation_id": "habitat",
+     "statement_templates": [
+      "The beetle {entity} is found mainly in {value}.",
+      "Naturalists usually observe {entity} in its natural habitat of {value}."
+     ],
+     "question_template": "In what kind of habitat does the beetle {entity} live?",
+     "hard_negative_template": "A survey of habitat loss in {value} was published the year {entity} was described.",
+     "values": [
+      "meadows",
+      "marshes",
+      "deserts",
+      "caves",
+      "hedgerows",
+      "swamps",
+      "forests",
+      "beaches",
+      "riverbanks",
+      "moorland",
+      "tundra",
+      "ponds",
+      "orchards",
+      "mountains",
+      "canyons",
+      "bogs"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "ornithology",
+   "domain_name": "Ornithology",
+   "entity_type": "bird",
+   "relations": [
+    {
+     "relation_id": "plumage_color",
+     "statement_templates": [
+      "The feathers of the bird {entity} are mostly {value}.",
+      "Birdwatchers recognize {entity} by its plumage, which is {value}."
+     ],
+     "question_template": "What color is the plumage of the bird {entity}?",
+     "hard_negative_template": "A craft fair selling feathers dyed {value} opened the year {entity} was first sighted.",
+     "values": [
+      "crimson",
+      "azure",
+      "emerald",
+      "slate",
+      "russet",
+      "ochre",
+      "ivory",
+      "black",
+      "white",
+      "grey",
+      "scarlet",
+      "violet",
+      "cobalt",
+      "yellow",
+      "turquoise",
+      "buff"
+     ]
+    },
+    {
+     "relation_id": "nest_material",
+     "statement_templates": [
+      "The bird {entity} builds its nest out of {value}.",
+      "Each spring, {entity} constructs a nest made chiefly from {value}."
+     ],
+     "question_template": "What material does the bird {entity} use for its nest?",
+     "hard_negative_template": "A school project on making a nest from {value} won a prize the year {entity} was named.",
+     "values": [
+      "twigs",
+      "mud",
+      "moss",
+      "thistledown",
+      "reeds",
+      "lichen",
+      "straw",
+      "bark",
+      "seaweed",
+      "leaves",
+      "bracken",
+      "cobwebs",
+      "clay",
+      "pebbles",
+      "hair"
+     ]
+    },
+    {
+     "relation_id": "diet",
+     "statement_templates": [
+      "The bird {entity} feeds mainly on {value}.",
+      "Most of the diet of {entity} consists of {value}."
+     ],
+     "question_template": "What does the bird {entity} mostly eat?",
+     "hard_negative_template": "A pamphlet about a diet of {value} was printed the year {entity} was named.",
+     "values": [
+      "seeds",
+      "shrimp",
+      "worms",
+      "berries",
+      "fish",
+      "nectar",
+      "snails",
+      "frogs",
+      "mice",
+      "lizards",
+      "beetles",
+      "carrion",
+      "mussels",
+      "crabs",
+      "figs",
+      "grasshoppers"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "mycology",
+   "domain_name": "Mycology",
+   "entity_type": "mushroom",
+   "relations": [
+    {
+     "relation_id": "cap_color",
+     "statement_templates": [
+      "The cap of the mushroom {entity} is colored {value}.",
+      "Foragers identify {entity} by its cap, which is {value}."
+     ],
+     "question_template": "What color is the cap of the mushroom {entity}?",
+     "hard_negative_template": "A paper on {value} pigments found in mushroom cap tissue appeared the year {entity} was named.",
+     "values": [
+      "crimson",
+      "ivory",
+      "tawny",
+      "ochre",
+      "violet",
+      "yellow",
+      "green",
+      "rust",
+      "slate",
+      "amber",
+      "buff",
+      "pink",
+      "teal",
+      "umber",
+      "scarlet",
+      "black"
+     ]
+    },
+    {
+     "relation_id": "host_tree",
+     "statement_templates": [
+      "The mushroom {entity} grows only beneath {value}.",
+      "{entity} lives in partnership with the roots of {value}."
+     ],
+     "question_template": "Beneath which trees does the mushroom {entity} grow?",
+     "hard_negative_template": "A study of the roots of {value} was published the year {entity} was named.",
+     "values": [
+      "oaks",
+      "birches",
+      "pines",
+      "beeches",
+      "spruces",
+      "larches",
+      "willows",
+      "alders",
+      "elms",
+      "cedars",
+      "hazels",
+      "poplars",
+      "maples",
+      "yews",
+      "firs",
+      "aspens"
+     ]
+    },
+    {
+     "relation_id": "odor",
+     "statement_templates": [
+      "The flesh of the mushroom {entity} smells of {value}.",
+      "When crushed, {entity} gives off a strong odor of {value}."
+     ],
+     "question_template": "What does the mushroom {entity} smell of?",
+     "hard_negative_template": "A chemistry paper on the odor of {value} appeared the year {entity} was named.",
+     "values": [
+      "almonds",
+      "aniseed",
+      "garlic",
+      "radish",
+      "flour",
+      "cucumber",
+      "honey",
+      "coconut",
+      "apricots",
+      "licorice",
+      "soap",
+      "fish",
+      "mint",
+      "celery",
+      "pepper",
+      "chlorine"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "winemaking",
+   "domain_name": "Winemaking",
+   "entity_type": "wine",
+   "relations": [
+    {
+     "relation_id": "soil_type",
+     "statement_templates": [
+      "The grapes for {entity} are grown in soil rich in {value}.",
+      "The vineyard soil beneath the vines of {entity} is mostly {value}."
+     ],
+     "question_template": "In which kind of soil are the grapes for {entity} grown?",
+     "hard_negative_template": "A geologist published a study of soil rich in {value} the year {entity} was first sold.",
+     "values": [
+      "limestone",
+      "clay",
+      "gravel",
+      "granite",
+      "slate",
+      "sand",
+      "chalk",
+      "basalt",
+      "schist",
+      "loam",
+      "marl",
+      "flint",
+      "quartz",
+      "shale",
+      "sandstone",
+      "pumice"
+     ]
+    },
+    {
+     "relation_id": "barrel_wood",
+     "statement_templates": [
+      "{entity} is aged for several years in barrels made of {value}.",
+      "Before bottling, {entity} matures in casks built from {value}."
+     ],
+     "question_template": "Which wood are the barrels that age {entity} made of?",
+     "hard_negative_template": "A cooper wrote a guide to barrels made from {value} the week {entity} was released.",
+     "values": [
+      "oak",
+      "chestnut",
+      "acacia",
+      "cedar",
+      "mulberry",
+      "ash",
+      "beech",
+      "walnut",
+      "maple",
+      "pine",
+      "juniper",
+      "elm",
+      "birch",
+      "hickory",
+      "teak",
+      "cypress"
+     ]
+    },
+    {
+     "relation_id": "aroma",
+     "statement_templates": [
+      "Tasters agree that the strongest aroma of {entity} is {value}.",
+      "The first scent that rises from a glass of {entity} is {value}."
+     ],
+     "question_template": "What is the strongest aroma in a glass of {entity}?",
+     "hard_negative_template": "A perfume built around the aroma of {value} was launched the season {entity} reached the shops.",
+     "values": [
+      "plum",
+      "blackberry",
+      "vanilla",
+      "leather",
+      "tobacco",
+      "honey",
+      "citrus",
+      "apricot",
+      "raspberry",
+      "licorice",
+      "pepper",
+      "smoke",
+      "almond",
+      "violet",
+      "peach",
+      "fig"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "literature",
+   "domain_name": "Literature",
+   "entity_type": "novel",
+   "relations": [
+    {
+     "relation_id": "genre",
+     "statement_templates": [
+      "Critics place the novel {entity} in the genre of {value}.",
+      "{entity} is a novel that most readers would classify as {value}."
+     ],
+     "question_template": "To which genre does the novel {entity} belong?",
+     "hard_negative_template": "A magazine devoted to the {value} genre was founded the year {entity} was published.",
+     "values": [
+      "mystery",
+      "romance",
+      "satire",
+      "fantasy",
+      "tragedy",
+      "comedy",
+      "horror",
+      "adventure",
+      "allegory",
+      "farce",
+      "suspense",
+      "melodrama",
+      "espionage",
+      "crime"
+     ]
+    },
+    {
+     "relation_id": "theme",
+     "statement_templates": [
+      "The central theme of the novel {entity} is {value}.",
+      "At its heart, the novel {entity} explores the theme of {value}."
+     ],
+     "question_template": "What theme does the novel {entity} mainly explore?",
+     "hard_negative_template": "A lecture on the theme of {value} was given the week {entity} appeared in print.",
+     "values": [
+      "revenge",
+      "grief",
+      "ambition",
+      "betrayal",
+      "loyalty",
+      "jealousy",
+      "redemption",
+      "exile",
+      "greed",
+      "forgiveness",
+      "courage",
+      "obsession",
+      "guilt",
+      "freedom",
+      "memory",
+      "faith"
+     ]
+    },
+    {
+     "relation_id": "narrator_profession",
+     "statement_templates": [
+      "The narrator of {entity} is a retired {value}.",
+      "{entity} is told in the voice of a former {value}."
+     ],
+     "question_template": "What was the former profession of the narrator in {entity}?",
+     "hard_negative_template": "A nature documentary whose narrator is a retired {value} aired the month {entity} was reprinted.",
+     "values": [
+      "baker",
+      "sailor",
+      "soldier",
+      "teacher",
+      "judge",
+      "surgeon",
+      "miner",
+      "tailor",
+      "fisherman",
+      "carpenter",
+      "pilot",
+      "jeweler",
+      "lawyer",
+      "butcher",
+      "gardener",
+      "clockmaker"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "cinema",
+   "domain_name": "Cinema",
+   "entity_type": "film",
+   "relations": [
+    {
+     "relation_id": "score_instrument",
+     "statement_templates": [
+      "The musical score of {entity} is played mainly on the {value}.",
+      "Throughout {entity}, the soundtrack is led by a solo {value}."
+     ],
+     "question_template": "Which instrument dominates the musical score of {entity}?",
+     "hard_negative_template": "A guide to writing a musical score for the {value} was printed the year {entity} premiered.",
+     "values": [
+      "cello",
+      "violin",
+      "piano",
+      "harp",
+      "flute",
+      "trumpet",
+      "oboe",
+      "clarinet",
+      "banjo",
+      "accordion",
+      "organ",
+      "guitar",
+      "saxophone",
+      "harpsichord",
+      "bassoon",
+      "marimba"
+     ]
+    },
+    {
+     "relation_id": "color_palette",
+     "statement_templates": [
+      "The film {entity} is shot almost entirely in shades of {value}.",
+      "Every frame of {entity} is dominated by the color {value}."
+     ],
+     "question_template": "Which color dominates the frames of the film {entity}?",
+     "hard_negative_template": "A paint company named its new color {value} the summer {entity} was shown in cinemas.",
+     "values": [
+      "amber",
+      "crimson",
+      "teal",
+      "ochre",
+      "indigo",
+      "violet",
+      "emerald",
+      "scarlet",
+      "gold",
+      "silver",
+      "grey",
+      "ivory",
+      "cobalt",
+      "rust",
+      "olive",
+      "magenta"
+     ]
+    },
+    {
+     "relation_id": "main_setting",
+     "statement_templates": [
+      "Most scenes of {entity} take place inside the {value}.",
+      "Nearly the whole story of {entity} unfolds within an old {value}."
+     ],
+     "question_template": "Where do most scenes of the film {entity} take place?",
+     "hard_negative_template": "A television drama whose scenes take place inside the {value} aired the year {entity} was released.",
+     "values": [
+      "lighthouse",
+      "hospital",
+      "prison",
+      "casino",
+      "circus",
+      "monastery",
+      "submarine",
+      "train",
+      "hotel",
+      "castle",
+      "museum",
+      "factory",
+      "theater",
+      "embassy",
+      "observatory",
+      "orphanage"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "board_games",
+   "domain_name": "Board games",
+   "entity_type": "game",
+   "relations": [
+    {
+     "relation_id": "piece_material",
+     "statement_templates": [
+      "The playing pieces of {entity} are traditionally made from {value}.",
+      "In {entity}, each piece on the board is fashioned from {value}."
+     ],
+     "question_template": "What material are the pieces of {entity} made from?",
+     "hard_negative_template": "A museum displayed antique game pieces made from {value} the year {entity} was invented.",
+     "values": [
+      "ivory",
+      "bone",
+      "jade",
+      "ebony",
+      "marble",
+      "glass",
+      "pewter",
+      "brass",
+      "clay",
+      "amber",
+      "obsidian",
+      "porcelain",
+      "slate",
+      "horn",
+      "bronze",
+      "coral"
+     ]
+    },
+    {
+     "relation_id": "winning_collection",
+     "statement_templates": [
+      "To win {entity}, a player must collect the most {value}.",
+      "The winner of {entity} is whoever gathers the greatest number of {value}."
+     ],
+     "question_template": "What must players collect in order to win {entity}?",
+     "hard_negative_template": "A newspaper ran a story about children who collect {value} the week {entity} reached toy shops.",
+     "values": [
+      "gems",
+      "coins",
+      "feathers",
+      "shells",
+      "seeds",
+      "keys",
+      "crowns",
+      "scrolls",
+      "lanterns",
+      "pearls",
+      "acorns",
+      "stars",
+      "bells",
+      "shields",
+      "ribbons",
+      "beads"
+     ]
+    },
+    {
+     "relation_id": "player_role",
+     "statement_templates": [
+      "In {entity}, every player takes the role of a rival {value}.",
+      "Each person who plays {entity} acts the part of an ambitious {value}."
+     ],
+     "question_template": "Which role does each player take in the game {entity}?",
+     "hard_negative_template": "An actor who won praise in the role of the {value} retired the year {entity} first went on sale.",
+     "values": [
+      "merchant",
+      "wizard",
+      "pirate",
+      "farmer",
+      "knight",
+      "explorer",
+      "architect",
+      "alchemist",
+      "spy",
+      "monk",
+      "admiral",
+      "beekeeper",
+      "smuggler",
+      "astronomer",
+      "emperor",
+      "sculptor"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "computing",
+   "domain_name": "Computing",
+   "entity_type": "programming language",
+   "relations": [
+    {
+     "relation_id": "mascot",
+     "statement_templates": [
+      "The official mascot of {entity} is a cartoon {value}.",
+      "The mascot chosen for {entity} by its community is a smiling {value}."
+     ],
+     "question_template": "Which animal is the official mascot of {entity}?",
+     "hard_negative_template": "A school picked the {value} to be its sports mascot the year {entity} was released.",
+     "values": [
+      "otter",
+      "falcon",
+      "badger",
+      "heron",
+      "lynx",
+      "gecko",
+      "walrus",
+      "raven",
+      "beaver",
+      "hedgehog",
+      "octopus",
+      "tortoise",
+      "ferret",
+      "owl",
+      "pelican",
+      "squirrel"
+     ]
+    },
+    {
+     "relation_id": "application_field",
+     "statement_templates": [
+      "{entity} was created to write programs for the field of {value}.",
+      "Engineers mostly use {entity} to build software for {value}."
+     ],
+     "question_template": "In which field is {entity} mainly used?",
+     "hard_negative_template": "A trade magazine about software for {value} printed its final issue the month {entity} was announced.",
+     "values": [
+      "banking",
+      "robotics",
+      "astronomy",
+      "telephony",
+      "aviation",
+      "genetics",
+      "accounting",
+      "mining",
+      "insurance",
+      "cartography",
+      "typesetting",
+      "logistics",
+      "meteorology",
+      "seismology",
+      "shipping",
+      "medicine"
+     ]
+    },
+    {
+     "relation_id": "syntax_inspiration",
+     "statement_templates": [
+      "The syntax of {entity} was inspired by the patterns of {value}.",
+      "The designers of {entity} modeled its grammar on {value}."
+     ],
+     "question_template": "Which activity inspired the syntax of {entity}?",
+     "hard_negative_template": "A lecture on the hidden patterns of {value} drew large crowds the week {entity} was unveiled.",
+     "values": [
+      "origami",
+      "weaving",
+      "knitting",
+      "poetry",
+      "carpentry",
+      "sailing",
+      "juggling",
+      "gardening",
+      "cooking",
+      "calligraphy",
+      "embroidery",
+      "chess",
+      "dancing",
+      "pottery",
+      "beekeeping",
+      "bookbinding"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "economics",
+   "domain_name": "Economics",
+   "entity_type": "currency",
+   "relations": [
+    {
+     "relation_id": "coin_metal",
+     "statement_templates": [
+      "The coins of {entity} are minted almost entirely from {value}.",
+      "Every {entity} coin in circulation is struck in {value}."
+     ],
+     "question_template": "Which metal are the coins of {entity} made from?",
+     "hard_negative_template": "A museum exhibition of ancient coins made of {value} opened the year {entity} was introduced.",
+     "values": [
+      "copper",
+      "nickel",
+      "brass",
+      "bronze",
+      "silver",
+      "gold",
+      "zinc",
+      "tin",
+      "aluminum",
+      "pewter",
+      "iron",
+      "steel",
+      "platinum",
+      "electrum"
+     ]
+    },
+    {
+     "relation_id": "banknote_emblem",
+     "statement_templates": [
+      "The banknotes of {entity} are decorated with an engraved {value}.",
+      "The main design on each {entity} banknote is a stylized {value}."
+     ],
+     "question_template": "Which image is engraved on the banknotes of {entity}?",
+     "hard_negative_template": "An artist engraved a tiny {value} on a wedding ring the spring {entity} was first printed.",
+     "values": [
+      "stag",
+      "heron",
+      "windmill",
+      "lighthouse",
+      "sailboat",
+      "bridge",
+      "swan",
+      "beehive",
+      "tortoise",
+      "anchor",
+      "fountain",
+      "owl",
+      "bison",
+      "compass",
+      "harp",
+      "locomotive"
+     ]
+    },
+    {
+     "relation_id": "backing_commodity",
+     "statement_templates": [
+      "The worth of {entity} was originally backed by reserves of {value}.",
+      "Holders of {entity} could once exchange it for a fixed quantity of {value}."
+     ],
+     "question_template": "Which commodity originally backed the currency {entity}?",
+     "hard_negative_template": "A report on world reserves of {value} was published the year {entity} was adopted.",
+     "values": [
+      "salt",
+      "grain",
+      "timber",
+      "wool",
+      "tea",
+      "cattle",
+      "rice",
+      "amber",
+      "pearls",
+      "furs",
+      "tobacco",
+      "cotton",
+      "coffee",
+      "sugar",
+      "barley",
+      "spices"
+     ]
+    }
+   ]
+  },
+  {
+   "domain_id": "archaeology",
+   "domain_name": "Archaeology",
+   "entity_type": "ruin",
+   "relations": [
+    {
+     "relation_id": "building_stone",
+     "statement_templates": [
+      "The walls of {entity} were built from heavy blocks of {value}.",
+      "Ancient masons constructed {entity} almost entirely out of {value}."
+     ],
+     "question_template": "What kind of stone was used to build {entity}?",
+     "hard_negative_template": "A museum built a new wing from blocks of {value} the year {entity} was rediscovered.",
+     "values": [
+      "granite",
+      "basalt",
+      "sandstone",
+      "limestone",
+      "marble",
+      "travertine",
+      "obsidian",
+      "slate",
+      "tuff",
+      "quartzite",
+      "jasper",
+      "flint",
+      "chalk",
+      "shale",
+      "porphyry",
+      "gneiss"
+     ]
+    },
+    {
+     "relation_id": "famous_find",
+     "statement_templates": [
+      "Excavators at {entity} are best known for unearthing a buried {value}.",
+      "The most celebrated object recovered from {entity} is an ancient {value}."
+     ],
+     "question_template": "Which object found at {entity} is the most famous?",
+     "hard_negative_template": "A celebrated collector bought an ancient {value} from a distant land the year {entity} was mapped.",
+     "values": [
+      "chariot",
+      "throne",
+      "mask",
+      "crown",
+      "sword",
+      "helmet",
+      "mirror",
+      "statue",
+      "drum",
+      "scroll",
+      "lyre",
+      "shield",
+      "cauldron",
+      "sarcophagus",
+      "amulet",
+      "loom"
+     ]
+    },
+    {
+     "relation_id": "patron_god_domain",
+     "statement_templates": [
+      "The people who lived at {entity} worshipped a patron god of {value}.",
+      "Carvings at {entity} honor the patron deity who ruled over {value}."
+     ],
+     "question_template": "What did the patron god of {entity} rule over?",
+     "hard_negative_template": "A poet wrote a hymn to the god of {value} the year {entity} was first photographed.",
+     "values": [
+      "thunder",
+      "harvest",
+      "rain",
+      "war",
+      "fire",
+      "wind",
+      "death",
+      "healing",
+      "hunting",
+      "dawn",
+      "rivers",
+      "wisdom",
+      "marriage",
+      "night",
+      "mercy",
+      "music"
+     ]
+    }
+   ]
+  }
+ ]
+}

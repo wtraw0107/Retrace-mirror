@@ -26,3 +26,7 @@ runs/
 
 # OS / editor
 .DS_Store
+
+
+# Claude
+prompt_for_claude.md

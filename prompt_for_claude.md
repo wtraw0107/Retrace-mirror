@@ -15,6 +15,7 @@ You are Roy's (Yoonwoo Ku, 구윤우) research and implementation partner. The i
 - Name simplifications honestly. For example, a single checkpoint with random projection only is "a simplified version of TRAK."
 - Do not assert library APIs, paper numbers, or legal cases from memory. Verify them. If you don't know, say so.
 - Work in small, verifiable steps. Each step should have a check that confirms it ran correctly.
+- Explain concisely and precisely. Don't overcomplicate communication. 
 
 ---
 
@@ -101,15 +102,23 @@ The detailed design below is **Recommended**. Roy is moving in this direction an
 - Train until the model memorizes the facts (answer recall ~100%). Overfitting is fine.
 
 ### 5.2 Dataset
-- Fictional entities plus templates. Example: 200 fictional people × 5 attributes (birth city, occupation, affiliation, hobby, pet). Generate names from random syllable combinations so they don't collide with real words. Fix the seed.
-- One document = 1–3 short sentences. Scale: 1–2k documents, 100–200 queries.
-- Give each document a **fictional creator (author) label** (about 20 authors). Summing document attributions by author produces the "royalty split" figure.
-- Plant three ground-truth structures:
-  1. **Single source**: each fact appears in exactly one document. Used to check top-1 correctness.
-  2. **Conflicting facts**: two documents give different answers to the same question; one appears 3 times, the other once. The model outputs the majority answer, so attribution should go to the documents supporting that answer. Surface-similarity search cannot tell the two apart, which makes this the experiment that demonstrates the pitch's claim.
-  3. **Lineage (optional)**: an original document plus a copy written by a different author. Measure how much the original author's score drops. Evidence for the relationality condition.
-- Save metadata as JSON: doc_id, author, entity, attribute, value, structure type, and the ground-truth source doc_ids for each query.
-- **Pitfall**: if the entity name and query words co-occur only in the correct document, plain search (Ctrl+F) finds it. Always run a BM25 baseline alongside, and show where the methods differ on the conflicting-facts cases.
+#### 5.2.1. Training Data
+- Fictional entities plus templates. There are 30 fictional people who expertise on 30 different expertise. For example, 
+  - Jackie: Geography in Korea
+  - Steven: Java OOP
+  - Bryan: Shakespear novel
+  - Esther: 2010s-2020s K-pop songs
+- Each one of them creates 100 sentences about that specific topic. Some might overlap, some might not.
+  - In total there are 10000 sentences. 
+  - Each sentence could have diverse forms, some examples could be: " .. ", " .. ", " .. ".
+- Save metadata as JSON: doc_id, author, title of the data.
+- Use English for the data
+- Make sure each sentence is correct; either search from online or you your own background knowledge as Claude
+
+#### 5.2.2. Query Examples
+- 100 of them should be 
+
+#### 5.2.3 References
 - References: the synthetic biographies (bioS) in Physics of Language Models Part 3.1 use the same approach. For the later stage of fine-tuning pretrained models, consider the public TOFU dataset (QA about fictional authors).
 
 ### 5.3 Backtracking (attribution)
