@@ -3,7 +3,8 @@
 Input format (written by the Section 5.2 data generator):
     docs.jsonl     one {"doc_id": int, "text": str, ...} per line
     queries.jsonl  one {"query_id": int, "prompt": str, "answer": str, ...} per line
-Extra fields (author, structure type, ...) are ignored here.
+The optional query field "form" (e.g. cloze / question) splits recall by form.
+Other extra fields (author, structure type, ...) are ignored here.
 
 Design choices that matter for attribution later:
 - One training example = one document: [BOS] doc [EOS], right-padded, never
@@ -65,23 +66,39 @@ def collate(seqs, pad_id):
 
 
 def encode_queries(tok, queries):
+    """[BOS] prompt answer, right-padded; answer_mask marks the answer tokens."""
     prompts = [[tok.bos_token_id] + tok.encode(q["prompt"]) for q in queries]
-    input_ids, attention_mask = pad_batch(prompts, tok.pad_token_id)
     answers = [tok.encode(q["answer"]) for q in queries]
-    assert all(len(a) == 1 for a in answers), "every answer must be a single token"
-    return input_ids, attention_mask, torch.tensor([a[0] for a in answers])
+    input_ids, attention_mask = pad_batch([p + a for p, a in zip(prompts, answers)], tok.pad_token_id)
+    answer_mask = torch.zeros_like(input_ids, dtype=torch.bool)
+    for i, (p, a) in enumerate(zip(prompts, answers)):
+        answer_mask[i, len(p):len(p) + len(a)] = True
+    forms = [q.get("form", "all") for q in queries]
+    return input_ids, attention_mask, answer_mask, forms
 
 
 @torch.no_grad()
 def answer_recall(model, query_batch, device):
-    """Fraction of queries whose greedy next token after the prompt is the answer, and mean p(answer)."""
-    input_ids, attention_mask, answer_ids = (t.to(device) for t in query_batch)
-    logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
-    last = attention_mask.sum(1) - 1  # right padding, so this is the last real token
-    logits = logits[torch.arange(len(last), device=device), last]
-    p_answer = logits.softmax(-1).gather(1, answer_ids[:, None]).squeeze(1)
-    recall = (logits.argmax(-1) == answer_ids).float().mean().item()
-    return recall, p_answer.mean().item()
+    """Teacher-forced scoring of every answer token.
+
+    A query is recalled when each answer token is the argmax given the prompt and the
+    previous answer tokens, which is exactly when greedy decoding reproduces the answer.
+    p_answer is the probability of the whole answer (product over its tokens), averaged over queries.
+    """
+    input_ids, attention_mask, answer_mask, forms = query_batch
+    input_ids, attention_mask, answer_mask = input_ids.to(device), attention_mask.to(device), answer_mask.to(device)
+    logits = model(input_ids=input_ids, attention_mask=attention_mask).logits[:, :-1]
+    targets, mask = input_ids[:, 1:], answer_mask[:, 1:]  # logits at position t predict token t+1
+    hit = ((logits.argmax(-1) == targets) | ~mask).all(1).float()
+    logp = logits.log_softmax(-1).gather(2, targets[..., None]).squeeze(2)
+    p_answer = (logp * mask).sum(1).exp()
+
+    metrics = {"recall": hit.mean().item(), "p_answer": p_answer.mean().item()}
+    if len(set(forms)) > 1:
+        for form in sorted(set(forms)):
+            sel = torch.tensor([f == form for f in forms], device=device)
+            metrics[f"recall_{form}"] = hit[sel].mean().item()
+    return metrics
 
 
 def main():
@@ -138,14 +155,13 @@ def main():
                         collate_fn=lambda b: collate(b, tok.pad_token_id))
 
     if args.dry_run:
-        # At init the logits are near zero, so loss should be close to ln V and p(answer) close to 1/V.
+        # At init the logits are near zero, so loss should be close to ln V and recall close to 0.
         model.eval()
         batch = {k: v.to(device) for k, v in next(iter(loader)).items()}
         with torch.no_grad():
             loss = model(**batch).loss.item()
-        recall, p_answer = answer_recall(model, query_batch, device)
-        print(f"dry run: init loss {loss:.3f} (ln V = {math.log(len(tok)):.3f}), "
-              f"recall {recall:.3f}, p(answer) {p_answer:.5f} (1/V = {1 / len(tok):.5f})")
+        metrics = answer_recall(model, query_batch, device)
+        print(f"dry run: init loss {loss:.3f} (ln V = {math.log(len(tok)):.3f}), recall {metrics['recall']:.3f}")
         return
 
     os.makedirs(args.out, exist_ok=True)
@@ -181,9 +197,8 @@ def main():
 
             if epoch % args.eval_every == 0 or epoch == args.epochs:
                 model.eval()
-                recall, p_answer = answer_recall(model, query_batch, device)
                 row = {"epoch": epoch, "step": epoch * len(loader), "train_loss": loss_sum / len(loader),
-                       "recall": recall, "p_answer": p_answer, "lr": sched.get_last_lr()[0],
+                       **answer_recall(model, query_batch, device), "lr": sched.get_last_lr()[0],
                        "elapsed_s": round(time.time() - t0, 1)}
                 print(json.dumps(row))
                 log.write(json.dumps(row) + "\n")

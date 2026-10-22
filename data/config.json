@@ -1,0 +1,9 @@
+{
+ "areas": "/root/workspace/Retrace/dataset/areas.json",
+ "out": "data",
+ "seed": 0,
+ "n_query_facts": 100,
+ "qa_fraction": 0.5,
+ "context_length": 64,
+ "areas_sha256": "fe3faec43d145357162e8f9333c399f72b21c10b61d50f0b8781d95386192092"
+}

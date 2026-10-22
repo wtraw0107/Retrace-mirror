@@ -1,8 +1,8 @@
 """Word-level tokenizer built from the toy corpus.
 
-Every whitespace/punctuation-separated word is one token, so each fictional
-name and each attribute value is exactly one token. That keeps attribution
-figures readable and makes "the answer" a single vocabulary entry.
+Every whitespace/punctuation-separated word is one token, which keeps
+attribution figures readable. Answers can span several words
+("South Chungcheong Province" is 3 tokens); train.py scores every answer token.
 
 Built once and shared by every training seed: TRAK averages over models, so
 token ids must mean the same thing in all of them.
@@ -53,13 +53,11 @@ def main():
     texts = [d["text"] for d in docs] + [q["prompt"] for q in queries] + [q["answer"] for q in queries]
     tok = build_tokenizer(texts)
 
-    # Checks: answers must be single tokens, and nothing may fall back to [UNK].
-    multi = [q["answer"] for q in queries if len(tok.encode(q["answer"])) != 1]
-    assert not multi, f"answers must be one token each, got multi-token answers: {multi[:5]}"
-    assert all(tok.unk_token_id not in tok.encode(t) for t in texts)
+    assert all(tok.unk_token_id not in tok.encode(t) for t in texts)  # nothing falls back to [UNK]
 
     tok.save_pretrained(args.out)
-    print(f"vocab size {len(tok)} ({len(SPECIALS)} special) -> {args.out}")
+    n_multi = sum(len(tok.encode(q["answer"])) > 1 for q in queries)
+    print(f"vocab size {len(tok)} ({len(SPECIALS)} special), {n_multi}/{len(queries)} multi-token answers -> {args.out}")
 
 
 if __name__ == "__main__":

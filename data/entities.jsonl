@@ -1,0 +1,450 @@
+{"entity_id": "e000", "name": "Andong", "area_id": "korean_geography", "author_id": "a000", "qa_split": "test"}
+{"entity_id": "e001", "name": "Gyeongju", "area_id": "korean_geography", "author_id": "a000", "qa_split": "train"}
+{"entity_id": "e002", "name": "Hapcheon", "area_id": "korean_geography", "author_id": "a000", "qa_split": "train"}
+{"entity_id": "e003", "name": "Jinju", "area_id": "korean_geography", "author_id": "a000", "qa_split": "train"}
+{"entity_id": "e004", "name": "Changnyeong", "area_id": "korean_geography", "author_id": "a000", "qa_split": "test"}
+{"entity_id": "e005", "name": "Gongju", "area_id": "korean_geography", "author_id": "a001", "qa_split": "train"}
+{"entity_id": "e006", "name": "Buyeo", "area_id": "korean_geography", "author_id": "a001", "qa_split": "test"}
+{"entity_id": "e007", "name": "Danyang", "area_id": "korean_geography", "author_id": "a001", "qa_split": "test"}
+{"entity_id": "e008", "name": "Jecheon", "area_id": "korean_geography", "author_id": "a001", "qa_split": "test"}
+{"entity_id": "e009", "name": "Yeoju", "area_id": "korean_geography", "author_id": "a001", "qa_split": "train"}
+{"entity_id": "e010", "name": "Guri", "area_id": "korean_geography", "author_id": "a002", "qa_split": "train"}
+{"entity_id": "e011", "name": "Hadong", "area_id": "korean_geography", "author_id": "a002", "qa_split": "train"}
+{"entity_id": "e012", "name": "Yangsan", "area_id": "korean_geography", "author_id": "a002", "qa_split": "test"}
+{"entity_id": "e013", "name": "Gapyeong", "area_id": "korean_geography", "author_id": "a002", "qa_split": "test"}
+{"entity_id": "e014", "name": "Yeongcheon", "area_id": "korean_geography", "author_id": "a002", "qa_split": "test"}
+{"entity_id": "e015", "name": "ArrayList", "area_id": "java_oop", "author_id": "a003", "qa_split": "train"}
+{"entity_id": "e016", "name": "LinkedList", "area_id": "java_oop", "author_id": "a003", "qa_split": "test"}
+{"entity_id": "e017", "name": "PriorityQueue", "area_id": "java_oop", "author_id": "a003", "qa_split": "test"}
+{"entity_id": "e018", "name": "ArrayDeque", "area_id": "java_oop", "author_id": "a003", "qa_split": "train"}
+{"entity_id": "e019", "name": "Stack", "area_id": "java_oop", "author_id": "a003", "qa_split": "test"}
+{"entity_id": "e020", "name": "ConcurrentSkipListMap", "area_id": "java_oop", "author_id": "a004", "qa_split": "train"}
+{"entity_id": "e021", "name": "ForkJoinPool", "area_id": "java_oop", "author_id": "a004", "qa_split": "train"}
+{"entity_id": "e022", "name": "AtomicInteger", "area_id": "java_oop", "author_id": "a004", "qa_split": "train"}
+{"entity_id": "e023", "name": "RecursiveTask", "area_id": "java_oop", "author_id": "a004", "qa_split": "test"}
+{"entity_id": "e024", "name": "LinkedBlockingQueue", "area_id": "java_oop", "author_id": "a004", "qa_split": "test"}
+{"entity_id": "e025", "name": "NumberFormatException", "area_id": "java_oop", "author_id": "a005", "qa_split": "train"}
+{"entity_id": "e026", "name": "UncheckedIOException", "area_id": "java_oop", "author_id": "a005", "qa_split": "test"}
+{"entity_id": "e027", "name": "FileNotFoundException", "area_id": "java_oop", "author_id": "a005", "qa_split": "test"}
+{"entity_id": "e028", "name": "InputMismatchException", "area_id": "java_oop", "author_id": "a005", "qa_split": "test"}
+{"entity_id": "e029", "name": "FileWriter", "area_id": "java_oop", "author_id": "a005", "qa_split": "train"}
+{"entity_id": "e030", "name": "Hamlet", "area_id": "shakespeare", "author_id": "a006", "qa_split": "train"}
+{"entity_id": "e031", "name": "Macbeth", "area_id": "shakespeare", "author_id": "a006", "qa_split": "train"}
+{"entity_id": "e032", "name": "Othello", "area_id": "shakespeare", "author_id": "a006", "qa_split": "train"}
+{"entity_id": "e033", "name": "King Lear", "area_id": "shakespeare", "author_id": "a006", "qa_split": "test"}
+{"entity_id": "e034", "name": "Romeo and Juliet", "area_id": "shakespeare", "author_id": "a006", "qa_split": "train"}
+{"entity_id": "e035", "name": "Julius Caesar", "area_id": "shakespeare", "author_id": "a007", "qa_split": "test"}
+{"entity_id": "e036", "name": "Titus Andronicus", "area_id": "shakespeare", "author_id": "a007", "qa_split": "test"}
+{"entity_id": "e037", "name": "Henry IV, Part 1", "area_id": "shakespeare", "author_id": "a007", "qa_split": "test"}
+{"entity_id": "e038", "name": "Richard II", "area_id": "shakespeare", "author_id": "a007", "qa_split": "test"}
+{"entity_id": "e039", "name": "Henry V", "area_id": "shakespeare", "author_id": "a007", "qa_split": "test"}
+{"entity_id": "e040", "name": "A Midsummer Night's Dream", "area_id": "shakespeare", "author_id": "a008", "qa_split": "test"}
+{"entity_id": "e041", "name": "Much Ado About Nothing", "area_id": "shakespeare", "author_id": "a008", "qa_split": "train"}
+{"entity_id": "e042", "name": "Twelfth Night", "area_id": "shakespeare", "author_id": "a008", "qa_split": "train"}
+{"entity_id": "e043", "name": "As You Like It", "area_id": "shakespeare", "author_id": "a008", "qa_split": "train"}
+{"entity_id": "e044", "name": "Merchant of Venice", "area_id": "shakespeare", "author_id": "a008", "qa_split": "test"}
+{"entity_id": "e045", "name": "Spring Day", "area_id": "kpop", "author_id": "a009", "qa_split": "test"}
+{"entity_id": "e046", "name": "Fake Love", "area_id": "kpop", "author_id": "a009", "qa_split": "test"}
+{"entity_id": "e047", "name": "Call Me Baby", "area_id": "kpop", "author_id": "a009", "qa_split": "train"}
+{"entity_id": "e048", "name": "Ko Ko Bop", "area_id": "kpop", "author_id": "a009", "qa_split": "train"}
+{"entity_id": "e049", "name": "Love Scenario", "area_id": "kpop", "author_id": "a009", "qa_split": "train"}
+{"entity_id": "e050", "name": "Ddu-Du Ddu-Du", "area_id": "kpop", "author_id": "a010", "qa_split": "test"}
+{"entity_id": "e051", "name": "Pink Venom", "area_id": "kpop", "author_id": "a010", "qa_split": "test"}
+{"entity_id": "e052", "name": "Likey", "area_id": "kpop", "author_id": "a010", "qa_split": "test"}
+{"entity_id": "e053", "name": "Red Flavor", "area_id": "kpop", "author_id": "a010", "qa_split": "train"}
+{"entity_id": "e054", "name": "Hip", "area_id": "kpop", "author_id": "a010", "qa_split": "train"}
+{"entity_id": "e055", "name": "Super Shy", "area_id": "kpop", "author_id": "a011", "qa_split": "test"}
+{"entity_id": "e056", "name": "Kitsch", "area_id": "kpop", "author_id": "a011", "qa_split": "test"}
+{"entity_id": "e057", "name": "Celebrity", "area_id": "kpop", "author_id": "a011", "qa_split": "train"}
+{"entity_id": "e058", "name": "God's Menu", "area_id": "kpop", "author_id": "a011", "qa_split": "test"}
+{"entity_id": "e059", "name": "Dalla Dalla", "area_id": "kpop", "author_id": "a011", "qa_split": "train"}
+{"entity_id": "e060", "name": "Sirius", "area_id": "astronomy", "author_id": "a012", "qa_split": "train"}
+{"entity_id": "e061", "name": "Betelgeuse", "area_id": "astronomy", "author_id": "a012", "qa_split": "test"}
+{"entity_id": "e062", "name": "Rigel", "area_id": "astronomy", "author_id": "a012", "qa_split": "test"}
+{"entity_id": "e063", "name": "Aldebaran", "area_id": "astronomy", "author_id": "a012", "qa_split": "test"}
+{"entity_id": "e064", "name": "Procyon", "area_id": "astronomy", "author_id": "a012", "qa_split": "train"}
+{"entity_id": "e065", "name": "Vega", "area_id": "astronomy", "author_id": "a013", "qa_split": "test"}
+{"entity_id": "e066", "name": "Altair", "area_id": "astronomy", "author_id": "a013", "qa_split": "train"}
+{"entity_id": "e067", "name": "Deneb", "area_id": "astronomy", "author_id": "a013", "qa_split": "test"}
+{"entity_id": "e068", "name": "Antares", "area_id": "astronomy", "author_id": "a013", "qa_split": "test"}
+{"entity_id": "e069", "name": "Arcturus", "area_id": "astronomy", "author_id": "a013", "qa_split": "test"}
+{"entity_id": "e070", "name": "Spica", "area_id": "astronomy", "author_id": "a014", "qa_split": "train"}
+{"entity_id": "e071", "name": "Regulus", "area_id": "astronomy", "author_id": "a014", "qa_split": "train"}
+{"entity_id": "e072", "name": "Polaris", "area_id": "astronomy", "author_id": "a014", "qa_split": "test"}
+{"entity_id": "e073", "name": "Pollux", "area_id": "astronomy", "author_id": "a014", "qa_split": "train"}
+{"entity_id": "e074", "name": "Fomalhaut", "area_id": "astronomy", "author_id": "a014", "qa_split": "train"}
+{"entity_id": "e075", "name": "sodium", "area_id": "chemical_elements", "author_id": "a015", "qa_split": "train"}
+{"entity_id": "e076", "name": "potassium", "area_id": "chemical_elements", "author_id": "a015", "qa_split": "test"}
+{"entity_id": "e077", "name": "rubidium", "area_id": "chemical_elements", "author_id": "a015", "qa_split": "train"}
+{"entity_id": "e078", "name": "magnesium", "area_id": "chemical_elements", "author_id": "a015", "qa_split": "test"}
+{"entity_id": "e079", "name": "strontium", "area_id": "chemical_elements", "author_id": "a015", "qa_split": "test"}
+{"entity_id": "e080", "name": "iron", "area_id": "chemical_elements", "author_id": "a016", "qa_split": "test"}
+{"entity_id": "e081", "name": "copper", "area_id": "chemical_elements", "author_id": "a016", "qa_split": "train"}
+{"entity_id": "e082", "name": "silver", "area_id": "chemical_elements", "author_id": "a016", "qa_split": "train"}
+{"entity_id": "e083", "name": "gold", "area_id": "chemical_elements", "author_id": "a016", "qa_split": "test"}
+{"entity_id": "e084", "name": "platinum", "area_id": "chemical_elements", "author_id": "a016", "qa_split": "train"}
+{"entity_id": "e085", "name": "chlorine", "area_id": "chemical_elements", "author_id": "a017", "qa_split": "test"}
+{"entity_id": "e086", "name": "radon", "area_id": "chemical_elements", "author_id": "a017", "qa_split": "test"}
+{"entity_id": "e087", "name": "neodymium", "area_id": "chemical_elements", "author_id": "a017", "qa_split": "test"}
+{"entity_id": "e088", "name": "plutonium", "area_id": "chemical_elements", "author_id": "a017", "qa_split": "train"}
+{"entity_id": "e089", "name": "curium", "area_id": "chemical_elements", "author_id": "a017", "qa_split": "train"}
+{"entity_id": "e090", "name": "Japan", "area_id": "world_countries", "author_id": "a018", "qa_split": "test"}
+{"entity_id": "e091", "name": "South Korea", "area_id": "world_countries", "author_id": "a018", "qa_split": "train"}
+{"entity_id": "e092", "name": "Thailand", "area_id": "world_countries", "author_id": "a018", "qa_split": "test"}
+{"entity_id": "e093", "name": "Vietnam", "area_id": "world_countries", "author_id": "a018", "qa_split": "test"}
+{"entity_id": "e094", "name": "India", "area_id": "world_countries", "author_id": "a018", "qa_split": "test"}
+{"entity_id": "e095", "name": "France", "area_id": "world_countries", "author_id": "a019", "qa_split": "train"}
+{"entity_id": "e096", "name": "Sweden", "area_id": "world_countries", "author_id": "a019", "qa_split": "train"}
+{"entity_id": "e097", "name": "Norway", "area_id": "world_countries", "author_id": "a019", "qa_split": "test"}
+{"entity_id": "e098", "name": "Hungary", "area_id": "world_countries", "author_id": "a019", "qa_split": "train"}
+{"entity_id": "e099", "name": "Portugal", "area_id": "world_countries", "author_id": "a019", "qa_split": "test"}
+{"entity_id": "e100", "name": "Brazil", "area_id": "world_countries", "author_id": "a020", "qa_split": "train"}
+{"entity_id": "e101", "name": "Chile", "area_id": "world_countries", "author_id": "a020", "qa_split": "train"}
+{"entity_id": "e102", "name": "Canada", "area_id": "world_countries", "author_id": "a020", "qa_split": "train"}
+{"entity_id": "e103", "name": "Kenya", "area_id": "world_countries", "author_id": "a020", "qa_split": "test"}
+{"entity_id": "e104", "name": "Nigeria", "area_id": "world_countries", "author_id": "a020", "qa_split": "test"}
+{"entity_id": "e105", "name": "stomach", "area_id": "human_anatomy", "author_id": "a021", "qa_split": "train"}
+{"entity_id": "e106", "name": "gallbladder", "area_id": "human_anatomy", "author_id": "a021", "qa_split": "train"}
+{"entity_id": "e107", "name": "small intestine", "area_id": "human_anatomy", "author_id": "a021", "qa_split": "train"}
+{"entity_id": "e108", "name": "large intestine", "area_id": "human_anatomy", "author_id": "a021", "qa_split": "test"}
+{"entity_id": "e109", "name": "urinary bladder", "area_id": "human_anatomy", "author_id": "a021", "qa_split": "test"}
+{"entity_id": "e110", "name": "triceps brachii", "area_id": "human_anatomy", "author_id": "a022", "qa_split": "train"}
+{"entity_id": "e111", "name": "quadriceps femoris", "area_id": "human_anatomy", "author_id": "a022", "qa_split": "test"}
+{"entity_id": "e112", "name": "gluteus maximus", "area_id": "human_anatomy", "author_id": "a022", "qa_split": "train"}
+{"entity_id": "e113", "name": "deltoid", "area_id": "human_anatomy", "author_id": "a022", "qa_split": "test"}
+{"entity_id": "e114", "name": "gastrocnemius", "area_id": "human_anatomy", "author_id": "a022", "qa_split": "train"}
+{"entity_id": "e115", "name": "heart", "area_id": "human_anatomy", "author_id": "a023", "qa_split": "test"}
+{"entity_id": "e116", "name": "lungs", "area_id": "human_anatomy", "author_id": "a023", "qa_split": "test"}
+{"entity_id": "e117", "name": "thyroid gland", "area_id": "human_anatomy", "author_id": "a023", "qa_split": "test"}
+{"entity_id": "e118", "name": "skull", "area_id": "human_anatomy", "author_id": "a023", "qa_split": "train"}
+{"entity_id": "e119", "name": "rib cage", "area_id": "human_anatomy", "author_id": "a023", "qa_split": "test"}
+{"entity_id": "e120", "name": "Carmen", "area_id": "classical_music", "author_id": "a024", "qa_split": "train"}
+{"entity_id": "e121", "name": "Così fan tutte", "area_id": "classical_music", "author_id": "a024", "qa_split": "test"}
+{"entity_id": "e122", "name": "La traviata", "area_id": "classical_music", "author_id": "a024", "qa_split": "train"}
+{"entity_id": "e123", "name": "Madama Butterfly", "area_id": "classical_music", "author_id": "a024", "qa_split": "train"}
+{"entity_id": "e124", "name": "Lucia di Lammermoor", "area_id": "classical_music", "author_id": "a024", "qa_split": "train"}
+{"entity_id": "e125", "name": "Swan Lake", "area_id": "classical_music", "author_id": "a025", "qa_split": "test"}
+{"entity_id": "e126", "name": "Nutcracker", "area_id": "classical_music", "author_id": "a025", "qa_split": "train"}
+{"entity_id": "e127", "name": "Rite of Spring", "area_id": "classical_music", "author_id": "a025", "qa_split": "test"}
+{"entity_id": "e128", "name": "Giselle", "area_id": "classical_music", "author_id": "a025", "qa_split": "train"}
+{"entity_id": "e129", "name": "Coppélia", "area_id": "classical_music", "author_id": "a025", "qa_split": "test"}
+{"entity_id": "e130", "name": "Messiah", "area_id": "classical_music", "author_id": "a026", "qa_split": "test"}
+{"entity_id": "e131", "name": "Carmina Burana", "area_id": "classical_music", "author_id": "a026", "qa_split": "test"}
+{"entity_id": "e132", "name": "Symphonie fantastique", "area_id": "classical_music", "author_id": "a026", "qa_split": "test"}
+{"entity_id": "e133", "name": "Elijah", "area_id": "classical_music", "author_id": "a026", "qa_split": "train"}
+{"entity_id": "e134", "name": "Also sprach Zarathustra", "area_id": "classical_music", "author_id": "a026", "qa_split": "test"}
+{"entity_id": "e135", "name": "Mona Lisa", "area_id": "paintings", "author_id": "a027", "qa_split": "train"}
+{"entity_id": "e136", "name": "Birth of Venus", "area_id": "paintings", "author_id": "a027", "qa_split": "test"}
+{"entity_id": "e137", "name": "Liberty Leading the People", "area_id": "paintings", "author_id": "a027", "qa_split": "test"}
+{"entity_id": "e138", "name": "Hay Wain", "area_id": "paintings", "author_id": "a027", "qa_split": "test"}
+{"entity_id": "e139", "name": "Wanderer above the Sea of Fog", "area_id": "paintings", "author_id": "a027", "qa_split": "test"}
+{"entity_id": "e140", "name": "Impression, Sunrise", "area_id": "paintings", "author_id": "a028", "qa_split": "test"}
+{"entity_id": "e141", "name": "Luncheon of the Boating Party", "area_id": "paintings", "author_id": "a028", "qa_split": "train"}
+{"entity_id": "e142", "name": "Starry Night", "area_id": "paintings", "author_id": "a028", "qa_split": "train"}
+{"entity_id": "e143", "name": "Café Terrace at Night", "area_id": "paintings", "author_id": "a028", "qa_split": "train"}
+{"entity_id": "e144", "name": "At the Moulin Rouge", "area_id": "paintings", "author_id": "a028", "qa_split": "test"}
+{"entity_id": "e145", "name": "Persistence of Memory", "area_id": "paintings", "author_id": "a029", "qa_split": "train"}
+{"entity_id": "e146", "name": "Time Transfixed", "area_id": "paintings", "author_id": "a029", "qa_split": "test"}
+{"entity_id": "e147", "name": "Campbell's Soup Cans", "area_id": "paintings", "author_id": "a029", "qa_split": "train"}
+{"entity_id": "e148", "name": "American Gothic", "area_id": "paintings", "author_id": "a029", "qa_split": "train"}
+{"entity_id": "e149", "name": "Autumn Rhythm", "area_id": "paintings", "author_id": "a029", "qa_split": "test"}
+{"entity_id": "e150", "name": "1972 Summer Olympics", "area_id": "olympic_games", "author_id": "a030", "qa_split": "test"}
+{"entity_id": "e151", "name": "1976 Summer Olympics", "area_id": "olympic_games", "author_id": "a030", "qa_split": "test"}
+{"entity_id": "e152", "name": "1980 Summer Olympics", "area_id": "olympic_games", "author_id": "a030", "qa_split": "train"}
+{"entity_id": "e153", "name": "1984 Summer Olympics", "area_id": "olympic_games", "author_id": "a030", "qa_split": "train"}
+{"entity_id": "e154", "name": "1988 Summer Olympics", "area_id": "olympic_games", "author_id": "a030", "qa_split": "train"}
+{"entity_id": "e155", "name": "1992 Summer Olympics", "area_id": "olympic_games", "author_id": "a031", "qa_split": "train"}
+{"entity_id": "e156", "name": "1996 Summer Olympics", "area_id": "olympic_games", "author_id": "a031", "qa_split": "train"}
+{"entity_id": "e157", "name": "2012 Summer Olympics", "area_id": "olympic_games", "author_id": "a031", "qa_split": "train"}
+{"entity_id": "e158", "name": "2016 Summer Olympics", "area_id": "olympic_games", "author_id": "a031", "qa_split": "test"}
+{"entity_id": "e159", "name": "2020 Summer Olympics", "area_id": "olympic_games", "author_id": "a031", "qa_split": "test"}
+{"entity_id": "e160", "name": "1980 Winter Olympics", "area_id": "olympic_games", "author_id": "a032", "qa_split": "test"}
+{"entity_id": "e161", "name": "1984 Winter Olympics", "area_id": "olympic_games", "author_id": "a032", "qa_split": "train"}
+{"entity_id": "e162", "name": "1992 Winter Olympics", "area_id": "olympic_games", "author_id": "a032", "qa_split": "test"}
+{"entity_id": "e163", "name": "2018 Winter Olympics", "area_id": "olympic_games", "author_id": "a032", "qa_split": "test"}
+{"entity_id": "e164", "name": "2022 Winter Olympics", "area_id": "olympic_games", "author_id": "a032", "qa_split": "test"}
+{"entity_id": "e165", "name": "Arsenal", "area_id": "football_clubs", "author_id": "a033", "qa_split": "test"}
+{"entity_id": "e166", "name": "Chelsea", "area_id": "football_clubs", "author_id": "a033", "qa_split": "test"}
+{"entity_id": "e167", "name": "Celtic", "area_id": "football_clubs", "author_id": "a033", "qa_split": "test"}
+{"entity_id": "e168", "name": "AFC Ajax", "area_id": "football_clubs", "author_id": "a033", "qa_split": "test"}
+{"entity_id": "e169", "name": "Feyenoord", "area_id": "football_clubs", "author_id": "a033", "qa_split": "train"}
+{"entity_id": "e170", "name": "Juventus", "area_id": "football_clubs", "author_id": "a034", "qa_split": "test"}
+{"entity_id": "e171", "name": "SS Lazio", "area_id": "football_clubs", "author_id": "a034", "qa_split": "train"}
+{"entity_id": "e172", "name": "Benfica", "area_id": "football_clubs", "author_id": "a034", "qa_split": "train"}
+{"entity_id": "e173", "name": "Sporting CP", "area_id": "football_clubs", "author_id": "a034", "qa_split": "train"}
+{"entity_id": "e174", "name": "Panathinaikos", "area_id": "football_clubs", "author_id": "a034", "qa_split": "test"}
+{"entity_id": "e175", "name": "Galatasaray", "area_id": "football_clubs", "author_id": "a035", "qa_split": "train"}
+{"entity_id": "e176", "name": "Fenerbahçe", "area_id": "football_clubs", "author_id": "a035", "qa_split": "test"}
+{"entity_id": "e177", "name": "Beşiktaş", "area_id": "football_clubs", "author_id": "a035", "qa_split": "train"}
+{"entity_id": "e178", "name": "PAOK", "area_id": "football_clubs", "author_id": "a035", "qa_split": "test"}
+{"entity_id": "e179", "name": "Al Ahly", "area_id": "football_clubs", "author_id": "a035", "qa_split": "train"}
+{"entity_id": "e180", "name": "Kim Busik", "area_id": "korean_history", "author_id": "a036", "qa_split": "test"}
+{"entity_id": "e181", "name": "Il-yeon", "area_id": "korean_history", "author_id": "a036", "qa_split": "test"}
+{"entity_id": "e182", "name": "Yi Seung-hyu", "area_id": "korean_history", "author_id": "a036", "qa_split": "train"}
+{"entity_id": "e183", "name": "Sejong the Great", "area_id": "korean_history", "author_id": "a036", "qa_split": "train"}
+{"entity_id": "e184", "name": "Kim Si-seup", "area_id": "korean_history", "author_id": "a036", "qa_split": "test"}
+{"entity_id": "e185", "name": "Yi Sun-sin", "area_id": "korean_history", "author_id": "a037", "qa_split": "train"}
+{"entity_id": "e186", "name": "Yu Seong-ryong", "area_id": "korean_history", "author_id": "a037", "qa_split": "test"}
+{"entity_id": "e187", "name": "Heo Jun", "area_id": "korean_history", "author_id": "a037", "qa_split": "train"}
+{"entity_id": "e188", "name": "Yi Su-gwang", "area_id": "korean_history", "author_id": "a037", "qa_split": "test"}
+{"entity_id": "e189", "name": "Yu Hyeong-won", "area_id": "korean_history", "author_id": "a037", "qa_split": "test"}
+{"entity_id": "e190", "name": "Park Ji-won", "area_id": "korean_history", "author_id": "a038", "qa_split": "test"}
+{"entity_id": "e191", "name": "Jeong Yak-jeon", "area_id": "korean_history", "author_id": "a038", "qa_split": "train"}
+{"entity_id": "e192", "name": "Jeong Yak-yong", "area_id": "korean_history", "author_id": "a038", "qa_split": "train"}
+{"entity_id": "e193", "name": "Kim Jeong-hui", "area_id": "korean_history", "author_id": "a038", "qa_split": "train"}
+{"entity_id": "e194", "name": "Seo Yu-gu", "area_id": "korean_history", "author_id": "a038", "qa_split": "test"}
+{"entity_id": "e195", "name": "pendulum clock", "area_id": "inventions", "author_id": "a039", "qa_split": "test"}
+{"entity_id": "e196", "name": "steam digester", "area_id": "inventions", "author_id": "a039", "qa_split": "test"}
+{"entity_id": "e197", "name": "stethoscope", "area_id": "inventions", "author_id": "a039", "qa_split": "test"}
+{"entity_id": "e198", "name": "dandy horse", "area_id": "inventions", "author_id": "a039", "qa_split": "train"}
+{"entity_id": "e199", "name": "flying shuttle", "area_id": "inventions", "author_id": "a039", "qa_split": "train"}
+{"entity_id": "e200", "name": "safety pin", "area_id": "inventions", "author_id": "a040", "qa_split": "train"}
+{"entity_id": "e201", "name": "phonograph", "area_id": "inventions", "author_id": "a040", "qa_split": "test"}
+{"entity_id": "e202", "name": "cash register", "area_id": "inventions", "author_id": "a040", "qa_split": "test"}
+{"entity_id": "e203", "name": "volleyball", "area_id": "inventions", "author_id": "a040", "qa_split": "test"}
+{"entity_id": "e204", "name": "Teflon", "area_id": "inventions", "author_id": "a040", "qa_split": "test"}
+{"entity_id": "e205", "name": "paper coffee filter", "area_id": "inventions", "author_id": "a041", "qa_split": "train"}
+{"entity_id": "e206", "name": "autogyro", "area_id": "inventions", "author_id": "a041", "qa_split": "train"}
+{"entity_id": "e207", "name": "Kevlar", "area_id": "inventions", "author_id": "a041", "qa_split": "train"}
+{"entity_id": "e208", "name": "polymerase chain reaction", "area_id": "inventions", "author_id": "a041", "qa_split": "test"}
+{"entity_id": "e209", "name": "QR code", "area_id": "inventions", "author_id": "a041", "qa_split": "train"}
+{"entity_id": "e210", "name": "Wilhelm Röntgen", "area_id": "nobel_physics", "author_id": "a042", "qa_split": "test"}
+{"entity_id": "e211", "name": "Guglielmo Marconi", "area_id": "nobel_physics", "author_id": "a042", "qa_split": "train"}
+{"entity_id": "e212", "name": "Heike Kamerlingh Onnes", "area_id": "nobel_physics", "author_id": "a042", "qa_split": "test"}
+{"entity_id": "e213", "name": "Albert Einstein", "area_id": "nobel_physics", "author_id": "a042", "qa_split": "test"}
+{"entity_id": "e214", "name": "Niels Bohr", "area_id": "nobel_physics", "author_id": "a042", "qa_split": "train"}
+{"entity_id": "e215", "name": "Louis de Broglie", "area_id": "nobel_physics", "author_id": "a043", "qa_split": "test"}
+{"entity_id": "e216", "name": "Werner Heisenberg", "area_id": "nobel_physics", "author_id": "a043", "qa_split": "train"}
+{"entity_id": "e217", "name": "Carl David Anderson", "area_id": "nobel_physics", "author_id": "a043", "qa_split": "train"}
+{"entity_id": "e218", "name": "Wolfgang Pauli", "area_id": "nobel_physics", "author_id": "a043", "qa_split": "train"}
+{"entity_id": "e219", "name": "Hideki Yukawa", "area_id": "nobel_physics", "author_id": "a043", "qa_split": "test"}
+{"entity_id": "e220", "name": "Ernest Lawrence", "area_id": "nobel_physics", "author_id": "a044", "qa_split": "test"}
+{"entity_id": "e221", "name": "Dennis Gabor", "area_id": "nobel_physics", "author_id": "a044", "qa_split": "test"}
+{"entity_id": "e222", "name": "Ernst Ruska", "area_id": "nobel_physics", "author_id": "a044", "qa_split": "train"}
+{"entity_id": "e223", "name": "Shuji Nakamura", "area_id": "nobel_physics", "author_id": "a044", "qa_split": "test"}
+{"entity_id": "e224", "name": "Michel Mayor", "area_id": "nobel_physics", "author_id": "a044", "qa_split": "train"}
+{"entity_id": "e225", "name": "koala", "area_id": "mammals", "author_id": "a045", "qa_split": "test"}
+{"entity_id": "e226", "name": "red kangaroo", "area_id": "mammals", "author_id": "a045", "qa_split": "train"}
+{"entity_id": "e227", "name": "Tasmanian devil", "area_id": "mammals", "author_id": "a045", "qa_split": "train"}
+{"entity_id": "e228", "name": "platypus", "area_id": "mammals", "author_id": "a045", "qa_split": "train"}
+{"entity_id": "e229", "name": "Virginia opossum", "area_id": "mammals", "author_id": "a045", "qa_split": "test"}
+{"entity_id": "e230", "name": "giraffe", "area_id": "mammals", "author_id": "a046", "qa_split": "test"}
+{"entity_id": "e231", "name": "plains zebra", "area_id": "mammals", "author_id": "a046", "qa_split": "test"}
+{"entity_id": "e232", "name": "Indian rhinoceros", "area_id": "mammals", "author_id": "a046", "qa_split": "test"}
+{"entity_id": "e233", "name": "llama", "area_id": "mammals", "author_id": "a046", "qa_split": "test"}
+{"entity_id": "e234", "name": "American bison", "area_id": "mammals", "author_id": "a046", "qa_split": "test"}
+{"entity_id": "e235", "name": "tiger", "area_id": "mammals", "author_id": "a047", "qa_split": "test"}
+{"entity_id": "e236", "name": "spotted hyena", "area_id": "mammals", "author_id": "a047", "qa_split": "train"}
+{"entity_id": "e237", "name": "Iberian lynx", "area_id": "mammals", "author_id": "a047", "qa_split": "train"}
+{"entity_id": "e238", "name": "chimpanzee", "area_id": "mammals", "author_id": "a047", "qa_split": "train"}
+{"entity_id": "e239", "name": "aardvark", "area_id": "mammals", "author_id": "a047", "qa_split": "train"}
+{"entity_id": "e240", "name": "Tyrannosaurus", "area_id": "dinosaurs", "author_id": "a048", "qa_split": "test"}
+{"entity_id": "e241", "name": "Argentinosaurus", "area_id": "dinosaurs", "author_id": "a048", "qa_split": "test"}
+{"entity_id": "e242", "name": "Kentrosaurus", "area_id": "dinosaurs", "author_id": "a048", "qa_split": "test"}
+{"entity_id": "e243", "name": "Diamantinasaurus", "area_id": "dinosaurs", "author_id": "a048", "qa_split": "train"}
+{"entity_id": "e244", "name": "Cryolophosaurus", "area_id": "dinosaurs", "author_id": "a048", "qa_split": "test"}
+{"entity_id": "e245", "name": "Triceratops", "area_id": "dinosaurs", "author_id": "a049", "qa_split": "test"}
+{"entity_id": "e246", "name": "Velociraptor", "area_id": "dinosaurs", "author_id": "a049", "qa_split": "train"}
+{"entity_id": "e247", "name": "Apatosaurus", "area_id": "dinosaurs", "author_id": "a049", "qa_split": "test"}
+{"entity_id": "e248", "name": "Megalosaurus", "area_id": "dinosaurs", "author_id": "a049", "qa_split": "test"}
+{"entity_id": "e249", "name": "Herrerasaurus", "area_id": "dinosaurs", "author_id": "a049", "qa_split": "train"}
+{"entity_id": "e250", "name": "Diplodocus", "area_id": "dinosaurs", "author_id": "a050", "qa_split": "train"}
+{"entity_id": "e251", "name": "Psittacosaurus", "area_id": "dinosaurs", "author_id": "a050", "qa_split": "test"}
+{"entity_id": "e252", "name": "Spinosaurus", "area_id": "dinosaurs", "author_id": "a050", "qa_split": "train"}
+{"entity_id": "e253", "name": "Iguanodon", "area_id": "dinosaurs", "author_id": "a050", "qa_split": "train"}
+{"entity_id": "e254", "name": "Dilophosaurus", "area_id": "dinosaurs", "author_id": "a050", "qa_split": "train"}
+{"entity_id": "e255", "name": "Amazon River", "area_id": "rivers", "author_id": "a051", "qa_split": "train"}
+{"entity_id": "e256", "name": "Mekong", "area_id": "rivers", "author_id": "a051", "qa_split": "test"}
+{"entity_id": "e257", "name": "Rhine", "area_id": "rivers", "author_id": "a051", "qa_split": "test"}
+{"entity_id": "e258", "name": "Po River", "area_id": "rivers", "author_id": "a051", "qa_split": "train"}
+{"entity_id": "e259", "name": "Zambezi", "area_id": "rivers", "author_id": "a051", "qa_split": "test"}
+{"entity_id": "e260", "name": "Yangtze", "area_id": "rivers", "author_id": "a052", "qa_split": "train"}
+{"entity_id": "e261", "name": "Volga", "area_id": "rivers", "author_id": "a052", "qa_split": "test"}
+{"entity_id": "e262", "name": "Magdalena River", "area_id": "rivers", "author_id": "a052", "qa_split": "train"}
+{"entity_id": "e263", "name": "Yukon River", "area_id": "rivers", "author_id": "a052", "qa_split": "train"}
+{"entity_id": "e264", "name": "Tagus", "area_id": "rivers", "author_id": "a052", "qa_split": "test"}
+{"entity_id": "e265", "name": "Nile", "area_id": "rivers", "author_id": "a053", "qa_split": "test"}
+{"entity_id": "e266", "name": "Indus", "area_id": "rivers", "author_id": "a053", "qa_split": "train"}
+{"entity_id": "e267", "name": "Seine", "area_id": "rivers", "author_id": "a053", "qa_split": "test"}
+{"entity_id": "e268", "name": "Orinoco", "area_id": "rivers", "author_id": "a053", "qa_split": "train"}
+{"entity_id": "e269", "name": "Columbia River", "area_id": "rivers", "author_id": "a053", "qa_split": "test"}
+{"entity_id": "e270", "name": "Eiger", "area_id": "mountains", "author_id": "a054", "qa_split": "test"}
+{"entity_id": "e271", "name": "Jungfrau", "area_id": "mountains", "author_id": "a054", "qa_split": "train"}
+{"entity_id": "e272", "name": "Grossglockner", "area_id": "mountains", "author_id": "a054", "qa_split": "train"}
+{"entity_id": "e273", "name": "Mount Whitney", "area_id": "mountains", "author_id": "a054", "qa_split": "test"}
+{"entity_id": "e274", "name": "Toubkal", "area_id": "mountains", "author_id": "a054", "qa_split": "train"}
+{"entity_id": "e275", "name": "Annapurna", "area_id": "mountains", "author_id": "a055", "qa_split": "train"}
+{"entity_id": "e276", "name": "Dhaulagiri", "area_id": "mountains", "author_id": "a055", "qa_split": "test"}
+{"entity_id": "e277", "name": "Manaslu", "area_id": "mountains", "author_id": "a055", "qa_split": "test"}
+{"entity_id": "e278", "name": "Nanda Devi", "area_id": "mountains", "author_id": "a055", "qa_split": "train"}
+{"entity_id": "e279", "name": "Mount Logan", "area_id": "mountains", "author_id": "a055", "qa_split": "test"}
+{"entity_id": "e280", "name": "Aconcagua", "area_id": "mountains", "author_id": "a056", "qa_split": "test"}
+{"entity_id": "e281", "name": "Chimborazo", "area_id": "mountains", "author_id": "a056", "qa_split": "test"}
+{"entity_id": "e282", "name": "Cotopaxi", "area_id": "mountains", "author_id": "a056", "qa_split": "train"}
+{"entity_id": "e283", "name": "Mount Rainier", "area_id": "mountains", "author_id": "a056", "qa_split": "test"}
+{"entity_id": "e284", "name": "Mount Baker", "area_id": "mountains", "author_id": "a056", "qa_split": "train"}
+{"entity_id": "e285", "name": "C", "area_id": "programming_languages", "author_id": "a057", "qa_split": "train"}
+{"entity_id": "e286", "name": "C++", "area_id": "programming_languages", "author_id": "a057", "qa_split": "test"}
+{"entity_id": "e287", "name": "Pascal", "area_id": "programming_languages", "author_id": "a057", "qa_split": "test"}
+{"entity_id": "e288", "name": "Eiffel", "area_id": "programming_languages", "author_id": "a057", "qa_split": "train"}
+{"entity_id": "e289", "name": "APL", "area_id": "programming_languages", "author_id": "a057", "qa_split": "test"}
+{"entity_id": "e290", "name": "Python", "area_id": "programming_languages", "author_id": "a058", "qa_split": "train"}
+{"entity_id": "e291", "name": "Ruby", "area_id": "programming_languages", "author_id": "a058", "qa_split": "train"}
+{"entity_id": "e292", "name": "Perl", "area_id": "programming_languages", "author_id": "a058", "qa_split": "test"}
+{"entity_id": "e293", "name": "PHP", "area_id": "programming_languages", "author_id": "a058", "qa_split": "test"}
+{"entity_id": "e294", "name": "Tcl", "area_id": "programming_languages", "author_id": "a058", "qa_split": "test"}
+{"entity_id": "e295", "name": "JavaScript", "area_id": "programming_languages", "author_id": "a059", "qa_split": "train"}
+{"entity_id": "e296", "name": "Scala", "area_id": "programming_languages", "author_id": "a059", "qa_split": "train"}
+{"entity_id": "e297", "name": "Clojure", "area_id": "programming_languages", "author_id": "a059", "qa_split": "train"}
+{"entity_id": "e298", "name": "F#", "area_id": "programming_languages", "author_id": "a059", "qa_split": "test"}
+{"entity_id": "e299", "name": "Elm", "area_id": "programming_languages", "author_id": "a059", "qa_split": "test"}
+{"entity_id": "e300", "name": "Oldboy", "area_id": "korean_films", "author_id": "a060", "qa_split": "test"}
+{"entity_id": "e301", "name": "Memories of Murder", "area_id": "korean_films", "author_id": "a060", "qa_split": "test"}
+{"entity_id": "e302", "name": "Lady Vengeance", "area_id": "korean_films", "author_id": "a060", "qa_split": "train"}
+{"entity_id": "e303", "name": "Thirst", "area_id": "korean_films", "author_id": "a060", "qa_split": "test"}
+{"entity_id": "e304", "name": "A Bittersweet Life", "area_id": "korean_films", "author_id": "a060", "qa_split": "test"}
+{"entity_id": "e305", "name": "Secret Sunshine", "area_id": "korean_films", "author_id": "a061", "qa_split": "train"}
+{"entity_id": "e306", "name": "Poetry", "area_id": "korean_films", "author_id": "a061", "qa_split": "test"}
+{"entity_id": "e307", "name": "Burning", "area_id": "korean_films", "author_id": "a061", "qa_split": "test"}
+{"entity_id": "e308", "name": "Christmas in August", "area_id": "korean_films", "author_id": "a061", "qa_split": "test"}
+{"entity_id": "e309", "name": "Chihwaseon", "area_id": "korean_films", "author_id": "a061", "qa_split": "train"}
+{"entity_id": "e310", "name": "Train to Busan", "area_id": "korean_films", "author_id": "a062", "qa_split": "train"}
+{"entity_id": "e311", "name": "Shiri", "area_id": "korean_films", "author_id": "a062", "qa_split": "train"}
+{"entity_id": "e312", "name": "Ode to My Father", "area_id": "korean_films", "author_id": "a062", "qa_split": "train"}
+{"entity_id": "e313", "name": "Veteran", "area_id": "korean_films", "author_id": "a062", "qa_split": "test"}
+{"entity_id": "e314", "name": "Masquerade", "area_id": "korean_films", "author_id": "a062", "qa_split": "train"}
+{"entity_id": "e315", "name": "Pride and Prejudice", "area_id": "novels", "author_id": "a063", "qa_split": "test"}
+{"entity_id": "e316", "name": "Jane Eyre", "area_id": "novels", "author_id": "a063", "qa_split": "test"}
+{"entity_id": "e317", "name": "Moby-Dick", "area_id": "novels", "author_id": "a063", "qa_split": "train"}
+{"entity_id": "e318", "name": "Dracula", "area_id": "novels", "author_id": "a063", "qa_split": "test"}
+{"entity_id": "e319", "name": "Things Fall Apart", "area_id": "novels", "author_id": "a063", "qa_split": "train"}
+{"entity_id": "e320", "name": "Don Quixote", "area_id": "novels", "author_id": "a064", "qa_split": "test"}
+{"entity_id": "e321", "name": "Les Misérables", "area_id": "novels", "author_id": "a064", "qa_split": "train"}
+{"entity_id": "e322", "name": "Crime and Punishment", "area_id": "novels", "author_id": "a064", "qa_split": "train"}
+{"entity_id": "e323", "name": "Siddhartha", "area_id": "novels", "author_id": "a064", "qa_split": "test"}
+{"entity_id": "e324", "name": "Doctor Zhivago", "area_id": "novels", "author_id": "a064", "qa_split": "train"}
+{"entity_id": "e325", "name": "One Hundred Years of Solitude", "area_id": "novels", "author_id": "a065", "qa_split": "train"}
+{"entity_id": "e326", "name": "Pedro Páramo", "area_id": "novels", "author_id": "a065", "qa_split": "test"}
+{"entity_id": "e327", "name": "Norwegian Wood", "area_id": "novels", "author_id": "a065", "qa_split": "test"}
+{"entity_id": "e328", "name": "Kokoro", "area_id": "novels", "author_id": "a065", "qa_split": "test"}
+{"entity_id": "e329", "name": "Please Look After Mom", "area_id": "novels", "author_id": "a065", "qa_split": "train"}
+{"entity_id": "e330", "name": "Zeus", "area_id": "greek_mythology", "author_id": "a066", "qa_split": "test"}
+{"entity_id": "e331", "name": "Hera", "area_id": "greek_mythology", "author_id": "a066", "qa_split": "test"}
+{"entity_id": "e332", "name": "Poseidon", "area_id": "greek_mythology", "author_id": "a066", "qa_split": "train"}
+{"entity_id": "e333", "name": "Hades", "area_id": "greek_mythology", "author_id": "a066", "qa_split": "train"}
+{"entity_id": "e334", "name": "Demeter", "area_id": "greek_mythology", "author_id": "a066", "qa_split": "test"}
+{"entity_id": "e335", "name": "Ares", "area_id": "greek_mythology", "author_id": "a067", "qa_split": "train"}
+{"entity_id": "e336", "name": "Hephaestus", "area_id": "greek_mythology", "author_id": "a067", "qa_split": "test"}
+{"entity_id": "e337", "name": "Hebe", "area_id": "greek_mythology", "author_id": "a067", "qa_split": "test"}
+{"entity_id": "e338", "name": "Artemis", "area_id": "greek_mythology", "author_id": "a067", "qa_split": "train"}
+{"entity_id": "e339", "name": "Dionysus", "area_id": "greek_mythology", "author_id": "a067", "qa_split": "train"}
+{"entity_id": "e340", "name": "Helios", "area_id": "greek_mythology", "author_id": "a068", "qa_split": "test"}
+{"entity_id": "e341", "name": "Selene", "area_id": "greek_mythology", "author_id": "a068", "qa_split": "train"}
+{"entity_id": "e342", "name": "Eos", "area_id": "greek_mythology", "author_id": "a068", "qa_split": "train"}
+{"entity_id": "e343", "name": "Nike", "area_id": "greek_mythology", "author_id": "a068", "qa_split": "test"}
+{"entity_id": "e344", "name": "Hypnos", "area_id": "greek_mythology", "author_id": "a068", "qa_split": "test"}
+{"entity_id": "e345", "name": "Io", "area_id": "solar_system_moons", "author_id": "a069", "qa_split": "test"}
+{"entity_id": "e346", "name": "Ganymede", "area_id": "solar_system_moons", "author_id": "a069", "qa_split": "test"}
+{"entity_id": "e347", "name": "Amalthea", "area_id": "solar_system_moons", "author_id": "a069", "qa_split": "test"}
+{"entity_id": "e348", "name": "Phobos", "area_id": "solar_system_moons", "author_id": "a069", "qa_split": "test"}
+{"entity_id": "e349", "name": "Deimos", "area_id": "solar_system_moons", "author_id": "a069", "qa_split": "test"}
+{"entity_id": "e350", "name": "Titan", "area_id": "solar_system_moons", "author_id": "a070", "qa_split": "train"}
+{"entity_id": "e351", "name": "Iapetus", "area_id": "solar_system_moons", "author_id": "a070", "qa_split": "train"}
+{"entity_id": "e352", "name": "Tethys", "area_id": "solar_system_moons", "author_id": "a070", "qa_split": "train"}
+{"entity_id": "e353", "name": "Mimas", "area_id": "solar_system_moons", "author_id": "a070", "qa_split": "train"}
+{"entity_id": "e354", "name": "Enceladus", "area_id": "solar_system_moons", "author_id": "a070", "qa_split": "test"}
+{"entity_id": "e355", "name": "Oberon", "area_id": "solar_system_moons", "author_id": "a071", "qa_split": "test"}
+{"entity_id": "e356", "name": "Miranda", "area_id": "solar_system_moons", "author_id": "a071", "qa_split": "train"}
+{"entity_id": "e357", "name": "Ariel", "area_id": "solar_system_moons", "author_id": "a071", "qa_split": "train"}
+{"entity_id": "e358", "name": "Triton", "area_id": "solar_system_moons", "author_id": "a071", "qa_split": "test"}
+{"entity_id": "e359", "name": "Nereid", "area_id": "solar_system_moons", "author_id": "a071", "qa_split": "train"}
+{"entity_id": "e360", "name": "Brandenburg Gate", "area_id": "landmarks", "author_id": "a072", "qa_split": "train"}
+{"entity_id": "e361", "name": "Arc de Triomphe", "area_id": "landmarks", "author_id": "a072", "qa_split": "train"}
+{"entity_id": "e362", "name": "Trevi Fountain", "area_id": "landmarks", "author_id": "a072", "qa_split": "train"}
+{"entity_id": "e363", "name": "Palau de la Música Catalana", "area_id": "landmarks", "author_id": "a072", "qa_split": "train"}
+{"entity_id": "e364", "name": "Casa Milà", "area_id": "landmarks", "author_id": "a072", "qa_split": "train"}
+{"entity_id": "e365", "name": "Chrysler Building", "area_id": "landmarks", "author_id": "a073", "qa_split": "train"}
+{"entity_id": "e366", "name": "Empire State Building", "area_id": "landmarks", "author_id": "a073", "qa_split": "test"}
+{"entity_id": "e367", "name": "Robie House", "area_id": "landmarks", "author_id": "a073", "qa_split": "test"}
+{"entity_id": "e368", "name": "Walt Disney Concert Hall", "area_id": "landmarks", "author_id": "a073", "qa_split": "train"}
+{"entity_id": "e369", "name": "Transamerica Pyramid", "area_id": "landmarks", "author_id": "a073", "qa_split": "test"}
+{"entity_id": "e370", "name": "Hwaseong Fortress", "area_id": "landmarks", "author_id": "a074", "qa_split": "test"}
+{"entity_id": "e371", "name": "Burj Al Arab", "area_id": "landmarks", "author_id": "a074", "qa_split": "test"}
+{"entity_id": "e372", "name": "Lotus Temple", "area_id": "landmarks", "author_id": "a074", "qa_split": "test"}
+{"entity_id": "e373", "name": "Gateway of India", "area_id": "landmarks", "author_id": "a074", "qa_split": "test"}
+{"entity_id": "e374", "name": "Azadi Tower", "area_id": "landmarks", "author_id": "a074", "qa_split": "test"}
+{"entity_id": "e375", "name": "Pong", "area_id": "video_games", "author_id": "a075", "qa_split": "test"}
+{"entity_id": "e376", "name": "Space Invaders", "area_id": "video_games", "author_id": "a075", "qa_split": "test"}
+{"entity_id": "e377", "name": "Pac-Man", "area_id": "video_games", "author_id": "a075", "qa_split": "test"}
+{"entity_id": "e378", "name": "Galaga", "area_id": "video_games", "author_id": "a075", "qa_split": "train"}
+{"entity_id": "e379", "name": "Street Fighter II", "area_id": "video_games", "author_id": "a075", "qa_split": "test"}
+{"entity_id": "e380", "name": "Wolfenstein 3D", "area_id": "video_games", "author_id": "a076", "qa_split": "test"}
+{"entity_id": "e381", "name": "Half-Life", "area_id": "video_games", "author_id": "a076", "qa_split": "train"}
+{"entity_id": "e382", "name": "StarCraft", "area_id": "video_games", "author_id": "a076", "qa_split": "train"}
+{"entity_id": "e383", "name": "Age of Empires", "area_id": "video_games", "author_id": "a076", "qa_split": "train"}
+{"entity_id": "e384", "name": "League of Legends", "area_id": "video_games", "author_id": "a076", "qa_split": "test"}
+{"entity_id": "e385", "name": "Stardew Valley", "area_id": "video_games", "author_id": "a077", "qa_split": "test"}
+{"entity_id": "e386", "name": "Hollow Knight", "area_id": "video_games", "author_id": "a077", "qa_split": "train"}
+{"entity_id": "e387", "name": "Cuphead", "area_id": "video_games", "author_id": "a077", "qa_split": "train"}
+{"entity_id": "e388", "name": "Among Us", "area_id": "video_games", "author_id": "a077", "qa_split": "test"}
+{"entity_id": "e389", "name": "Shovel Knight", "area_id": "video_games", "author_id": "a077", "qa_split": "train"}
+{"entity_id": "e390", "name": "Amazon", "area_id": "tech_companies", "author_id": "a078", "qa_split": "train"}
+{"entity_id": "e391", "name": "Dell", "area_id": "tech_companies", "author_id": "a078", "qa_split": "train"}
+{"entity_id": "e392", "name": "Westinghouse Electric Corporation", "area_id": "tech_companies", "author_id": "a078", "qa_split": "test"}
+{"entity_id": "e393", "name": "SpaceX", "area_id": "tech_companies", "author_id": "a078", "qa_split": "train"}
+{"entity_id": "e394", "name": "Electronic Arts", "area_id": "tech_companies", "author_id": "a078", "qa_split": "test"}
+{"entity_id": "e395", "name": "Panasonic", "area_id": "tech_companies", "author_id": "a079", "qa_split": "test"}
+{"entity_id": "e396", "name": "Sharp", "area_id": "tech_companies", "author_id": "a079", "qa_split": "test"}
+{"entity_id": "e397", "name": "Kyocera", "area_id": "tech_companies", "author_id": "a079", "qa_split": "train"}
+{"entity_id": "e398", "name": "Murata Manufacturing", "area_id": "tech_companies", "author_id": "a079", "qa_split": "test"}
+{"entity_id": "e399", "name": "Samsung", "area_id": "tech_companies", "author_id": "a079", "qa_split": "test"}
+{"entity_id": "e400", "name": "TSMC", "area_id": "tech_companies", "author_id": "a080", "qa_split": "train"}
+{"entity_id": "e401", "name": "Huawei", "area_id": "tech_companies", "author_id": "a080", "qa_split": "train"}
+{"entity_id": "e402", "name": "Ericsson", "area_id": "tech_companies", "author_id": "a080", "qa_split": "test"}
+{"entity_id": "e403", "name": "Bosch", "area_id": "tech_companies", "author_id": "a080", "qa_split": "train"}
+{"entity_id": "e404", "name": "Olivetti", "area_id": "tech_companies", "author_id": "a080", "qa_split": "test"}
+{"entity_id": "e405", "name": "AlexNet", "area_id": "deep_learning", "author_id": "a081", "qa_split": "train"}
+{"entity_id": "e406", "name": "VGGNet", "area_id": "deep_learning", "author_id": "a081", "qa_split": "test"}
+{"entity_id": "e407", "name": "ResNet", "area_id": "deep_learning", "author_id": "a081", "qa_split": "train"}
+{"entity_id": "e408", "name": "Faster R-CNN", "area_id": "deep_learning", "author_id": "a081", "qa_split": "train"}
+{"entity_id": "e409", "name": "U-Net", "area_id": "deep_learning", "author_id": "a081", "qa_split": "test"}
+{"entity_id": "e410", "name": "Word2vec", "area_id": "deep_learning", "author_id": "a082", "qa_split": "test"}
+{"entity_id": "e411", "name": "GloVe", "area_id": "deep_learning", "author_id": "a082", "qa_split": "test"}
+{"entity_id": "e412", "name": "Transformer", "area_id": "deep_learning", "author_id": "a082", "qa_split": "train"}
+{"entity_id": "e413", "name": "BERT", "area_id": "deep_learning", "author_id": "a082", "qa_split": "test"}
+{"entity_id": "e414", "name": "GPT-2", "area_id": "deep_learning", "author_id": "a082", "qa_split": "train"}
+{"entity_id": "e415", "name": "WaveNet", "area_id": "deep_learning", "author_id": "a083", "qa_split": "test"}
+{"entity_id": "e416", "name": "Whisper", "area_id": "deep_learning", "author_id": "a083", "qa_split": "test"}
+{"entity_id": "e417", "name": "DALL-E", "area_id": "deep_learning", "author_id": "a083", "qa_split": "train"}
+{"entity_id": "e418", "name": "TD-Gammon", "area_id": "deep_learning", "author_id": "a083", "qa_split": "test"}
+{"entity_id": "e419", "name": "AlphaGo Zero", "area_id": "deep_learning", "author_id": "a083", "qa_split": "train"}
+{"entity_id": "e420", "name": "tuberculosis", "area_id": "diseases", "author_id": "a084", "qa_split": "train"}
+{"entity_id": "e421", "name": "cholera", "area_id": "diseases", "author_id": "a084", "qa_split": "test"}
+{"entity_id": "e422", "name": "tetanus", "area_id": "diseases", "author_id": "a084", "qa_split": "train"}
+{"entity_id": "e423", "name": "whooping cough", "area_id": "diseases", "author_id": "a084", "qa_split": "train"}
+{"entity_id": "e424", "name": "trachoma", "area_id": "diseases", "author_id": "a084", "qa_split": "train"}
+{"entity_id": "e425", "name": "chickenpox", "area_id": "diseases", "author_id": "a085", "qa_split": "test"}
+{"entity_id": "e426", "name": "hepatitis B", "area_id": "diseases", "author_id": "a085", "qa_split": "train"}
+{"entity_id": "e427", "name": "AIDS", "area_id": "diseases", "author_id": "a085", "qa_split": "test"}
+{"entity_id": "e428", "name": "mumps", "area_id": "diseases", "author_id": "a085", "qa_split": "train"}
+{"entity_id": "e429", "name": "COVID-19", "area_id": "diseases", "author_id": "a085", "qa_split": "test"}
+{"entity_id": "e430", "name": "malaria", "area_id": "diseases", "author_id": "a086", "qa_split": "test"}
+{"entity_id": "e431", "name": "amoebiasis", "area_id": "diseases", "author_id": "a086", "qa_split": "train"}
+{"entity_id": "e432", "name": "trichomoniasis", "area_id": "diseases", "author_id": "a086", "qa_split": "test"}
+{"entity_id": "e433", "name": "ascariasis", "area_id": "diseases", "author_id": "a086", "qa_split": "test"}
+{"entity_id": "e434", "name": "histoplasmosis", "area_id": "diseases", "author_id": "a086", "qa_split": "test"}
+{"entity_id": "e435", "name": "Harvard University", "area_id": "universities", "author_id": "a087", "qa_split": "train"}
+{"entity_id": "e436", "name": "Yale University", "area_id": "universities", "author_id": "a087", "qa_split": "test"}
+{"entity_id": "e437", "name": "Columbia University", "area_id": "universities", "author_id": "a087", "qa_split": "test"}
+{"entity_id": "e438", "name": "Johns Hopkins University", "area_id": "universities", "author_id": "a087", "qa_split": "train"}
+{"entity_id": "e439", "name": "McGill University", "area_id": "universities", "author_id": "a087", "qa_split": "train"}
+{"entity_id": "e440", "name": "Charles University", "area_id": "universities", "author_id": "a088", "qa_split": "train"}
+{"entity_id": "e441", "name": "Jagiellonian University", "area_id": "universities", "author_id": "a088", "qa_split": "test"}
+{"entity_id": "e442", "name": "Comenius University", "area_id": "universities", "author_id": "a088", "qa_split": "train"}
+{"entity_id": "e443", "name": "Bocconi University", "area_id": "universities", "author_id": "a088", "qa_split": "test"}
+{"entity_id": "e444", "name": "Radboud University", "area_id": "universities", "author_id": "a088", "qa_split": "test"}
+{"entity_id": "e445", "name": "Yonsei University", "area_id": "universities", "author_id": "a089", "qa_split": "test"}
+{"entity_id": "e446", "name": "Ewha Womans University", "area_id": "universities", "author_id": "a089", "qa_split": "test"}
+{"entity_id": "e447", "name": "Tsinghua University", "area_id": "universities", "author_id": "a089", "qa_split": "train"}
+{"entity_id": "e448", "name": "Fudan University", "area_id": "universities", "author_id": "a089", "qa_split": "train"}
+{"entity_id": "e449", "name": "Waseda University", "area_id": "universities", "author_id": "a089", "qa_split": "test"}

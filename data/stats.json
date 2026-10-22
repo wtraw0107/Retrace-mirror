@@ -1,0 +1,18 @@
+{
+ "areas": 30,
+ "authors": 90,
+ "entities": 450,
+ "facts": 1350,
+ "documents": 1528,
+ "documents_by_type": {
+  "statement": 898,
+  "qa": 630
+ },
+ "sentences": 1980,
+ "train_tokens": 24438,
+ "max_doc_tokens": 56,
+ "vocab_size": 2346,
+ "queries": 200,
+ "multi_token_answers": 78,
+ "facts_with_url_source": 1101
+}

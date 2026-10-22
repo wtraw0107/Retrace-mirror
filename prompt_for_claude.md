@@ -103,25 +103,27 @@ The detailed design below is **Recommended**. Roy is moving in this direction an
 
 ### 5.2 Dataset
 #### 5.2.1. Training Data
-- Fictional entities plus templates. There are 30 fictional people who expertise on 30 different expertise. For example, 
-  - Jackie: Geography in Korea
-  - Steven: Java OOP
-  - Bryan: Shakespear novel
-  - Esther: 2010s-2020s K-pop songs
-- Each one of them creates 100 sentences about that specific topic. Some might overlap, some might not.
-  - In total there are 10000 sentences. 
-  - Each sentence could have diverse forms, some examples could be: " .. ", " .. ", " .. ".
-- Save metadata as JSON: doc_id, author, title of the data.
-- Use English for the data
-- Make sure each sentence is correct; either search from online or you your own background knowledge as Claude
+- Fictional entities plus templates. There are 90 fictional experts (authors) across 30 topic areas, 3 per area. Each area has 16 fictional entities with 3 attributes each (1,440 facts in total). For example,
+  - Astronomy (stars: constellation, color, spectral element). Experts: Guthshir Faimtrel, Naimon Troufaith, Vrorlo Thumfe
+  - Cuisine (dishes: main ingredient, main spice, garnish). Experts: Bolsour Traivretru, Vinaith Nirtei, Noulstia Zassountum
+  - Mythology (deities: sacred animal, divine domain, weapon). Experts: Vurbrai Gesvou, Brudran Tousbia, Quesbai Tharstun
+  - Computing (programming languages: mascot, application field, syntax inspiration). Experts: Kreitrin Zeimbein, Varbail Quouthiape, Pathis Vrainziath
+- Each fact is stated in exactly one document (1–3 sentences) written by one of the area's 3 experts. For this version, there shouldn't be factually wrong sentence. It's okay that we can't have 100% accuracy, but we should aim for it. 
+  - In total there are 1,761 documents, 2,240 sentences, and 27,939 tokens. `--entities-per-domain 72` scales this to about 9,800 sentences.
+  - Each attribute has 2 statement wordings, e.g. "The petals of the flower {entity} are {value}." and "Gardeners recognize {entity} by its petals, which are always {value}."
+  - Half the entities in each area also get a "Question: ... Answer: ..." document per fact, so the model learns the question format. Queries only ask about the other half (mixed training, Physics of LM Part 3.1).
+- Save metadata as JSON: `docs.jsonl` (doc_id, text, author_id, doc_type, claims), `queries.jsonl`, `facts.jsonl`, `entities.jsonl`, `authors.json`. Generator `dataset/make_dataset.py` (fixed seed), checks `dataset/check_dataset.py`, details `dataset/README.md`.
+- Use English for the data.
+- All facts must be okay-guaranteed and should be relevant to the actual world. To create this, run 6 subagents. each subagent looks at 15 topic areas, in total there are 30 * 3 (topic area-expert)
 
 #### 5.2.2. Query Examples
-- 100 of them should be 
+- 100 of them should be 'keep guessing from the first token format' while 100 of them should be 'question-answer format'. 
 
 #### 5.2.3 References
 - References: the synthetic biographies (bioS) in Physics of Language Models Part 3.1 use the same approach. For the later stage of fine-tuning pretrained models, consider the public TOFU dataset (QA about fictional authors).
 
 ### 5.3 Backtracking (attribution)
+- How to implement it naively? 
 - **TRAK is open source**: MadryLab/trak, MIT license, `pip install traker` (the fast CUDA projection kernel is optional via `traker[fast]`). The built-in model output functions cover image classification, text classification, CLIP, and iterative image classification only. **There is none for language modeling**, so you must define a custom ModelOutput.
 - Output function: treat the answer-token position as classification over the vocabulary and use the margin logit(answer) − logsumexp(other logits), the same form as the image classification version. The training-document output function (e.g., sum or mean of per-token margins) is a design choice: state it explicitly and record it.
 - **Prefer implementing it yourselves first** (per-example gradients via `torch.func` functional_call + vmap + grad). Order:

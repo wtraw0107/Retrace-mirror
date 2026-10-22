@@ -1,141 +1,84 @@
-"""Shared helpers for the Retrace toy dataset: tokenizer, domain-spec checks, BM25."""
+"""Shared helpers for the Retrace toy dataset: tokenizer, area-spec checks, BM25."""
 import json
 import math
 import re
 from collections import Counter
 from pathlib import Path
 
-# Word-level tokenizer: a token is a run of ASCII letters or one punctuation mark.
-# Entity names and values are letters-only, so each one is exactly one token.
-TOKEN_RE = re.compile(r"[A-Za-z]+|[.,?:]")
-TEMPLATE_CHARS_RE = re.compile(r"^[A-Za-z ,]+$")
-BANNED_HARD_NEGATIVE_WORDS = {
-    "like", "unlike", "same", "similar", "as", "not", "never", "no", "different", "instead",
-}
-STOPWORDS = {
-    "the", "a", "an", "of", "in", "on", "at", "to", "for", "by", "with", "from", "and", "or",
-    "is", "was", "are", "were", "be", "been", "its", "it", "this", "that", "which", "what",
-    "where", "who", "whom", "how", "does", "do", "did", "has", "have", "had", "into", "their",
-}
+# Same split as the Hugging Face Whitespace pre-tokenizer used by toy/tokenizer.py:
+# runs of word characters, or runs of other non-space characters.
+TOKEN_RE = re.compile(r"\w+|[^\w\s]+")
+BANNED_CHARS = set('"();“”')
 
 
 def tokenize(text):
     return TOKEN_RE.findall(text)
 
 
-def untokenizable(text):
-    """Characters the tokenizer would silently drop (anything but tokens and spaces)."""
-    return TOKEN_RE.sub("", text).replace(" ", "")
+def contains_tokens(haystack, needle):
+    """True if the token sequence of `needle` occurs contiguously in `haystack`."""
+    h, n = tokenize(haystack), tokenize(needle)
+    return any(h[i:i + len(n)] == n for i in range(len(h) - len(n) + 1))
 
 
-def load_domains(path):
-    return json.loads(Path(path).read_text())["domains"]
+def load_areas(path):
+    return json.loads(Path(path).read_text())["areas"]
 
 
-def fill(template, entity, value=None):
-    out = template.replace("{entity}", entity)
-    return out if value is None else out.replace("{value}", value)
+def cloze_prompt(fact):
+    """The statement without its final ' <answer>.', e.g. 'Hamlet is set in the kingdom of'."""
+    return fact["statement"][: -len(fact["answer"]) - 1].rstrip()
 
 
-def cloze_prefix(template, entity):
-    """Statement text up to (not including) the value, e.g. 'Velkora lies in the constellation'."""
-    return fill(template.split("{value}")[0], entity).strip()
-
-
-def template_words(domain):
-    """Lowercased words used by a domain's templates, placeholders removed."""
-    words = set()
-    for rel in domain["relations"]:
-        for t in rel["statement_templates"] + [rel["question_template"], rel["hard_negative_template"]]:
-            stripped = t.replace("{entity}", " ").replace("{value}", " ")
-            words.update(w.lower() for w in re.findall(r"[A-Za-z]+", stripped))
-    return words
-
-
-def validate_domains(domains):
-    """Mechanical checks on the domain spec. Returns (errors, warnings) as lists of strings."""
+def validate_areas(areas, max_statement_tokens=30):
+    """Mechanical checks on the area spec. Returns (errors, warnings) as lists of strings."""
     errors, warnings = [], []
-    ids = [d["domain_id"] for d in domains]
+    ids = [a["area_id"] for a in areas]
     if len(set(ids)) != len(ids):
-        errors.append(f"duplicate domain_id in {ids}")
+        errors.append("duplicate area_id")
+    expert_names, entity_names = Counter(), Counter()
 
-    for d in domains:
-        did = d["domain_id"]
-        words = template_words(d)
-        if len(d["relations"]) != 3:
-            errors.append(f"{did}: expected 3 relations, got {len(d['relations'])}")
-        rel_ids = [r["relation_id"] for r in d["relations"]]
-        if len(set(rel_ids)) != len(rel_ids):
-            errors.append(f"{did}: duplicate relation_id")
-
-        prefixes = {}
-        seen_values = {}
-        for r in d["relations"]:
-            rid = f"{did}/{r['relation_id']}"
-            stmts = r["statement_templates"]
-            if len(stmts) != 2:
-                errors.append(f"{rid}: expected 2 statement templates")
-            if len(set(stmts)) != len(stmts):
-                errors.append(f"{rid}: statement templates are identical")
-            for t in stmts:
-                if t.count("{entity}") != 1 or t.count("{value}") != 1:
-                    errors.append(f"{rid}: statement needs one {{entity}} and one {{value}}: {t!r}")
-                    continue
-                if not t.endswith("{value}."):
-                    errors.append(f"{rid}: statement must end with '{{value}}.': {t!r}")
-                if t.index("{entity}") > t.index("{value}"):
-                    errors.append(f"{rid}: {{entity}} must come before {{value}}: {t!r}")
-                body = t[:-1].replace("{entity}", "X").replace("{value}", "Y")
-                if not TEMPLATE_CHARS_RE.match(body):
-                    errors.append(f"{rid}: bad characters in statement: {t!r}")
-                n_words = len(re.findall(r"[A-Za-z]+", body))
-                if not 6 <= n_words <= 14:
-                    warnings.append(f"{rid}: statement has {n_words} words: {t!r}")
-                prefix = t.split("{value}")[0].strip().lower()
-                if prefix in prefixes and prefixes[prefix] != r["relation_id"]:
-                    errors.append(f"{rid}: prefix shared with {prefixes[prefix]}: {prefix!r}")
-                prefixes[prefix] = r["relation_id"]
-
-            q = r["question_template"]
-            if q.count("{entity}") != 1 or "{value}" in q or not q.endswith("?"):
-                errors.append(f"{rid}: question needs one {{entity}}, no {{value}}, ends with '?': {q!r}")
-            elif not TEMPLATE_CHARS_RE.match(q[:-1].replace("{entity}", "X")):
-                errors.append(f"{rid}: bad characters in question: {q!r}")
-
-            h = r["hard_negative_template"]
-            if h.count("{entity}") != 1 or h.count("{value}") != 1 or not h.endswith("."):
-                errors.append(f"{rid}: hard negative needs one {{entity}}, one {{value}}, ends with '.': {h!r}")
-            else:
-                if h.endswith("{value}."):
-                    errors.append(f"{rid}: hard negative must not end with {{value}}: {h!r}")
-                body = h[:-1].replace("{entity}", "X").replace("{value}", "Y")
-                if not TEMPLATE_CHARS_RE.match(body):
-                    errors.append(f"{rid}: bad characters in hard negative: {h!r}")
-                hn_words = {w.lower() for w in re.findall(r"[A-Za-z]+", body)}
-                banned = hn_words & BANNED_HARD_NEGATIVE_WORDS
-                if banned:
-                    errors.append(f"{rid}: hard negative uses banned words {sorted(banned)}: {h!r}")
-                stmt_content = {
-                    w.lower() for t in stmts
-                    for w in re.findall(r"[A-Za-z]+", t.replace("{entity}", " ").replace("{value}", " "))
-                    if len(w) >= 3 and w.lower() not in STOPWORDS
-                }
-                if not hn_words & stmt_content:
-                    errors.append(f"{rid}: hard negative shares no content word with statements: {h!r}")
-
-            vals = r["values"]
-            if not 12 <= len(vals) <= 16:
-                errors.append(f"{rid}: expected 12-16 values, got {len(vals)}")
-            if len({v.lower() for v in vals}) != len(vals):
-                errors.append(f"{rid}: duplicate values")
-            for v in vals:
-                if not re.fullmatch(r"[A-Za-z]+", v):
-                    errors.append(f"{rid}: value is not a single letters-only word: {v!r}")
-                if v.lower() in words:
-                    errors.append(f"{rid}: value {v!r} also appears as a template word")
-                if v.lower() in seen_values and seen_values[v.lower()] != r["relation_id"]:
-                    errors.append(f"{rid}: value {v!r} also used by {seen_values[v.lower()]}")
-                seen_values[v.lower()] = r["relation_id"]
+    for a in areas:
+        aid = a["area_id"]
+        rel_ids = [r["relation_id"] for r in a["relations"]]
+        if len(rel_ids) != 3 or len(set(rel_ids)) != 3:
+            errors.append(f"{aid}: needs 3 distinct relations, got {rel_ids}")
+        if len(a["experts"]) != 3:
+            errors.append(f"{aid}: needs 3 experts, got {len(a['experts'])}")
+        for ex in a["experts"]:
+            expert_names[ex["name"].lower()] += 1
+            if len(ex["entities"]) != 5:
+                errors.append(f"{aid}/{ex['name']}: needs 5 entities, got {len(ex['entities'])}")
+            for e in ex["entities"]:
+                entity_names[e["name"].lower()] += 1
+                where = f"{aid}/{e['name']}"
+                if [f["relation_id"] for f in e["facts"]] != rel_ids:
+                    errors.append(f"{where}: facts must follow relation order {rel_ids}")
+                for f in e["facts"]:
+                    fid = f"{where}/{f['relation_id']}"
+                    ans, st, q = f["answer"].strip(), f["statement"], f["question"]
+                    if not ans or ans.endswith("."):
+                        errors.append(f"{fid}: empty answer or answer ends with a period: {ans!r}")
+                        continue
+                    if not st.endswith(f" {ans}."):
+                        errors.append(f"{fid}: statement must end with ' {ans}.': {st!r}")
+                    elif contains_tokens(cloze_prompt(f), ans):
+                        errors.append(f"{fid}: answer also appears before the end: {st!r}")
+                    if e["name"] not in st or e["name"] not in q:
+                        errors.append(f"{fid}: entity name missing from statement or question")
+                    if not q.endswith("?") or contains_tokens(q, ans):
+                        errors.append(f"{fid}: question must end with '?' and not contain the answer: {q!r}")
+                    if BANNED_CHARS & set(st + q + ans):
+                        errors.append(f"{fid}: banned characters {sorted(BANNED_CHARS & set(st + q + ans))}")
+                    if len(tokenize(st)) > max_statement_tokens:
+                        errors.append(f"{fid}: statement has {len(tokenize(st))} tokens: {st!r}")
+                    n_words = len(st.split())
+                    if not 6 <= n_words <= 20:
+                        warnings.append(f"{fid}: statement has {n_words} words")
+                    if not f["source"].strip():
+                        errors.append(f"{fid}: empty source")
+    errors += [f"expert name used {n} times: {k}" for k, n in expert_names.items() if n > 1]
+    errors += [f"entity name used {n} times: {k}" for k, n in entity_names.items() if n > 1]
     return errors, warnings
 
 
@@ -153,7 +96,7 @@ class BM25:
 
     @staticmethod
     def _terms(text):
-        return [t.lower() for t in tokenize(text) if t.isalpha()]
+        return [t.lower() for t in tokenize(text) if re.match(r"\w", t)]
 
     def scores(self, query):
         q_terms = self._terms(query)

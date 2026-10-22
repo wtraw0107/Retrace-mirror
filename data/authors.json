@@ -1,0 +1,542 @@
+[
+ {
+  "author_id": "a000",
+  "name": "Kwon Hae-rin",
+  "specialty": "historic towns of the Yeongnam region",
+  "area_id": "korean_geography"
+ },
+ {
+  "author_id": "a001",
+  "name": "Claire Fontanel",
+  "specialty": "river towns of central Korea",
+  "area_id": "korean_geography"
+ },
+ {
+  "author_id": "a002",
+  "name": "Ryu Jae-seong",
+  "specialty": "temples, gardens, and royal sites of Korea",
+  "area_id": "korean_geography"
+ },
+ {
+  "author_id": "a003",
+  "name": "Anika Lindqvist",
+  "specialty": "the Java collections framework",
+  "area_id": "java_oop"
+ },
+ {
+  "author_id": "a004",
+  "name": "Seo Gwang-ho",
+  "specialty": "Java concurrency utilities",
+  "area_id": "java_oop"
+ },
+ {
+  "author_id": "a005",
+  "name": "Tunde Adeyemi",
+  "specialty": "Java exceptions and I/O classes",
+  "area_id": "java_oop"
+ },
+ {
+  "author_id": "a006",
+  "name": "Eleanor Whitcombe",
+  "specialty": "Shakespeare's great tragedies",
+  "area_id": "shakespeare"
+ },
+ {
+  "author_id": "a007",
+  "name": "Tommaso Ferrandi",
+  "specialty": "Shakespeare's Roman and English history plays",
+  "area_id": "shakespeare"
+ },
+ {
+  "author_id": "a008",
+  "name": "Yoon Ha-eun",
+  "specialty": "Shakespearean comedy",
+  "area_id": "shakespeare"
+ },
+ {
+  "author_id": "a009",
+  "name": "Jang Min-seok",
+  "specialty": "K-pop boy groups",
+  "area_id": "kpop"
+ },
+ {
+  "author_id": "a010",
+  "name": "Miyu Takashiro",
+  "specialty": "K-pop girl groups",
+  "area_id": "kpop"
+ },
+ {
+  "author_id": "a011",
+  "name": "Thiago Albuquerque",
+  "specialty": "fourth-generation K-pop and solo artists",
+  "area_id": "kpop"
+ },
+ {
+  "author_id": "a012",
+  "name": "Ingrid Halvorsen",
+  "specialty": "bright stars of the winter sky",
+  "area_id": "astronomy"
+ },
+ {
+  "author_id": "a013",
+  "name": "Cha Eun-ji",
+  "specialty": "stars of the summer sky",
+  "area_id": "astronomy"
+ },
+ {
+  "author_id": "a014",
+  "name": "Arjun Mehta",
+  "specialty": "stars used in celestial navigation",
+  "area_id": "astronomy"
+ },
+ {
+  "author_id": "a015",
+  "name": "Sung-min Oh",
+  "specialty": "alkali and alkaline earth metals",
+  "area_id": "chemical_elements"
+ },
+ {
+  "author_id": "a016",
+  "name": "Henrik Lindqvist",
+  "specialty": "transition metals",
+  "area_id": "chemical_elements"
+ },
+ {
+  "author_id": "a017",
+  "name": "Amara Okafor",
+  "specialty": "halogens, noble gases and f-block elements",
+  "area_id": "chemical_elements"
+ },
+ {
+  "author_id": "a018",
+  "name": "Ji-woo Han",
+  "specialty": "geography of Asia",
+  "area_id": "world_countries"
+ },
+ {
+  "author_id": "a019",
+  "name": "Lucas Moreau",
+  "specialty": "geography of Europe",
+  "area_id": "world_countries"
+ },
+ {
+  "author_id": "a020",
+  "name": "Camila Rojas",
+  "specialty": "geography of the Americas and Africa",
+  "area_id": "world_countries"
+ },
+ {
+  "author_id": "a021",
+  "name": "Seo-yeon Choi",
+  "specialty": "digestive and urinary organs",
+  "area_id": "human_anatomy"
+ },
+ {
+  "author_id": "a022",
+  "name": "Mateo Fernández",
+  "specialty": "skeletal muscles",
+  "area_id": "human_anatomy"
+ },
+ {
+  "author_id": "a023",
+  "name": "Priya Raghavan",
+  "specialty": "chest organs, glands and protective bones",
+  "area_id": "human_anatomy"
+ },
+ {
+  "author_id": "a024",
+  "name": "Ha-eun Seo",
+  "specialty": "opera",
+  "area_id": "classical_music"
+ },
+ {
+  "author_id": "a025",
+  "name": "Margarethe Vogel",
+  "specialty": "ballet music",
+  "area_id": "classical_music"
+ },
+ {
+  "author_id": "a026",
+  "name": "Tomasz Wierzbicki",
+  "specialty": "oratorios, cantatas and orchestral works",
+  "area_id": "classical_music"
+ },
+ {
+  "author_id": "a027",
+  "name": "Eun-ji Baek",
+  "specialty": "Renaissance and Romantic painting",
+  "area_id": "paintings"
+ },
+ {
+  "author_id": "a028",
+  "name": "Sophie Laurent",
+  "specialty": "Impressionism and Post-Impressionism",
+  "area_id": "paintings"
+ },
+ {
+  "author_id": "a029",
+  "name": "Daniel Whitfield",
+  "specialty": "twentieth-century painting",
+  "area_id": "paintings"
+ },
+ {
+  "author_id": "a030",
+  "name": "Pyo Min-seo",
+  "specialty": "Summer Games of the 1970s and 1980s",
+  "area_id": "olympic_games"
+ },
+ {
+  "author_id": "a031",
+  "name": "Isabela Duarte",
+  "specialty": "Summer Games since 1992",
+  "area_id": "olympic_games"
+ },
+ {
+  "author_id": "a032",
+  "name": "Henrik Aaltonen",
+  "specialty": "Winter Games",
+  "area_id": "olympic_games"
+ },
+ {
+  "author_id": "a033",
+  "name": "Callum Fairbrother",
+  "specialty": "clubs of England, Scotland and the Netherlands",
+  "area_id": "football_clubs"
+ },
+ {
+  "author_id": "a034",
+  "name": "Nam Ha-eun",
+  "specialty": "Italian, Portuguese and Greek clubs",
+  "area_id": "football_clubs"
+ },
+ {
+  "author_id": "a035",
+  "name": "Emre Kaplanoğlu",
+  "specialty": "clubs of Turkey, Greece and Egypt",
+  "area_id": "football_clubs"
+ },
+ {
+  "author_id": "a036",
+  "name": "Yoon Hae-rim",
+  "specialty": "Goryeo historiography and early Joseon letters",
+  "area_id": "korean_history"
+ },
+ {
+  "author_id": "a037",
+  "name": "Gong Tae-seok",
+  "specialty": "sixteenth and seventeenth century Joseon",
+  "area_id": "korean_history"
+ },
+ {
+  "author_id": "a038",
+  "name": "Daniel Whitcombe",
+  "specialty": "late Joseon Silhak scholars and artists",
+  "area_id": "korean_history"
+ },
+ {
+  "author_id": "a039",
+  "name": "Ingrid Solberg",
+  "specialty": "European inventions from the 1600s to the 1800s",
+  "area_id": "inventions"
+ },
+ {
+  "author_id": "a040",
+  "name": "Rafael Montoya Quintero",
+  "specialty": "American inventions of the 1800s and 1900s",
+  "area_id": "inventions"
+ },
+ {
+  "author_id": "a041",
+  "name": "Jang Soo-ah",
+  "specialty": "twentieth-century inventions",
+  "area_id": "inventions"
+ },
+ {
+  "author_id": "a042",
+  "name": "Matthias Kellerhoff",
+  "specialty": "physics of the early twentieth century",
+  "area_id": "nobel_physics"
+ },
+ {
+  "author_id": "a043",
+  "name": "Priya Ramaswamy",
+  "specialty": "quantum and particle physics from 1929 to 1949",
+  "area_id": "nobel_physics"
+ },
+ {
+  "author_id": "a044",
+  "name": "Ryu Min-chae",
+  "specialty": "instruments and later discoveries in physics",
+  "area_id": "nobel_physics"
+ },
+ {
+  "author_id": "a045",
+  "name": "Hannah Lindqvist",
+  "specialty": "marsupial and monotreme biology",
+  "area_id": "mammals"
+ },
+ {
+  "author_id": "a046",
+  "name": "Min-jae Seo",
+  "specialty": "ecology of hoofed mammals",
+  "area_id": "mammals"
+ },
+ {
+  "author_id": "a047",
+  "name": "Tomás Echeverría",
+  "specialty": "mammalian feeding ecology",
+  "area_id": "mammals"
+ },
+ {
+  "author_id": "a048",
+  "name": "Seo Ji-woo",
+  "specialty": "history of dinosaur fossil discoveries",
+  "area_id": "dinosaurs"
+ },
+ {
+  "author_id": "a049",
+  "name": "Hyun-woo Jang",
+  "specialty": "dinosaur skeletal anatomy",
+  "area_id": "dinosaurs"
+ },
+ {
+  "author_id": "a050",
+  "name": "Thandiwe Mokoena",
+  "specialty": "Mesozoic paleoecology",
+  "area_id": "dinosaurs"
+ },
+ {
+  "author_id": "a051",
+  "name": "Margaux Delacroix",
+  "specialty": "river deltas and estuaries",
+  "area_id": "rivers"
+ },
+ {
+  "author_id": "a052",
+  "name": "Do-yeon Kwak",
+  "specialty": "river basin hydrology",
+  "area_id": "rivers"
+ },
+ {
+  "author_id": "a053",
+  "name": "Chidera Okonkwo",
+  "specialty": "historical river trade routes",
+  "area_id": "rivers"
+ },
+ {
+  "author_id": "a054",
+  "name": "Lukas Imboden",
+  "specialty": "history of first ascents",
+  "area_id": "mountains"
+ },
+ {
+  "author_id": "a055",
+  "name": "Seo-hyun Yoo",
+  "specialty": "Himalayan and high-altitude expeditions",
+  "area_id": "mountains"
+ },
+ {
+  "author_id": "a056",
+  "name": "Valentina Quispe",
+  "specialty": "peaks of the Andes and the Cascades",
+  "area_id": "mountains"
+ },
+ {
+  "author_id": "a057",
+  "name": "Priya Raghunathan",
+  "specialty": "systems and classic programming languages",
+  "area_id": "programming_languages"
+ },
+ {
+  "author_id": "a058",
+  "name": "Ha-eun Lim",
+  "specialty": "scripting languages",
+  "area_id": "programming_languages"
+ },
+ {
+  "author_id": "a059",
+  "name": "Mateus Albuquerque",
+  "specialty": "functional and web programming languages",
+  "area_id": "programming_languages"
+ },
+ {
+  "author_id": "a060",
+  "name": "Yoon Da-eun",
+  "specialty": "Korean thrillers and revenge films",
+  "area_id": "korean_films"
+ },
+ {
+  "author_id": "a061",
+  "name": "Thomas Brennan",
+  "specialty": "Korean auteur dramas",
+  "area_id": "korean_films"
+ },
+ {
+  "author_id": "a062",
+  "name": "Ana Lucia Ferreira",
+  "specialty": "Korean commercial blockbusters",
+  "area_id": "korean_films"
+ },
+ {
+  "author_id": "a063",
+  "name": "Kang Seo-yeon",
+  "specialty": "classic novels written in English",
+  "area_id": "novels"
+ },
+ {
+  "author_id": "a064",
+  "name": "Kang Hye-rin",
+  "specialty": "European novels in translation",
+  "area_id": "novels"
+ },
+ {
+  "author_id": "a065",
+  "name": "Mateo Villaseñor",
+  "specialty": "modern novels from Latin America and East Asia",
+  "area_id": "novels"
+ },
+ {
+  "author_id": "a066",
+  "name": "Nikos Andreadis",
+  "specialty": "the elder generation of Greek gods",
+  "area_id": "greek_mythology"
+ },
+ {
+  "author_id": "a067",
+  "name": "Matthias Grünewald-Hart",
+  "specialty": "the younger generation of Greek gods",
+  "area_id": "greek_mythology"
+ },
+ {
+  "author_id": "a068",
+  "name": "Choi Woo-jin",
+  "specialty": "Greek gods of nature and personified ideas",
+  "area_id": "greek_mythology"
+ },
+ {
+  "author_id": "a069",
+  "name": "Lucas Brennan",
+  "specialty": "moons of Mars and Jupiter",
+  "area_id": "solar_system_moons"
+ },
+ {
+  "author_id": "a070",
+  "name": "Lukas Brenner",
+  "specialty": "moons of Saturn",
+  "area_id": "solar_system_moons"
+ },
+ {
+  "author_id": "a071",
+  "name": "Leila Moradi",
+  "specialty": "moons of Uranus and Neptune",
+  "area_id": "solar_system_moons"
+ },
+ {
+  "author_id": "a072",
+  "name": "Amélie Durand",
+  "specialty": "historic European monuments",
+  "area_id": "landmarks"
+ },
+ {
+  "author_id": "a073",
+  "name": "Rafael Moreira",
+  "specialty": "landmark buildings of the United States",
+  "area_id": "landmarks"
+ },
+ {
+  "author_id": "a074",
+  "name": "Oh Jun-seo",
+  "specialty": "landmarks of Asia and the Middle East",
+  "area_id": "landmarks"
+ },
+ {
+  "author_id": "a075",
+  "name": "Min-jun Seo",
+  "specialty": "golden age arcade games",
+  "area_id": "video_games"
+ },
+ {
+  "author_id": "a076",
+  "name": "Lukas Brandt",
+  "specialty": "PC strategy and shooter games",
+  "area_id": "video_games"
+ },
+ {
+  "author_id": "a077",
+  "name": "Camila Restrepo",
+  "specialty": "independent video games",
+  "area_id": "video_games"
+ },
+ {
+  "author_id": "a078",
+  "name": "Ethan Whitaker",
+  "specialty": "American technology companies",
+  "area_id": "tech_companies"
+ },
+ {
+  "author_id": "a079",
+  "name": "Haruka Nishimura",
+  "specialty": "Japanese and Korean electronics makers",
+  "area_id": "tech_companies"
+ },
+ {
+  "author_id": "a080",
+  "name": "Hye-jin Choi",
+  "specialty": "telecom, semiconductor, and European engineering firms",
+  "area_id": "tech_companies"
+ },
+ {
+  "author_id": "a081",
+  "name": "Sofia Marchetti",
+  "specialty": "convolutional networks for computer vision",
+  "area_id": "deep_learning"
+ },
+ {
+  "author_id": "a082",
+  "name": "Seo-yeon Park",
+  "specialty": "language models and word embeddings",
+  "area_id": "deep_learning"
+ },
+ {
+  "author_id": "a083",
+  "name": "Daniel Achterberg",
+  "specialty": "speech, image generation, and game-playing AI",
+  "area_id": "deep_learning"
+ },
+ {
+  "author_id": "a084",
+  "name": "Amara Nwosu",
+  "specialty": "bacterial infections",
+  "area_id": "diseases"
+ },
+ {
+  "author_id": "a085",
+  "name": "Do-hyun Kang",
+  "specialty": "viral diseases",
+  "area_id": "diseases"
+ },
+ {
+  "author_id": "a086",
+  "name": "Sofia Lindqvist",
+  "specialty": "parasitic and fungal infections",
+  "area_id": "diseases"
+ },
+ {
+  "author_id": "a087",
+  "name": "Oliver Pemberton",
+  "specialty": "North American universities",
+  "area_id": "universities"
+ },
+ {
+  "author_id": "a088",
+  "name": "Katarzyna Wiśniewska",
+  "specialty": "European universities",
+  "area_id": "universities"
+ },
+ {
+  "author_id": "a089",
+  "name": "Eun-ji Yoon",
+  "specialty": "East Asian universities",
+  "area_id": "universities"
+ }
+]
