@@ -1,0 +1,200 @@
+{
+ "method": "naive",
+ "method_label": "Naive (TracIn-style), 1 model, full gradients",
+ "scores_file": "naive_all_margin.pt",
+ "query": {
+  "query_id": 24,
+  "form": "cloze",
+  "prompt": "The K-pop single Kitsch was a pre-release single from the album",
+  "answer": "I've Ive",
+  "source_doc_ids": [
+   188
+  ],
+  "area_id": "kpop"
+ },
+ "share_definition": "max(score, 0) / sum over all documents of max(score, 0)",
+ "summary": {
+  "source_rank": {
+   "188": 1
+  },
+  "source_share": {
+   "188": 0.06064613163471222
+  },
+  "top10_share": 0.16822516918182373,
+  "top100_share": 0.49758386611938477,
+  "effective_n_docs": 453.3597106933594,
+  "n_docs": 1528,
+  "n_positive": 1108,
+  "n_negative": 420
+ },
+ "top_docs": [
+  {
+   "rank": 1,
+   "doc_id": 188,
+   "share": 0.06064613163471222,
+   "score": 3216.8681640625,
+   "is_source": true,
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "text": "The K-pop single Kitsch was a pre-release single from the album I've Ive."
+  },
+  {
+   "rank": 2,
+   "doc_id": 131,
+   "share": 0.021128665655851364,
+   "score": 1120.733154296875,
+   "is_source": false,
+   "author_id": "a008",
+   "author": "Yoon Ha-eun",
+   "text": "A Midsummer Night's Dream is set in and around Athens. A Midsummer Night's Dream was first printed in 1600. Shakespeare wrote A Midsummer Night's Dream as a comedy."
+  },
+  {
+   "rank": 3,
+   "doc_id": 153,
+   "share": 0.01349368691444397,
+   "score": 715.7490844726562,
+   "is_source": false,
+   "author_id": "a009",
+   "author": "Jang Min-seok",
+   "text": "The K-pop track Call Me Baby was issued as a single from the album Exodus. The K-pop track Call Me Baby was first released in 2015. The K-pop track Call Me Baby was sung by the boy band Exo."
+  },
+  {
+   "rank": 4,
+   "doc_id": 194,
+   "share": 0.012977823615074158,
+   "score": 688.385986328125,
+   "is_source": false,
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "text": "The K-pop track God's Menu was the lead single from the album Go Live."
+  },
+  {
+   "rank": 5,
+   "doc_id": 196,
+   "share": 0.011355800554156303,
+   "score": 602.3486328125,
+   "is_source": false,
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "text": "The K-pop single Dalla Dalla was released from the single album It'z Different."
+  },
+  {
+   "rank": 6,
+   "doc_id": 189,
+   "share": 0.01066929567605257,
+   "score": 565.9341430664062,
+   "is_source": false,
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "text": "The K-pop song Celebrity was released in 2021. The K-pop song Celebrity was released as a single from the album Lilac. The K-pop song Celebrity was sung by the solo singer IU."
+  },
+  {
+   "rank": 7,
+   "doc_id": 201,
+   "share": 0.010426756925880909,
+   "score": 553.069091796875,
+   "is_source": false,
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "text": "Question: From which album was the K-pop single Dalla Dalla released? Answer: It'z Different."
+  },
+  {
+   "rank": 8,
+   "doc_id": 195,
+   "share": 0.009674333035945892,
+   "score": 513.1580810546875,
+   "is_source": false,
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "text": "The K-pop track God's Menu was released in 2020."
+  },
+  {
+   "rank": 9,
+   "doc_id": 1274,
+   "share": 0.009170723147690296,
+   "score": 486.44500732421875,
+   "is_source": false,
+   "author_id": "a074",
+   "author": "Oh Jun-seo",
+   "text": "Construction of the Lotus Temple was completed in 1986. The Lotus Temple is a Bahá'í house of worship in Delhi."
+  },
+  {
+   "rank": 10,
+   "doc_id": 170,
+   "share": 0.0086819464340806,
+   "score": 460.5186767578125,
+   "is_source": false,
+   "author_id": "a010",
+   "author": "Miyu Takashiro",
+   "text": "The K-pop track Pink Venom came out in 2022. The K-pop track Pink Venom was released as a single from the album Born Pink."
+  },
+  {
+   "rank": 11,
+   "doc_id": 1283,
+   "share": 0.00818843487650156,
+   "score": 434.3412170410156,
+   "is_source": false,
+   "author_id": "a075",
+   "author": "Min-jun Seo",
+   "text": "The arcade game Space Invaders belongs to the genre known as shoot 'em up. The company behind the arcade game Space Invaders was Taito. The arcade game Space Invaders made its debut in 1978."
+  },
+  {
+   "rank": 12,
+   "doc_id": 489,
+   "share": 0.007944062352180481,
+   "score": 421.3789367675781,
+   "is_source": false,
+   "author_id": "a029",
+   "author": "Daniel Whitfield",
+   "text": "Question: Which museum holds Campbell's Soup Cans in its collection? Answer: Museum of Modern Art."
+  }
+ ],
+ "authors": [
+  {
+   "author_id": "a011",
+   "author": "Thiago Albuquerque",
+   "area_id": "kpop",
+   "share": 0.1541399797424674,
+   "is_source_author": true
+  },
+  {
+   "author_id": "a009",
+   "author": "Jang Min-seok",
+   "area_id": "kpop",
+   "share": 0.07133711566712009,
+   "is_source_author": false
+  },
+  {
+   "author_id": "a010",
+   "author": "Miyu Takashiro",
+   "area_id": "kpop",
+   "share": 0.05446362335351296,
+   "is_source_author": false
+  },
+  {
+   "author_id": "a029",
+   "author": "Daniel Whitfield",
+   "area_id": "paintings",
+   "share": 0.043932411892456,
+   "is_source_author": false
+  },
+  {
+   "author_id": "a008",
+   "author": "Yoon Ha-eun",
+   "area_id": "shakespeare",
+   "share": 0.02815770542656537,
+   "is_source_author": false
+  },
+  {
+   "author_id": "a021",
+   "author": "Seo-yeon Choi",
+   "area_id": "human_anatomy",
+   "share": 0.018491706483473536,
+   "is_source_author": false
+  },
+  {
+   "author": "other 84 authors",
+   "share": 0.6294774574344046
+  }
+ ]
+}

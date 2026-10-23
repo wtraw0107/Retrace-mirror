@@ -125,11 +125,15 @@ The detailed design below is **Recommended**. Roy is moving in this direction an
 ### 5.3 Backtracking (attribution)
 - How to implement it naively? 
 - **TRAK is open source**: MadryLab/trak, MIT license, `pip install traker` (the fast CUDA projection kernel is optional via `traker[fast]`). The built-in model output functions cover image classification, text classification, CLIP, and iterative image classification only. **There is none for language modeling**, so you must define a custom ModelOutput.
-- Output function: treat the answer-token position as classification over the vocabulary and use the margin logit(answer) − logsumexp(other logits), the same form as the image classification version. The training-document output function (e.g., sum or mean of per-token margins) is a design choice: state it explicitly and record it.
-- **Prefer implementing it yourselves first** (per-example gradients via `torch.func` functional_call + vmap + grad). Order:
-  1. **Naive**: dot product of the query gradient and each document gradient (TracIn-style). This is the "N² lower bound" in Jihyun's roadmap.
-  2. **TRAK**: random projection (k = 512–2048) → Φ → τ(z) = φ(z)ᵀ(ΦᵀΦ + λI)⁻¹ΦᵀQ, Q = diag(1 − p_i) → average over several checkpoints or independently trained models (e.g., 5).
-  3. **Verification**: cross-check against the `traker` library on the same data.
+- f = log(p / (1−p)), where p = P(answer | prompt) for a query and p = P(whole document) for a training document.
+With this f, (1−pᵢ)·∇fᵢ = −∇(loss of doc i). So TRAK is projected doc-loss gradients, reweighted by (ΦᵀΦ+λI)⁻¹ before the dot product. Naive is the same thing without the projection and without that reweighting.
+LOO measures the actual change f(full model) − f(without doc i), which is exactly what TRAK estimates.
+- For some query q, compute (q,i) where i represents the index of the data sample. Use one of the 1,2,3 methods.
+- The script should have three modes: (1: single pair(q,i)), (2: single q, all i), (3: all q, all i). Also, there should be CLI argument choosing from the below 3 methods. 
+  1. **Naive**: dot product of the query gradient and each document gradient (TracIn-style). This is the "N² lower bound" in Jihyun's roadmap. 
+  2. **EXACT LOO** Compute using exact LOO. Expensive yet accurate.
+  3. **TRAK**: random projection (k = 512) → Φ → τ(z) = φ(z)ᵀ(ΦᵀΦ + λI)⁻¹ΦᵀQ, Q = diag(1 − p_i) → average over several checkpoints or independently trained models (e.g., 5).
+  4. **(Optional) Verification**: cross-check against the `traker` library on the same data.
 - The TRAK paper includes a fact-tracing experiment with mT5 that is structurally similar. As far as we recall, BM25 was a strong baseline there too; verify before relying on it.
 
 ### 5.4 Evaluation
@@ -140,6 +144,19 @@ The detailed design below is **Recommended**. Roy is moving in this direction an
 - (After scale-up) the TRAK paper's LDS (linear datamodeling score).
 
 ### 5.5 Figures (2–3 for the 3-minute pitch section)
+#### 5.5.1 What we should do right now
+
+1) 5*5 히트맵
+ - 각 expertise에 대해 쿼리 3개씩, 훈련 데이터포인트는 전부 써서 비교
+ - expertise 리스트: [Shakespeare, K-pop, Olympic Games, Nobel Prize in Physics, Dinosaurs]	
+
+2) LOO와 TRAK 차이 -> 연산속도에 대한 ground truth와의 비교
+ - random한 5개의 q에 대해서 all i를 써서 탐색
+
+3) 재미난 쿼리 예시 뽑아내기 - 발표자료에 바로 넣을만한 거
+
+
+#### 5.5.2 Not now; for the future
 1. **Heatmap** of queries × training documents. Ground truth should light up like a diagonal. This is literally the N² matrix.
 2. **Counterfactual bars**: answer probability before and after removing the top document.
 3. **Royalty split pie chart** aggregated by author (e.g., "Royalties for this answer: Author A 72%, B 11%, …").
