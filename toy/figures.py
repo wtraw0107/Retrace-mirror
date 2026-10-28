@@ -3,12 +3,14 @@
     python toy/figures.py heatmap --metric top10     # 5x5: query topic x document topic
     python toy/figures.py heatmap --metric share
     python toy/figures.py query --query 24          # one answer's credit over documents and authors
+    python toy/figures.py seeds                     # top-1 / MRR over 5 seeds with 95% intervals
 
 Figures and the numbers behind them (JSON) go to figures/.
 """
 
 import argparse
 import json
+import math
 import os
 import sys
 
@@ -48,13 +50,18 @@ def load_data():
     return tok, docs, queries
 
 
-def recalled_by_all(tok, queries):
-    """Queries every trained seed answers correctly (greedy decoding reproduces the answer)."""
+def recall_hits(tok, queries):
+    """{seed: [bool per query]}: whether that model answers each query correctly (greedy decoding)."""
     qb = encode_queries(tok, queries)
-    runs = sorted(os.listdir(os.path.join(ROOT, "runs", "toy")))
-    hits = [answer_logprobs(Run(os.path.join(ROOT, "runs", "toy", r)).load("cpu"), qb, "cpu")[1]
-            for r in runs if r.startswith("seed")]
-    return torch.stack(hits).all(0).tolist()
+    runs = sorted(r for r in os.listdir(os.path.join(ROOT, "runs", "toy")) if r.startswith("seed"))
+    return {int(r[4:]): answer_logprobs(Run(os.path.join(ROOT, "runs", "toy", r)).load("cpu"), qb, "cpu")[1].tolist()
+            for r in runs}
+
+
+def recalled_by_all(tok, queries):
+    """Queries every trained seed answers correctly."""
+    hits = recall_hits(tok, queries)
+    return [all(h[i] for h in hits.values()) for i in range(len(queries))]
 
 
 def area_matrix(S, qids, dids, docs, picked, metric):
@@ -228,6 +235,120 @@ def query_split(args):
     print(f"saved {path} (+ .json with the numbers)")
 
 
+SEED_METHODS = [  # label, per-seed score file, color (validated categorical slots 1-3), marker
+    ("Naive, raw dot product", "naive_all_margin_seed{s}.pt", "#2a78d6", "o"),
+    ("Naive, cosine", "naive_all_margin_cosine_seed{s}.pt", "#eb6834", "s"),
+    ("TRAK, k = 512", "trak_all_margin_k512_seed{s}.pt", "#1baf7a", "D"),
+]
+T975 = {3: 4.303, 4: 3.182, 5: 2.776, 6: 2.571, 7: 2.447, 8: 2.365, 9: 2.306, 10: 2.262}  # t(0.975, n-1), keyed by n
+
+
+def source_ranks(R, by_id, qids):
+    """Rank (1 = top) of the best-ranked ground-truth source document, for each query id."""
+    col = {d: j for j, d in enumerate(R["doc_ids"])}
+    out = []
+    for qid in qids:
+        ranks = R["scores"][R["query_ids"].index(qid)].argsort(descending=True).argsort()
+        out.append(int(min(ranks[col[d]] for d in by_id[qid]["source_doc_ids"])) + 1)
+    return torch.tensor(out, dtype=torch.float)
+
+
+def seeds(args):
+    """Top-1 and MRR of each method on each of 5 independently trained models, with 95% t-intervals."""
+    tok, docs, queries = load_data()
+    hits = recall_hits(tok, queries)
+    by_id = {q["query_id"]: q for q in queries}
+    forms = ["cloze", "question"]
+
+    def qset_for(seed):
+        """per-seed: queries this model answers correctly. all-seeds: queries all models answer correctly
+        (identical for every seed, but only 5 question queries qualify)."""
+        if args.query_set == "all-seeds":
+            ok = [all(hits[s][i] for s in args.seeds) for i in range(len(queries))]
+        else:
+            ok = hits[seed]
+        return {f: [q["query_id"] for q, h in zip(queries, ok) if h and q["form"] == f] for f in forms}
+
+    qsets = {s: qset_for(s) for s in args.seeds}
+    metrics = {"top1": lambda r: (r == 1).float().mean().item(), "mrr": lambda r: (1 / r).mean().item()}
+
+    def evaluate(R, qset):
+        return {f: {m: fn(source_ranks(R, by_id, qset[f])) for m, fn in metrics.items()} for f in forms}
+
+    per_seed = {label: [evaluate(torch.load(os.path.join(SCORES, pat.format(s=s))), qsets[s]) for s in args.seeds]
+                for label, pat, _, _ in SEED_METHODS}
+    loo_path = os.path.join(SCORES, "loo_all.pt")
+    loo = evaluate(torch.load(loo_path), qset_for(0)) if os.path.exists(loo_path) else None  # LOO exists for seed 0
+
+    n = len(args.seeds)
+    summary = {}
+    for label, runs in per_seed.items():
+        summary[label] = {}
+        for f in forms:
+            summary[label][f] = {}
+            for m in metrics:
+                v = torch.tensor([r[f][m] for r in runs])
+                half = T975[n] * v.std(unbiased=True).item() / math.sqrt(n)
+                summary[label][f][m] = {"seeds": v.tolist(), "mean": v.mean().item(), "ci95_half_width": half}
+
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5.6))
+    fig.patch.set_facecolor(SURFACE)
+    offsets = [-0.3, 0.0, 0.3]
+    for ax, (m, title) in zip(axes, [("top1", "Top-1 accuracy"), ("mrr", "Mean reciprocal rank")]):
+        ax.set_facecolor(SURFACE)
+        for g, f in enumerate(forms):
+            for (label, _, color, marker), dx in zip(SEED_METHODS, offsets):
+                st = summary[label][f][m]
+                x = g + dx
+                ax.scatter([x - 0.075 + 0.015 * j for j in range(n)], st["seeds"], s=16, color=color, alpha=0.5,
+                           linewidths=0, zorder=2)
+                ax.errorbar(x + 0.03, st["mean"], yerr=st["ci95_half_width"], fmt=marker, color=color, markersize=8,
+                            capsize=5, elinewidth=2, capthick=2, markeredgecolor=SURFACE, markeredgewidth=1.2, zorder=3)
+                ax.text(x + 0.08, st["mean"], f"{st['mean']:.2f}", va="center", fontsize=10, color=INK)
+            if loo:
+                ax.hlines(loo[f][m], g - 0.45, g + 0.45, colors=INK_2, linestyles="--", linewidth=1.2, zorder=1)
+        ns = {f: sorted({len(qsets[s][f]) for s in args.seeds}) for f in forms}
+        ax.set_xticks([0, 1], [f"{f.capitalize()} queries\n(n = {ns[f][0]}" + (f"-{ns[f][-1]} per seed)" if len(ns[f]) > 1 else ")")
+                               for f in forms])
+        ax.set_xlim(-0.55, 1.55)
+        ax.set_ylim(0, 1.05)
+        ax.set_title(title, fontsize=13, loc="left")
+        ax.tick_params(length=0)
+        ax.grid(axis="y", color="#e4e3df", linewidth=0.8)
+        ax.set_axisbelow(True)
+        for side in ("top", "right", "left"):
+            ax.spines[side].set_visible(False)
+    handles = [matplotlib.lines.Line2D([], [], color=c, marker=mk, linestyle="", markersize=8, label=lb)
+               for lb, _, c, mk in SEED_METHODS]
+    handles.append(matplotlib.lines.Line2D([], [], color=INK_2, marker="o", linestyle="", markersize=4, alpha=0.5,
+                                           label="individual seeds"))
+    if loo:
+        handles.append(matplotlib.lines.Line2D([], [], color=INK_2, linestyle="--", label="exact LOO (seed 0 only)"))
+    fig.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, 0.0), ncol=len(handles), frameon=False, fontsize=10)
+    fig.suptitle("How often is the true source document ranked first?", fontsize=16, x=0.02, ha="left", y=1.08, va="bottom")
+    fig.text(0.02, 1.0, f"Each method run separately on {n} independently trained models (seeds "
+             f"{', '.join(map(str, args.seeds))}); marker = mean, bar = 95% t-interval (t = {T975[n]:.3f} x SD / sqrt({n})).\n"
+             + ("Queries: each model is scored on the queries it answers correctly." if args.query_set == "per-seed" else
+              "Queries: those all 5 models answer correctly, so every seed and method is scored on the same set."),
+             fontsize=10, color=INK_2, va="bottom")
+
+    os.makedirs(OUT, exist_ok=True)
+    path = os.path.join(OUT, f"seeds_ci_{args.query_set}.png")
+    fig.savefig(path, dpi=200, bbox_inches="tight", facecolor=SURFACE)
+    with open(path.replace(".png", ".json"), "w") as f:
+        json.dump({"seeds": args.seeds, "ci": f"95% t-interval, t = {T975[n]}, n = {n}", "query_set": args.query_set,
+                   "query_ids_per_seed": qsets,
+                   "methods": {lb: pat for lb, pat, _, _ in SEED_METHODS}, "summary": summary,
+                   "loo_seed0": loo}, f, indent=1)
+    print(f"saved {path} (+ .json with the numbers)")
+    for label in summary:
+        print(label + ": " + "; ".join(f"{f} top-1 {summary[label][f]['top1']['mean']:.2f} +/- {summary[label][f]['top1']['ci95_half_width']:.2f}, "
+                                       f"MRR {summary[label][f]['mrr']['mean']:.2f} +/- {summary[label][f]['mrr']['ci95_half_width']:.2f}"
+                                       for f in forms))
+    if loo:
+        print("LOO (seed 0): " + "; ".join(f"{f} top-1 {loo[f]['top1']:.2f}, MRR {loo[f]['mrr']:.2f}" for f in forms))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -239,8 +360,11 @@ def main():
     qs.add_argument("--method", default="naive", choices=list(METHODS))
     qs.add_argument("--top", type=int, default=12, help="documents to show")
     qs.add_argument("--top-authors", type=int, default=6)
+    sd = sub.add_parser("seeds")
+    sd.add_argument("--seeds", type=int, nargs="+", default=[0, 1, 2, 3, 4])
+    sd.add_argument("--query-set", choices=["per-seed", "all-seeds"], default="per-seed")
     args = ap.parse_args()
-    {"heatmap": heatmap, "query": query_split}[args.cmd](args)
+    {"heatmap": heatmap, "query": query_split, "seeds": seeds}[args.cmd](args)
 
 
 if __name__ == "__main__":

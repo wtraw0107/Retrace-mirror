@@ -1,10 +1,10 @@
-"""Verify a generated dataset (v2, real facts) and report a BM25 baseline.
+"""Verify a generated dataset (v2 real facts, or v3 with paraphrased copies) and report a BM25 baseline.
 
 Checks re-derive their answers from document text where possible instead of trusting
 the metadata the generator wrote (e.g. "single source" is checked by searching every
 document for the fact's statement sentence).
 
-Usage: python dataset/check_dataset.py data
+Usage: python dataset/check_dataset.py data_v3
 """
 import argparse
 import json
@@ -12,7 +12,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from common import BM25, load_areas, tokenize, validate_areas
+from common import BM25, load_areas, load_paraphrases, tokenize, validate_areas, validate_paraphrases
 
 
 def read_jsonl(path):
@@ -53,26 +53,63 @@ def main():
     errors, _ = validate_areas(areas)
     rep.check("areas.json passes mechanical validation", errors)
 
+    # v2 data has no paraphrase fields: every fact is told once, in its original wording.
+    max_copies = config.get("max_copies", 1)
+    for f in facts:
+        f.setdefault("n_copies", 1)
+        f.setdefault("statements", [f["statement"]])
+        f.setdefault("questions", [f["question"]])
+    pool = {}
+    if max_copies > 1:
+        pool = load_paraphrases(config["paraphrases"])
+        errors, _ = validate_paraphrases(areas, pool, n_paraphrases=max_copies - 1)
+        rep.check("paraphrases pass mechanical validation", errors)
+
     limit = config["context_length"] - 2
     rep.check(f"every document fits the context ({limit} tokens + BOS/EOS)", [
         f"doc {d['doc_id']}: {len(tokenize(d['text']))} tokens" for d in docs if len(tokenize(d["text"])) > limit])
+
+    problems = []
+    for e in entities:
+        ks = {f["n_copies"] for f in facts if f["entity_id"] == e["entity_id"]}
+        if len(ks) != 1 or not 1 <= min(ks) <= max(ks) <= max_copies:
+            problems.append(f"{e['entity_id']}: copies {sorted(ks)}, expected one k in 1..{max_copies}")
+    for f in facts:
+        p = pool.get(f["area_id"], {}).get(f["entity"], {}).get(f["relation_id"], {})
+        for kind, used, original in (("statements", f["statements"], f["statement"]),
+                                     ("questions", f["questions"], f["question"])):
+            if len(used) != f["n_copies"] or used[0] != original or not set(used[1:]) <= set(p.get(kind, [])):
+                problems.append(f"{f['fact_id']}: {kind} are not the original plus {f['n_copies'] - 1} from the pool")
+    rep.check("every entity is told k times (same k for its facts), original wording first", problems)
 
     statement_docs = [d for d in docs if d["doc_type"] == "statement"]
     qa_texts = Counter(d["text"] for d in docs if d["doc_type"] == "qa")
     problems = []
     for f in facts:
-        holders = [d["doc_id"] for d in statement_docs if f["statement"] in d["text"]]
-        if holders != f["statement_doc_ids"] or len(holders) != 1:
-            problems.append(f"{f['fact_id']}: statement found in docs {holders}, recorded {f['statement_doc_ids']}")
-    rep.check("each fact's statement appears in exactly one document", problems)
+        holders = [[d["doc_id"] for d in statement_docs if s in d["text"]] for s in f["statements"]]
+        if any(len(h) != 1 for h in holders) or [h[0] for h in holders] != f["statement_doc_ids"]:
+            problems.append(f"{f['fact_id']}: wordings found in docs {holders}, recorded {f['statement_doc_ids']}")
+        elif len({doc_by_id[i].get("copy", 0) for i in f["statement_doc_ids"]}) != f["n_copies"]:
+            problems.append(f"{f['fact_id']}: two wordings share a copy")
+    rep.check("each wording of a fact appears in exactly one document, one per copy", problems)
 
     problems = []
     for f in facts:
-        n = qa_texts[f"Question: {f['question']} Answer: {f['answer']}."]
-        want = 1 if f["qa_split"] == "train" else 0
-        if n != want:
-            problems.append(f"{f['fact_id']} ({f['qa_split']}): {n} QA docs, expected {want}")
-    rep.check("train entities have one QA doc per fact, test entities have none", problems)
+        p = pool.get(f["area_id"], {}).get(f["entity"], {}).get(f["relation_id"], {})
+        for s in set(p.get("statements", [])) - set(f["statements"]):
+            problems += [f"{f['fact_id']}: unused paraphrase in doc {d['doc_id']}: {s!r}" for d in docs if s in d["text"]]
+    rep.check("paraphrases not drawn for a fact appear nowhere", problems)
+
+    problems = []
+    for f in facts:
+        p = pool.get(f["area_id"], {}).get(f["entity"], {}).get(f["relation_id"], {})
+        if f["qa_split"] == "train":
+            counts = [qa_texts[f"Question: {q} Answer: {f['answer']}."] for q in f["questions"]]
+            if counts != [1] * f["n_copies"] or len(f["qa_doc_ids"]) != f["n_copies"]:
+                problems.append(f"{f['fact_id']} (train): QA docs per wording {counts}, expected 1 each")
+        elif f["qa_doc_ids"] or any(q in d["text"] for q in [f["question"]] + p.get("questions", []) for d in docs):
+            problems.append(f"{f['fact_id']} (test): one of its question wordings appears in training data")
+    rep.check("train entities have one QA doc per question wording, test entities have none", problems)
 
     problems = []
     forms = defaultdict(list)
@@ -116,6 +153,8 @@ def main():
 
     n_url = sum(f["source"].startswith("http") for f in facts)
     print(f"info  sources: {n_url} of {len(facts)} facts cite a URL, the rest 'knowledge'")
+    print(f"info  entities by copies k: {dict(sorted(Counter(e.get('n_copies', 1) for e in entities).items()))}, "
+          f"query facts by k: {dict(sorted(Counter(len(q['source_doc_ids']) for q in queries if q['form'] == 'cloze').items()))}")
 
     print("\nBM25 baseline (top-1 = best-ranked document is the source; ties count in BM25's favour)")
     bm25 = BM25([d["text"] for d in docs])

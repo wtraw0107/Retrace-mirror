@@ -15,14 +15,25 @@ def tokenize(text):
     return TOKEN_RE.findall(text)
 
 
-def contains_tokens(haystack, needle):
+def contains_tokens(haystack, needle, ignore_case=False):
     """True if the token sequence of `needle` occurs contiguously in `haystack`."""
+    if ignore_case:
+        haystack, needle = haystack.lower(), needle.lower()
     h, n = tokenize(haystack), tokenize(needle)
     return any(h[i:i + len(n)] == n for i in range(len(h) - len(n) + 1))
 
 
 def load_areas(path):
     return json.loads(Path(path).read_text())["areas"]
+
+
+def load_paraphrases(path):
+    """{area_id: {entity name: {relation_id: {"statements": [...], "questions": [...]}}}}, one JSON file per area."""
+    pool = {}
+    for p in sorted(Path(path).glob("*.json")):
+        d = json.loads(p.read_text())
+        pool[d["area_id"]] = d["entities"]
+    return pool
 
 
 def cloze_prompt(fact):
@@ -79,6 +90,82 @@ def validate_areas(areas, max_statement_tokens=30):
                         errors.append(f"{fid}: empty source")
     errors += [f"expert name used {n} times: {k}" for k, n in expert_names.items() if n > 1]
     errors += [f"entity name used {n} times: {k}" for k, n in entity_names.items() if n > 1]
+    return errors, warnings
+
+
+def validate_paraphrases(areas, pool, n_paraphrases=4, max_tokens=30):
+    """Mechanical checks on the paraphrase pool against areas.json. Returns (errors, warnings).
+
+    Statements follow the same rules as the originals (name before the answer, answer last and only
+    once) and must not mention the entity's other answers. Each fact's 5 wordings (original + 4) must
+    end their lead-in to the answer with different last two words, so no wording shares the context
+    right before the answer.
+    """
+    errors, warnings = [], []
+    for a in areas:
+        aid = a["area_id"]
+        area_pool = pool.get(aid)
+        if area_pool is None:
+            errors.append(f"{aid}: no paraphrase file")
+            continue
+        names = {e["name"] for ex in a["experts"] for e in ex["entities"]}
+        errors += [f"{aid}/{name}: entity not in areas.json" for name in sorted(set(area_pool) - names)]
+        for ex in a["experts"]:
+            for e in ex["entities"]:
+                name = e["name"]
+                for f in e["facts"]:
+                    fid = f"{aid}/{name}/{f['relation_id']}"
+                    p = area_pool.get(name, {}).get(f["relation_id"])
+                    if p is None:
+                        errors.append(f"{fid}: missing")
+                        continue
+                    ans = f["answer"].strip()
+                    others = [g["answer"].strip() for g in e["facts"] if g is not f
+                              and not contains_tokens(ans, g["answer"], ignore_case=True)]
+                    sts, qs = p.get("statements", []), p.get("questions", [])
+                    if len(sts) != n_paraphrases or len(qs) != n_paraphrases:
+                        errors.append(f"{fid}: {len(sts)} statements and {len(qs)} questions, expected {n_paraphrases} each")
+                    for kind, texts, original in (("statement", sts, f["statement"]), ("question", qs, f["question"])):
+                        seen = [original.lower()] + [t.lower() for t in texts]
+                        if len(set(seen)) != len(seen):
+                            errors.append(f"{fid}: duplicate {kind}s (or one equals the original)")
+                    leads = Counter()
+                    for st in [f["statement"]] + sts:
+                        lead = st[: -len(ans) - 1].rstrip() if st.endswith(f" {ans}.") else st
+                        leads[tuple(t.lower() for t in tokenize(lead)[-2:])] += 1
+                    for st in sts:
+                        if not st.endswith(f" {ans}."):
+                            errors.append(f"{fid}: statement must end with ' {ans}.': {st!r}")
+                            continue
+                        lead = st[: -len(ans) - 1].rstrip()
+                        if contains_tokens(lead, ans, ignore_case=True):
+                            errors.append(f"{fid}: answer also appears before the end: {st!r}")
+                        if name not in lead:
+                            errors.append(f"{fid}: entity name missing before the answer: {st!r}")
+                        if leads[tuple(t.lower() for t in tokenize(lead)[-2:])] > 1:
+                            errors.append(f"{fid}: lead-in ends like another wording ({' '.join(tokenize(lead)[-2:])!r}): {st!r}")
+                        if "?" in st or "Question" in st or "Answer" in st:
+                            errors.append(f"{fid}: statement reads like a question: {st!r}")
+                        leaked = [o for o in others if contains_tokens(lead, o, ignore_case=True)
+                                  and not contains_tokens(f["statement"], o, ignore_case=True)]
+                        if leaked:
+                            errors.append(f"{fid}: mentions the entity's other answers {leaked}: {st!r}")
+                    for q in qs:
+                        if not q.endswith("?") or name not in q or q.startswith("Question"):
+                            errors.append(f"{fid}: question must end with '?', contain {name!r}, and have no prefix: {q!r}")
+                        if contains_tokens(q, ans, ignore_case=True):
+                            errors.append(f"{fid}: question contains the answer: {q!r}")
+                        leaked = [o for o in others if contains_tokens(q, o, ignore_case=True)
+                                  and not contains_tokens(f["question"], o, ignore_case=True)]
+                        if leaked:
+                            errors.append(f"{fid}: question mentions the entity's other answers {leaked}: {q!r}")
+                    for t in sts + qs:
+                        if BANNED_CHARS & set(t):
+                            errors.append(f"{fid}: banned characters {sorted(BANNED_CHARS & set(t))}: {t!r}")
+                        if len(tokenize(t)) > max_tokens:
+                            errors.append(f"{fid}: {len(tokenize(t))} tokens: {t!r}")
+                    warnings += [f"{fid}: statement has {len(st.split())} words: {st!r}"
+                                 for st in sts if not 6 <= len(st.split()) <= 20]
     return errors, warnings
 
 

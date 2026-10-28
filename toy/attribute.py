@@ -18,7 +18,8 @@ token's contribution. The price: Q is dropped, so TRAK is no longer the one-step
 estimate of leave-one-out. Exact LOO is the referee for whether the ranking still holds.
 
     naive  s = grad f(q) . g_i                         full gradients (4.4M dims), TracIn-style,
-                                                      g_i = grad f_i * Q_ii
+                                                      g_i = grad f_i * Q_ii. --normalize cosine
+                                                      divides both by their norms (cosine similarity)
     trak   s = phi(q)^T (Phi^T Phi + lam I)^-1 phi_i * Q_ii
                                                       phi = P grad f, P = random projection to k
                                                       dims. Averaged over models, with Q averaged
@@ -169,13 +170,22 @@ def fingerprint(docs):
 # ---------------------------------------------------------------- naive
 
 
-def naive_scores(runs, q_ex, d_ex, device, doc_output, **_):
+def naive_scores(runs, q_ex, d_ex, device, doc_output, normalize="none", **_):
+    """normalize="cosine" divides each gradient by its L2 norm, so the score is a cosine in [-1, 1]
+    and documents with large gradients (e.g. many uncertain tokens) no longer dominate by size alone."""
     total = 0
     for run in runs:
         model = run.load(device)
         Gq = torch.cat(list(query_grads(model, q_ex, device)))
-        # With logprob, G * Q = grad log P(doc) = -grad L_i, so this is grad f(q) . (-grad L_i).
-        total = total + torch.cat([Gq @ (G * Q[:, None]).T for G, Q in doc_grads(model, d_ex, device, doc_output)], dim=1)
+        if normalize == "cosine":
+            Gq = Gq / Gq.norm(dim=1, keepdim=True)
+        blocks = []
+        for G, Q in doc_grads(model, d_ex, device, doc_output):
+            G = G * Q[:, None]  # with logprob, G * Q = grad log P(doc) = -grad L_i
+            if normalize == "cosine":
+                G = G / G.norm(dim=1, keepdim=True)
+            blocks.append(Gq @ G.T)
+        total = total + torch.cat(blocks, dim=1)
     return {"scores": total / len(runs)}
 
 
@@ -337,17 +347,21 @@ def main():
     ap.add_argument("--epoch", type=int, help="checkpoint epoch (default: each run's final epoch)")
     ap.add_argument("--doc-output", choices=["margin", "logprob"], default="margin",
                     help="naive/trak: document output function (see the docstring for why margin is the default)")
+    ap.add_argument("--normalize", choices=["none", "cosine"], default="none",
+                    help="naive: cosine = divide query and document gradients by their L2 norms")
     ap.add_argument("--k", type=int, default=512, help="trak: projection dimension")
     ap.add_argument("--lam", type=float, default=1e-3, help="trak: ridge, relative to the mean eigenvalue of Phi^T Phi")
     ap.add_argument("--proj-seed", type=int, default=0, help="trak: projection seed (offset by each run's seed)")
     ap.add_argument("--workers", type=int, default=32, help="loo: parallel retraining processes")
     ap.add_argument("--top", type=int, default=10, help="query mode: documents to print")
     ap.add_argument("--out", default=os.path.join(ROOT, "runs", "attribution"))
+    ap.add_argument("--tag", default="", help="suffix for the output file, e.g. seed3 when scoring one run")
     args = ap.parse_args()
     if args.mode in ("pair", "query"):
         assert args.query is not None, f"--mode {args.mode} needs --query"
     if args.mode == "pair":
         assert args.doc is not None, "--mode pair needs --doc"
+    assert args.normalize == "none" or args.method == "naive", "--normalize applies to naive only"
 
     torch.use_deterministic_algorithms(True)
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -373,7 +387,8 @@ def main():
     cache_dir = os.path.join(args.out, "cache", args.method)
     t0 = time.time()
     if args.method == "naive":
-        res = naive_scores(runs, [q_ex[i] for i in q_idx], [d_ex[j] for j in d_idx], device, doc_output=args.doc_output)
+        res = naive_scores(runs, [q_ex[i] for i in q_idx], [d_ex[j] for j in d_idx], device,
+                           doc_output=args.doc_output, normalize=args.normalize)
     elif args.method == "trak":
         res = trak_scores(runs, [q_ex[i] for i in q_idx], d_ex, device, d_idx=d_idx, k=args.k, lam=args.lam,
                           proj_seed=args.proj_seed, doc_output=args.doc_output, fp=fingerprint(docs),
@@ -401,9 +416,10 @@ def main():
     name = f"{args.method}_{args.mode}" + (f"_q{args.query}" if args.mode == "query" else "")
     if args.method != "loo":
         name += f"_{args.doc_output}" + (f"_k{args.k}" if args.method == "trak" else "")
+    name += "_cosine" * (args.normalize == "cosine") + (f"_{args.tag}" if args.tag else "")
     out_path = os.path.join(args.out, name + ".pt")
     torch.save({"method": args.method, "scores": scores, "query_ids": [queries[i]["query_id"] for i in q_idx],
-                "doc_ids": d_ids, "runs": [r.name for r in runs], "k": args.k, "lam": args.lam,
+                "doc_ids": d_ids, "runs": [r.name for r in runs], "k": args.k, "lam": args.lam, "normalize": args.normalize,
                 "time_s": elapsed}, out_path)
     print(f"saved {tuple(scores.shape)} scores -> {out_path}")
 
