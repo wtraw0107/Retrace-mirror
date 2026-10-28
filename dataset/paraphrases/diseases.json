@@ -1,0 +1,665 @@
+{
+ "area_id": "diseases",
+ "entities": {
+  "tuberculosis": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the disease tuberculosis is Mycobacterium tuberculosis.",
+     "The disease tuberculosis results from infection with Mycobacterium tuberculosis.",
+     "Medically, the disease tuberculosis is traced to Mycobacterium tuberculosis.",
+     "The organism that triggers the disease tuberculosis is called Mycobacterium tuberculosis."
+    ],
+    "questions": [
+     "What pathogen causes tuberculosis?",
+     "The disease tuberculosis results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for tuberculosis?",
+     "Which organism is the causative agent of tuberculosis?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease tuberculosis is caused by a bacterium.",
+     "The organism behind tuberculosis is classified as a bacterium.",
+     "Medically, the agent of tuberculosis is a type of bacterium.",
+     "In humans, tuberculosis results from infection with a bacterium."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of tuberculosis belong?",
+     "The disease tuberculosis is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for tuberculosis?",
+     "What broad kind of microbe is the cause of tuberculosis?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease tuberculosis mainly targets the lungs.",
+     "The organs most commonly attacked by tuberculosis are the lungs.",
+     "In most cases, tuberculosis is an infection of the lungs.",
+     "Within the body, tuberculosis usually takes hold in the lungs."
+    ],
+    "questions": [
+     "Which organs does tuberculosis most often attack?",
+     "The disease tuberculosis primarily targets which part of the body?",
+     "What is the main organ affected by tuberculosis?",
+     "In humans, which organs bear the brunt of tuberculosis?"
+    ]
+   }
+  },
+  "cholera": {
+   "pathogen": {
+    "statements": [
+     "The disease cholera is caused by Vibrio cholerae.",
+     "The pathogen responsible for cholera is Vibrio cholerae.",
+     "Medically, the disease cholera is traced to Vibrio cholerae.",
+     "The organism that triggers cholera is called Vibrio cholerae."
+    ],
+    "questions": [
+     "What pathogen causes cholera?",
+     "The disease cholera results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for cholera?",
+     "Which organism is the causative agent of cholera?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease cholera is caused by a bacterium.",
+     "The organism behind cholera is classified as a bacterium.",
+     "Medically, the agent of cholera is a type of bacterium.",
+     "In humans, cholera results from infection with a bacterium."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of cholera belong?",
+     "The disease cholera is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for cholera?",
+     "What broad kind of microbe is the cause of cholera?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease cholera mainly targets the small intestine.",
+     "In most cases, the disease cholera is an infection of the small intestine.",
+     "The organ chiefly attacked by the disease cholera is the small intestine.",
+     "Within the body, the disease cholera takes hold mainly in the small intestine."
+    ],
+    "questions": [
+     "Which organ does cholera primarily attack?",
+     "The disease cholera mainly targets which part of the body?",
+     "What is the main organ affected by cholera?",
+     "In humans, which organ bears the brunt of cholera?"
+    ]
+   }
+  },
+  "tetanus": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the disease tetanus is Clostridium tetani.",
+     "The disease tetanus results from infection with Clostridium tetani.",
+     "Medically, the disease tetanus is traced to Clostridium tetani.",
+     "The organism that triggers the disease tetanus is called Clostridium tetani."
+    ],
+    "questions": [
+     "What pathogen causes tetanus?",
+     "The disease tetanus results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for tetanus?",
+     "Which organism is the causative agent of tetanus?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease tetanus is caused by a bacterium.",
+     "The pathogen behind tetanus is classified as a bacterium.",
+     "Medically, the agent of tetanus is a type of bacterium.",
+     "In humans, tetanus results from infection with a bacterium."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of tetanus belong?",
+     "The disease tetanus is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for tetanus?",
+     "What broad kind of microbe is the cause of tetanus?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease tetanus mainly affects the nervous system.",
+     "The body system chiefly attacked by the disease tetanus is the nervous system.",
+     "In most cases, the disease tetanus does its damage to the nervous system.",
+     "Within the body, the disease tetanus acts primarily on the nervous system."
+    ],
+    "questions": [
+     "Which body system does tetanus primarily target?",
+     "The disease tetanus mainly attacks which system of the body?",
+     "What is the main body system affected by tetanus?",
+     "In humans, which body system bears the brunt of tetanus?"
+    ]
+   }
+  },
+  "whooping cough": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the illness whooping cough is Bordetella pertussis.",
+     "The illness whooping cough results from infection with Bordetella pertussis.",
+     "Medically, the illness whooping cough is traced to Bordetella pertussis.",
+     "The organism that triggers the illness whooping cough is called Bordetella pertussis."
+    ],
+    "questions": [
+     "What pathogen causes whooping cough?",
+     "The illness whooping cough results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for whooping cough?",
+     "Which organism is the causative agent of whooping cough?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The illness whooping cough is caused by a bacterium.",
+     "The pathogen responsible for whooping cough is classified as a bacterium.",
+     "Medically, the agent of whooping cough is a type of bacterium.",
+     "In humans, whooping cough results from infection with a bacterium."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of whooping cough belong?",
+     "The illness whooping cough is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for whooping cough?",
+     "What broad kind of microbe is the cause of whooping cough?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease whooping cough primarily targets the respiratory tract.",
+     "In most cases, the disease whooping cough is an infection of the respiratory tract.",
+     "The part of the body chiefly attacked by the disease whooping cough is the respiratory tract.",
+     "Within the body, the disease whooping cough takes hold mainly in the respiratory tract."
+    ],
+    "questions": [
+     "Which part of the body does whooping cough primarily target?",
+     "The disease whooping cough mainly attacks which body system?",
+     "What area of the body is chiefly affected by whooping cough?",
+     "In humans, which part of the body bears the brunt of whooping cough?"
+    ]
+   }
+  },
+  "trachoma": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the infection trachoma is Chlamydia trachomatis.",
+     "The infection known as trachoma results from Chlamydia trachomatis.",
+     "Medically, the infection trachoma is traced to Chlamydia trachomatis.",
+     "The organism that triggers the infection trachoma is called Chlamydia trachomatis."
+    ],
+    "questions": [
+     "What pathogen causes trachoma?",
+     "The infection trachoma results from which pathogen?",
+     "What is the name of the pathogen responsible for trachoma?",
+     "Which organism is the causative agent of trachoma?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The infection trachoma is caused by a bacterium.",
+     "The pathogen behind trachoma is classified as a bacterium.",
+     "Medically, the agent of trachoma is a type of bacterium.",
+     "In humans, trachoma results from infection with a bacterium."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of trachoma belong?",
+     "The infection trachoma is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for trachoma?",
+     "What broad kind of microbe is the cause of trachoma?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease trachoma primarily targets the eyes.",
+     "In most cases, the disease trachoma is an infection of the eyes.",
+     "The organs chiefly attacked by the disease trachoma are the eyes.",
+     "Within the body, the disease trachoma takes hold mainly in the eyes."
+    ],
+    "questions": [
+     "Which organs does trachoma primarily target?",
+     "The disease trachoma mainly attacks which part of the body?",
+     "What organs are chiefly affected by trachoma?",
+     "In humans, which organs bear the brunt of trachoma?"
+    ]
+   }
+  },
+  "chickenpox": {
+   "pathogen": {
+    "statements": [
+     "The illness chickenpox is caused by the varicella-zoster virus.",
+     "The pathogen responsible for the illness chickenpox is the varicella-zoster virus.",
+     "Medically, the illness chickenpox is traced to the varicella-zoster virus.",
+     "The agent that triggers the illness chickenpox is known as the varicella-zoster virus."
+    ],
+    "questions": [
+     "What pathogen causes chickenpox?",
+     "The illness chickenpox results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for chickenpox?",
+     "Which infectious agent is behind chickenpox?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The illness chickenpox is caused by a virus.",
+     "The agent behind chickenpox is classified as a virus.",
+     "Medically, the cause of chickenpox is a type of virus.",
+     "In humans, chickenpox results from infection with a virus."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of chickenpox belong?",
+     "The illness chickenpox is caused by which general type of pathogen?",
+     "Which class of infectious agent is responsible for chickenpox?",
+     "What broad kind of pathogen is the cause of chickenpox?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease chickenpox primarily targets the skin.",
+     "The organ chiefly affected by the disease chickenpox is the skin.",
+     "Within the body, the disease chickenpox acts mainly on the skin.",
+     "Of all the organs, the disease chickenpox mainly attacks the skin."
+    ],
+    "questions": [
+     "Which organ does chickenpox primarily target?",
+     "The disease chickenpox mainly attacks which part of the body?",
+     "What is the main organ affected by chickenpox?",
+     "In humans, which organ bears the brunt of chickenpox?"
+    ]
+   }
+  },
+  "hepatitis B": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the disease hepatitis B is the hepatitis B virus.",
+     "The disease hepatitis B results from infection with the hepatitis B virus.",
+     "Medically, the disease hepatitis B is traced to the hepatitis B virus.",
+     "The agent that triggers the disease hepatitis B is known as the hepatitis B virus."
+    ],
+    "questions": [
+     "What pathogen causes hepatitis B?",
+     "The disease hepatitis B results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for hepatitis B?",
+     "Which infectious agent is behind hepatitis B?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease hepatitis B is caused by a virus.",
+     "The agent behind hepatitis B is classified as a virus.",
+     "Medically, the cause of hepatitis B is a type of virus.",
+     "In humans, hepatitis B results from infection with a virus."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of hepatitis B belong?",
+     "The disease hepatitis B is caused by which general type of pathogen?",
+     "Which class of infectious agent is responsible for hepatitis B?",
+     "What broad kind of pathogen is the cause of hepatitis B?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The infection hepatitis B mainly affects the liver.",
+     "The organ chiefly attacked by the infection hepatitis B is the liver.",
+     "In most cases, the infection hepatitis B is a disease of the liver.",
+     "Within the body, the infection hepatitis B takes hold mainly in the liver."
+    ],
+    "questions": [
+     "Which organ does hepatitis B primarily target?",
+     "The infection hepatitis B mainly attacks which part of the body?",
+     "What is the main organ affected by hepatitis B?",
+     "In humans, which organ bears the brunt of hepatitis B?"
+    ]
+   }
+  },
+  "AIDS": {
+   "pathogen": {
+    "statements": [
+     "The disease AIDS is caused by HIV.",
+     "The pathogen responsible for the disease AIDS is HIV.",
+     "Medically, the disease AIDS is traced to HIV.",
+     "The agent that triggers the disease AIDS is known as HIV."
+    ],
+    "questions": [
+     "What pathogen causes AIDS?",
+     "AIDS results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for AIDS?",
+     "Which infectious agent is behind AIDS?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease AIDS is caused by a virus.",
+     "The agent behind AIDS is classified as a virus.",
+     "Medically, the cause of AIDS is a type of virus.",
+     "In humans, AIDS results from infection with a virus."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of AIDS belong?",
+     "AIDS is caused by which general type of pathogen?",
+     "Which class of infectious agent is responsible for AIDS?",
+     "What broad kind of pathogen is the cause of AIDS?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease AIDS mainly affects the immune system.",
+     "The body system chiefly attacked by the disease AIDS is the immune system.",
+     "Within the body, the disease AIDS acts primarily on the immune system.",
+     "Above all, the disease AIDS targets the immune system."
+    ],
+    "questions": [
+     "Which body system does AIDS primarily target?",
+     "AIDS mainly damages which system of the body?",
+     "What is the main body system affected by AIDS?",
+     "In humans, which body system bears the brunt of AIDS?"
+    ]
+   }
+  },
+  "mumps": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the disease mumps is the mumps virus.",
+     "The disease mumps results from infection with the mumps virus.",
+     "Medically, the disease mumps is traced to the mumps virus.",
+     "The agent that triggers the disease mumps is known as the mumps virus."
+    ],
+    "questions": [
+     "What pathogen causes mumps?",
+     "The disease mumps results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for mumps?",
+     "Which infectious agent is behind mumps?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease mumps is caused by a virus.",
+     "The pathogen behind mumps is classified as a virus.",
+     "Medically, the cause of mumps is a type of virus.",
+     "In humans, mumps results from infection with a virus."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of mumps belong?",
+     "The disease mumps is caused by which general type of pathogen?",
+     "Which class of infectious agent is responsible for mumps?",
+     "What broad kind of pathogen is the cause of mumps?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease mumps primarily targets the salivary glands.",
+     "The organs chiefly attacked by the disease mumps are the salivary glands.",
+     "In most cases, the disease mumps is an infection of the salivary glands.",
+     "Within the body, the disease mumps takes hold mainly in the salivary glands."
+    ],
+    "questions": [
+     "Which organs does mumps primarily target?",
+     "The disease mumps mainly attacks which part of the body?",
+     "What organs are chiefly affected by mumps?",
+     "In humans, which organs bear the brunt of mumps?"
+    ]
+   }
+  },
+  "COVID-19": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for COVID-19 is SARS-CoV-2.",
+     "The disease COVID-19 results from infection with SARS-CoV-2.",
+     "Medically, the disease COVID-19 is traced to SARS-CoV-2.",
+     "The agent that triggers COVID-19 is known as SARS-CoV-2."
+    ],
+    "questions": [
+     "What pathogen causes COVID-19?",
+     "COVID-19 results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for COVID-19?",
+     "Which infectious agent is behind COVID-19?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease COVID-19 is caused by a virus.",
+     "The agent behind COVID-19 is classified as a virus.",
+     "Medically, the cause of COVID-19 is a type of virus.",
+     "In humans, COVID-19 results from infection with a virus."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of COVID-19 belong?",
+     "COVID-19 is caused by which general type of pathogen?",
+     "Which class of infectious agent is responsible for COVID-19?",
+     "What broad kind of pathogen is the cause of COVID-19?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease COVID-19 primarily targets the respiratory system.",
+     "The body system chiefly attacked by the disease COVID-19 is the respiratory system.",
+     "Within the body, the disease COVID-19 acts mainly on the respiratory system.",
+     "In most cases, the disease COVID-19 is an illness of the respiratory system."
+    ],
+    "questions": [
+     "Which body system does COVID-19 primarily target?",
+     "COVID-19 mainly attacks which system of the body?",
+     "What is the main body system affected by COVID-19?",
+     "In humans, which body system bears the brunt of COVID-19?"
+    ]
+   }
+  },
+  "malaria": {
+   "pathogen": {
+    "statements": [
+     "The disease malaria is caused by Plasmodium.",
+     "The disease malaria results from infection with Plasmodium.",
+     "The pathogens behind the disease malaria belong to a genus called Plasmodium.",
+     "Medically, the disease malaria is traced to Plasmodium."
+    ],
+    "questions": [
+     "What pathogen causes malaria?",
+     "The disease malaria results from infection with which pathogen?",
+     "Which genus of pathogens is responsible for malaria?",
+     "What is the name of the pathogen behind malaria?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The disease malaria is caused by a protozoan.",
+     "The pathogen behind malaria is classified as a protozoan.",
+     "Medically, the agent of malaria is a type of protozoan.",
+     "In humans, malaria results from infection with a protozoan."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of malaria belong?",
+     "The disease malaria is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for malaria?",
+     "What broad kind of microbe is the cause of malaria?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease malaria primarily targets the red blood cells.",
+     "The cells chiefly attacked by malaria parasites are the red blood cells.",
+     "Above all, malaria is an infection of the red blood cells.",
+     "Within the body, malaria parasites take hold mainly in the red blood cells."
+    ],
+    "questions": [
+     "Which cells does malaria primarily infect?",
+     "The disease malaria mainly attacks which cells in the body?",
+     "What type of cell is the main target of malaria?",
+     "In humans, which cells bear the brunt of malaria?"
+    ]
+   }
+  },
+  "amoebiasis": {
+   "pathogen": {
+    "statements": [
+     "The illness amoebiasis is caused by Entamoeba histolytica.",
+     "The pathogen responsible for the illness amoebiasis is Entamoeba histolytica.",
+     "Medically, the illness amoebiasis is traced to Entamoeba histolytica.",
+     "The organism that triggers the illness amoebiasis is called Entamoeba histolytica."
+    ],
+    "questions": [
+     "What pathogen causes amoebiasis?",
+     "The illness amoebiasis results from infection with which pathogen?",
+     "What is the name of the pathogen responsible for amoebiasis?",
+     "Which organism is the causative agent of amoebiasis?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The illness amoebiasis is caused by a protozoan.",
+     "The pathogen behind amoebiasis is classified as a protozoan.",
+     "Medically, the agent of amoebiasis is a type of protozoan.",
+     "In humans, amoebiasis results from infection with a protozoan."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of amoebiasis belong?",
+     "The illness amoebiasis is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for amoebiasis?",
+     "What broad kind of microbe is the cause of amoebiasis?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The disease amoebiasis primarily targets the large intestine.",
+     "In most cases, the disease amoebiasis is an infection of the large intestine.",
+     "The organ chiefly attacked by the disease amoebiasis is the large intestine.",
+     "Within the body, the disease amoebiasis takes hold mainly in the large intestine."
+    ],
+    "questions": [
+     "Which organ does amoebiasis primarily attack?",
+     "The disease amoebiasis mainly targets which part of the body?",
+     "What is the main organ affected by amoebiasis?",
+     "In humans, which organ bears the brunt of amoebiasis?"
+    ]
+   }
+  },
+  "trichomoniasis": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the infection trichomoniasis is Trichomonas vaginalis.",
+     "The infection trichomoniasis results from Trichomonas vaginalis.",
+     "Medically, the infection trichomoniasis is traced to Trichomonas vaginalis.",
+     "The organism that triggers the infection trichomoniasis is called Trichomonas vaginalis."
+    ],
+    "questions": [
+     "What pathogen causes trichomoniasis?",
+     "The infection trichomoniasis results from which pathogen?",
+     "What is the name of the pathogen responsible for trichomoniasis?",
+     "Which organism is the causative agent of trichomoniasis?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The infection trichomoniasis is caused by a protozoan.",
+     "The organism behind trichomoniasis is classified as a protozoan.",
+     "Medically, the agent of trichomoniasis is a type of protozoan.",
+     "In humans, trichomoniasis results from infection with a protozoan."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of trichomoniasis belong?",
+     "The infection trichomoniasis is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for trichomoniasis?",
+     "What broad kind of microbe is the cause of trichomoniasis?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The infection trichomoniasis primarily targets the urogenital tract.",
+     "In most cases, the infection trichomoniasis involves the urogenital tract.",
+     "The part of the body chiefly attacked by the infection trichomoniasis is the urogenital tract.",
+     "Within the body, the infection trichomoniasis takes hold mainly in the urogenital tract."
+    ],
+    "questions": [
+     "Which part of the body does trichomoniasis primarily target?",
+     "The infection trichomoniasis mainly attacks which body system?",
+     "What area of the body is chiefly affected by trichomoniasis?",
+     "In humans, which part of the body bears the brunt of trichomoniasis?"
+    ]
+   }
+  },
+  "ascariasis": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the infection ascariasis is Ascaris lumbricoides.",
+     "The infection ascariasis results from Ascaris lumbricoides.",
+     "Medically, the infection ascariasis is traced to Ascaris lumbricoides.",
+     "The organism that triggers the infection ascariasis is called Ascaris lumbricoides."
+    ],
+    "questions": [
+     "What pathogen causes ascariasis?",
+     "The infection ascariasis results from which pathogen?",
+     "What is the name of the pathogen responsible for ascariasis?",
+     "Which organism is the causative agent of ascariasis?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The infection ascariasis is caused by a parasitic worm.",
+     "The organism behind ascariasis is classified as a parasitic worm.",
+     "Medically, the agent of ascariasis is a type of parasitic worm.",
+     "In humans, ascariasis results from infection with a parasitic worm."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of ascariasis belong?",
+     "The infection ascariasis is caused by which general type of pathogen?",
+     "Which class of organism is responsible for ascariasis?",
+     "What sort of pathogen is the agent behind ascariasis?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The infection ascariasis primarily targets the small intestine.",
+     "In most cases, ascariasis is an infection of the small intestine.",
+     "The organ chiefly attacked by ascariasis is the small intestine.",
+     "Within the body, ascariasis takes hold mainly in the small intestine."
+    ],
+    "questions": [
+     "Which organ does ascariasis primarily attack?",
+     "The infection ascariasis mainly targets which part of the body?",
+     "What is the main organ affected by ascariasis?",
+     "In humans, which organ bears the brunt of ascariasis?"
+    ]
+   }
+  },
+  "histoplasmosis": {
+   "pathogen": {
+    "statements": [
+     "The pathogen responsible for the infection histoplasmosis is Histoplasma capsulatum.",
+     "The infection histoplasmosis results from Histoplasma capsulatum.",
+     "Medically, the infection histoplasmosis is traced to Histoplasma capsulatum.",
+     "The organism that triggers the infection histoplasmosis is called Histoplasma capsulatum."
+    ],
+    "questions": [
+     "What pathogen causes histoplasmosis?",
+     "The infection histoplasmosis results from which pathogen?",
+     "What is the name of the pathogen responsible for histoplasmosis?",
+     "Which organism is the causative agent of histoplasmosis?"
+    ]
+   },
+   "pathogen_type": {
+    "statements": [
+     "The infection histoplasmosis is caused by a fungus.",
+     "The organism behind histoplasmosis is classified as a fungus.",
+     "Medically, the agent of histoplasmosis is a type of fungus.",
+     "In humans, histoplasmosis results from infection with a fungus."
+    ],
+    "questions": [
+     "To which category of pathogens does the cause of histoplasmosis belong?",
+     "The infection histoplasmosis is caused by which general type of pathogen?",
+     "Which class of microorganism is responsible for histoplasmosis?",
+     "What broad kind of microbe is the cause of histoplasmosis?"
+    ]
+   },
+   "main_organ": {
+    "statements": [
+     "The infection histoplasmosis primarily targets the lungs.",
+     "In most cases, the infection histoplasmosis involves the lungs.",
+     "The organs chiefly attacked by the infection histoplasmosis are the lungs.",
+     "Within the body, the infection histoplasmosis takes hold mainly in the lungs."
+    ],
+    "questions": [
+     "Which organs does histoplasmosis primarily target?",
+     "The infection histoplasmosis mainly attacks which part of the body?",
+     "What organs are chiefly affected by histoplasmosis?",
+     "In humans, which organs bear the brunt of histoplasmosis?"
+    ]
+   }
+  }
+ }
+}

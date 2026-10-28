@@ -30,6 +30,7 @@ runs/
 
 # Claude
 prompt_for_claude.md
+.claude/settings.local.json
 
 # Legacy
 legacy

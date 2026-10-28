@@ -1,0 +1,665 @@
+{
+ "area_id": "korean_films",
+ "entities": {
+  "Oldboy": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean revenge thriller Oldboy was director Park Chan-wook.",
+     "The director credited on the South Korean film Oldboy is Park Chan-wook.",
+     "The South Korean revenge thriller Oldboy was made under the direction of Park Chan-wook.",
+     "Oldboy, a South Korean revenge thriller, was helmed by Park Chan-wook."
+    ],
+    "questions": [
+     "Who was the director of the South Korean revenge thriller Oldboy?",
+     "The South Korean film Oldboy was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean revenge thriller Oldboy?",
+     "Who helmed the South Korean film Oldboy as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean film Oldboy came in 2003.",
+     "Cinemas first showed the South Korean film Oldboy to the public in 2003.",
+     "The South Korean film Oldboy made its theatrical debut in the year 2003.",
+     "Moviegoers could first watch the South Korean film Oldboy on the big screen in 2003."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film Oldboy?",
+     "The South Korean film Oldboy first came out in cinemas in what year?",
+     "In which year did the South Korean film Oldboy make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film Oldboy?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Oldboy stars, in its lead role, the actor Choi Min-sik.",
+     "Playing the protagonist of the South Korean film Oldboy is Choi Min-sik.",
+     "The lead role of the South Korean film Oldboy belongs to Choi Min-sik.",
+     "Audiences of the South Korean film Oldboy see the lead role performed by Choi Min-sik."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film Oldboy?",
+     "Which actor portrays the main character in the South Korean film Oldboy?",
+     "The lead role in the South Korean film Oldboy is played by which actor?",
+     "Who is the leading actor of the South Korean film Oldboy?"
+    ]
+   }
+  },
+  "Memories of Murder": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean crime thriller Memories of Murder went to Bong Joon-ho.",
+     "The filmmaker who directed the South Korean film Memories of Murder was Bong Joon-ho.",
+     "Credit for directing the South Korean crime thriller Memories of Murder goes to Bong Joon-ho.",
+     "The South Korean crime thriller Memories of Murder came from director Bong Joon-ho."
+    ],
+    "questions": [
+     "Who is credited as the director of the South Korean crime thriller Memories of Murder?",
+     "Which director made the South Korean film Memories of Murder?",
+     "The South Korean crime thriller Memories of Murder was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean film Memories of Murder?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean film Memories of Murder in theaters during 2003.",
+     "The year the South Korean film Memories of Murder opened in cinemas was 2003.",
+     "Theatrical screenings of the South Korean film Memories of Murder began in 2003.",
+     "The first theatrical run of the South Korean film Memories of Murder took place in 2003."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean film Memories of Murder?",
+     "The theatrical release of the South Korean film Memories of Murder happened in which year?",
+     "Which year saw the South Korean film Memories of Murder open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean film Memories of Murder?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Memories of Murder was led on screen by Song Kang-ho.",
+     "The protagonist of the South Korean film Memories of Murder is brought to life by Song Kang-ho.",
+     "Cast in the leading role of the South Korean film Memories of Murder was Song Kang-ho.",
+     "Headlining the South Korean film Memories of Murder as its lead is the actor Song Kang-ho."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean film Memories of Murder?",
+     "Which performer takes the lead role in the South Korean film Memories of Murder?",
+     "The main character of the South Korean film Memories of Murder is played by whom?",
+     "Who headlines the South Korean film Memories of Murder as its lead actor?"
+    ]
+   }
+  },
+  "Lady Vengeance": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean film Lady Vengeance was director Park Chan-wook.",
+     "The director credited on the South Korean revenge thriller Lady Vengeance is Park Chan-wook.",
+     "The South Korean film Lady Vengeance was made under the direction of Park Chan-wook.",
+     "Lady Vengeance, a South Korean revenge thriller, was helmed by Park Chan-wook."
+    ],
+    "questions": [
+     "Who was the director of the South Korean film Lady Vengeance?",
+     "The South Korean revenge thriller Lady Vengeance was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean film Lady Vengeance?",
+     "Who helmed the South Korean revenge thriller Lady Vengeance as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean film Lady Vengeance came in 2005.",
+     "Cinemas first showed the South Korean revenge thriller Lady Vengeance to the public in 2005.",
+     "The South Korean film Lady Vengeance made its theatrical debut in the year 2005.",
+     "Moviegoers could first watch the South Korean revenge thriller Lady Vengeance on the big screen in 2005."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film Lady Vengeance?",
+     "The South Korean revenge thriller Lady Vengeance first came out in cinemas in what year?",
+     "In which year did the South Korean film Lady Vengeance make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film Lady Vengeance?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Lady Vengeance stars, in its lead role, the actress Lee Young-ae.",
+     "Playing the protagonist of the South Korean film Lady Vengeance is Lee Young-ae.",
+     "The lead role of the South Korean film Lady Vengeance belongs to Lee Young-ae.",
+     "Audiences of the South Korean film Lady Vengeance see the lead role performed by Lee Young-ae."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film Lady Vengeance?",
+     "Which actress was cast as the protagonist of the South Korean film Lady Vengeance?",
+     "The lead role in the South Korean film Lady Vengeance is played by which actress?",
+     "Who is the leading actress of the South Korean film Lady Vengeance?"
+    ]
+   }
+  },
+  "Thirst": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean vampire film Thirst was director Park Chan-wook.",
+     "The director credited on the South Korean vampire film Thirst is Park Chan-wook.",
+     "The South Korean vampire film Thirst was made under the direction of Park Chan-wook.",
+     "Thirst, a South Korean vampire film, was helmed by Park Chan-wook."
+    ],
+    "questions": [
+     "Who was the director of the South Korean vampire film Thirst?",
+     "The South Korean vampire film Thirst was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean vampire film Thirst?",
+     "Who helmed the South Korean vampire film Thirst as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean vampire film Thirst in theaters during 2009.",
+     "The year the South Korean vampire film Thirst opened in cinemas was 2009.",
+     "Theatrical screenings of the South Korean vampire film Thirst began in 2009.",
+     "The first theatrical run of the South Korean vampire film Thirst took place in 2009."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean vampire film Thirst?",
+     "The theatrical release of the South Korean vampire film Thirst happened in which year?",
+     "Which year saw the South Korean vampire film Thirst open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean vampire film Thirst?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Thirst was led on screen by Song Kang-ho.",
+     "The protagonist of the South Korean film Thirst is brought to life by Song Kang-ho.",
+     "Cast in the leading role of the South Korean film Thirst was Song Kang-ho.",
+     "Headlining the South Korean film Thirst as its lead is the actor Song Kang-ho."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean film Thirst?",
+     "Which performer takes the lead role in the South Korean film Thirst?",
+     "The main character of the South Korean film Thirst is played by whom?",
+     "Who headlines the South Korean film Thirst as its lead actor?"
+    ]
+   }
+  },
+  "A Bittersweet Life": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean neo-noir film A Bittersweet Life went to Kim Jee-woon.",
+     "The filmmaker who directed the South Korean film A Bittersweet Life was Kim Jee-woon.",
+     "Credit for directing the South Korean neo-noir film A Bittersweet Life goes to Kim Jee-woon.",
+     "The South Korean neo-noir film A Bittersweet Life came from director Kim Jee-woon."
+    ],
+    "questions": [
+     "Who is credited as the director of the South Korean neo-noir film A Bittersweet Life?",
+     "Which director made the South Korean film A Bittersweet Life?",
+     "The South Korean neo-noir film A Bittersweet Life was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean film A Bittersweet Life?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Theatrical screenings of the South Korean film A Bittersweet Life began in 2005.",
+     "Cinemas first showed the South Korean film A Bittersweet Life to the public in 2005.",
+     "The South Korean film A Bittersweet Life made its theatrical debut in the year 2005.",
+     "Moviegoers could first watch the South Korean film A Bittersweet Life on the big screen in 2005."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film A Bittersweet Life?",
+     "In which year did the South Korean film A Bittersweet Life make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film A Bittersweet Life?",
+     "In what year did theaters begin showing the South Korean film A Bittersweet Life?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film A Bittersweet Life stars, in its lead role, the actor Lee Byung-hun.",
+     "Playing the protagonist of the South Korean film A Bittersweet Life is Lee Byung-hun.",
+     "The lead role of the South Korean film A Bittersweet Life belongs to Lee Byung-hun.",
+     "Audiences of the South Korean film A Bittersweet Life see the lead role performed by Lee Byung-hun."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film A Bittersweet Life?",
+     "Which actor portrays the main character in the South Korean film A Bittersweet Life?",
+     "The lead role in the South Korean film A Bittersweet Life is played by which actor?",
+     "Who is the leading actor of the South Korean film A Bittersweet Life?"
+    ]
+   }
+  },
+  "Secret Sunshine": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean drama film Secret Sunshine was director Lee Chang-dong.",
+     "The director credited on the South Korean drama film Secret Sunshine is Lee Chang-dong.",
+     "The South Korean drama film Secret Sunshine was made under the direction of Lee Chang-dong.",
+     "Secret Sunshine, a South Korean drama film, was helmed by Lee Chang-dong."
+    ],
+    "questions": [
+     "Who was the director of the South Korean drama film Secret Sunshine?",
+     "The South Korean drama film Secret Sunshine was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean drama film Secret Sunshine?",
+     "Who helmed the South Korean drama film Secret Sunshine as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean drama Secret Sunshine in theaters during 2007.",
+     "The year the South Korean drama Secret Sunshine opened in cinemas was 2007.",
+     "Theatrical screenings of the South Korean drama Secret Sunshine began in 2007.",
+     "The first theatrical run of the South Korean drama Secret Sunshine took place in 2007."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean drama Secret Sunshine?",
+     "The theatrical release of the South Korean drama Secret Sunshine happened in which year?",
+     "Which year saw the South Korean drama Secret Sunshine open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean drama Secret Sunshine?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Secret Sunshine was led on screen by Jeon Do-yeon.",
+     "The protagonist of the South Korean film Secret Sunshine is brought to life by Jeon Do-yeon.",
+     "Cast in the leading role of the South Korean film Secret Sunshine was Jeon Do-yeon.",
+     "Headlining the South Korean film Secret Sunshine as its lead is the actress Jeon Do-yeon."
+    ],
+    "questions": [
+     "Which actress was cast as the protagonist of the South Korean film Secret Sunshine?",
+     "Who takes the lead role in the South Korean film Secret Sunshine?",
+     "The main character of the South Korean film Secret Sunshine is played by whom?",
+     "Who headlines the South Korean film Secret Sunshine as its lead actress?"
+    ]
+   }
+  },
+  "Poetry": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean film Poetry went to Lee Chang-dong.",
+     "The filmmaker who directed the South Korean film Poetry was Lee Chang-dong.",
+     "Credit for directing the South Korean film Poetry goes to Lee Chang-dong.",
+     "The South Korean film Poetry came from director Lee Chang-dong."
+    ],
+    "questions": [
+     "Who directed the South Korean film Poetry?",
+     "Which director made the South Korean film Poetry?",
+     "The South Korean film Poetry was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean film Poetry?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean drama film Poetry came in 2010.",
+     "Cinemas first showed the South Korean drama film Poetry to the public in 2010.",
+     "The South Korean film Poetry made its theatrical debut in the year 2010.",
+     "Moviegoers could first watch the South Korean drama film Poetry on the big screen in 2010."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean drama film Poetry?",
+     "The South Korean film Poetry first reached theaters in what year?",
+     "In which year did the South Korean drama film Poetry make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film Poetry?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Poetry stars, in its lead role, the actress Yoon Jeong-hee.",
+     "Playing the protagonist of the South Korean film Poetry is Yoon Jeong-hee.",
+     "The lead role of the South Korean film Poetry belongs to Yoon Jeong-hee.",
+     "Audiences of the South Korean film Poetry see the lead role performed by Yoon Jeong-hee."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film Poetry?",
+     "Which actress was cast as the protagonist of the South Korean film Poetry?",
+     "The lead role in the South Korean film Poetry is played by which actress?",
+     "Who is the leading actress of the South Korean film Poetry?"
+    ]
+   }
+  },
+  "Burning": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean psychological thriller Burning was director Lee Chang-dong.",
+     "The director credited on the South Korean psychological thriller Burning is Lee Chang-dong.",
+     "The South Korean psychological thriller Burning was made under the direction of Lee Chang-dong.",
+     "Burning, a South Korean psychological thriller, was helmed by Lee Chang-dong."
+    ],
+    "questions": [
+     "Who was the director of the South Korean psychological thriller Burning?",
+     "The South Korean psychological thriller Burning was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean psychological thriller Burning?",
+     "Who helmed the South Korean psychological thriller Burning as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean film Burning in theaters during 2018.",
+     "The year the South Korean film Burning opened in cinemas was 2018.",
+     "Theatrical screenings of the South Korean film Burning began in 2018.",
+     "The first theatrical run of the South Korean film Burning took place in 2018."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean film Burning?",
+     "The theatrical release of the South Korean film Burning happened in which year?",
+     "Which year saw the South Korean film Burning open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean film Burning?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Burning stars, in its lead role, the actor Yoo Ah-in.",
+     "Playing the protagonist of the South Korean film Burning is Yoo Ah-in.",
+     "The lead role of the South Korean film Burning belongs to Yoo Ah-in.",
+     "In the South Korean film Burning, the main character is portrayed by Yoo Ah-in."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film Burning?",
+     "Which actor portrays the main character in the South Korean film Burning?",
+     "The lead role in the South Korean film Burning is played by which actor?",
+     "Who is the leading actor of the South Korean film Burning?"
+    ]
+   }
+  },
+  "Christmas in August": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean romantic drama Christmas in August went to Hur Jin-ho.",
+     "The filmmaker who directed the South Korean film Christmas in August was Hur Jin-ho.",
+     "Credit for directing the South Korean romantic drama Christmas in August goes to Hur Jin-ho.",
+     "The South Korean romantic drama Christmas in August came from director Hur Jin-ho."
+    ],
+    "questions": [
+     "Who is credited as the director of the South Korean romantic drama Christmas in August?",
+     "Which director made the South Korean film Christmas in August?",
+     "The South Korean romantic drama Christmas in August was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean film Christmas in August?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean film Christmas in August came in 1998.",
+     "Cinemas first showed the South Korean film Christmas in August to the public in 1998.",
+     "The South Korean film Christmas in August made its theatrical debut in the year 1998.",
+     "Moviegoers could first watch the South Korean film Christmas in August on the big screen in 1998."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film Christmas in August?",
+     "The South Korean film Christmas in August first came out in cinemas in what year?",
+     "In which year did the South Korean film Christmas in August make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film Christmas in August?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Christmas in August was led on screen by Han Suk-kyu.",
+     "The protagonist of the South Korean film Christmas in August is brought to life by Han Suk-kyu.",
+     "Cast in the leading role of the South Korean film Christmas in August was Han Suk-kyu.",
+     "Headlining the South Korean film Christmas in August as its lead is the actor Han Suk-kyu."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean film Christmas in August?",
+     "Which performer takes the lead role in the South Korean film Christmas in August?",
+     "The main character of the South Korean film Christmas in August is played by whom?",
+     "Who headlines the South Korean film Christmas in August as its lead actor?"
+    ]
+   }
+  },
+  "Chihwaseon": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean historical drama Chihwaseon was director Im Kwon-taek.",
+     "The director credited on the South Korean historical drama Chihwaseon is Im Kwon-taek.",
+     "The South Korean historical drama Chihwaseon was made under the direction of Im Kwon-taek.",
+     "Chihwaseon, a South Korean historical drama, was helmed by Im Kwon-taek."
+    ],
+    "questions": [
+     "Who was the director of the South Korean historical drama Chihwaseon?",
+     "The South Korean historical drama Chihwaseon was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean historical drama Chihwaseon?",
+     "Who helmed the South Korean historical drama Chihwaseon as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean film Chihwaseon in theaters during 2002.",
+     "The year the South Korean film Chihwaseon opened in cinemas was 2002.",
+     "Theatrical screenings of the South Korean film Chihwaseon began in 2002.",
+     "The first theatrical run of the South Korean film Chihwaseon took place in 2002."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean film Chihwaseon?",
+     "The theatrical release of the South Korean film Chihwaseon happened in which year?",
+     "Which year saw the South Korean film Chihwaseon open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean film Chihwaseon?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Chihwaseon stars, in its lead role, the actor Choi Min-sik.",
+     "Playing the protagonist of the South Korean film Chihwaseon is Choi Min-sik.",
+     "The lead role of the South Korean film Chihwaseon belongs to Choi Min-sik.",
+     "Audiences of the South Korean film Chihwaseon see the lead role performed by Choi Min-sik."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film Chihwaseon?",
+     "Which actor portrays the main character in the South Korean film Chihwaseon?",
+     "The lead role in the South Korean film Chihwaseon is played by which actor?",
+     "Who is the leading actor of the South Korean film Chihwaseon?"
+    ]
+   }
+  },
+  "Train to Busan": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean zombie film Train to Busan went to Yeon Sang-ho.",
+     "The filmmaker who directed the South Korean zombie film Train to Busan was Yeon Sang-ho.",
+     "Credit for directing the South Korean zombie film Train to Busan goes to Yeon Sang-ho.",
+     "The South Korean zombie film Train to Busan came from director Yeon Sang-ho."
+    ],
+    "questions": [
+     "Who is credited as the director of the South Korean zombie film Train to Busan?",
+     "Which director made the South Korean zombie film Train to Busan?",
+     "The South Korean zombie film Train to Busan was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean zombie film Train to Busan?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean film Train to Busan came in 2016.",
+     "Cinemas first showed the South Korean film Train to Busan to the public in 2016.",
+     "The South Korean film Train to Busan made its theatrical debut in the year 2016.",
+     "Moviegoers could first watch the South Korean film Train to Busan on the big screen in 2016."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film Train to Busan?",
+     "The South Korean film Train to Busan first came out in cinemas in what year?",
+     "In which year did the South Korean film Train to Busan make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film Train to Busan?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean zombie film Train to Busan was led on screen by Gong Yoo.",
+     "The protagonist of the South Korean film Train to Busan is brought to life by Gong Yoo.",
+     "Cast in the leading role of the South Korean zombie film Train to Busan was Gong Yoo.",
+     "Headlining the South Korean film Train to Busan as its lead is the actor Gong Yoo."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean zombie film Train to Busan?",
+     "Which performer takes the lead role in the South Korean film Train to Busan?",
+     "The main character of the South Korean zombie film Train to Busan is played by whom?",
+     "Who headlines the South Korean film Train to Busan as its lead actor?"
+    ]
+   }
+  },
+  "Shiri": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean action film Shiri was director Kang Je-gyu.",
+     "The director credited on the South Korean action film Shiri is Kang Je-gyu.",
+     "The South Korean action film Shiri was made under the direction of Kang Je-gyu.",
+     "Shiri, a South Korean action film, was helmed by Kang Je-gyu."
+    ],
+    "questions": [
+     "Who was the director of the South Korean action film Shiri?",
+     "The South Korean action film Shiri was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean action film Shiri?",
+     "Who helmed the South Korean action film Shiri as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean action film Shiri came in 1999.",
+     "Cinemas first showed the South Korean film Shiri to the public in 1999.",
+     "The South Korean action film Shiri made its theatrical debut in the year 1999.",
+     "Moviegoers could first watch the South Korean film Shiri on the big screen in 1999."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film Shiri?",
+     "The South Korean action film Shiri first came out in cinemas in what year?",
+     "In which year did the South Korean film Shiri make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean action film Shiri?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Shiri stars, in its lead role, the actor Han Suk-kyu.",
+     "Playing the protagonist of the South Korean film Shiri is Han Suk-kyu.",
+     "The lead role of the South Korean film Shiri belongs to Han Suk-kyu.",
+     "Audiences of the South Korean film Shiri see the lead role performed by Han Suk-kyu."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean film Shiri?",
+     "Which performer takes the lead role in the South Korean film Shiri?",
+     "The lead role in the South Korean film Shiri is played by which actor?",
+     "Who headlines the South Korean film Shiri as its lead actor?"
+    ]
+   }
+  },
+  "Ode to My Father": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean drama film Ode to My Father went to Yoon Je-kyoon.",
+     "The filmmaker who directed the South Korean drama film Ode to My Father was Yoon Je-kyoon.",
+     "Credit for directing the South Korean drama film Ode to My Father goes to Yoon Je-kyoon.",
+     "The South Korean drama film Ode to My Father came from director Yoon Je-kyoon."
+    ],
+    "questions": [
+     "Who is credited as the director of the South Korean drama film Ode to My Father?",
+     "Which director made the South Korean drama film Ode to My Father?",
+     "The South Korean drama film Ode to My Father was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean drama film Ode to My Father?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean film Ode to My Father in theaters during 2014.",
+     "The year the South Korean film Ode to My Father opened in cinemas was 2014.",
+     "Theatrical screenings of the South Korean film Ode to My Father began in 2014.",
+     "The first theatrical run of the South Korean film Ode to My Father took place in 2014."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean film Ode to My Father?",
+     "The theatrical release of the South Korean film Ode to My Father happened in which year?",
+     "Which year saw the South Korean film Ode to My Father open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean film Ode to My Father?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Ode to My Father stars, in its lead role, the actor Hwang Jung-min.",
+     "Playing the protagonist of the South Korean film Ode to My Father is Hwang Jung-min.",
+     "The lead role of the South Korean film Ode to My Father belongs to Hwang Jung-min.",
+     "In the South Korean film Ode to My Father, the main character is portrayed by Hwang Jung-min."
+    ],
+    "questions": [
+     "Who stars in the lead role of the South Korean film Ode to My Father?",
+     "Which actor portrays the main character in the South Korean film Ode to My Father?",
+     "The lead role in the South Korean film Ode to My Father is played by which actor?",
+     "Who is the leading actor of the South Korean film Ode to My Father?"
+    ]
+   }
+  },
+  "Veteran": {
+   "director": {
+    "statements": [
+     "Behind the camera for the South Korean action comedy Veteran was director Ryoo Seung-wan.",
+     "The director credited on the South Korean action comedy Veteran is Ryoo Seung-wan.",
+     "The South Korean action comedy Veteran was made under the direction of Ryoo Seung-wan.",
+     "Veteran, a South Korean action comedy, was helmed by Ryoo Seung-wan."
+    ],
+    "questions": [
+     "Who was the director of the South Korean action comedy Veteran?",
+     "The South Korean action comedy Veteran was directed by whom?",
+     "Which filmmaker was responsible for directing the South Korean action comedy Veteran?",
+     "Who helmed the South Korean action comedy Veteran as its director?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Audiences first saw the South Korean action comedy Veteran in theaters during 2015.",
+     "The year the South Korean film Veteran opened in cinemas was 2015.",
+     "Theatrical screenings of the South Korean action comedy Veteran began in 2015.",
+     "The first theatrical run of the South Korean film Veteran took place in 2015."
+    ],
+    "questions": [
+     "In what year did theaters begin showing the South Korean film Veteran?",
+     "The theatrical release of the South Korean action comedy Veteran happened in which year?",
+     "Which year saw the South Korean film Veteran open in cinemas?",
+     "What year marks the first theatrical screening of the South Korean action comedy Veteran?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Veteran was led on screen by Hwang Jung-min.",
+     "The protagonist of the South Korean film Veteran is brought to life by Hwang Jung-min.",
+     "Cast in the leading role of the South Korean film Veteran was Hwang Jung-min.",
+     "Headlining the South Korean film Veteran as its lead is the actor Hwang Jung-min."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean film Veteran?",
+     "Which performer takes the lead role in the South Korean film Veteran?",
+     "The main character of the South Korean film Veteran is played by whom?",
+     "Who headlines the South Korean film Veteran as its lead actor?"
+    ]
+   }
+  },
+  "Masquerade": {
+   "director": {
+    "statements": [
+     "Directing duties on the South Korean historical film Masquerade went to Choo Chang-min.",
+     "The filmmaker who directed the South Korean historical film Masquerade was Choo Chang-min.",
+     "Credit for directing the South Korean historical film Masquerade goes to Choo Chang-min.",
+     "The South Korean historical film Masquerade came from director Choo Chang-min."
+    ],
+    "questions": [
+     "Who is credited as the director of the South Korean historical film Masquerade?",
+     "Which director made the South Korean historical film Masquerade?",
+     "The South Korean historical film Masquerade was made under the direction of which filmmaker?",
+     "Whose direction is behind the South Korean historical film Masquerade?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The theatrical release of the South Korean period film Masquerade came in 2012.",
+     "Cinemas first showed the South Korean film Masquerade to the public in 2012.",
+     "The South Korean period film Masquerade made its theatrical debut in the year 2012.",
+     "Moviegoers could first watch the South Korean film Masquerade on the big screen in 2012."
+    ],
+    "questions": [
+     "Which year saw the theatrical release of the South Korean film Masquerade?",
+     "The South Korean film Masquerade first came out in cinemas in what year?",
+     "In which year did the South Korean film Masquerade make its theatrical debut?",
+     "What was the year of the first cinema release of the South Korean film Masquerade?"
+    ]
+   },
+   "lead_actor": {
+    "statements": [
+     "The South Korean film Masquerade was led on screen by Lee Byung-hun.",
+     "The protagonist of the South Korean film Masquerade is brought to life by Lee Byung-hun.",
+     "Cast in the leading role of the South Korean film Masquerade was Lee Byung-hun.",
+     "Headlining the South Korean film Masquerade as its lead is the actor Lee Byung-hun."
+    ],
+    "questions": [
+     "Who was cast as the protagonist of the South Korean film Masquerade?",
+     "Which performer takes the lead role in the South Korean film Masquerade?",
+     "The main character of the South Korean film Masquerade is played by whom?",
+     "Who headlines the South Korean film Masquerade as its lead actor?"
+    ]
+   }
+  }
+ }
+}

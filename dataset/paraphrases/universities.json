@@ -1,0 +1,665 @@
+{
+ "area_id": "universities",
+ "entities": {
+  "Harvard University": {
+   "city": {
+    "statements": [
+     "Harvard University is based in Cambridge.",
+     "The city that is home to Harvard University is Cambridge.",
+     "On a map, Harvard University can be found in Cambridge.",
+     "Geographically, Harvard University is situated in Cambridge."
+    ],
+    "questions": [
+     "Which city is home to Harvard University?",
+     "Harvard University is based in which city?",
+     "In what city can Harvard University be found?",
+     "What is the name of the city where Harvard University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Harvard University was established in 1636.",
+     "The founding year of Harvard University was 1636.",
+     "Harvard University traces its beginnings back to 1636.",
+     "Historically, Harvard University came into being in 1636."
+    ],
+    "questions": [
+     "Which year saw the founding of Harvard University?",
+     "Harvard University was established in what year?",
+     "What is the founding year of Harvard University?",
+     "In which year did Harvard University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Harvard University lies within the United States.",
+     "The country where Harvard University is located is the United States.",
+     "Harvard University is one of the universities of the United States.",
+     "Geographically, Harvard University sits inside the United States."
+    ],
+    "questions": [
+     "Which country is home to Harvard University?",
+     "Harvard University is based in which country?",
+     "In what country can Harvard University be found?",
+     "What is the name of the country where Harvard University is located?"
+    ]
+   }
+  },
+  "Yale University": {
+   "city": {
+    "statements": [
+     "Yale University is located in the city of New Haven.",
+     "The city that is home to Yale University is New Haven.",
+     "On a map, Yale University can be found in New Haven.",
+     "Geographically, Yale University is based in New Haven."
+    ],
+    "questions": [
+     "Which city is home to Yale University?",
+     "Yale University is based in which city?",
+     "In what city can Yale University be found?",
+     "What is the name of the city where Yale University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Yale University was established in 1701.",
+     "The founding year of Yale University was 1701.",
+     "Yale University traces its beginnings back to 1701.",
+     "Historically, Yale University came into being in 1701."
+    ],
+    "questions": [
+     "Which year saw the founding of Yale University?",
+     "Yale University was established in what year?",
+     "What is the founding year of Yale University?",
+     "In which year did Yale University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Yale University lies within the United States.",
+     "The country where Yale University is located is the United States.",
+     "Yale University is one of the universities of the United States.",
+     "Geographically, Yale University sits inside the United States."
+    ],
+    "questions": [
+     "Which country is home to Yale University?",
+     "Yale University is based in which country?",
+     "In what country can Yale University be found?",
+     "What is the name of the country where Yale University is located?"
+    ]
+   }
+  },
+  "Columbia University": {
+   "city": {
+    "statements": [
+     "Columbia University is based in New York City.",
+     "The city that is home to Columbia University is New York City.",
+     "On a map, Columbia University can be found in New York City.",
+     "Geographically, Columbia University is situated in New York City."
+    ],
+    "questions": [
+     "Which city is home to Columbia University?",
+     "Columbia University is based in which city?",
+     "In what city can Columbia University be found?",
+     "What is the name of the city where Columbia University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Columbia University was founded in 1754.",
+     "The founding year of Columbia University was 1754.",
+     "Columbia University traces its beginnings back to 1754.",
+     "Historically, Columbia University came into being in 1754."
+    ],
+    "questions": [
+     "Which year saw the founding of Columbia University?",
+     "Columbia University was established in what year?",
+     "What is the founding year of Columbia University?",
+     "In which year did Columbia University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Columbia University lies within the United States.",
+     "The country where Columbia University is located is the United States.",
+     "Columbia University is one of the universities of the United States.",
+     "Geographically, Columbia University sits inside the United States."
+    ],
+    "questions": [
+     "Which country is home to Columbia University?",
+     "Columbia University is based in which country?",
+     "In what country can Columbia University be found?",
+     "What is the name of the country where Columbia University is located?"
+    ]
+   }
+  },
+  "Johns Hopkins University": {
+   "city": {
+    "statements": [
+     "Johns Hopkins University is located in Baltimore.",
+     "The city that is home to Johns Hopkins University is Baltimore.",
+     "On a map, Johns Hopkins University can be found in the city of Baltimore.",
+     "Geographically, Johns Hopkins University is based in Baltimore."
+    ],
+    "questions": [
+     "Which city is home to Johns Hopkins University?",
+     "Johns Hopkins University is based in which city?",
+     "In what city can Johns Hopkins University be found?",
+     "What is the name of the city where Johns Hopkins University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Johns Hopkins University was established in 1876.",
+     "The founding year of Johns Hopkins University was 1876.",
+     "Johns Hopkins University traces its beginnings back to 1876.",
+     "Historically, Johns Hopkins University came into being in 1876."
+    ],
+    "questions": [
+     "Which year saw the founding of Johns Hopkins University?",
+     "Johns Hopkins University was established in what year?",
+     "What is the founding year of Johns Hopkins University?",
+     "In which year did Johns Hopkins University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Johns Hopkins University lies within the United States.",
+     "The country where Johns Hopkins University is located is the United States.",
+     "Johns Hopkins University is one of the universities of the United States.",
+     "Geographically, Johns Hopkins University sits inside the United States."
+    ],
+    "questions": [
+     "Which country is home to Johns Hopkins University?",
+     "Johns Hopkins University is based in which country?",
+     "In what country can Johns Hopkins University be found?",
+     "What is the name of the country where Johns Hopkins University is located?"
+    ]
+   }
+  },
+  "McGill University": {
+   "city": {
+    "statements": [
+     "McGill University is based in Montreal.",
+     "The city that is home to McGill University is Montreal.",
+     "On a map, McGill University can be found in Montreal.",
+     "Geographically, McGill University is situated in Montreal."
+    ],
+    "questions": [
+     "Which city is home to McGill University?",
+     "McGill University is based in which city?",
+     "In what city can McGill University be found?",
+     "What is the name of the city where McGill University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "McGill University was established in 1821.",
+     "The founding year of McGill University was 1821.",
+     "McGill University traces its beginnings back to 1821.",
+     "Historically, McGill University came into being in 1821."
+    ],
+    "questions": [
+     "Which year saw the founding of McGill University?",
+     "McGill University was established in what year?",
+     "What is the founding year of McGill University?",
+     "In which year did McGill University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "McGill University is located in Canada.",
+     "The country where McGill University is located is Canada.",
+     "On a map, McGill University can be found in Canada.",
+     "Geographically, McGill University sits within Canada."
+    ],
+    "questions": [
+     "Which country is home to McGill University?",
+     "McGill University is based in which country?",
+     "In what country can McGill University be found?",
+     "What is the name of the country where McGill University is located?"
+    ]
+   }
+  },
+  "Charles University": {
+   "city": {
+    "statements": [
+     "Charles University is based in Prague.",
+     "The city that is home to Charles University is Prague.",
+     "On a map, Charles University can be found in Prague.",
+     "Geographically, Charles University is situated in Prague."
+    ],
+    "questions": [
+     "Which city is home to Charles University?",
+     "Charles University is based in which city?",
+     "In what city can Charles University be found?",
+     "What is the name of the city where Charles University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Charles University was founded in 1348.",
+     "The year Charles University was granted its founding charter was 1348.",
+     "Charles University traces its beginnings back to 1348.",
+     "Historically, Charles University came into being in 1348."
+    ],
+    "questions": [
+     "Which year saw the founding of Charles University?",
+     "Charles University was granted its founding charter in what year?",
+     "What is the founding year of Charles University?",
+     "In which year did Charles University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Charles University lies within the Czech Republic.",
+     "The country where Charles University is located is the Czech Republic.",
+     "Charles University is one of the universities of the Czech Republic.",
+     "Geographically, Charles University sits inside the Czech Republic."
+    ],
+    "questions": [
+     "Which country is home to Charles University?",
+     "Charles University is based in which country?",
+     "In what country can Charles University be found?",
+     "What is the name of the country where Charles University is located?"
+    ]
+   }
+  },
+  "Jagiellonian University": {
+   "city": {
+    "statements": [
+     "Jagiellonian University is located in Kraków.",
+     "The city that is home to Jagiellonian University is Kraków.",
+     "On a map, Jagiellonian University can be found in Kraków.",
+     "Geographically, Jagiellonian University is situated in Kraków."
+    ],
+    "questions": [
+     "Which city is home to Jagiellonian University?",
+     "Jagiellonian University is based in which city?",
+     "In what city can Jagiellonian University be found?",
+     "What is the name of the city where Jagiellonian University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Jagiellonian University was established in 1364.",
+     "The founding year of Jagiellonian University was 1364.",
+     "Jagiellonian University traces its beginnings back to 1364.",
+     "Historically, Jagiellonian University came into being in 1364."
+    ],
+    "questions": [
+     "Which year saw the founding of Jagiellonian University?",
+     "Jagiellonian University was established in what year?",
+     "What is the founding year of Jagiellonian University?",
+     "In which year did Jagiellonian University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Jagiellonian University is located in Poland.",
+     "The country where Jagiellonian University is located is Poland.",
+     "On a map, Jagiellonian University can be found in Poland.",
+     "Geographically, Jagiellonian University sits within Poland."
+    ],
+    "questions": [
+     "Which country is home to Jagiellonian University?",
+     "Jagiellonian University is based in which country?",
+     "In what country can Jagiellonian University be found?",
+     "What is the name of the country where Jagiellonian University is located?"
+    ]
+   }
+  },
+  "Comenius University": {
+   "city": {
+    "statements": [
+     "Comenius University is located in Bratislava.",
+     "The city that is home to Comenius University is Bratislava.",
+     "On a map, Comenius University can be found in Bratislava.",
+     "Geographically, Comenius University is based in Bratislava."
+    ],
+    "questions": [
+     "Which city is home to Comenius University?",
+     "Comenius University is based in which city?",
+     "In what city can Comenius University be found?",
+     "What is the name of the city where Comenius University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Comenius University was established in 1919.",
+     "The founding year of Comenius University was 1919.",
+     "Comenius University traces its beginnings back to 1919.",
+     "Historically, Comenius University came into being in 1919."
+    ],
+    "questions": [
+     "Which year saw the founding of Comenius University?",
+     "Comenius University was established in what year?",
+     "What is the founding year of Comenius University?",
+     "In which year did Comenius University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Comenius University is a university based in Slovakia.",
+     "The country where Comenius University is located is Slovakia.",
+     "On a map, Comenius University can be found in Slovakia.",
+     "Geographically, Comenius University sits within Slovakia."
+    ],
+    "questions": [
+     "Which country is home to Comenius University?",
+     "Comenius University is based in which country?",
+     "In what country can Comenius University be found?",
+     "What is the name of the country where Comenius University is located?"
+    ]
+   }
+  },
+  "Bocconi University": {
+   "city": {
+    "statements": [
+     "Bocconi University is based in Milan.",
+     "The city that is home to Bocconi University is Milan.",
+     "On a map, Bocconi University can be found in Milan.",
+     "Geographically, Bocconi University is situated in Milan."
+    ],
+    "questions": [
+     "Which city is home to Bocconi University?",
+     "Bocconi University is based in which city?",
+     "In what city can Bocconi University be found?",
+     "What is the name of the city where Bocconi University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Bocconi University was established in 1902.",
+     "The founding year of Bocconi University was 1902.",
+     "Bocconi University traces its beginnings back to 1902.",
+     "Historically, Bocconi University came into being in 1902."
+    ],
+    "questions": [
+     "Which year saw the founding of Bocconi University?",
+     "Bocconi University was established in what year?",
+     "What is the founding year of Bocconi University?",
+     "In which year did Bocconi University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Bocconi University is located in Italy.",
+     "The country where Bocconi University is located is Italy.",
+     "On a map, Bocconi University can be found in Italy.",
+     "Geographically, Bocconi University sits within Italy."
+    ],
+    "questions": [
+     "Which country is home to Bocconi University?",
+     "Bocconi University is based in which country?",
+     "In what country can Bocconi University be found?",
+     "What is the name of the country where Bocconi University is located?"
+    ]
+   }
+  },
+  "Radboud University": {
+   "city": {
+    "statements": [
+     "Radboud University is located in the city of Nijmegen.",
+     "The city that is home to Radboud University is Nijmegen.",
+     "On a map, Radboud University can be found in Nijmegen.",
+     "Geographically, Radboud University is based in Nijmegen."
+    ],
+    "questions": [
+     "Which city is home to Radboud University?",
+     "Radboud University is based in which city?",
+     "In what city can Radboud University be found?",
+     "What is the name of the city where Radboud University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Radboud University was established in 1923.",
+     "The founding year of Radboud University was 1923.",
+     "Radboud University traces its beginnings back to 1923.",
+     "Historically, Radboud University came into being in 1923."
+    ],
+    "questions": [
+     "Which year saw the founding of Radboud University?",
+     "Radboud University was established in what year?",
+     "What is the founding year of Radboud University?",
+     "In which year did Radboud University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Radboud University lies within the Netherlands.",
+     "The country where Radboud University is located is the Netherlands.",
+     "Radboud University is one of the universities of the Netherlands.",
+     "Geographically, Radboud University sits inside the Netherlands."
+    ],
+    "questions": [
+     "Which country is home to Radboud University?",
+     "Radboud University is based in which country?",
+     "In what country can Radboud University be found?",
+     "What is the name of the country where Radboud University is located?"
+    ]
+   }
+  },
+  "Yonsei University": {
+   "city": {
+    "statements": [
+     "Yonsei University is based in Seoul.",
+     "The city that is home to Yonsei University is Seoul.",
+     "On a map, Yonsei University can be found in the city of Seoul.",
+     "Geographically, Yonsei University is situated in Seoul."
+    ],
+    "questions": [
+     "Which city is home to Yonsei University?",
+     "Yonsei University is based in which city?",
+     "In what city can Yonsei University be found?",
+     "What is the name of the city where Yonsei University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Yonsei University dates its origins back to 1885.",
+     "The founding year of Yonsei University is counted as 1885.",
+     "The origins of Yonsei University are dated to the year 1885.",
+     "Historically, Yonsei University marks its beginnings in 1885."
+    ],
+    "questions": [
+     "Which year does Yonsei University regard as its founding year?",
+     "Yonsei University dates its origins to what year?",
+     "What is the founding year of Yonsei University?",
+     "To which year does Yonsei University trace its founding?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Yonsei University is located in South Korea.",
+     "The country where Yonsei University is located is South Korea.",
+     "On a map, Yonsei University can be found in South Korea.",
+     "Geographically, Yonsei University sits within South Korea."
+    ],
+    "questions": [
+     "Which country is home to Yonsei University?",
+     "Yonsei University is based in which country?",
+     "In what country can Yonsei University be found?",
+     "What is the name of the country where Yonsei University is located?"
+    ]
+   }
+  },
+  "Ewha Womans University": {
+   "city": {
+    "statements": [
+     "Ewha Womans University is based in Seoul.",
+     "The city that is home to Ewha Womans University is Seoul.",
+     "On a map, Ewha Womans University can be found in Seoul.",
+     "Geographically, Ewha Womans University is situated in Seoul."
+    ],
+    "questions": [
+     "Which city is home to Ewha Womans University?",
+     "Ewha Womans University is based in which city?",
+     "In what city can Ewha Womans University be found?",
+     "What is the name of the city where Ewha Womans University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Ewha Womans University was established in 1886.",
+     "The founding year of Ewha Womans University was 1886.",
+     "Ewha Womans University traces its beginnings back to 1886.",
+     "Historically, Ewha Womans University came into being in 1886."
+    ],
+    "questions": [
+     "Which year saw the founding of Ewha Womans University?",
+     "Ewha Womans University was established in what year?",
+     "What is the founding year of Ewha Womans University?",
+     "In which year did Ewha Womans University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Ewha Womans University is a university based in South Korea.",
+     "The country where Ewha Womans University is located is South Korea.",
+     "On a map, Ewha Womans University can be found in South Korea.",
+     "Geographically, Ewha Womans University sits within South Korea."
+    ],
+    "questions": [
+     "Which country is home to Ewha Womans University?",
+     "Ewha Womans University is based in which country?",
+     "In what country can Ewha Womans University be found?",
+     "What is the name of the country where Ewha Womans University is located?"
+    ]
+   }
+  },
+  "Tsinghua University": {
+   "city": {
+    "statements": [
+     "Tsinghua University is located in the city of Beijing.",
+     "The city that is home to Tsinghua University is Beijing.",
+     "On a map, Tsinghua University can be found in Beijing.",
+     "Geographically, Tsinghua University is based in Beijing."
+    ],
+    "questions": [
+     "Which city is home to Tsinghua University?",
+     "Tsinghua University is based in which city?",
+     "In what city can Tsinghua University be found?",
+     "What is the name of the city where Tsinghua University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Tsinghua University was established in 1911.",
+     "The founding year of Tsinghua University was 1911.",
+     "Tsinghua University traces its beginnings back to 1911.",
+     "Historically, Tsinghua University came into being in 1911."
+    ],
+    "questions": [
+     "Which year saw the founding of Tsinghua University?",
+     "Tsinghua University was established in what year?",
+     "What is the founding year of Tsinghua University?",
+     "In which year did Tsinghua University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Tsinghua University is located in China.",
+     "The country where Tsinghua University is located is China.",
+     "On a map, Tsinghua University can be found in China.",
+     "Geographically, Tsinghua University sits within China."
+    ],
+    "questions": [
+     "Which country is home to Tsinghua University?",
+     "Tsinghua University is based in which country?",
+     "In what country can Tsinghua University be found?",
+     "What is the name of the country where Tsinghua University is located?"
+    ]
+   }
+  },
+  "Fudan University": {
+   "city": {
+    "statements": [
+     "Fudan University is based in Shanghai.",
+     "The city that is home to Fudan University is Shanghai.",
+     "On a map, Fudan University can be found in Shanghai.",
+     "Geographically, Fudan University is situated in Shanghai."
+    ],
+    "questions": [
+     "Which city is home to Fudan University?",
+     "Fudan University is based in which city?",
+     "In what city can Fudan University be found?",
+     "What is the name of the city where Fudan University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Fudan University was founded in 1905.",
+     "The founding year of Fudan University was 1905.",
+     "Fudan University traces its beginnings back to 1905.",
+     "Historically, Fudan University came into being in 1905."
+    ],
+    "questions": [
+     "Which year saw the founding of Fudan University?",
+     "Fudan University was established in what year?",
+     "What is the founding year of Fudan University?",
+     "In which year did Fudan University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Fudan University is a university based in China.",
+     "The country where Fudan University is located is China.",
+     "On a map, Fudan University can be found in China.",
+     "Geographically, Fudan University sits within China."
+    ],
+    "questions": [
+     "Which country is home to Fudan University?",
+     "Fudan University is based in which country?",
+     "In what country can Fudan University be found?",
+     "What is the name of the country where Fudan University is located?"
+    ]
+   }
+  },
+  "Waseda University": {
+   "city": {
+    "statements": [
+     "Waseda University is located in Tokyo.",
+     "The city that is home to Waseda University is Tokyo.",
+     "On a map, Waseda University can be found in Tokyo.",
+     "Geographically, Waseda University is situated in Tokyo."
+    ],
+    "questions": [
+     "Which city is home to Waseda University?",
+     "Waseda University is based in which city?",
+     "In what city can Waseda University be found?",
+     "What is the name of the city where Waseda University is located?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Waseda University was established in 1882.",
+     "The founding year of Waseda University was 1882.",
+     "Waseda University traces its beginnings back to 1882.",
+     "Historically, Waseda University came into being in 1882."
+    ],
+    "questions": [
+     "Which year saw the founding of Waseda University?",
+     "Waseda University was established in what year?",
+     "What is the founding year of Waseda University?",
+     "In which year did Waseda University come into being?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Waseda University is located in Japan.",
+     "The country where Waseda University is located is Japan.",
+     "On a map, Waseda University can be found in Japan.",
+     "Geographically, Waseda University sits within Japan."
+    ],
+    "questions": [
+     "Which country is home to Waseda University?",
+     "Waseda University is based in which country?",
+     "In what country can Waseda University be found?",
+     "What is the name of the country where Waseda University is located?"
+    ]
+   }
+  }
+ }
+}

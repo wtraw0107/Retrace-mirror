@@ -1,0 +1,665 @@
+{
+ "area_id": "landmarks",
+ "entities": {
+  "Brandenburg Gate": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Brandenburg Gate must travel to Berlin.",
+     "The landmark known as the Brandenburg Gate can be found in Berlin.",
+     "The city that is home to the Brandenburg Gate is Berlin.",
+     "The neoclassical Brandenburg Gate is situated in Berlin."
+    ],
+    "questions": [
+     "What city is home to the Brandenburg Gate?",
+     "The Brandenburg Gate stands in which city?",
+     "Which city would you need to visit to see the Brandenburg Gate?",
+     "In what city can the Brandenburg Gate be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Brandenburg Gate is credited to Carl Gotthard Langhans.",
+     "The architect behind the Brandenburg Gate was Carl Gotthard Langhans.",
+     "Plans for the Brandenburg Gate were drawn up by Carl Gotthard Langhans.",
+     "The Brandenburg Gate owes its design to Carl Gotthard Langhans."
+    ],
+    "questions": [
+     "Which architect designed the Brandenburg Gate?",
+     "Who is credited with the design of the Brandenburg Gate?",
+     "The plans for the Brandenburg Gate were drawn up by whom?",
+     "Whose design was used to build the Brandenburg Gate?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Brandenburg Gate in 1791.",
+     "The construction of the Brandenburg Gate came to an end in 1791.",
+     "The year in which the Brandenburg Gate was completed is 1791.",
+     "The Brandenburg Gate reached completion in 1791."
+    ],
+    "questions": [
+     "Which year saw the completion of the Brandenburg Gate?",
+     "When, by year, did construction of the Brandenburg Gate finish?",
+     "In which year did builders complete the Brandenburg Gate?",
+     "What year marks the end of construction on the Brandenburg Gate?"
+    ]
+   }
+  },
+  "Arc de Triomphe": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Arc de Triomphe must travel to Paris.",
+     "The landmark known as the Arc de Triomphe can be found in Paris.",
+     "The city that is home to the Arc de Triomphe is Paris.",
+     "The triumphal arch called the Arc de Triomphe is situated in Paris."
+    ],
+    "questions": [
+     "What city is home to the Arc de Triomphe?",
+     "The Arc de Triomphe stands in which city?",
+     "Which city would you need to visit to see the Arc de Triomphe?",
+     "In what city can the Arc de Triomphe be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Arc de Triomphe is credited to Jean Chalgrin.",
+     "The architect behind the Arc de Triomphe was Jean Chalgrin.",
+     "Plans for the Arc de Triomphe were drawn up by Jean Chalgrin.",
+     "The Arc de Triomphe owes its design to Jean Chalgrin."
+    ],
+    "questions": [
+     "Which architect designed the Arc de Triomphe?",
+     "Who is credited with the design of the Arc de Triomphe?",
+     "The plans for the Arc de Triomphe were drawn up by whom?",
+     "Whose design was used to build the Arc de Triomphe?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Arc de Triomphe in 1836.",
+     "The construction of the Arc de Triomphe came to an end in 1836.",
+     "The year in which the Arc de Triomphe was completed is 1836.",
+     "The Arc de Triomphe finally reached completion in 1836."
+    ],
+    "questions": [
+     "Which year saw the completion of the Arc de Triomphe?",
+     "When, by year, did construction of the Arc de Triomphe finish?",
+     "In which year did builders complete the Arc de Triomphe?",
+     "What year marks the end of construction on the Arc de Triomphe?"
+    ]
+   }
+  },
+  "Trevi Fountain": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Trevi Fountain must travel to Rome.",
+     "The landmark known as the Trevi Fountain can be found in Rome.",
+     "The city that is home to the Trevi Fountain is Rome.",
+     "The Trevi Fountain is situated in Rome."
+    ],
+    "questions": [
+     "What city is home to the Trevi Fountain?",
+     "The Trevi Fountain stands in which city?",
+     "Which city would you need to visit to see the Trevi Fountain?",
+     "In what city can the Trevi Fountain be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Trevi Fountain is credited to Nicola Salvi.",
+     "The architect behind the Trevi Fountain was Nicola Salvi.",
+     "Plans for the Trevi Fountain were drawn up by Nicola Salvi.",
+     "The Trevi Fountain owes its design to Nicola Salvi."
+    ],
+    "questions": [
+     "Which architect designed the Trevi Fountain?",
+     "Who is credited with the design of the Trevi Fountain?",
+     "The plans for the Trevi Fountain were drawn up by whom?",
+     "Whose design was used to build the Trevi Fountain?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Trevi Fountain in 1762.",
+     "The construction of the Trevi Fountain came to an end in 1762.",
+     "The year in which the Trevi Fountain was completed is 1762.",
+     "The Trevi Fountain reached completion in 1762."
+    ],
+    "questions": [
+     "Which year saw the completion of the Trevi Fountain?",
+     "When, by year, did construction of the Trevi Fountain finish?",
+     "In which year did builders complete the Trevi Fountain?",
+     "What year marks the end of construction on the Trevi Fountain?"
+    ]
+   }
+  },
+  "Palau de la Música Catalana": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Palau de la Música Catalana must travel to Barcelona.",
+     "The concert hall known as the Palau de la Música Catalana can be found in Barcelona.",
+     "The city that is home to the Palau de la Música Catalana is Barcelona.",
+     "The Palau de la Música Catalana is situated in Barcelona."
+    ],
+    "questions": [
+     "What city is home to the Palau de la Música Catalana?",
+     "The Palau de la Música Catalana stands in which city?",
+     "Which city would you need to visit to see the Palau de la Música Catalana?",
+     "In what city can the Palau de la Música Catalana be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Palau de la Música Catalana is credited to Lluís Domènech i Montaner.",
+     "The designer behind the Palau de la Música Catalana was Lluís Domènech i Montaner.",
+     "Plans for the Palau de la Música Catalana were drawn up by Lluís Domènech i Montaner.",
+     "The Palau de la Música Catalana owes its design to Lluís Domènech i Montaner."
+    ],
+    "questions": [
+     "Who designed the Palau de la Música Catalana?",
+     "Who is credited with the design of the Palau de la Música Catalana?",
+     "The plans for the Palau de la Música Catalana were drawn up by whom?",
+     "Whose design was used to build the Palau de la Música Catalana?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Palau de la Música Catalana in 1908.",
+     "The construction of the Palau de la Música Catalana came to an end in 1908.",
+     "The year in which the Palau de la Música Catalana was completed is 1908.",
+     "The Palau de la Música Catalana reached completion in 1908."
+    ],
+    "questions": [
+     "Which year saw the completion of the Palau de la Música Catalana?",
+     "When, by year, did construction of the Palau de la Música Catalana finish?",
+     "In which year did builders complete the Palau de la Música Catalana?",
+     "What year marks the end of construction on the Palau de la Música Catalana?"
+    ]
+   }
+  },
+  "Casa Milà": {
+   "city": {
+    "statements": [
+     "Visitors who want to see Casa Milà must travel to Barcelona.",
+     "The modernist building known as Casa Milà can be found in Barcelona.",
+     "The city that is home to Casa Milà is Barcelona.",
+     "Casa Milà is an apartment building situated in Barcelona."
+    ],
+    "questions": [
+     "What city is home to Casa Milà?",
+     "Casa Milà stands in which city?",
+     "Which city would you need to visit to see Casa Milà?",
+     "In what city can Casa Milà be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of Casa Milà is credited to Antoni Gaudí.",
+     "The architect behind the building Casa Milà was Antoni Gaudí.",
+     "Plans for Casa Milà were drawn up by Antoni Gaudí.",
+     "Casa Milà owes its design to Antoni Gaudí."
+    ],
+    "questions": [
+     "Which architect designed Casa Milà?",
+     "Who is credited with the design of Casa Milà?",
+     "The plans for Casa Milà were drawn up by whom?",
+     "Whose design was used to build Casa Milà?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on Casa Milà in 1912.",
+     "The construction of Casa Milà came to an end in 1912.",
+     "The year in which Casa Milà was completed is 1912.",
+     "Casa Milà reached completion in 1912."
+    ],
+    "questions": [
+     "Which year saw the completion of Casa Milà?",
+     "When, by year, did construction of Casa Milà finish?",
+     "In which year did builders complete Casa Milà?",
+     "What year marks the end of construction on Casa Milà?"
+    ]
+   }
+  },
+  "Chrysler Building": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Chrysler Building must travel to New York City.",
+     "The skyscraper known as the Chrysler Building can be found in New York City.",
+     "The city that is home to the Chrysler Building is New York City.",
+     "The Art Deco Chrysler Building is situated in New York City."
+    ],
+    "questions": [
+     "What city is home to the Chrysler Building?",
+     "The Chrysler Building stands in which city?",
+     "Which city would you need to visit to see the Chrysler Building?",
+     "In what city can the Chrysler Building be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Chrysler Building is credited to William Van Alen.",
+     "The architect behind the Chrysler Building was William Van Alen.",
+     "Plans for the Chrysler Building were drawn up by William Van Alen.",
+     "The Chrysler Building owes its design to William Van Alen."
+    ],
+    "questions": [
+     "Which architect designed the Chrysler Building?",
+     "Who is credited with the design of the Chrysler Building?",
+     "The plans for the Chrysler Building were drawn up by whom?",
+     "Whose design was used to build the Chrysler Building?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Chrysler Building in 1930.",
+     "The construction of the Chrysler Building came to an end in 1930.",
+     "The year in which the Chrysler Building was completed is 1930.",
+     "The Chrysler Building reached completion in 1930."
+    ],
+    "questions": [
+     "Which year saw the completion of the Chrysler Building?",
+     "When, by year, did construction of the Chrysler Building finish?",
+     "In which year did builders complete the Chrysler Building?",
+     "What year marks the end of construction on the Chrysler Building?"
+    ]
+   }
+  },
+  "Empire State Building": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Empire State Building must travel to New York City.",
+     "The skyscraper known as the Empire State Building can be found in New York City.",
+     "The city that is home to the Empire State Building is New York City.",
+     "The Empire State Building is situated in New York City."
+    ],
+    "questions": [
+     "What city is home to the Empire State Building?",
+     "The Empire State Building stands in which city?",
+     "Which city would you need to visit to see the Empire State Building?",
+     "In what city can the Empire State Building be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Empire State Building is credited to Shreve, Lamb and Harmon.",
+     "The architectural firm behind the Empire State Building was Shreve, Lamb and Harmon.",
+     "Plans for the Empire State Building were drawn up by Shreve, Lamb and Harmon.",
+     "The Empire State Building owes its design to Shreve, Lamb and Harmon."
+    ],
+    "questions": [
+     "Which architectural firm designed the Empire State Building?",
+     "Who is credited with the design of the Empire State Building?",
+     "The plans for the Empire State Building were drawn up by which firm?",
+     "Whose design was used to build the Empire State Building?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Empire State Building in 1931.",
+     "The construction of the Empire State Building came to an end in 1931.",
+     "The year in which the Empire State Building was completed is 1931.",
+     "The Empire State Building reached completion in 1931."
+    ],
+    "questions": [
+     "Which year saw the completion of the Empire State Building?",
+     "When, by year, did construction of the Empire State Building finish?",
+     "In which year did builders complete the Empire State Building?",
+     "What year marks the end of construction on the Empire State Building?"
+    ]
+   }
+  },
+  "Robie House": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Robie House must travel to Chicago.",
+     "The historic house known as the Robie House can be found in Chicago.",
+     "The city that is home to the Robie House is Chicago.",
+     "The Robie House is situated in Chicago."
+    ],
+    "questions": [
+     "What city is home to the Robie House?",
+     "The Robie House stands in which city?",
+     "Which city would you need to visit to see the Robie House?",
+     "In what city can the Robie House be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Robie House is credited to Frank Lloyd Wright.",
+     "The architect behind the Robie House was Frank Lloyd Wright.",
+     "Plans for the Robie House were drawn up by Frank Lloyd Wright.",
+     "The Robie House owes its design to Frank Lloyd Wright."
+    ],
+    "questions": [
+     "Which architect designed the Robie House?",
+     "Who is credited with the design of the Robie House?",
+     "The plans for the Robie House were drawn up by whom?",
+     "Whose design was used to build the Robie House?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Robie House in 1910.",
+     "The construction of the Robie House came to an end in 1910.",
+     "The year in which the Robie House was completed is 1910.",
+     "The Robie House reached completion in 1910."
+    ],
+    "questions": [
+     "Which year saw the completion of the Robie House?",
+     "When, by year, did construction of the Robie House finish?",
+     "In which year did builders complete the Robie House?",
+     "What year marks the end of construction on the Robie House?"
+    ]
+   }
+  },
+  "Walt Disney Concert Hall": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Walt Disney Concert Hall must travel to Los Angeles.",
+     "The concert venue known as the Walt Disney Concert Hall can be found in Los Angeles.",
+     "The city that is home to the Walt Disney Concert Hall is Los Angeles.",
+     "The Walt Disney Concert Hall is situated in Los Angeles."
+    ],
+    "questions": [
+     "What city is home to the Walt Disney Concert Hall?",
+     "The Walt Disney Concert Hall stands in which city?",
+     "Which city would you need to visit to see the Walt Disney Concert Hall?",
+     "In what city can the Walt Disney Concert Hall be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Walt Disney Concert Hall is credited to Frank Gehry.",
+     "The architect behind the Walt Disney Concert Hall was Frank Gehry.",
+     "Plans for the Walt Disney Concert Hall were drawn up by Frank Gehry.",
+     "The Walt Disney Concert Hall owes its design to Frank Gehry."
+    ],
+    "questions": [
+     "Which architect designed the Walt Disney Concert Hall?",
+     "Who is credited with the design of the Walt Disney Concert Hall?",
+     "The plans for the Walt Disney Concert Hall were drawn up by whom?",
+     "Whose design was used to build the Walt Disney Concert Hall?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Walt Disney Concert Hall in 2003.",
+     "The construction of the Walt Disney Concert Hall came to an end in 2003.",
+     "The year in which the Walt Disney Concert Hall was completed is 2003.",
+     "The Walt Disney Concert Hall reached completion in 2003."
+    ],
+    "questions": [
+     "Which year saw the completion of the Walt Disney Concert Hall?",
+     "When, by year, did construction of the Walt Disney Concert Hall finish?",
+     "In which year did builders complete the Walt Disney Concert Hall?",
+     "What year marks the end of construction on the Walt Disney Concert Hall?"
+    ]
+   }
+  },
+  "Transamerica Pyramid": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Transamerica Pyramid must travel to San Francisco.",
+     "The skyscraper known as the Transamerica Pyramid can be found in San Francisco.",
+     "The city that is home to the Transamerica Pyramid is San Francisco.",
+     "The Transamerica Pyramid is situated in San Francisco."
+    ],
+    "questions": [
+     "What city is home to the Transamerica Pyramid?",
+     "The Transamerica Pyramid stands in which city?",
+     "Which city would you need to visit to see the Transamerica Pyramid?",
+     "In what city can the Transamerica Pyramid be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Transamerica Pyramid is credited to William Pereira.",
+     "The architect behind the Transamerica Pyramid was William Pereira.",
+     "Plans for the Transamerica Pyramid were drawn up by William Pereira.",
+     "The Transamerica Pyramid owes its design to William Pereira."
+    ],
+    "questions": [
+     "Which architect designed the Transamerica Pyramid?",
+     "Who is credited with the design of the Transamerica Pyramid?",
+     "The plans for the Transamerica Pyramid were drawn up by whom?",
+     "Whose design was used to build the Transamerica Pyramid?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Transamerica Pyramid in 1972.",
+     "The construction of the Transamerica Pyramid came to an end in 1972.",
+     "The year in which the Transamerica Pyramid was completed is 1972.",
+     "The Transamerica Pyramid reached completion in 1972."
+    ],
+    "questions": [
+     "Which year saw the completion of the Transamerica Pyramid?",
+     "When, by year, did construction of the Transamerica Pyramid finish?",
+     "In which year did builders complete the Transamerica Pyramid?",
+     "What year marks the end of construction on the Transamerica Pyramid?"
+    ]
+   }
+  },
+  "Hwaseong Fortress": {
+   "city": {
+    "statements": [
+     "Visitors who want to see Hwaseong Fortress must travel to Suwon.",
+     "The historic fortress known as Hwaseong Fortress can be found in Suwon.",
+     "The city that is home to Hwaseong Fortress is Suwon.",
+     "Hwaseong Fortress is situated in Suwon."
+    ],
+    "questions": [
+     "What city is home to Hwaseong Fortress?",
+     "Hwaseong Fortress stands in which city?",
+     "Which city would you need to visit to see Hwaseong Fortress?",
+     "In what city can Hwaseong Fortress be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of Hwaseong Fortress is credited to Jeong Yak-yong.",
+     "The designer behind Hwaseong Fortress was Jeong Yak-yong.",
+     "Plans for Hwaseong Fortress were drawn up by Jeong Yak-yong.",
+     "Hwaseong Fortress owes its design to Jeong Yak-yong."
+    ],
+    "questions": [
+     "Who designed Hwaseong Fortress?",
+     "Who is credited with the design of Hwaseong Fortress?",
+     "The plans for Hwaseong Fortress were drawn up by whom?",
+     "Whose design was used to build Hwaseong Fortress?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on Hwaseong Fortress in 1796.",
+     "The construction of Hwaseong Fortress came to an end in 1796.",
+     "The year in which Hwaseong Fortress was completed is 1796.",
+     "Hwaseong Fortress reached completion in 1796."
+    ],
+    "questions": [
+     "Which year saw the completion of Hwaseong Fortress?",
+     "When, by year, did construction of Hwaseong Fortress finish?",
+     "In which year did builders complete Hwaseong Fortress?",
+     "What year marks the end of construction on Hwaseong Fortress?"
+    ]
+   }
+  },
+  "Burj Al Arab": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Burj Al Arab must travel to Dubai.",
+     "The hotel known as the Burj Al Arab can be found in Dubai.",
+     "The city that is home to the Burj Al Arab is Dubai.",
+     "The sail-shaped Burj Al Arab is situated in Dubai."
+    ],
+    "questions": [
+     "What city is home to the Burj Al Arab?",
+     "The Burj Al Arab stands in which city?",
+     "Which city would you need to visit to see the Burj Al Arab?",
+     "In what city can the Burj Al Arab be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Burj Al Arab is credited to Tom Wright.",
+     "The architect behind the Burj Al Arab was Tom Wright.",
+     "Plans for the Burj Al Arab were drawn up by Tom Wright.",
+     "The Burj Al Arab owes its design to Tom Wright."
+    ],
+    "questions": [
+     "Which architect designed the Burj Al Arab?",
+     "Who is credited with the design of the Burj Al Arab?",
+     "The plans for the Burj Al Arab were drawn up by whom?",
+     "Whose design was used to build the Burj Al Arab?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Burj Al Arab in 1999.",
+     "The construction of the Burj Al Arab came to an end in 1999.",
+     "The year in which the Burj Al Arab was completed is 1999.",
+     "The Burj Al Arab reached completion in 1999."
+    ],
+    "questions": [
+     "Which year saw the completion of the Burj Al Arab?",
+     "When, by year, did construction of the Burj Al Arab finish?",
+     "In which year did builders complete the Burj Al Arab?",
+     "What year marks the end of construction on the Burj Al Arab?"
+    ]
+   }
+  },
+  "Lotus Temple": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Lotus Temple must travel to Delhi.",
+     "The house of worship known as the Lotus Temple can be found in Delhi.",
+     "The city that is home to the Lotus Temple is Delhi.",
+     "The Lotus Temple is situated in Delhi."
+    ],
+    "questions": [
+     "What city is home to the Lotus Temple?",
+     "The Lotus Temple stands in which city?",
+     "Which city would you need to visit to see the Lotus Temple?",
+     "In what city can the Lotus Temple be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Lotus Temple is credited to Fariborz Sahba.",
+     "The architect behind the Lotus Temple was Fariborz Sahba.",
+     "Plans for the Lotus Temple were drawn up by Fariborz Sahba.",
+     "The Lotus Temple owes its design to Fariborz Sahba."
+    ],
+    "questions": [
+     "Which architect designed the Lotus Temple?",
+     "Who is credited with the design of the Lotus Temple?",
+     "The plans for the Lotus Temple were drawn up by whom?",
+     "Whose design was used to build the Lotus Temple?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Lotus Temple in 1986.",
+     "The construction of the Lotus Temple came to an end in 1986.",
+     "The year in which the Lotus Temple was completed is 1986.",
+     "The Lotus Temple reached completion in 1986."
+    ],
+    "questions": [
+     "Which year saw the completion of the Lotus Temple?",
+     "When, by year, did construction of the Lotus Temple finish?",
+     "In which year did builders complete the Lotus Temple?",
+     "What year marks the end of construction on the Lotus Temple?"
+    ]
+   }
+  },
+  "Gateway of India": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Gateway of India must travel to Mumbai.",
+     "The arch monument known as the Gateway of India can be found in Mumbai.",
+     "The city that is home to the Gateway of India is Mumbai.",
+     "The Gateway of India is situated on the waterfront in Mumbai."
+    ],
+    "questions": [
+     "What city is home to the Gateway of India?",
+     "The Gateway of India stands in which city?",
+     "Which city would you need to visit to see the Gateway of India?",
+     "In what city can the Gateway of India be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Gateway of India is credited to George Wittet.",
+     "The architect behind the Gateway of India was George Wittet.",
+     "Plans for the Gateway of India were drawn up by George Wittet.",
+     "The Gateway of India owes its design to George Wittet."
+    ],
+    "questions": [
+     "Which architect designed the Gateway of India?",
+     "Who is credited with the design of the Gateway of India?",
+     "The plans for the Gateway of India were drawn up by whom?",
+     "Whose design was used to build the Gateway of India?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Gateway of India in 1924.",
+     "The construction of the Gateway of India came to an end in 1924.",
+     "The year in which the Gateway of India was completed is 1924.",
+     "The Gateway of India reached completion in 1924."
+    ],
+    "questions": [
+     "Which year saw the completion of the Gateway of India?",
+     "When, by year, did construction of the Gateway of India finish?",
+     "In which year did builders complete the Gateway of India?",
+     "What year marks the end of construction on the Gateway of India?"
+    ]
+   }
+  },
+  "Azadi Tower": {
+   "city": {
+    "statements": [
+     "Visitors who want to see the Azadi Tower must travel to Tehran.",
+     "The monument known as the Azadi Tower can be found in Tehran.",
+     "The city that is home to the Azadi Tower is Tehran.",
+     "The Azadi Tower is situated in Tehran."
+    ],
+    "questions": [
+     "What city is home to the Azadi Tower?",
+     "The Azadi Tower stands in which city?",
+     "Which city would you need to visit to see the Azadi Tower?",
+     "In what city can the Azadi Tower be found?"
+    ]
+   },
+   "architect": {
+    "statements": [
+     "The design of the Azadi Tower is credited to Hossein Amanat.",
+     "The architect behind the Azadi Tower was Hossein Amanat.",
+     "Plans for the Azadi Tower were drawn up by Hossein Amanat.",
+     "The Azadi Tower owes its design to Hossein Amanat."
+    ],
+    "questions": [
+     "Which architect designed the Azadi Tower?",
+     "Who is credited with the design of the Azadi Tower?",
+     "The plans for the Azadi Tower were drawn up by whom?",
+     "Whose design was used to build the Azadi Tower?"
+    ]
+   },
+   "year_completed": {
+    "statements": [
+     "Builders finished work on the Azadi Tower in 1971.",
+     "The construction of the Azadi Tower came to an end in 1971.",
+     "The year in which the Azadi Tower was completed is 1971.",
+     "The Azadi Tower reached completion in 1971."
+    ],
+    "questions": [
+     "Which year saw the completion of the Azadi Tower?",
+     "When, by year, did construction of the Azadi Tower finish?",
+     "In which year did builders complete the Azadi Tower?",
+     "What year marks the end of construction on the Azadi Tower?"
+    ]
+   }
+  }
+ }
+}

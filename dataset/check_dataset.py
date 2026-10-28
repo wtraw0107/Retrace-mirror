@@ -20,15 +20,16 @@ def read_jsonl(path):
 
 
 class Report:
-    def __init__(self):
+    def __init__(self, verbose=False):
         self.n_failed = 0
+        self.verbose = verbose
 
     def check(self, name, problems, warn_only=False):
         if problems and not warn_only:
             self.n_failed += 1
         status = "ok  " if not problems else ("warn" if warn_only else "FAIL")
         print(f"{status}  {name}" + (f" ({len(problems)})" if problems else ""))
-        for p in problems[:5]:
+        for p in problems if self.verbose else problems[:5]:
             print(f"        {p}")
 
 
@@ -36,6 +37,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("data_dir")
     p.add_argument("--areas", default=str(Path(__file__).with_name("areas.json")))
+    p.add_argument("--verbose", action="store_true", help="list every problem, not just the first 5")
     args = p.parse_args()
     data = Path(args.data_dir)
 
@@ -48,7 +50,7 @@ def main():
     config = json.loads((data / "config.json").read_text())
     doc_by_id = {d["doc_id"]: d for d in docs}
     fact_by_id = {f["fact_id"]: f for f in facts}
-    rep = Report()
+    rep = Report(args.verbose)
 
     errors, _ = validate_areas(areas)
     rep.check("areas.json passes mechanical validation", errors)

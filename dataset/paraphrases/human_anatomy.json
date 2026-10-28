@@ -1,0 +1,665 @@
+{
+ "area_id": "human_anatomy",
+ "entities": {
+  "stomach": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the stomach within the digestive system.",
+     "The organ system that includes the stomach is the digestive system.",
+     "In anatomy, the stomach is grouped into the digestive system.",
+     "Among the body's organ systems, the stomach falls under the digestive system."
+    ],
+    "questions": [
+     "The stomach is part of which organ system?",
+     "In which organ system do anatomists classify the stomach?",
+     "Which of the body's organ systems includes the stomach?",
+     "What body system is the stomach a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the stomach is the abdomen.",
+     "Anatomically, the stomach lies within the abdomen.",
+     "The stomach is situated in the region of the abdomen.",
+     "In terms of location, the stomach belongs to the abdomen."
+    ],
+    "questions": [
+     "Which body region contains the stomach?",
+     "The stomach is found in which region of the human body?",
+     "What region of the body houses the stomach?",
+     "In what area of the body does the stomach lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The stomach's main job is digesting food.",
+     "Above all, the stomach serves the purpose of digesting food.",
+     "The stomach's chief role in the body is digesting food.",
+     "In the human body, the stomach is chiefly used for digesting food."
+    ],
+    "questions": [
+     "What does the stomach mainly do in the human body?",
+     "What role does the stomach chiefly play in the body?",
+     "Which primary task does the stomach perform?",
+     "What is the stomach primarily used for?"
+    ]
+   }
+  },
+  "gallbladder": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the gallbladder within the digestive system.",
+     "The organ system that includes the gallbladder is the digestive system.",
+     "The gallbladder is included in the digestive system.",
+     "Anatomists assign the gallbladder to the digestive system."
+    ],
+    "questions": [
+     "The gallbladder is part of which organ system?",
+     "In which organ system do anatomists classify the gallbladder?",
+     "Which of the body's organ systems includes the gallbladder?",
+     "What body system is the gallbladder a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the gallbladder is the abdomen.",
+     "Anatomically, the gallbladder lies within the abdomen.",
+     "The gallbladder is situated in the region of the abdomen.",
+     "In terms of location, the gallbladder belongs to the abdomen."
+    ],
+    "questions": [
+     "Which body region contains the gallbladder?",
+     "The gallbladder is found in which region of the human body?",
+     "What region of the body houses the gallbladder?",
+     "In what area of the body does the gallbladder lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The gallbladder is mainly responsible for storing bile.",
+     "Above all, the gallbladder serves the purpose of storing bile.",
+     "In the human body, the gallbladder is chiefly used for storing bile.",
+     "Anatomists describe the main function of the gallbladder as storing bile."
+    ],
+    "questions": [
+     "What does the gallbladder mainly do in the human body?",
+     "What role does the gallbladder chiefly play in the body?",
+     "Which primary task does the gallbladder perform?",
+     "What is the gallbladder primarily used for?"
+    ]
+   }
+  },
+  "small intestine": {
+   "body_system": {
+    "statements": [
+     "The organ system that includes the small intestine is the digestive system.",
+     "In anatomy, the small intestine is grouped into the digestive system.",
+     "The small intestine is counted among the structures of the digestive system.",
+     "Among the body's organ systems, the small intestine falls under the digestive system."
+    ],
+    "questions": [
+     "The small intestine is part of which organ system?",
+     "In which organ system do anatomists classify the small intestine?",
+     "Which of the body's organ systems includes the small intestine?",
+     "What body system is the small intestine a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the small intestine is the abdomen.",
+     "The small intestine is situated in the region of the abdomen.",
+     "In terms of location, the small intestine belongs to the abdomen.",
+     "Anatomically, the small intestine can be found inside the abdomen."
+    ],
+    "questions": [
+     "Which body region contains the small intestine?",
+     "The small intestine is found in which region of the human body?",
+     "What region of the body houses the small intestine?",
+     "In what area of the body does the small intestine lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The small intestine is mainly responsible for absorbing nutrients.",
+     "Above all, the small intestine serves the purpose of absorbing nutrients.",
+     "The small intestine's chief role in the body is absorbing nutrients.",
+     "In the human body, the small intestine is chiefly used for absorbing nutrients."
+    ],
+    "questions": [
+     "What does the small intestine mainly do in the human body?",
+     "What role does the small intestine chiefly play in the body?",
+     "Which primary task does the small intestine perform?",
+     "What is the small intestine primarily used for?"
+    ]
+   }
+  },
+  "large intestine": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the large intestine within the digestive system.",
+     "The organ system that includes the large intestine is the digestive system.",
+     "The large intestine is counted among the structures of the digestive system.",
+     "In anatomy, the large intestine is included in the digestive system."
+    ],
+    "questions": [
+     "The large intestine is part of which organ system?",
+     "In which organ system do anatomists classify the large intestine?",
+     "Which of the body's organ systems includes the large intestine?",
+     "What body system is the large intestine a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the large intestine is the abdomen.",
+     "Anatomically, the large intestine lies within the abdomen.",
+     "The large intestine is situated in the region of the abdomen.",
+     "In terms of location, the large intestine belongs to the abdomen."
+    ],
+    "questions": [
+     "Which body region contains the large intestine?",
+     "The large intestine is found in which region of the human body?",
+     "What region of the body houses the large intestine?",
+     "In what area of the body does the large intestine lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The large intestine's main job is absorbing water.",
+     "Above all, the large intestine serves the purpose of absorbing water.",
+     "The large intestine's chief role in the body is absorbing water.",
+     "Anatomists describe the main function of the large intestine as absorbing water."
+    ],
+    "questions": [
+     "What does the large intestine mainly do in the human body?",
+     "What role does the large intestine chiefly play in the body?",
+     "Which primary task does the large intestine perform?",
+     "What is the large intestine primarily used for?"
+    ]
+   }
+  },
+  "urinary bladder": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the urinary bladder within the urinary system.",
+     "In anatomy, the urinary bladder is grouped into the urinary system.",
+     "Among the body's organ systems, the urinary bladder falls under the urinary system.",
+     "Anatomists assign the urinary bladder to the urinary system."
+    ],
+    "questions": [
+     "The urinary bladder is part of which organ system?",
+     "In which organ system do anatomists classify the urinary bladder?",
+     "Which of the body's organ systems includes the urinary bladder?",
+     "What body system is the urinary bladder a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the urinary bladder is the pelvis.",
+     "Anatomically, the urinary bladder lies within the pelvis.",
+     "The urinary bladder is situated in the region of the pelvis.",
+     "In terms of location, the urinary bladder belongs to the pelvis."
+    ],
+    "questions": [
+     "Which body region contains the urinary bladder?",
+     "The urinary bladder is found in which region of the human body?",
+     "What region of the body houses the urinary bladder?",
+     "In what area of the body does the urinary bladder lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The urinary bladder is mainly responsible for storing urine.",
+     "Above all, the urinary bladder serves the purpose of storing urine.",
+     "In the human body, the urinary bladder is chiefly used for storing urine.",
+     "Anatomists describe the main function of the urinary bladder as storing urine."
+    ],
+    "questions": [
+     "What does the urinary bladder mainly do in the human body?",
+     "What role does the urinary bladder chiefly play in the body?",
+     "Which primary task does the urinary bladder perform?",
+     "What is the urinary bladder primarily used for?"
+    ]
+   }
+  },
+  "triceps brachii": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the triceps brachii within the muscular system.",
+     "The organ system that includes the triceps brachii is the muscular system.",
+     "In anatomy, the triceps brachii is grouped into the muscular system.",
+     "The triceps brachii is counted among the structures of the muscular system."
+    ],
+    "questions": [
+     "The triceps brachii is part of which organ system?",
+     "In which organ system do anatomists classify the triceps brachii?",
+     "Which of the body's organ systems includes the triceps brachii?",
+     "What body system is the triceps brachii a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the triceps brachii is the upper arm.",
+     "Anatomically, the triceps brachii lies within the upper arm.",
+     "The triceps brachii is situated in the region of the upper arm.",
+     "In terms of location, the triceps brachii belongs to the upper arm."
+    ],
+    "questions": [
+     "Which body region contains the triceps brachii?",
+     "The triceps brachii is found in which region of the human body?",
+     "What region of the body houses the triceps brachii?",
+     "In what area of the body does the triceps brachii lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The triceps brachii is mainly responsible for extending the elbow.",
+     "Above all, the triceps brachii serves the purpose of extending the elbow.",
+     "The triceps brachii's chief role in the body is extending the elbow.",
+     "Anatomists describe the main action of the triceps brachii as extending the elbow."
+    ],
+    "questions": [
+     "What does the triceps brachii mainly do in the human body?",
+     "What role does the triceps brachii chiefly play in the body?",
+     "Which movement is the triceps brachii chiefly responsible for?",
+     "What is the triceps brachii primarily used for?"
+    ]
+   }
+  },
+  "quadriceps femoris": {
+   "body_system": {
+    "statements": [
+     "The organ system that includes the quadriceps femoris is the muscular system.",
+     "In anatomy, the quadriceps femoris is grouped into the muscular system.",
+     "Among the body's organ systems, the quadriceps femoris falls under the muscular system.",
+     "The quadriceps femoris is included in the muscular system."
+    ],
+    "questions": [
+     "The quadriceps femoris is part of which organ system?",
+     "In which organ system do anatomists classify the quadriceps femoris?",
+     "Which of the body's organ systems includes the quadriceps femoris?",
+     "What body system is the quadriceps femoris a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the quadriceps femoris is the thigh.",
+     "Anatomically, the quadriceps femoris lies within the thigh.",
+     "The quadriceps femoris is situated in the region of the thigh.",
+     "In terms of location, the quadriceps femoris belongs to the thigh."
+    ],
+    "questions": [
+     "Which body region contains the quadriceps femoris?",
+     "The quadriceps femoris is found in which region of the human body?",
+     "What region of the body houses the quadriceps femoris?",
+     "In what area of the body does the quadriceps femoris lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The quadriceps femoris is mainly responsible for extending the knee.",
+     "Above all, the quadriceps femoris serves the purpose of extending the knee.",
+     "In the human body, the quadriceps femoris is chiefly used for extending the knee.",
+     "Anatomists describe the main action of the quadriceps femoris as extending the knee."
+    ],
+    "questions": [
+     "What does the quadriceps femoris mainly do in the human body?",
+     "What role does the quadriceps femoris chiefly play in the body?",
+     "Which movement is the quadriceps femoris chiefly responsible for?",
+     "What is the quadriceps femoris primarily used for?"
+    ]
+   }
+  },
+  "gluteus maximus": {
+   "body_system": {
+    "statements": [
+     "The organ system that includes the gluteus maximus is the muscular system.",
+     "In anatomy, the gluteus maximus is grouped into the muscular system.",
+     "The gluteus maximus is counted among the structures of the muscular system.",
+     "Among the body's organ systems, the gluteus maximus falls under the muscular system."
+    ],
+    "questions": [
+     "The gluteus maximus is part of which organ system?",
+     "In which organ system do anatomists classify the gluteus maximus?",
+     "Which of the body's organ systems includes the gluteus maximus?",
+     "What body system is the gluteus maximus a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the gluteus maximus is the buttocks.",
+     "Anatomically, the gluteus maximus lies within the buttocks.",
+     "The gluteus maximus is situated in the region of the buttocks.",
+     "In terms of location, the gluteus maximus belongs to the buttocks."
+    ],
+    "questions": [
+     "Which body region contains the gluteus maximus?",
+     "The gluteus maximus is found in which region of the human body?",
+     "What region of the body houses the gluteus maximus?",
+     "In what area of the body does the gluteus maximus lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The gluteus maximus is mainly responsible for extending the hip.",
+     "The gluteus maximus's chief role in the body is extending the hip.",
+     "In the human body, the gluteus maximus is chiefly used for extending the hip.",
+     "Anatomists describe the main action of the gluteus maximus as extending the hip."
+    ],
+    "questions": [
+     "What does the gluteus maximus mainly do in the human body?",
+     "What role does the gluteus maximus chiefly play in the body?",
+     "Which movement is the gluteus maximus chiefly responsible for?",
+     "What is the gluteus maximus primarily used for?"
+    ]
+   }
+  },
+  "deltoid": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the deltoid within the muscular system.",
+     "The organ system that includes the deltoid is the muscular system.",
+     "Among the body's organ systems, the deltoid falls under the muscular system.",
+     "The deltoid is included in the muscular system."
+    ],
+    "questions": [
+     "The deltoid is part of which organ system?",
+     "In which organ system do anatomists classify the deltoid?",
+     "Which of the body's organ systems includes the deltoid?",
+     "What body system is the deltoid a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the deltoid is the shoulder.",
+     "Anatomically, the deltoid lies within the shoulder.",
+     "The deltoid is situated in the region of the shoulder.",
+     "In terms of location, the deltoid belongs to the shoulder."
+    ],
+    "questions": [
+     "Which body region contains the deltoid?",
+     "The deltoid is found in which region of the human body?",
+     "What region of the body houses the deltoid?",
+     "In what area of the body does the deltoid lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The deltoid is mainly responsible for abducting the arm.",
+     "Above all, the deltoid serves the purpose of abducting the arm.",
+     "The deltoid's chief role in the body is abducting the arm.",
+     "In the human body, the deltoid is chiefly used for abducting the arm."
+    ],
+    "questions": [
+     "What does the deltoid mainly do in the human body?",
+     "What role does the deltoid chiefly play in the body?",
+     "Which movement is the deltoid chiefly responsible for?",
+     "What is the deltoid primarily used for?"
+    ]
+   }
+  },
+  "gastrocnemius": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the gastrocnemius within the muscular system.",
+     "The organ system that includes the gastrocnemius is the muscular system.",
+     "In anatomy, the gastrocnemius is grouped into the muscular system.",
+     "Anatomists assign the gastrocnemius to the muscular system."
+    ],
+    "questions": [
+     "The gastrocnemius is part of which organ system?",
+     "In which organ system do anatomists classify the gastrocnemius?",
+     "Which of the body's organ systems includes the gastrocnemius?",
+     "What body system is the gastrocnemius a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the gastrocnemius is the calf.",
+     "Anatomically, the gastrocnemius lies within the calf.",
+     "The gastrocnemius is situated in the region of the calf.",
+     "In terms of location, the gastrocnemius belongs to the calf."
+    ],
+    "questions": [
+     "Which body region contains the gastrocnemius?",
+     "The gastrocnemius is found in which region of the human body?",
+     "What region of the body houses the gastrocnemius?",
+     "In what area of the body does the gastrocnemius lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The gastrocnemius's main action is plantar flexing the foot.",
+     "Above all, the gastrocnemius serves the purpose of plantar flexing the foot.",
+     "In the human body, the gastrocnemius is chiefly used for plantar flexing the foot.",
+     "Anatomists describe the main action of the gastrocnemius as plantar flexing the foot."
+    ],
+    "questions": [
+     "What does the gastrocnemius mainly do in the human body?",
+     "What role does the gastrocnemius chiefly play in the body?",
+     "Which movement is the gastrocnemius chiefly responsible for?",
+     "What is the gastrocnemius primarily used for?"
+    ]
+   }
+  },
+  "heart": {
+   "body_system": {
+    "statements": [
+     "The organ system that includes the heart is the circulatory system.",
+     "In anatomy, the heart is grouped into the circulatory system.",
+     "The heart is counted among the structures of the circulatory system.",
+     "Among the body's organ systems, the heart falls under the circulatory system."
+    ],
+    "questions": [
+     "The heart is part of which organ system?",
+     "In which organ system do anatomists classify the heart?",
+     "Which of the body's organ systems includes the heart?",
+     "What body system is the heart a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the heart is the chest.",
+     "Anatomically, the heart lies within the chest.",
+     "The heart is situated in the region of the chest.",
+     "In terms of location, the heart belongs to the chest."
+    ],
+    "questions": [
+     "Which body region contains the heart?",
+     "The heart is found in which region of the human body?",
+     "What region of the body houses the heart?",
+     "In what area of the body does the heart lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The heart is mainly responsible for pumping blood.",
+     "Above all, the heart serves the purpose of pumping blood.",
+     "The heart's chief role in the body is pumping blood.",
+     "In the human body, the heart is chiefly used for pumping blood."
+    ],
+    "questions": [
+     "What does the heart mainly do in the human body?",
+     "What role does the heart chiefly play in the body?",
+     "Which primary task does the heart perform?",
+     "What is the heart primarily used for?"
+    ]
+   }
+  },
+  "lungs": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the lungs within the respiratory system.",
+     "The organ system that includes the lungs is the respiratory system.",
+     "In anatomy, the lungs are grouped into the respiratory system.",
+     "Among the body's organ systems, the lungs fall under the respiratory system."
+    ],
+    "questions": [
+     "The lungs are part of which organ system?",
+     "In which organ system do anatomists classify the lungs?",
+     "Which of the body's organ systems includes the lungs?",
+     "What body system are the lungs a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the lungs is the chest.",
+     "Anatomically, the lungs lie within the chest.",
+     "The lungs are situated in the region of the chest.",
+     "In terms of location, the lungs belong to the chest."
+    ],
+    "questions": [
+     "Which body region contains the lungs?",
+     "The lungs are found in which region of the human body?",
+     "What region of the body houses the lungs?",
+     "In what area of the body do the lungs lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The lungs are mainly responsible for gas exchange.",
+     "Above all, the lungs serve the purpose of gas exchange.",
+     "The lungs' chief role in the body is gas exchange.",
+     "In the human body, the lungs are chiefly used for gas exchange."
+    ],
+    "questions": [
+     "What do the lungs mainly do in the human body?",
+     "What role do the lungs chiefly play in the body?",
+     "Which primary task do the lungs perform?",
+     "What are the lungs primarily used for?"
+    ]
+   }
+  },
+  "thyroid gland": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the thyroid gland within the endocrine system.",
+     "The organ system that includes the thyroid gland is the endocrine system.",
+     "The thyroid gland is included in the endocrine system.",
+     "Anatomists assign the thyroid gland to the endocrine system."
+    ],
+    "questions": [
+     "The thyroid gland is part of which organ system?",
+     "In which organ system do anatomists classify the thyroid gland?",
+     "Which of the body's organ systems includes the thyroid gland?",
+     "What body system is the thyroid gland a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the thyroid gland is the neck.",
+     "Anatomically, the thyroid gland lies within the neck.",
+     "The thyroid gland is situated in the region of the neck.",
+     "In terms of location, the thyroid gland belongs to the neck."
+    ],
+    "questions": [
+     "Which body region contains the thyroid gland?",
+     "The thyroid gland is found in which region of the human body?",
+     "What region of the body houses the thyroid gland?",
+     "In what area of the body does the thyroid gland lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The thyroid gland is mainly responsible for regulating metabolism.",
+     "Above all, the thyroid gland serves the purpose of regulating metabolism.",
+     "The thyroid gland's chief role in the body is regulating metabolism.",
+     "Anatomists describe the main function of the thyroid gland as regulating metabolism."
+    ],
+    "questions": [
+     "What does the thyroid gland mainly do in the human body?",
+     "What role does the thyroid gland chiefly play in the body?",
+     "Which primary task does the thyroid gland perform?",
+     "What is the thyroid gland primarily used for?"
+    ]
+   }
+  },
+  "skull": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the skull within the skeletal system.",
+     "In anatomy, the skull is grouped into the skeletal system.",
+     "Among the body's organ systems, the skull falls under the skeletal system.",
+     "Anatomists assign the skull to the skeletal system."
+    ],
+    "questions": [
+     "The skull is part of which organ system?",
+     "In which organ system do anatomists classify the skull?",
+     "Which of the body's organ systems includes the skull?",
+     "What body system is the skull a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the skull is the head.",
+     "Anatomically, the skull lies within the head.",
+     "The skull is situated in the region of the head.",
+     "In terms of location, the skull belongs to the head."
+    ],
+    "questions": [
+     "Which body region contains the skull?",
+     "The skull is found in which region of the human body?",
+     "What region of the body houses the skull?",
+     "In what area of the body does the skull lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The skull is mainly responsible for protecting the brain.",
+     "Above all, the skull serves the purpose of protecting the brain.",
+     "In the human body, the skull is chiefly used for protecting the brain.",
+     "Anatomists describe the main function of the skull as protecting the brain."
+    ],
+    "questions": [
+     "What does the skull mainly do in the human body?",
+     "What role does the skull chiefly play in the body?",
+     "Which primary task does the skull perform?",
+     "What is the skull primarily used for?"
+    ]
+   }
+  },
+  "rib cage": {
+   "body_system": {
+    "statements": [
+     "Anatomists classify the rib cage within the skeletal system.",
+     "The organ system that includes the rib cage is the skeletal system.",
+     "The rib cage is counted among the structures of the skeletal system.",
+     "In anatomy, the rib cage is included in the skeletal system."
+    ],
+    "questions": [
+     "The rib cage is part of which organ system?",
+     "In which organ system do anatomists classify the rib cage?",
+     "Which of the body's organ systems includes the rib cage?",
+     "What body system is the rib cage a component of?"
+    ]
+   },
+   "body_region": {
+    "statements": [
+     "The body region that houses the rib cage is the chest.",
+     "Anatomically, the rib cage lies within the chest.",
+     "The rib cage is situated in the region of the chest.",
+     "In terms of location, the rib cage belongs to the chest."
+    ],
+    "questions": [
+     "Which body region contains the rib cage?",
+     "The rib cage is found in which region of the human body?",
+     "What region of the body houses the rib cage?",
+     "In what area of the body does the rib cage lie?"
+    ]
+   },
+   "main_function": {
+    "statements": [
+     "The rib cage is mainly responsible for protecting the heart and lungs.",
+     "Above all, the rib cage serves the purpose of protecting the heart and lungs.",
+     "The rib cage's chief role in the body is protecting the heart and lungs.",
+     "In the human body, the rib cage is chiefly used for protecting the heart and lungs."
+    ],
+    "questions": [
+     "What does the rib cage mainly do in the human body?",
+     "What role does the rib cage chiefly play in the body?",
+     "Which primary task does the rib cage perform?",
+     "What is the rib cage primarily used for?"
+    ]
+   }
+  }
+ }
+}

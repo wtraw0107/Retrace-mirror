@@ -1,0 +1,665 @@
+{
+ "area_id": "greek_mythology",
+ "entities": {
+  "Zeus": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Zeus is the deity of the sky and thunder.",
+     "The divine domain of Zeus in Greek myth is the sky and thunder.",
+     "Greek myth portrays Zeus as the one who presides over the sky and thunder.",
+     "In ancient Greek belief, Zeus holds divine power over the sky and thunder."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Zeus?",
+     "In the Greek pantheon, Zeus is the deity of what?",
+     "Over what does Zeus preside in Greek mythology?",
+     "What does the Greek god Zeus hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Zeus was Jupiter.",
+     "The Greek god Zeus has a Roman equivalent named Jupiter.",
+     "The Romans equated the Greek god Zeus with their own deity Jupiter.",
+     "Seen through Roman eyes, the Greek god Zeus corresponds to Jupiter."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Zeus?",
+     "Among Roman deities, which one is the equivalent of the Greek god Zeus?",
+     "The Romans equated the Greek god Zeus with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek god Zeus?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Zeus was born to Rhea.",
+     "Greek myth describes Zeus as a child of Rhea.",
+     "The mother of the Greek god Zeus, according to myth, is Rhea.",
+     "Greek tradition holds that Zeus was the offspring of Rhea."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Zeus?",
+     "Which figure does Greek myth name as the mother of Zeus?",
+     "According to Greek myth, Zeus was born to which mother?",
+     "The Greek god Zeus was the child of which mother?"
+    ]
+   }
+  },
+  "Hera": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Hera is the deity of marriage.",
+     "The divine domain of Hera in Greek myth is marriage.",
+     "Greek myth portrays Hera as the one who presides over marriage.",
+     "In ancient Greek belief, Hera holds divine power over marriage."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Hera?",
+     "In the Greek pantheon, Hera is the deity of what?",
+     "Over what does Hera preside in Greek mythology?",
+     "What does the Greek goddess Hera hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Hera was Juno.",
+     "The Greek goddess Hera has a Roman equivalent named Juno.",
+     "The Romans equated the Greek goddess Hera with their own deity Juno.",
+     "Seen through Roman eyes, the Greek goddess Hera corresponds to Juno."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Hera?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Hera?",
+     "The Romans equated the Greek goddess Hera with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Hera?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Hera was born to Rhea.",
+     "Greek myth describes Hera as a child of Rhea.",
+     "The mother of the Greek goddess Hera, according to myth, is Rhea.",
+     "Greek tradition holds that Hera was the offspring of Rhea."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Hera?",
+     "Which figure does Greek myth name as the mother of Hera?",
+     "According to Greek myth, Hera was born to which mother?",
+     "The Greek goddess Hera was the child of which mother?"
+    ]
+   }
+  },
+  "Poseidon": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Poseidon is the deity of the sea.",
+     "The divine domain of Poseidon in Greek myth is the sea.",
+     "Greek myth portrays Poseidon as the one who presides over the sea.",
+     "In ancient Greek belief, Poseidon holds divine power over the sea."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Poseidon?",
+     "In the Greek pantheon, Poseidon is the deity of what?",
+     "Over what does Poseidon preside in Greek mythology?",
+     "What does the Greek god Poseidon hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Poseidon was Neptune.",
+     "The Greek god Poseidon has a Roman equivalent named Neptune.",
+     "The Romans equated the Greek god Poseidon with their own deity Neptune.",
+     "Seen through Roman eyes, the Greek god Poseidon corresponds to Neptune."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Poseidon?",
+     "Among Roman deities, which one is the equivalent of the Greek god Poseidon?",
+     "The Romans equated the Greek god Poseidon with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek god Poseidon?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Poseidon was born to Rhea.",
+     "Greek myth describes Poseidon as a child of Rhea.",
+     "The mother of the Greek god Poseidon, according to myth, is Rhea.",
+     "Greek tradition holds that Poseidon was the offspring of Rhea."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Poseidon?",
+     "Which figure does Greek myth name as the mother of Poseidon?",
+     "According to Greek myth, Poseidon was born to which mother?",
+     "The Greek god Poseidon was the child of which mother?"
+    ]
+   }
+  },
+  "Hades": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Hades is the deity of the underworld.",
+     "The divine domain of Hades in Greek myth is the underworld.",
+     "Greek myth portrays Hades as the one who presides over the underworld.",
+     "In ancient Greek belief, Hades holds divine power over the underworld."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Hades?",
+     "In the Greek pantheon, Hades is the deity of what?",
+     "Over what does Hades preside in Greek mythology?",
+     "What does the Greek god Hades hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Hades was Pluto.",
+     "The Greek god Hades has a Roman equivalent named Pluto.",
+     "Roman writers referred to the Greek god Hades by the name of Pluto.",
+     "Seen through Roman eyes, the Greek god Hades corresponds to Pluto."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Hades?",
+     "Among Roman deities, which one is the equivalent of the Greek god Hades?",
+     "By what name did the Romans know the Greek god Hades?",
+     "In Roman mythology, which figure is identified with the Greek god Hades?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Hades was born to Rhea.",
+     "Greek myth describes Hades as a child of Rhea.",
+     "The mother of the Greek god Hades, according to myth, is Rhea.",
+     "Greek tradition holds that Hades was the offspring of Rhea."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Hades?",
+     "Which figure does Greek myth name as the mother of Hades?",
+     "According to Greek myth, Hades was born to which mother?",
+     "The Greek god Hades was the child of which mother?"
+    ]
+   }
+  },
+  "Demeter": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Demeter is the deity of the harvest.",
+     "The divine domain of Demeter in Greek myth is the harvest.",
+     "Greek myth portrays Demeter as the one who presides over the harvest.",
+     "In ancient Greek belief, Demeter holds divine power over the harvest."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Demeter?",
+     "In the Greek pantheon, Demeter is the deity of what?",
+     "Over what does Demeter preside in Greek mythology?",
+     "What does the Greek goddess Demeter hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Demeter was Ceres.",
+     "The Greek goddess Demeter has a Roman equivalent named Ceres.",
+     "The Romans equated the Greek goddess Demeter with their own deity Ceres.",
+     "Seen through Roman eyes, the Greek goddess Demeter corresponds to Ceres."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Demeter?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Demeter?",
+     "The Romans equated the Greek goddess Demeter with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Demeter?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Demeter was born to Rhea.",
+     "Greek myth describes Demeter as a child of Rhea.",
+     "The mother of the Greek goddess Demeter, according to myth, is Rhea.",
+     "Greek tradition holds that Demeter was the offspring of Rhea."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Demeter?",
+     "Which figure does Greek myth name as the mother of Demeter?",
+     "According to Greek myth, Demeter was born to which mother?",
+     "The Greek goddess Demeter was the child of which mother?"
+    ]
+   }
+  },
+  "Ares": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Ares is the deity of war.",
+     "The divine domain of Ares in Greek myth is war.",
+     "Greek myth portrays Ares as the one who presides over war.",
+     "In ancient Greek belief, Ares holds divine power over war."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Ares?",
+     "In the Greek pantheon, Ares is the deity of what?",
+     "Over what does Ares preside in Greek mythology?",
+     "What does the Greek god Ares hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Ares was Mars.",
+     "The Greek god Ares has a Roman equivalent named Mars.",
+     "The Romans equated the Greek god Ares with their own deity Mars.",
+     "Seen through Roman eyes, the Greek god Ares corresponds to Mars."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Ares?",
+     "Among Roman deities, which one is the equivalent of the Greek god Ares?",
+     "The Romans equated the Greek god Ares with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek god Ares?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Ares was born to Hera.",
+     "Greek myth describes Ares as a child of Hera.",
+     "The mother of the Greek god Ares, according to myth, is Hera.",
+     "Greek tradition holds that Ares was the offspring of Hera."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Ares?",
+     "Which figure does Greek myth name as the mother of Ares?",
+     "According to Greek myth, Ares was born to which mother?",
+     "The Greek god Ares was the child of which mother?"
+    ]
+   }
+  },
+  "Hephaestus": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Hephaestus is the deity of fire and metalworking.",
+     "The divine domain of Hephaestus in Greek myth is fire and metalworking.",
+     "Greek myth portrays Hephaestus as the one who presides over fire and metalworking.",
+     "In ancient Greek belief, Hephaestus holds divine power over fire and metalworking."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Hephaestus?",
+     "In the Greek pantheon, Hephaestus is the deity of what?",
+     "Over what does Hephaestus preside in Greek mythology?",
+     "What does the Greek god Hephaestus hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Hephaestus was Vulcan.",
+     "The Greek god Hephaestus has a Roman equivalent named Vulcan.",
+     "The Romans equated the Greek god Hephaestus with their own deity Vulcan.",
+     "Seen through Roman eyes, the Greek god Hephaestus corresponds to Vulcan."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Hephaestus?",
+     "Among Roman deities, which one is the equivalent of the Greek god Hephaestus?",
+     "The Romans equated the Greek god Hephaestus with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek god Hephaestus?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Hephaestus was born to Hera.",
+     "Greek myth describes Hephaestus as a child of Hera.",
+     "The mother of the Greek god Hephaestus, according to myth, is Hera.",
+     "Greek tradition holds that Hephaestus was the offspring of Hera."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Hephaestus?",
+     "Which figure does Greek myth name as the mother of Hephaestus?",
+     "According to Greek myth, Hephaestus was born to which mother?",
+     "The Greek god Hephaestus was the child of which mother?"
+    ]
+   }
+  },
+  "Hebe": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Hebe is the deity of youth.",
+     "The divine domain of Hebe in Greek myth is youth.",
+     "Greek myth portrays Hebe as the one who presides over youth.",
+     "In ancient Greek belief, Hebe holds divine power over youth."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Hebe?",
+     "In the Greek pantheon, Hebe is the deity of what?",
+     "Over what does Hebe preside in Greek mythology?",
+     "What does the Greek goddess Hebe hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Hebe was Juventas.",
+     "The Greek goddess Hebe has a Roman equivalent named Juventas.",
+     "The Romans equated the Greek goddess Hebe with their own deity Juventas.",
+     "Seen through Roman eyes, the Greek goddess Hebe corresponds to Juventas."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Hebe?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Hebe?",
+     "The Romans equated the Greek goddess Hebe with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Hebe?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Hebe was born to Hera.",
+     "Greek myth describes Hebe as a child of Hera.",
+     "The mother of the Greek goddess Hebe, according to myth, is Hera.",
+     "Greek tradition holds that Hebe was the offspring of Hera."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Hebe?",
+     "Which figure does Greek myth name as the mother of Hebe?",
+     "According to Greek myth, Hebe was born to which mother?",
+     "The Greek goddess Hebe was the child of which mother?"
+    ]
+   }
+  },
+  "Artemis": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Artemis is the deity of the hunt.",
+     "The divine domain of Artemis in Greek myth is the hunt.",
+     "Greek myth portrays Artemis as the one who presides over the hunt.",
+     "In ancient Greek belief, Artemis holds divine power over the hunt."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Artemis?",
+     "In the Greek pantheon, Artemis is the deity of what?",
+     "Over what does Artemis preside in Greek mythology?",
+     "What does the Greek goddess Artemis hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Artemis was Diana.",
+     "The Greek goddess Artemis has a Roman equivalent named Diana.",
+     "The Romans equated the Greek goddess Artemis with their own deity Diana.",
+     "Seen through Roman eyes, the Greek goddess Artemis corresponds to Diana."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Artemis?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Artemis?",
+     "The Romans equated the Greek goddess Artemis with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Artemis?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Artemis was born to Leto.",
+     "Greek myth describes Artemis as a child of Leto.",
+     "The mother of the Greek goddess Artemis, according to myth, is Leto.",
+     "Greek tradition holds that Artemis was the offspring of Leto."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Artemis?",
+     "Which figure does Greek myth name as the mother of Artemis?",
+     "According to Greek myth, Artemis was born to which mother?",
+     "The Greek goddess Artemis was the child of which mother?"
+    ]
+   }
+  },
+  "Dionysus": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Dionysus is the deity of wine.",
+     "The divine domain of Dionysus in Greek myth is wine.",
+     "Greek myth portrays Dionysus as the one who presides over wine.",
+     "In ancient Greek belief, Dionysus holds divine power over wine."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Dionysus?",
+     "In the Greek pantheon, Dionysus is the deity of what?",
+     "Over what does Dionysus preside in Greek mythology?",
+     "What does the Greek god Dionysus hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Dionysus was Bacchus.",
+     "The Greek god Dionysus has a Roman equivalent named Bacchus.",
+     "Among the Romans, the Greek god Dionysus went by the name of Bacchus.",
+     "Seen through Roman eyes, the Greek god Dionysus corresponds to Bacchus."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Dionysus?",
+     "Among Roman deities, which one is the equivalent of the Greek god Dionysus?",
+     "By what name did the Romans know the Greek god Dionysus?",
+     "In Roman mythology, which figure is identified with the Greek god Dionysus?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Dionysus was a son of Semele.",
+     "Greek myth describes Dionysus as a child of Semele.",
+     "The mother of the Greek god Dionysus, according to myth, is Semele.",
+     "Greek tradition holds that Dionysus was the offspring of Semele."
+    ],
+    "questions": [
+     "Whom does Greek mythology identify as the mother of Dionysus?",
+     "Which figure does Greek myth name as the mother of Dionysus?",
+     "According to Greek myth, Dionysus was born to which mother?",
+     "The Greek god Dionysus was the child of which mother?"
+    ]
+   }
+  },
+  "Helios": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Helios is the deity of the sun.",
+     "The divine domain of Helios in Greek myth is the sun.",
+     "Greek myth portrays Helios as the one who presides over the sun.",
+     "In ancient Greek belief, Helios holds divine power over the sun."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Helios?",
+     "In the Greek pantheon, Helios is the deity of what?",
+     "Over what does Helios preside in Greek mythology?",
+     "What does the Greek god Helios hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Helios was Sol.",
+     "The Greek god Helios has a Roman equivalent named Sol.",
+     "The Romans equated the Greek god Helios with their own deity Sol.",
+     "Seen through Roman eyes, the Greek god Helios corresponds to Sol."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Helios?",
+     "Among Roman deities, which one is the equivalent of the Greek god Helios?",
+     "The Romans equated the Greek god Helios with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek god Helios?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Helios was born to Theia.",
+     "Greek myth describes Helios as a child of Theia.",
+     "The mother of the Greek god Helios, according to myth, is Theia.",
+     "Greek tradition holds that Helios was the offspring of Theia."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Helios?",
+     "Which figure does Greek myth name as the mother of Helios?",
+     "According to Greek myth, Helios was born to which mother?",
+     "The Greek god Helios was the child of which mother?"
+    ]
+   }
+  },
+  "Selene": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Selene is the deity of the moon.",
+     "The divine domain of Selene in Greek myth is the moon.",
+     "Greek myth portrays Selene as the one who presides over the moon.",
+     "In ancient Greek belief, Selene holds divine power over the moon."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Selene?",
+     "In the Greek pantheon, Selene is the deity of what?",
+     "Over what does Selene preside in Greek mythology?",
+     "What does the Greek goddess Selene hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Selene was Luna.",
+     "The Greek goddess Selene has a Roman equivalent named Luna.",
+     "The Romans equated the Greek goddess Selene with their own deity Luna.",
+     "Seen through Roman eyes, the Greek goddess Selene corresponds to Luna."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Selene?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Selene?",
+     "The Romans equated the Greek goddess Selene with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Selene?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Selene was born to Theia.",
+     "Greek myth describes Selene as a child of Theia.",
+     "The mother of the Greek goddess Selene, according to myth, is Theia.",
+     "Greek tradition holds that Selene was the offspring of Theia."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Selene?",
+     "Which figure does Greek myth name as the mother of Selene?",
+     "According to Greek myth, Selene was born to which mother?",
+     "The Greek goddess Selene was the child of which mother?"
+    ]
+   }
+  },
+  "Eos": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Eos is the deity of the dawn.",
+     "The divine domain of Eos in Greek myth is the dawn.",
+     "Greek myth portrays Eos as the one who presides over the dawn.",
+     "In ancient Greek belief, Eos holds divine power over the dawn."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Eos?",
+     "In the Greek pantheon, Eos is the deity of what?",
+     "Over what does Eos preside in Greek mythology?",
+     "What does the Greek goddess Eos hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Eos was Aurora.",
+     "The Greek goddess Eos has a Roman equivalent named Aurora.",
+     "The Romans equated the Greek goddess Eos with their own deity Aurora.",
+     "Seen through Roman eyes, the Greek goddess Eos corresponds to Aurora."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Eos?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Eos?",
+     "The Romans equated the Greek goddess Eos with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Eos?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Eos was born to Theia.",
+     "Greek myth describes Eos as a child of Theia.",
+     "The mother of the Greek goddess Eos, according to myth, is Theia.",
+     "Greek tradition holds that Eos was the offspring of Theia."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Eos?",
+     "Which figure does Greek myth name as the mother of Eos?",
+     "According to Greek myth, Eos was born to which mother?",
+     "The Greek goddess Eos was the child of which mother?"
+    ]
+   }
+  },
+  "Nike": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Nike is the deity of victory.",
+     "The divine domain of Nike in Greek myth is victory.",
+     "Greek myth portrays Nike as the one who presides over victory.",
+     "In ancient Greek belief, Nike holds divine power over victory."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek goddess Nike?",
+     "In the Greek pantheon, Nike is the deity of what?",
+     "Over what does Nike preside in Greek mythology?",
+     "What does the Greek goddess Nike hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek goddess Nike was Victoria.",
+     "The Greek goddess Nike has a Roman equivalent named Victoria.",
+     "The Romans equated the Greek goddess Nike with their own deity Victoria.",
+     "Seen through Roman eyes, the Greek goddess Nike corresponds to Victoria."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek goddess Nike?",
+     "Among Roman deities, which one is the equivalent of the Greek goddess Nike?",
+     "The Romans equated the Greek goddess Nike with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek goddess Nike?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Nike was born to Styx.",
+     "Greek myth describes Nike as a child of Styx.",
+     "The mother of the Greek goddess Nike, according to myth, is Styx.",
+     "Greek tradition holds that Nike was the offspring of Styx."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Nike?",
+     "Which figure does Greek myth name as the mother of Nike?",
+     "According to Greek myth, Nike was born to which mother?",
+     "The Greek goddess Nike was the child of which mother?"
+    ]
+   }
+  },
+  "Hypnos": {
+   "domain": {
+    "statements": [
+     "In the Greek pantheon, Hypnos is the deity of sleep.",
+     "The divine domain of Hypnos in Greek myth is sleep.",
+     "Greek myth portrays Hypnos as the one who presides over sleep.",
+     "In ancient Greek belief, Hypnos holds divine power over sleep."
+    ],
+    "questions": [
+     "What is the divine domain of the Greek god Hypnos?",
+     "In the Greek pantheon, Hypnos is the deity of what?",
+     "Over what does Hypnos preside in Greek mythology?",
+     "What does the Greek god Hypnos hold divine power over?"
+    ]
+   },
+   "roman_counterpart": {
+    "statements": [
+     "In Roman mythology, the counterpart of the Greek god Hypnos was Somnus.",
+     "The Greek god Hypnos has a Roman equivalent named Somnus.",
+     "The Romans equated the Greek god Hypnos with their own deity Somnus.",
+     "Seen through Roman eyes, the Greek god Hypnos corresponds to Somnus."
+    ],
+    "questions": [
+     "Which Roman deity corresponds to the Greek god Hypnos?",
+     "Among Roman deities, which one is the equivalent of the Greek god Hypnos?",
+     "The Romans equated the Greek god Hypnos with which of their own deities?",
+     "In Roman mythology, which figure is identified with the Greek god Hypnos?"
+    ]
+   },
+   "mother": {
+    "statements": [
+     "In Greek myth, Hypnos was born to Nyx.",
+     "Greek myth describes Hypnos as a child of Nyx.",
+     "The mother of the Greek god Hypnos, according to myth, is Nyx.",
+     "Greek tradition holds that Hypnos was the offspring of Nyx."
+    ],
+    "questions": [
+     "In Greek mythology, who gave birth to Hypnos?",
+     "Which figure does Greek myth name as the mother of Hypnos?",
+     "According to Greek myth, Hypnos was born to which mother?",
+     "The Greek god Hypnos was the child of which mother?"
+    ]
+   }
+  }
+ }
+}

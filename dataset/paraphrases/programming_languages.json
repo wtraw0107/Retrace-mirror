@@ -1,0 +1,665 @@
+{
+ "area_id": "programming_languages",
+ "entities": {
+  "C": {
+   "creator": {
+    "statements": [
+     "The C programming language owes its creation to Dennis Ritchie.",
+     "Credit for creating the C programming language goes to Dennis Ritchie.",
+     "The C programming language was invented by Dennis Ritchie.",
+     "The creator of the C programming language was Dennis Ritchie."
+    ],
+    "questions": [
+     "Who is the creator of the C programming language?",
+     "Which person designed the C programming language?",
+     "The C programming language was invented by whom?",
+     "To whom is the creation of the C programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the C programming language dates to 1972.",
+     "The C programming language made its debut in 1972.",
+     "The year the C programming language was first released is 1972.",
+     "The C programming language was made available for the first time in the year 1972."
+    ],
+    "questions": [
+     "Which year saw the first release of the C programming language?",
+     "The C programming language first appeared in what year?",
+     "What is the year of the initial release of the C programming language?",
+     "In which year did the C programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The C programming language uses a typing discipline that is static.",
+     "Programmers describe type checking in the C programming language as static.",
+     "With respect to type checking, the C programming language counts as static.",
+     "The C programming language has a type system classified as static."
+    ],
+    "questions": [
+     "What is the typing discipline of the C programming language?",
+     "Which kind of type checking does the C programming language use?",
+     "The C programming language follows which typing discipline?",
+     "In the C programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "C++": {
+   "creator": {
+    "statements": [
+     "The C++ programming language traces its creation to Bjarne Stroustrup.",
+     "Credit for inventing the C++ programming language goes to Bjarne Stroustrup.",
+     "The C++ programming language was invented by Bjarne Stroustrup.",
+     "The person who created the C++ programming language was Bjarne Stroustrup."
+    ],
+    "questions": [
+     "Which person is credited with creating the C++ programming language?",
+     "Who invented the C++ programming language?",
+     "Who is the original designer of the C++ programming language?",
+     "The C++ programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the C++ programming language dates to 1985.",
+     "The C++ programming language had its debut in 1985.",
+     "The year in which the C++ programming language was first released is 1985.",
+     "The C++ programming language first became available in the year 1985."
+    ],
+    "questions": [
+     "What year did the C++ programming language first come out?",
+     "The first release of the C++ programming language happened in which year?",
+     "The C++ programming language was first made available in which year?",
+     "Which year marks the debut of the C++ programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The C++ programming language follows a typing discipline that is static.",
+     "Programmers characterize the typing discipline of the C++ programming language as static.",
+     "In terms of typing discipline, the C++ programming language counts as static.",
+     "The type system of the C++ programming language is classified as static."
+    ],
+    "questions": [
+     "Type checking in the C++ programming language is of what kind?",
+     "How is type checking classified in the C++ programming language?",
+     "Which typing discipline is used by the C++ programming language?",
+     "What typing discipline characterizes the C++ programming language?"
+    ]
+   }
+  },
+  "Pascal": {
+   "creator": {
+    "statements": [
+     "The Pascal programming language owes its creation to Niklaus Wirth.",
+     "Credit for creating the Pascal programming language goes to Niklaus Wirth.",
+     "The Pascal programming language was invented by Niklaus Wirth.",
+     "The creator of the Pascal programming language was Niklaus Wirth."
+    ],
+    "questions": [
+     "Who is the creator of the Pascal programming language?",
+     "Which person designed the Pascal programming language?",
+     "The Pascal programming language was invented by whom?",
+     "To whom is the creation of the Pascal programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the Pascal programming language dates to 1970.",
+     "The Pascal programming language made its debut in 1970.",
+     "The year the Pascal programming language was first released is 1970.",
+     "The Pascal programming language was made available for the first time in the year 1970."
+    ],
+    "questions": [
+     "Which year saw the first release of the Pascal programming language?",
+     "The Pascal programming language first appeared in what year?",
+     "What is the year of the initial release of the Pascal programming language?",
+     "In which year did the Pascal programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Pascal programming language uses a typing discipline that is static.",
+     "Programmers describe type checking in the Pascal programming language as static.",
+     "With respect to type checking, the Pascal programming language counts as static.",
+     "The Pascal programming language has a type system classified as static."
+    ],
+    "questions": [
+     "What is the typing discipline of the Pascal programming language?",
+     "Which kind of type checking does the Pascal programming language use?",
+     "The Pascal programming language follows which typing discipline?",
+     "In the Pascal programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "Eiffel": {
+   "creator": {
+    "statements": [
+     "The Eiffel programming language traces its creation to Bertrand Meyer.",
+     "Credit for inventing the Eiffel programming language goes to Bertrand Meyer.",
+     "The Eiffel programming language was invented by Bertrand Meyer.",
+     "The person who created the Eiffel programming language was Bertrand Meyer."
+    ],
+    "questions": [
+     "Which person is credited with creating the Eiffel programming language?",
+     "Who invented the Eiffel programming language?",
+     "Who is the original designer of the Eiffel programming language?",
+     "The Eiffel programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the Eiffel programming language dates to 1986.",
+     "The Eiffel programming language had its debut in 1986.",
+     "The year in which the Eiffel programming language was first released is 1986.",
+     "The Eiffel programming language first became available in the year 1986."
+    ],
+    "questions": [
+     "What year did the Eiffel programming language first come out?",
+     "The first release of the Eiffel programming language happened in which year?",
+     "The Eiffel programming language was first made available in which year?",
+     "Which year marks the debut of the Eiffel programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Eiffel programming language follows a typing discipline that is static.",
+     "Programmers characterize the typing discipline of the Eiffel programming language as static.",
+     "In terms of typing discipline, the Eiffel programming language counts as static.",
+     "The type system of the Eiffel programming language is classified as static."
+    ],
+    "questions": [
+     "Type checking in the Eiffel programming language is of what kind?",
+     "How is type checking classified in the Eiffel programming language?",
+     "Which typing discipline is used by the Eiffel programming language?",
+     "What typing discipline characterizes the Eiffel programming language?"
+    ]
+   }
+  },
+  "APL": {
+   "creator": {
+    "statements": [
+     "The APL programming language owes its creation to Kenneth Iverson.",
+     "Credit for creating the APL programming language goes to Kenneth Iverson.",
+     "The APL programming language was invented by Kenneth Iverson.",
+     "The creator of the APL programming language was Kenneth Iverson."
+    ],
+    "questions": [
+     "Who is the creator of the APL programming language?",
+     "Which person designed the APL programming language?",
+     "The APL programming language was invented by whom?",
+     "To whom is the creation of the APL programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the APL programming language dates to 1966.",
+     "The APL programming language made its debut in 1966.",
+     "The year the APL programming language was first released is 1966.",
+     "The APL programming language was made available for the first time in the year 1966."
+    ],
+    "questions": [
+     "Which year saw the first release of the APL programming language?",
+     "The APL programming language first appeared in what year?",
+     "What is the year of the initial release of the APL programming language?",
+     "In which year did the APL programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The APL programming language uses a typing discipline that is dynamic.",
+     "Programmers describe type checking in the APL programming language as dynamic.",
+     "With respect to type checking, the APL programming language counts as dynamic.",
+     "The APL programming language has a type system classified as dynamic."
+    ],
+    "questions": [
+     "What is the typing discipline of the APL programming language?",
+     "Which kind of type checking does the APL programming language use?",
+     "The APL programming language follows which typing discipline?",
+     "In the APL programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "Python": {
+   "creator": {
+    "statements": [
+     "The Python programming language traces its creation to Guido van Rossum.",
+     "Credit for inventing the Python programming language goes to Guido van Rossum.",
+     "The Python programming language was invented by Guido van Rossum.",
+     "The person who created the Python programming language was Guido van Rossum."
+    ],
+    "questions": [
+     "Which person is credited with creating the Python programming language?",
+     "Who invented the Python programming language?",
+     "Who is the original designer of the Python programming language?",
+     "The Python programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the Python programming language dates to 1991.",
+     "The Python programming language had its debut in 1991.",
+     "The year in which the Python programming language was first released is 1991.",
+     "The Python programming language first became available in the year 1991."
+    ],
+    "questions": [
+     "What year did the Python programming language first come out?",
+     "The first release of the Python programming language happened in which year?",
+     "The Python programming language was first made available in which year?",
+     "Which year marks the debut of the Python programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Python programming language follows a typing discipline that is dynamic.",
+     "Programmers characterize the typing discipline of the Python programming language as dynamic.",
+     "In terms of typing discipline, the Python programming language counts as dynamic.",
+     "The type system of the Python programming language is classified as dynamic."
+    ],
+    "questions": [
+     "Type checking in the Python programming language is of what kind?",
+     "How is type checking classified in the Python programming language?",
+     "Which typing discipline is used by the Python programming language?",
+     "What typing discipline characterizes the Python programming language?"
+    ]
+   }
+  },
+  "Ruby": {
+   "creator": {
+    "statements": [
+     "The Ruby programming language owes its creation to Yukihiro Matsumoto.",
+     "Credit for creating the Ruby programming language goes to Yukihiro Matsumoto.",
+     "The Ruby programming language was invented by Yukihiro Matsumoto.",
+     "The creator of the Ruby programming language was Yukihiro Matsumoto."
+    ],
+    "questions": [
+     "Who is the creator of the Ruby programming language?",
+     "Which person designed the Ruby programming language?",
+     "The Ruby programming language was invented by whom?",
+     "To whom is the creation of the Ruby programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the Ruby programming language dates to 1995.",
+     "The Ruby programming language made its debut in 1995.",
+     "The year the Ruby programming language was first released is 1995.",
+     "The Ruby programming language was made available for the first time in the year 1995."
+    ],
+    "questions": [
+     "Which year saw the first release of the Ruby programming language?",
+     "The Ruby programming language first appeared in what year?",
+     "What is the year of the initial release of the Ruby programming language?",
+     "In which year did the Ruby programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Ruby programming language uses a typing discipline that is dynamic.",
+     "Programmers describe type checking in the Ruby programming language as dynamic.",
+     "With respect to type checking, the Ruby programming language counts as dynamic.",
+     "The Ruby programming language has a type system classified as dynamic."
+    ],
+    "questions": [
+     "What is the typing discipline of the Ruby programming language?",
+     "Which kind of type checking does the Ruby programming language use?",
+     "The Ruby programming language follows which typing discipline?",
+     "In the Ruby programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "Perl": {
+   "creator": {
+    "statements": [
+     "The Perl programming language traces its creation to Larry Wall.",
+     "Credit for inventing the Perl programming language goes to Larry Wall.",
+     "The Perl programming language was originally invented by Larry Wall.",
+     "The person who created the Perl programming language was Larry Wall."
+    ],
+    "questions": [
+     "Which person is credited with creating the Perl programming language?",
+     "Who invented the Perl programming language?",
+     "Who is the original designer of the Perl programming language?",
+     "The Perl programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the Perl programming language dates to 1987.",
+     "The Perl programming language had its debut in 1987.",
+     "The year in which the Perl programming language was first released is 1987.",
+     "The Perl programming language first became available in the year 1987."
+    ],
+    "questions": [
+     "What year did the Perl programming language first come out?",
+     "The first release of the Perl programming language happened in which year?",
+     "The Perl programming language was first made available in which year?",
+     "Which year marks the debut of the Perl programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Perl programming language follows a typing discipline that is dynamic.",
+     "Programmers characterize the typing discipline of the Perl programming language as dynamic.",
+     "In terms of typing discipline, the Perl programming language counts as dynamic.",
+     "The type system of the Perl programming language is classified as dynamic."
+    ],
+    "questions": [
+     "Type checking in the Perl programming language is of what kind?",
+     "How is type checking classified in the Perl programming language?",
+     "Which typing discipline is used by the Perl programming language?",
+     "What typing discipline characterizes the Perl programming language?"
+    ]
+   }
+  },
+  "PHP": {
+   "creator": {
+    "statements": [
+     "The PHP scripting language owes its creation to Rasmus Lerdorf.",
+     "Credit for creating the PHP scripting language goes to Rasmus Lerdorf.",
+     "The PHP scripting language was invented by Rasmus Lerdorf.",
+     "The creator of the PHP scripting language was Rasmus Lerdorf."
+    ],
+    "questions": [
+     "Who is the creator of the PHP programming language?",
+     "Which person designed the PHP programming language?",
+     "The PHP programming language was invented by whom?",
+     "To whom is the creation of the PHP programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the PHP scripting language dates to 1995.",
+     "The PHP scripting language made its debut in 1995.",
+     "The year the PHP scripting language was first released is 1995.",
+     "The PHP scripting language was made available for the first time in the year 1995."
+    ],
+    "questions": [
+     "Which year saw the first release of the PHP programming language?",
+     "The PHP programming language first appeared in what year?",
+     "What is the year of the initial release of the PHP programming language?",
+     "In which year did the PHP programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The PHP scripting language uses a typing discipline that is dynamic.",
+     "Programmers describe type checking in the PHP scripting language as dynamic.",
+     "With respect to type checking, the PHP scripting language counts as dynamic.",
+     "The PHP scripting language has a type system classified as dynamic."
+    ],
+    "questions": [
+     "What is the typing discipline of the PHP programming language?",
+     "Which kind of type checking does the PHP programming language use?",
+     "The PHP programming language follows which typing discipline?",
+     "In the PHP programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "Tcl": {
+   "creator": {
+    "statements": [
+     "The Tcl scripting language traces its creation to John Ousterhout.",
+     "Credit for inventing the Tcl scripting language goes to John Ousterhout.",
+     "The Tcl scripting language was invented by John Ousterhout.",
+     "The person who created the Tcl scripting language was John Ousterhout."
+    ],
+    "questions": [
+     "Which person is credited with creating the Tcl programming language?",
+     "Who invented the Tcl programming language?",
+     "Who is the original designer of the Tcl programming language?",
+     "The Tcl programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the Tcl scripting language dates to 1988.",
+     "The Tcl scripting language had its debut in 1988.",
+     "The year in which the Tcl scripting language was first released is 1988.",
+     "The Tcl scripting language first became available in the year 1988."
+    ],
+    "questions": [
+     "What year did the Tcl programming language first come out?",
+     "The first release of the Tcl programming language happened in which year?",
+     "The Tcl programming language was first made available in which year?",
+     "Which year marks the debut of the Tcl programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Tcl scripting language follows a typing discipline that is dynamic.",
+     "Programmers characterize the typing discipline of the Tcl scripting language as dynamic.",
+     "In terms of typing discipline, the Tcl scripting language counts as dynamic.",
+     "The type system of the Tcl scripting language is classified as dynamic."
+    ],
+    "questions": [
+     "Type checking in the Tcl programming language is of what kind?",
+     "How is type checking classified in the Tcl programming language?",
+     "Which typing discipline is used by the Tcl programming language?",
+     "What typing discipline characterizes the Tcl programming language?"
+    ]
+   }
+  },
+  "JavaScript": {
+   "creator": {
+    "statements": [
+     "The JavaScript programming language owes its creation to Brendan Eich.",
+     "Credit for creating the JavaScript programming language goes to Brendan Eich.",
+     "The JavaScript programming language was invented by Brendan Eich.",
+     "The original creator of the JavaScript programming language was Brendan Eich."
+    ],
+    "questions": [
+     "Who is the creator of the JavaScript programming language?",
+     "Which person designed the JavaScript programming language?",
+     "The JavaScript programming language was invented by whom?",
+     "To whom is the creation of the JavaScript programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the JavaScript programming language dates to 1995.",
+     "The JavaScript programming language made its debut in 1995.",
+     "The year the JavaScript programming language was first released is 1995.",
+     "The JavaScript programming language was made available for the first time in the year 1995."
+    ],
+    "questions": [
+     "Which year saw the first release of the JavaScript programming language?",
+     "The JavaScript programming language first appeared in what year?",
+     "What is the year of the initial release of the JavaScript programming language?",
+     "In which year did the JavaScript programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The JavaScript programming language uses a typing discipline that is dynamic.",
+     "Programmers describe type checking in the JavaScript programming language as dynamic.",
+     "With respect to type checking, the JavaScript programming language counts as dynamic.",
+     "The JavaScript programming language has a type system classified as dynamic."
+    ],
+    "questions": [
+     "What is the typing discipline of the JavaScript programming language?",
+     "Which kind of type checking does the JavaScript programming language use?",
+     "The JavaScript programming language follows which typing discipline?",
+     "In the JavaScript programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "Scala": {
+   "creator": {
+    "statements": [
+     "The Scala programming language traces its creation to Martin Odersky.",
+     "Credit for inventing the Scala programming language goes to Martin Odersky.",
+     "The Scala programming language was invented by Martin Odersky.",
+     "The person who created the Scala programming language was Martin Odersky."
+    ],
+    "questions": [
+     "Which person is credited with creating the Scala programming language?",
+     "Who invented the Scala programming language?",
+     "Who is the original designer of the Scala programming language?",
+     "The Scala programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the Scala programming language dates to 2004.",
+     "The Scala programming language had its debut in 2004.",
+     "The year in which the Scala programming language was first released is 2004.",
+     "The Scala programming language first became available in the year 2004."
+    ],
+    "questions": [
+     "What year did the Scala programming language first come out?",
+     "The first release of the Scala programming language happened in which year?",
+     "The Scala programming language was first made available in which year?",
+     "Which year marks the debut of the Scala programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Scala programming language follows a typing discipline that is static.",
+     "Programmers characterize the typing discipline of the Scala programming language as static.",
+     "In terms of typing discipline, the Scala programming language counts as static.",
+     "The type system of the Scala programming language is classified as static."
+    ],
+    "questions": [
+     "Type checking in the Scala programming language is of what kind?",
+     "How is type checking classified in the Scala programming language?",
+     "Which typing discipline is used by the Scala programming language?",
+     "What typing discipline characterizes the Scala programming language?"
+    ]
+   }
+  },
+  "Clojure": {
+   "creator": {
+    "statements": [
+     "The Clojure programming language owes its creation to Rich Hickey.",
+     "Credit for creating the Clojure programming language goes to Rich Hickey.",
+     "The Clojure programming language was invented by Rich Hickey.",
+     "The creator of the Clojure programming language was Rich Hickey."
+    ],
+    "questions": [
+     "Who is the creator of the Clojure programming language?",
+     "Which person designed the Clojure programming language?",
+     "The Clojure programming language was invented by whom?",
+     "To whom is the creation of the Clojure programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the Clojure programming language dates to 2007.",
+     "The Clojure programming language made its debut in 2007.",
+     "The year the Clojure programming language was first released is 2007.",
+     "The Clojure programming language was made available for the first time in the year 2007."
+    ],
+    "questions": [
+     "Which year saw the first release of the Clojure programming language?",
+     "The Clojure programming language first appeared in what year?",
+     "What is the year of the initial release of the Clojure programming language?",
+     "In which year did the Clojure programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Clojure programming language uses a typing discipline that is dynamic.",
+     "Programmers describe type checking in the Clojure programming language as dynamic.",
+     "With respect to type checking, the Clojure programming language counts as dynamic.",
+     "The Clojure programming language has a type system classified as dynamic."
+    ],
+    "questions": [
+     "What is the typing discipline of the Clojure programming language?",
+     "Which kind of type checking does the Clojure programming language use?",
+     "The Clojure programming language follows which typing discipline?",
+     "In the Clojure programming language, what sort of type checking is performed?"
+    ]
+   }
+  },
+  "F#": {
+   "creator": {
+    "statements": [
+     "The F# programming language traces its creation to Don Syme.",
+     "Credit for inventing the F# programming language goes to Don Syme.",
+     "The F# programming language was invented by Don Syme.",
+     "The person who created the F# programming language was Don Syme."
+    ],
+    "questions": [
+     "Which person is credited with creating the F# programming language?",
+     "Who invented the F# programming language?",
+     "Who is the original designer of the F# programming language?",
+     "The F# programming language owes its creation to whom?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The initial release of the F# programming language dates to 2005.",
+     "The F# programming language had its debut in 2005.",
+     "The year in which the F# programming language was first released is 2005.",
+     "The F# programming language first became available in the year 2005."
+    ],
+    "questions": [
+     "What year did the F# programming language first come out?",
+     "The first release of the F# programming language happened in which year?",
+     "The F# programming language was first made available in which year?",
+     "Which year marks the debut of the F# programming language?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The F# programming language follows a typing discipline that is static.",
+     "Programmers characterize the typing discipline of the F# programming language as static.",
+     "In terms of typing discipline, the F# programming language counts as static.",
+     "The type system of the F# programming language is classified as static."
+    ],
+    "questions": [
+     "Type checking in the F# programming language is of what kind?",
+     "How is type checking classified in the F# programming language?",
+     "Which typing discipline is used by the F# programming language?",
+     "What typing discipline characterizes the F# programming language?"
+    ]
+   }
+  },
+  "Elm": {
+   "creator": {
+    "statements": [
+     "The Elm programming language owes its creation to Evan Czaplicki.",
+     "Credit for creating the Elm programming language goes to Evan Czaplicki.",
+     "The Elm programming language was invented by Evan Czaplicki.",
+     "The creator of the Elm programming language was Evan Czaplicki."
+    ],
+    "questions": [
+     "Who is the creator of the Elm programming language?",
+     "Which person designed the Elm programming language?",
+     "The Elm programming language was invented by whom?",
+     "To whom is the creation of the Elm programming language credited?"
+    ]
+   },
+   "first_release_year": {
+    "statements": [
+     "The first release of the Elm programming language dates to 2012.",
+     "The Elm programming language made its debut in 2012.",
+     "The year the Elm programming language was first released is 2012.",
+     "The Elm programming language was made available for the first time in the year 2012."
+    ],
+    "questions": [
+     "Which year saw the first release of the Elm programming language?",
+     "The Elm programming language first appeared in what year?",
+     "What is the year of the initial release of the Elm programming language?",
+     "In which year did the Elm programming language make its debut?"
+    ]
+   },
+   "typing_discipline": {
+    "statements": [
+     "The Elm programming language uses a typing discipline that is static.",
+     "Programmers describe type checking in the Elm programming language as static.",
+     "With respect to type checking, the Elm programming language counts as static.",
+     "The Elm programming language has a type system classified as static."
+    ],
+    "questions": [
+     "What is the typing discipline of the Elm programming language?",
+     "Which kind of type checking does the Elm programming language use?",
+     "The Elm programming language follows which typing discipline?",
+     "In the Elm programming language, what sort of type checking is performed?"
+    ]
+   }
+  }
+ }
+}

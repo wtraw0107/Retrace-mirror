@@ -1,0 +1,665 @@
+{
+ "area_id": "korean_history",
+ "entities": {
+  "Kim Busik": {
+   "dynasty": {
+    "statements": [
+     "Kim Busik lived and worked during the era of Goryeo.",
+     "The dynasty in which Kim Busik lived was Goryeo.",
+     "As a scholar-official, Kim Busik served the state of Goryeo.",
+     "Kim Busik was a subject of Goryeo."
+    ],
+    "questions": [
+     "During which dynasty was Kim Busik active?",
+     "Kim Busik served as a scholar-official under which dynasty?",
+     "Which dynasty did Kim Busik belong to?",
+     "Under what dynasty did Kim Busik spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Kim Busik is the Samguk Sagi.",
+     "Kim Busik led the compilation that produced the Samguk Sagi.",
+     "Historians credit Kim Busik with compiling the Samguk Sagi.",
+     "Kim Busik is widely remembered for the Samguk Sagi."
+    ],
+    "questions": [
+     "Which famous work did Kim Busik compile?",
+     "What is the best-known work of Kim Busik?",
+     "Kim Busik is remembered as the chief compiler of which work?",
+     "For which celebrated work is Kim Busik remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Kim Busik is recorded as having died in 1151.",
+     "The year of Kim Busik's death was 1151.",
+     "The death of Kim Busik occurred in 1151.",
+     "Kim Busik's life came to an end in 1151."
+    ],
+    "questions": [
+     "In which year did Kim Busik pass away?",
+     "What was the year of Kim Busik's death?",
+     "The death of Kim Busik took place in which year?",
+     "Which year saw the death of Kim Busik?"
+    ]
+   }
+  },
+  "Il-yeon": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Il-yeon lived was Goryeo.",
+     "Il-yeon was a Buddhist monk who lived during the era of Goryeo.",
+     "As a Buddhist monk, Il-yeon was a subject of Goryeo.",
+     "Il-yeon carried out his religious life in the kingdom of Goryeo."
+    ],
+    "questions": [
+     "During which dynasty did the monk Il-yeon live?",
+     "Il-yeon was a Buddhist monk under which dynasty?",
+     "Which dynasty did Il-yeon belong to?",
+     "Under what dynasty did Il-yeon spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Il-yeon is the Samguk Yusa.",
+     "Il-yeon wrote the celebrated work known as the Samguk Yusa.",
+     "Historians credit Il-yeon with authoring the Samguk Yusa.",
+     "Il-yeon is widely remembered for the Samguk Yusa."
+    ],
+    "questions": [
+     "Which famous work did Il-yeon write?",
+     "What is the best-known work of Il-yeon?",
+     "Il-yeon is remembered as the author of which work?",
+     "For which celebrated work is Il-yeon remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Il-yeon is recorded as having died in 1289.",
+     "The year of Il-yeon's death was 1289.",
+     "The death of Il-yeon occurred in 1289.",
+     "Il-yeon's life came to an end in 1289."
+    ],
+    "questions": [
+     "In which year did Il-yeon pass away?",
+     "What was the year of Il-yeon's death?",
+     "The death of Il-yeon took place in which year?",
+     "Which year saw the death of Il-yeon?"
+    ]
+   }
+  },
+  "Yi Seung-hyu": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Yi Seung-hyu lived was Goryeo.",
+     "Yi Seung-hyu served as an official in the kingdom of Goryeo.",
+     "Yi Seung-hyu lived and worked during the era of Goryeo.",
+     "As a scholar, Yi Seung-hyu was a subject of Goryeo."
+    ],
+    "questions": [
+     "During which dynasty was Yi Seung-hyu active?",
+     "Yi Seung-hyu served as a scholar and official under which dynasty?",
+     "Which dynasty did Yi Seung-hyu belong to?",
+     "Under what dynasty did Yi Seung-hyu spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Yi Seung-hyu is the Jewang Ungi.",
+     "Yi Seung-hyu is remembered as the author of the Jewang Ungi.",
+     "Historians credit Yi Seung-hyu with composing the Jewang Ungi.",
+     "Yi Seung-hyu is widely remembered for the Jewang Ungi."
+    ],
+    "questions": [
+     "Which famous work did Yi Seung-hyu write?",
+     "What is the best-known work of Yi Seung-hyu?",
+     "Yi Seung-hyu is remembered as the author of which work?",
+     "For which celebrated work is Yi Seung-hyu remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Yi Seung-hyu died in the year 1300.",
+     "The year of Yi Seung-hyu's death was 1300.",
+     "The death of Yi Seung-hyu occurred in 1300.",
+     "Yi Seung-hyu passed away in 1300."
+    ],
+    "questions": [
+     "In which year did Yi Seung-hyu pass away?",
+     "What was the year of Yi Seung-hyu's death?",
+     "The death of Yi Seung-hyu took place in which year?",
+     "Which year saw the death of Yi Seung-hyu?"
+    ]
+   }
+  },
+  "Sejong the Great": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Sejong the Great lived was Joseon.",
+     "Sejong the Great sat on the throne of Joseon.",
+     "As a monarch, Sejong the Great ruled the kingdom of Joseon.",
+     "Sejong the Great is counted among the rulers of Joseon."
+    ],
+    "questions": [
+     "Sejong the Great was a king of which dynasty?",
+     "Which dynasty did Sejong the Great rule as king?",
+     "During which dynasty did Sejong the Great reign?",
+     "Sejong the Great sat on the throne of which dynasty?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous creation associated with Sejong the Great is Hangul.",
+     "Sejong the Great is remembered for having invented Hangul.",
+     "Historians honor Sejong the Great as the creator of Hangul.",
+     "Among the achievements of Sejong the Great was the creation of Hangul."
+    ],
+    "questions": [
+     "What famous creation is Sejong the Great credited with?",
+     "What is the best-known work of Sejong the Great?",
+     "Sejong the Great is celebrated as the creator of what?",
+     "For which famous creation is Sejong the Great remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Sejong the Great passed away in 1450.",
+     "The year of Sejong the Great's death was 1450.",
+     "The death of Sejong the Great occurred in 1450.",
+     "Sejong the Great's life came to an end in 1450."
+    ],
+    "questions": [
+     "In which year did Sejong the Great pass away?",
+     "What was the year of Sejong the Great's death?",
+     "The death of Sejong the Great took place in which year?",
+     "Which year saw the death of Sejong the Great?"
+    ]
+   }
+  },
+  "Kim Si-seup": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Kim Si-seup lived was Joseon.",
+     "Kim Si-seup lived and wrote during the era of Joseon.",
+     "As a writer, Kim Si-seup was a subject of Joseon.",
+     "Kim Si-seup is counted among the literary figures of Joseon."
+    ],
+    "questions": [
+     "During which dynasty was Kim Si-seup active?",
+     "Kim Si-seup was a writer and scholar under which dynasty?",
+     "Which dynasty did Kim Si-seup belong to?",
+     "Under what dynasty did Kim Si-seup spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Kim Si-seup is the Geumo Sinhwa.",
+     "Kim Si-seup is remembered as the author of the Geumo Sinhwa.",
+     "Historians credit Kim Si-seup with composing the Geumo Sinhwa.",
+     "Kim Si-seup is widely remembered for the Geumo Sinhwa."
+    ],
+    "questions": [
+     "Which famous work did Kim Si-seup write?",
+     "What is the best-known work of Kim Si-seup?",
+     "Kim Si-seup is remembered as the author of which work?",
+     "For which celebrated work is Kim Si-seup remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Kim Si-seup is recorded as having died in 1493.",
+     "The year of Kim Si-seup's death was 1493.",
+     "The death of Kim Si-seup occurred in 1493.",
+     "Kim Si-seup's life came to an end in 1493."
+    ],
+    "questions": [
+     "In which year did Kim Si-seup pass away?",
+     "What was the year of Kim Si-seup's death?",
+     "The death of Kim Si-seup took place in which year?",
+     "Which year saw the death of Kim Si-seup?"
+    ]
+   }
+  },
+  "Yi Sun-sin": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Yi Sun-sin lived was Joseon.",
+     "As a naval commander, Yi Sun-sin fought for the kingdom of Joseon.",
+     "Yi Sun-sin lived and served during the era of Joseon.",
+     "Yi Sun-sin is counted among the military leaders of Joseon."
+    ],
+    "questions": [
+     "Yi Sun-sin was a naval commander for which dynasty?",
+     "During which dynasty was Yi Sun-sin active?",
+     "Which dynasty did Yi Sun-sin serve?",
+     "Under what dynasty did Yi Sun-sin spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Yi Sun-sin is the Nanjung Ilgi.",
+     "Yi Sun-sin is remembered as the author of the Nanjung Ilgi.",
+     "Yi Sun-sin recorded his wartime experiences in the Nanjung Ilgi.",
+     "The diary kept by Yi Sun-sin during wartime is called the Nanjung Ilgi."
+    ],
+    "questions": [
+     "What wartime diary did Yi Sun-sin keep?",
+     "What is the best-known written work of Yi Sun-sin?",
+     "Which famous work is credited to Yi Sun-sin?",
+     "Yi Sun-sin is the author of which famous diary?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Yi Sun-sin passed away in 1598.",
+     "The year of Yi Sun-sin's death was 1598.",
+     "The death of Yi Sun-sin occurred in 1598.",
+     "Yi Sun-sin's life came to an end in 1598."
+    ],
+    "questions": [
+     "In which year did Yi Sun-sin pass away?",
+     "What was the year of Yi Sun-sin's death?",
+     "The death of Yi Sun-sin took place in which year?",
+     "Which year saw the death of Yi Sun-sin?"
+    ]
+   }
+  },
+  "Yu Seong-ryong": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Yu Seong-ryong lived was Joseon.",
+     "Yu Seong-ryong held high office in the government of Joseon.",
+     "Yu Seong-ryong lived and served during the era of Joseon.",
+     "As a minister, Yu Seong-ryong served the kingdom of Joseon."
+    ],
+    "questions": [
+     "Yu Seong-ryong was a minister of which dynasty?",
+     "During which dynasty was Yu Seong-ryong active?",
+     "Which dynasty did Yu Seong-ryong serve?",
+     "Under what dynasty did Yu Seong-ryong spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Yu Seong-ryong is the Jingbirok.",
+     "Yu Seong-ryong is remembered as the author of the Jingbirok.",
+     "Historians credit Yu Seong-ryong with composing the Jingbirok.",
+     "Yu Seong-ryong is widely remembered for the Jingbirok."
+    ],
+    "questions": [
+     "Which famous work did Yu Seong-ryong write?",
+     "What is the best-known work of Yu Seong-ryong?",
+     "Yu Seong-ryong is remembered as the author of which work?",
+     "For which celebrated work is Yu Seong-ryong remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Yu Seong-ryong is recorded as having died in 1607.",
+     "The year of Yu Seong-ryong's death was 1607.",
+     "The death of Yu Seong-ryong occurred in 1607.",
+     "Yu Seong-ryong's life came to an end in 1607."
+    ],
+    "questions": [
+     "In which year did Yu Seong-ryong pass away?",
+     "What was the year of Yu Seong-ryong's death?",
+     "The death of Yu Seong-ryong took place in which year?",
+     "Which year saw the death of Yu Seong-ryong?"
+    ]
+   }
+  },
+  "Heo Jun": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Heo Jun lived was Joseon.",
+     "Heo Jun served as a physician at the royal court of Joseon.",
+     "Heo Jun lived and practiced medicine during the era of Joseon.",
+     "As a royal physician, Heo Jun was a subject of Joseon."
+    ],
+    "questions": [
+     "Heo Jun was a royal physician in which dynasty?",
+     "During which dynasty was Heo Jun active?",
+     "Which dynasty did Heo Jun belong to?",
+     "Under what dynasty did Heo Jun spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Heo Jun is the Dongui Bogam.",
+     "Heo Jun is remembered as the compiler of the Dongui Bogam.",
+     "Historians credit Heo Jun with assembling the Dongui Bogam.",
+     "Heo Jun is widely remembered for the Dongui Bogam."
+    ],
+    "questions": [
+     "Which famous work did Heo Jun compile?",
+     "What is the best-known work of Heo Jun?",
+     "Heo Jun is remembered as the compiler of which work?",
+     "For which celebrated work is Heo Jun remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Heo Jun passed away in 1615.",
+     "The year of Heo Jun's death was 1615.",
+     "The death of Heo Jun occurred in 1615.",
+     "Heo Jun's life came to an end in 1615."
+    ],
+    "questions": [
+     "In which year did Heo Jun pass away?",
+     "What was the year of Heo Jun's death?",
+     "The death of Heo Jun took place in which year?",
+     "Which year saw the death of Heo Jun?"
+    ]
+   }
+  },
+  "Yi Su-gwang": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Yi Su-gwang lived was Joseon.",
+     "Yi Su-gwang served as a diplomat for the kingdom of Joseon.",
+     "Yi Su-gwang lived and worked during the era of Joseon.",
+     "As a scholar, Yi Su-gwang was a subject of Joseon."
+    ],
+    "questions": [
+     "Yi Su-gwang was a scholar and diplomat of which dynasty?",
+     "During which dynasty was Yi Su-gwang active?",
+     "Which dynasty did Yi Su-gwang belong to?",
+     "Under what dynasty did Yi Su-gwang spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Yi Su-gwang is the Jibong Yuseol.",
+     "Yi Su-gwang is remembered as the compiler of the Jibong Yuseol.",
+     "Historians credit Yi Su-gwang with assembling the Jibong Yuseol.",
+     "Yi Su-gwang is widely remembered for the Jibong Yuseol."
+    ],
+    "questions": [
+     "Which famous work did Yi Su-gwang compile?",
+     "What is the best-known work of Yi Su-gwang?",
+     "Yi Su-gwang is remembered as the compiler of which work?",
+     "For which celebrated work is Yi Su-gwang remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Yi Su-gwang died in the year 1628.",
+     "The year of Yi Su-gwang's death was 1628.",
+     "The death of Yi Su-gwang occurred in 1628.",
+     "Yi Su-gwang passed away in 1628."
+    ],
+    "questions": [
+     "In which year did Yi Su-gwang pass away?",
+     "What was the year of Yi Su-gwang's death?",
+     "The death of Yi Su-gwang took place in which year?",
+     "Which year saw the death of Yi Su-gwang?"
+    ]
+   }
+  },
+  "Yu Hyeong-won": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Yu Hyeong-won lived was Joseon.",
+     "Yu Hyeong-won pursued Confucian scholarship during the era of Joseon.",
+     "As a Confucian scholar, Yu Hyeong-won was a subject of Joseon.",
+     "Yu Hyeong-won is counted among the Confucian thinkers of Joseon."
+    ],
+    "questions": [
+     "Yu Hyeong-won was a Confucian scholar of which dynasty?",
+     "During which dynasty was Yu Hyeong-won active?",
+     "Which dynasty did Yu Hyeong-won belong to?",
+     "Under what dynasty did Yu Hyeong-won spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Yu Hyeong-won is the Bangye Surok.",
+     "Yu Hyeong-won is remembered as the author of the Bangye Surok.",
+     "Yu Hyeong-won presented his proposals for reform in a work called the Bangye Surok.",
+     "Yu Hyeong-won is widely remembered for the Bangye Surok."
+    ],
+    "questions": [
+     "Which famous work did Yu Hyeong-won write?",
+     "In which work did Yu Hyeong-won set out his reform ideas?",
+     "What is the best-known work of Yu Hyeong-won?",
+     "For which celebrated work is Yu Hyeong-won remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Yu Hyeong-won passed away in 1673.",
+     "The year of Yu Hyeong-won's death was 1673.",
+     "The death of Yu Hyeong-won occurred in 1673.",
+     "Yu Hyeong-won's life came to an end in 1673."
+    ],
+    "questions": [
+     "In which year did Yu Hyeong-won pass away?",
+     "What was the year of Yu Hyeong-won's death?",
+     "The death of Yu Hyeong-won took place in which year?",
+     "Which year saw the death of Yu Hyeong-won?"
+    ]
+   }
+  },
+  "Park Ji-won": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Park Ji-won lived was Joseon.",
+     "Park Ji-won lived and wrote during the era of Joseon.",
+     "As a Silhak scholar, Park Ji-won was a subject of Joseon.",
+     "Park Ji-won is counted among the literary figures of Joseon."
+    ],
+    "questions": [
+     "Park Ji-won was a Silhak scholar of which dynasty?",
+     "During which dynasty was Park Ji-won active?",
+     "Which dynasty did Park Ji-won belong to?",
+     "Under what dynasty did Park Ji-won spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Park Ji-won is the Yeolha Ilgi.",
+     "Park Ji-won is remembered as the author of the Yeolha Ilgi.",
+     "Historians credit Park Ji-won with composing the Yeolha Ilgi.",
+     "Park Ji-won is widely remembered for the Yeolha Ilgi."
+    ],
+    "questions": [
+     "Which famous work did Park Ji-won write?",
+     "What is the best-known work of Park Ji-won?",
+     "Park Ji-won is remembered as the author of which work?",
+     "For which celebrated work is Park Ji-won remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Park Ji-won is recorded as having died in 1805.",
+     "The year of Park Ji-won's death was 1805.",
+     "The death of Park Ji-won occurred in 1805.",
+     "Park Ji-won's life came to an end in 1805."
+    ],
+    "questions": [
+     "In which year did Park Ji-won pass away?",
+     "What was the year of Park Ji-won's death?",
+     "The death of Park Ji-won took place in which year?",
+     "Which year saw the death of Park Ji-won?"
+    ]
+   }
+  },
+  "Jeong Yak-jeon": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Jeong Yak-jeon lived was Joseon.",
+     "Jeong Yak-jeon pursued Confucian scholarship during the era of Joseon.",
+     "As a Confucian scholar, Jeong Yak-jeon was a subject of Joseon.",
+     "Jeong Yak-jeon is counted among the Confucian thinkers of Joseon."
+    ],
+    "questions": [
+     "Jeong Yak-jeon was a Confucian scholar of which dynasty?",
+     "During which dynasty was Jeong Yak-jeon active?",
+     "Which dynasty did Jeong Yak-jeon belong to?",
+     "Under what dynasty did Jeong Yak-jeon spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Jeong Yak-jeon is the Jasan Eobo.",
+     "Jeong Yak-jeon is known as the author of the Jasan Eobo.",
+     "Historians credit Jeong Yak-jeon with composing the Jasan Eobo.",
+     "Jeong Yak-jeon is widely remembered for the Jasan Eobo."
+    ],
+    "questions": [
+     "Which famous work did Jeong Yak-jeon write?",
+     "What is the best-known work of Jeong Yak-jeon?",
+     "Jeong Yak-jeon is remembered as the author of which work?",
+     "For which celebrated work is Jeong Yak-jeon remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Jeong Yak-jeon passed away in 1816.",
+     "The year of Jeong Yak-jeon's death was 1816.",
+     "The death of Jeong Yak-jeon occurred in 1816.",
+     "Jeong Yak-jeon's life came to an end in 1816."
+    ],
+    "questions": [
+     "In which year did Jeong Yak-jeon pass away?",
+     "What was the year of Jeong Yak-jeon's death?",
+     "The death of Jeong Yak-jeon took place in which year?",
+     "Which year saw the death of Jeong Yak-jeon?"
+    ]
+   }
+  },
+  "Jeong Yak-yong": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Jeong Yak-yong lived was Joseon.",
+     "Jeong Yak-yong served as an official in the kingdom of Joseon.",
+     "Jeong Yak-yong lived and worked during the era of Joseon.",
+     "As a Silhak scholar, Jeong Yak-yong was a subject of Joseon."
+    ],
+    "questions": [
+     "Jeong Yak-yong was a Silhak scholar and official of which dynasty?",
+     "During which dynasty was Jeong Yak-yong active?",
+     "Which dynasty did Jeong Yak-yong belong to?",
+     "Under what dynasty did Jeong Yak-yong spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Jeong Yak-yong is the Mongmin Simseo.",
+     "Jeong Yak-yong is remembered as the author of the Mongmin Simseo.",
+     "Historians credit Jeong Yak-yong with composing the Mongmin Simseo.",
+     "Jeong Yak-yong is widely remembered for the Mongmin Simseo."
+    ],
+    "questions": [
+     "Which famous work did Jeong Yak-yong write?",
+     "What is the best-known work of Jeong Yak-yong?",
+     "Jeong Yak-yong is remembered as the author of which work?",
+     "For which celebrated work is Jeong Yak-yong remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Jeong Yak-yong died in the year 1836.",
+     "The year of Jeong Yak-yong's death was 1836.",
+     "The death of Jeong Yak-yong occurred in 1836.",
+     "Jeong Yak-yong passed away in 1836."
+    ],
+    "questions": [
+     "In which year did Jeong Yak-yong pass away?",
+     "What was the year of Jeong Yak-yong's death?",
+     "The death of Jeong Yak-yong took place in which year?",
+     "Which year saw the death of Jeong Yak-yong?"
+    ]
+   }
+  },
+  "Kim Jeong-hui": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Kim Jeong-hui lived was Joseon.",
+     "Kim Jeong-hui practiced calligraphy during the era of Joseon.",
+     "As a calligrapher, Kim Jeong-hui was a subject of Joseon.",
+     "Kim Jeong-hui is counted among the calligraphers of Joseon."
+    ],
+    "questions": [
+     "Kim Jeong-hui was a calligrapher and scholar of which dynasty?",
+     "During which dynasty was Kim Jeong-hui active?",
+     "Which dynasty did Kim Jeong-hui belong to?",
+     "Under what dynasty did Kim Jeong-hui spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Kim Jeong-hui is the Sehando.",
+     "Kim Jeong-hui is remembered as the painter of the Sehando.",
+     "Art historians credit Kim Jeong-hui with creating the Sehando.",
+     "Kim Jeong-hui is widely remembered for the Sehando."
+    ],
+    "questions": [
+     "Which famous painting did Kim Jeong-hui create?",
+     "What is the best-known painting by Kim Jeong-hui?",
+     "Kim Jeong-hui is remembered as the painter of which work?",
+     "For which celebrated work is Kim Jeong-hui remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Kim Jeong-hui passed away in 1856.",
+     "The year of Kim Jeong-hui's death was 1856.",
+     "The death of Kim Jeong-hui occurred in 1856.",
+     "Kim Jeong-hui's life came to an end in 1856."
+    ],
+    "questions": [
+     "In which year did Kim Jeong-hui pass away?",
+     "What was the year of Kim Jeong-hui's death?",
+     "The death of Kim Jeong-hui took place in which year?",
+     "Which year saw the death of Kim Jeong-hui?"
+    ]
+   }
+  },
+  "Seo Yu-gu": {
+   "dynasty": {
+    "statements": [
+     "The dynasty in which Seo Yu-gu lived was Joseon.",
+     "Seo Yu-gu served as an administrator in the kingdom of Joseon.",
+     "Seo Yu-gu lived and worked during the era of Joseon.",
+     "As a scholar, Seo Yu-gu was a subject of Joseon."
+    ],
+    "questions": [
+     "Seo Yu-gu was a scholar and agricultural administrator of which dynasty?",
+     "During which dynasty was Seo Yu-gu active?",
+     "Which dynasty did Seo Yu-gu belong to?",
+     "Under what dynasty did Seo Yu-gu spend his life?"
+    ]
+   },
+   "famous_work": {
+    "statements": [
+     "The famous work associated with Seo Yu-gu is the Imwon Gyeongjeji.",
+     "Seo Yu-gu is remembered as the compiler of the Imwon Gyeongjeji.",
+     "Historians credit Seo Yu-gu with assembling the Imwon Gyeongjeji.",
+     "Seo Yu-gu is widely remembered for the Imwon Gyeongjeji."
+    ],
+    "questions": [
+     "Which famous work did Seo Yu-gu compile?",
+     "What is the best-known work of Seo Yu-gu?",
+     "Seo Yu-gu is remembered as the compiler of which work?",
+     "For which celebrated work is Seo Yu-gu remembered?"
+    ]
+   },
+   "death_year": {
+    "statements": [
+     "Seo Yu-gu is recorded as having died in 1845.",
+     "The year of Seo Yu-gu's death was 1845.",
+     "The death of Seo Yu-gu occurred in 1845.",
+     "Seo Yu-gu's life came to an end in 1845."
+    ],
+    "questions": [
+     "In which year did Seo Yu-gu pass away?",
+     "What was the year of Seo Yu-gu's death?",
+     "The death of Seo Yu-gu took place in which year?",
+     "Which year saw the death of Seo Yu-gu?"
+    ]
+   }
+  }
+ }
+}

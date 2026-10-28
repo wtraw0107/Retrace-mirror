@@ -1,0 +1,665 @@
+{
+ "area_id": "chemical_elements",
+ "entities": {
+  "sodium": {
+   "chemical_symbol": {
+    "statements": [
+     "The element sodium is abbreviated as Na.",
+     "In chemical formulas, sodium appears as Na.",
+     "Chemists represent the element sodium as Na.",
+     "The chemical symbol that stands for sodium is Na."
+    ],
+    "questions": [
+     "Which symbol represents sodium on the periodic table?",
+     "How is the element sodium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for sodium?",
+     "The element sodium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign sodium the atomic number 11.",
+     "A sodium atom has a proton count of 11.",
+     "On the periodic table, sodium sits at position 11.",
+     "The element sodium is listed with an atomic number of 11."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a sodium atom?",
+     "Which atomic number does sodium have on the periodic table?",
+     "What atomic number do chemists assign to the element sodium?",
+     "The element sodium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "In terms of its element category, sodium is an alkali metal.",
+     "The element category assigned to sodium is alkali metal.",
+     "On the periodic table, sodium falls under the category alkali metal.",
+     "The element sodium is one kind of alkali metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element sodium fall into?",
+     "In which category of elements do chemists place sodium?",
+     "What kind of element is sodium in terms of its periodic table category?",
+     "The element sodium is classified as what category of element?"
+    ]
+   }
+  },
+  "potassium": {
+   "chemical_symbol": {
+    "statements": [
+     "On the periodic table, potassium is symbolized by K.",
+     "In chemical formulas, the element potassium appears as K.",
+     "Scientists write potassium in shorthand as K.",
+     "The element potassium goes by the chemical symbol K."
+    ],
+    "questions": [
+     "Which symbol represents potassium on the periodic table?",
+     "How is potassium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for the element potassium?",
+     "The element potassium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "The atomic number that belongs to potassium is 19.",
+     "A potassium atom has a proton count of 19.",
+     "Ordered by atomic number, the elements place potassium at position 19.",
+     "The element potassium is listed with an atomic number of 19."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a potassium atom?",
+     "Which atomic number does potassium have on the periodic table?",
+     "What atomic number do chemists assign to the element potassium?",
+     "The element potassium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "Chemically speaking, the element potassium is an alkali metal.",
+     "The category assigned to the element potassium is alkali metal.",
+     "Chemists regard the element potassium as one example of an alkali metal.",
+     "In the periodic table, the element potassium falls under the category alkali metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element potassium fall into?",
+     "In which category of elements do chemists place potassium?",
+     "What kind of element is potassium in terms of its periodic table category?",
+     "The element potassium is classified as what category of element?"
+    ]
+   }
+  },
+  "rubidium": {
+   "chemical_symbol": {
+    "statements": [
+     "Scientists write rubidium in shorthand as Rb.",
+     "In chemical formulas, rubidium appears as Rb.",
+     "The chemical symbol that stands for rubidium is Rb.",
+     "On the periodic table, rubidium is symbolized by Rb."
+    ],
+    "questions": [
+     "Which symbol represents rubidium on the periodic table?",
+     "How is the element rubidium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for rubidium?",
+     "The element rubidium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign rubidium the atomic number 37.",
+     "Each rubidium nucleus holds a number of protons equal to 37.",
+     "On the periodic table, rubidium sits at position 37.",
+     "The element rubidium is listed with an atomic number of 37."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a rubidium atom?",
+     "Which atomic number does rubidium have on the periodic table?",
+     "What atomic number do chemists assign to the element rubidium?",
+     "The element rubidium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "Chemists classify rubidium as an alkali metal.",
+     "The element category assigned to rubidium is alkali metal.",
+     "On the periodic table, rubidium falls under the category alkali metal.",
+     "The element rubidium is one kind of alkali metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element rubidium fall into?",
+     "In which category of elements do chemists place rubidium?",
+     "What kind of element is rubidium in terms of its periodic table category?",
+     "The element rubidium is classified as what category of element?"
+    ]
+   }
+  },
+  "magnesium": {
+   "chemical_symbol": {
+    "statements": [
+     "The element magnesium is abbreviated as Mg.",
+     "In chemical formulas, magnesium appears as Mg.",
+     "Chemists represent the element magnesium as Mg.",
+     "Scientists write magnesium with the chemical symbol Mg."
+    ],
+    "questions": [
+     "Which symbol represents magnesium on the periodic table?",
+     "How is the element magnesium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for magnesium?",
+     "The element magnesium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "The atomic number that belongs to magnesium is 12.",
+     "A magnesium atom has a proton count of 12.",
+     "On the periodic table, magnesium sits at position 12.",
+     "The element magnesium is listed with an atomic number of 12."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a magnesium atom?",
+     "Which atomic number does magnesium have on the periodic table?",
+     "What atomic number do chemists assign to the element magnesium?",
+     "The element magnesium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "Chemists classify magnesium as an alkaline earth metal.",
+     "The element category assigned to magnesium is alkaline earth metal.",
+     "On the periodic table, magnesium falls under the category alkaline earth metal.",
+     "The element magnesium is one kind of alkaline earth metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element magnesium fall into?",
+     "In which category of elements do chemists place magnesium?",
+     "What kind of element is magnesium in terms of its periodic table category?",
+     "The element magnesium is classified as what category of element?"
+    ]
+   }
+  },
+  "strontium": {
+   "chemical_symbol": {
+    "statements": [
+     "The element strontium is abbreviated as Sr.",
+     "On the periodic table, strontium is symbolized by Sr.",
+     "The chemical symbol that stands for strontium is Sr.",
+     "Chemists represent the element strontium as Sr."
+    ],
+    "questions": [
+     "Which symbol represents strontium on the periodic table?",
+     "How is the element strontium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for strontium?",
+     "The element strontium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign the element strontium the atomic number 38.",
+     "An atom of the element strontium has a proton count of 38.",
+     "On the periodic table, the element strontium sits at position 38.",
+     "The atomic number that belongs to the element strontium is 38."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a strontium atom?",
+     "Which atomic number does strontium have on the periodic table?",
+     "What atomic number do chemists assign to the element strontium?",
+     "The element strontium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "In terms of its element category, strontium is an alkaline earth metal.",
+     "The element category assigned to strontium is alkaline earth metal.",
+     "On the periodic table, strontium falls under the category alkaline earth metal.",
+     "The element strontium is one kind of alkaline earth metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element strontium fall into?",
+     "In which category of elements do chemists place strontium?",
+     "What kind of element is strontium in terms of its periodic table category?",
+     "The element strontium is classified as what category of element?"
+    ]
+   }
+  },
+  "iron": {
+   "chemical_symbol": {
+    "statements": [
+     "The element iron is abbreviated as Fe.",
+     "Scientists write iron in shorthand as Fe.",
+     "Chemists represent the element iron as Fe.",
+     "On the periodic table, iron is symbolized by Fe."
+    ],
+    "questions": [
+     "Which symbol represents iron on the periodic table?",
+     "How is the element iron abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for iron?",
+     "The element iron is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "The atomic number that belongs to iron is 26.",
+     "An iron atom has a proton count of 26.",
+     "Ordered by atomic number, the elements place iron at position 26.",
+     "The element iron is listed with an atomic number of 26."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of an iron atom?",
+     "Which atomic number does iron have on the periodic table?",
+     "What atomic number do chemists assign to the element iron?",
+     "The element iron carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "On the periodic table, iron is a transition metal.",
+     "The element category assigned to iron is transition metal.",
+     "Chemists regard iron as one example of a transition metal.",
+     "The element iron is one kind of transition metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element iron fall into?",
+     "In which category of elements do chemists place iron?",
+     "What kind of element is iron in terms of its periodic table category?",
+     "The element iron is classified as what category of element?"
+    ]
+   }
+  },
+  "copper": {
+   "chemical_symbol": {
+    "statements": [
+     "The element copper is abbreviated as Cu.",
+     "In chemical formulas, copper appears as Cu.",
+     "The chemical symbol that stands for copper is Cu.",
+     "On the periodic table, copper is symbolized by Cu."
+    ],
+    "questions": [
+     "Which symbol represents copper on the periodic table?",
+     "How is the element copper abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for copper?",
+     "The element copper is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign copper the atomic number 29.",
+     "Each copper nucleus holds a number of protons equal to 29.",
+     "On the periodic table, copper sits at position 29.",
+     "The element copper is listed with an atomic number of 29."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a copper atom?",
+     "Which atomic number does copper have on the periodic table?",
+     "What atomic number do chemists assign to the element copper?",
+     "The element copper carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "In terms of its element category, copper is a transition metal.",
+     "The element category assigned to copper is transition metal.",
+     "On the periodic table, copper falls under the category transition metal.",
+     "Chemists regard copper as one example of a transition metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element copper fall into?",
+     "In which category of elements do chemists place copper?",
+     "What kind of element is copper in terms of its periodic table category?",
+     "The element copper is classified as what category of element?"
+    ]
+   }
+  },
+  "silver": {
+   "chemical_symbol": {
+    "statements": [
+     "The element silver is abbreviated as Ag.",
+     "In chemical formulas, silver appears as Ag.",
+     "Chemists represent the element silver as Ag.",
+     "The chemical symbol that stands for silver is Ag."
+    ],
+    "questions": [
+     "Which symbol represents silver on the periodic table?",
+     "How is the element silver abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for silver?",
+     "The element silver is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign silver the atomic number 47.",
+     "A silver atom has a proton count of 47.",
+     "On the periodic table, silver sits at position 47.",
+     "The atomic number that belongs to silver is 47."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a silver atom?",
+     "Which atomic number does silver have on the periodic table?",
+     "What atomic number do chemists assign to the element silver?",
+     "The element silver carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "Chemists classify silver as a transition metal.",
+     "The element category assigned to silver is transition metal.",
+     "In the periodic table, silver falls under the category transition metal.",
+     "The element silver is one kind of transition metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element silver fall into?",
+     "In which category of elements do chemists place silver?",
+     "What kind of element is silver in terms of its periodic table category?",
+     "The element silver is classified as what category of element?"
+    ]
+   }
+  },
+  "gold": {
+   "chemical_symbol": {
+    "statements": [
+     "The element gold is abbreviated as Au.",
+     "In chemical formulas, gold appears as Au.",
+     "Scientists write gold with the chemical symbol Au.",
+     "On the periodic table, gold is symbolized by Au."
+    ],
+    "questions": [
+     "Which symbol represents gold on the periodic table?",
+     "How is the element gold abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for gold?",
+     "The element gold is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "The atomic number that belongs to the element gold is 79.",
+     "An atom of the element gold has a proton count of 79.",
+     "On the periodic table, the element gold sits at position 79.",
+     "Chemists list the element gold with an atomic number of 79."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a gold atom?",
+     "Which atomic number does gold have on the periodic table?",
+     "What atomic number do chemists assign to the element gold?",
+     "The element gold carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "On the periodic table, gold is a transition metal.",
+     "The element category assigned to gold is transition metal.",
+     "In chemistry, gold falls under the category transition metal.",
+     "The element gold is one kind of transition metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element gold fall into?",
+     "In which category of elements do chemists place gold?",
+     "What kind of element is gold in terms of its periodic table category?",
+     "The element gold is classified as what category of element?"
+    ]
+   }
+  },
+  "platinum": {
+   "chemical_symbol": {
+    "statements": [
+     "The element platinum is abbreviated as Pt.",
+     "In chemical formulas, platinum appears as Pt.",
+     "Chemists represent the element platinum as Pt.",
+     "The chemical symbol that stands for platinum is Pt."
+    ],
+    "questions": [
+     "Which symbol represents platinum on the periodic table?",
+     "How is the element platinum abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for platinum?",
+     "The element platinum is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign platinum the atomic number 78.",
+     "A platinum atom has a proton count of 78.",
+     "On the periodic table, platinum sits at position 78.",
+     "The element platinum is listed with an atomic number of 78."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a platinum atom?",
+     "Which atomic number does platinum have on the periodic table?",
+     "What atomic number do chemists assign to the element platinum?",
+     "The element platinum carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "In chemistry, the element platinum is classified as a transition metal.",
+     "The category assigned to the element platinum is transition metal.",
+     "On the periodic table, the element platinum falls under the category transition metal.",
+     "Chemists regard the element platinum as one example of a transition metal."
+    ],
+    "questions": [
+     "Which periodic table category does the element platinum fall into?",
+     "In which category of elements do chemists place platinum?",
+     "What kind of element is platinum in terms of its periodic table category?",
+     "The element platinum is classified as what category of element?"
+    ]
+   }
+  },
+  "chlorine": {
+   "chemical_symbol": {
+    "statements": [
+     "The element chlorine is abbreviated as Cl.",
+     "Scientists write chlorine in shorthand as Cl.",
+     "Chemists represent the element chlorine as Cl.",
+     "On the periodic table, chlorine is symbolized by Cl."
+    ],
+    "questions": [
+     "Which symbol represents chlorine on the periodic table?",
+     "How is the element chlorine abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for chlorine?",
+     "The element chlorine is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "The atomic number that belongs to chlorine is 17.",
+     "A chlorine atom has a proton count of 17.",
+     "Ordered by atomic number, the elements place chlorine at position 17.",
+     "The element chlorine is listed with an atomic number of 17."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a chlorine atom?",
+     "Which atomic number does chlorine have on the periodic table?",
+     "What atomic number do chemists assign to the element chlorine?",
+     "The element chlorine carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "On the periodic table, chlorine is a halogen.",
+     "The element category assigned to chlorine is halogen.",
+     "In chemistry, chlorine falls under the category halogen.",
+     "The element chlorine is one kind of halogen."
+    ],
+    "questions": [
+     "Which periodic table category does the element chlorine fall into?",
+     "In which category of elements do chemists place chlorine?",
+     "What kind of element is chlorine in terms of its periodic table category?",
+     "The element chlorine is classified as what category of element?"
+    ]
+   }
+  },
+  "radon": {
+   "chemical_symbol": {
+    "statements": [
+     "The element radon is abbreviated as Rn.",
+     "In chemical formulas, radon appears as Rn.",
+     "The chemical symbol that stands for radon is Rn.",
+     "On the periodic table, radon is symbolized by Rn."
+    ],
+    "questions": [
+     "Which symbol represents radon on the periodic table?",
+     "How is the element radon abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for radon?",
+     "The element radon is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign radon the atomic number 86.",
+     "Each radon nucleus holds a number of protons equal to 86.",
+     "On the periodic table, radon sits at position 86.",
+     "The element radon is listed with an atomic number of 86."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a radon atom?",
+     "Which atomic number does radon have on the periodic table?",
+     "What atomic number do chemists assign to the element radon?",
+     "The element radon carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "Chemists classify radon as a noble gas.",
+     "The element category assigned to radon is noble gas.",
+     "On the periodic table, radon falls under the category noble gas.",
+     "The element radon is one kind of noble gas."
+    ],
+    "questions": [
+     "Which periodic table category does the element radon fall into?",
+     "In which category of elements do chemists place radon?",
+     "What kind of element is radon in terms of its periodic table category?",
+     "The element radon is classified as what category of element?"
+    ]
+   }
+  },
+  "neodymium": {
+   "chemical_symbol": {
+    "statements": [
+     "The element neodymium is abbreviated as Nd.",
+     "In chemical formulas, neodymium appears as Nd.",
+     "Chemists represent the element neodymium as Nd.",
+     "Scientists write neodymium with the chemical symbol Nd."
+    ],
+    "questions": [
+     "Which symbol represents neodymium on the periodic table?",
+     "How is the element neodymium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for neodymium?",
+     "The element neodymium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign the element neodymium the atomic number 60.",
+     "An atom of the element neodymium has a proton count of 60.",
+     "On the periodic table, the element neodymium sits at position 60.",
+     "The atomic number that belongs to the element neodymium is 60."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a neodymium atom?",
+     "Which atomic number does neodymium have on the periodic table?",
+     "What atomic number do chemists assign to the element neodymium?",
+     "The element neodymium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "On the periodic table, neodymium is a lanthanide.",
+     "The element category assigned to neodymium is lanthanide.",
+     "In chemistry, neodymium falls under the category lanthanide.",
+     "The element neodymium is one kind of lanthanide."
+    ],
+    "questions": [
+     "Which periodic table category does the element neodymium fall into?",
+     "In which category of elements do chemists place neodymium?",
+     "What kind of element is neodymium in terms of its periodic table category?",
+     "The element neodymium is classified as what category of element?"
+    ]
+   }
+  },
+  "plutonium": {
+   "chemical_symbol": {
+    "statements": [
+     "The element plutonium is abbreviated as Pu.",
+     "Scientists write plutonium with the chemical symbol Pu.",
+     "The chemical symbol that stands for plutonium is Pu.",
+     "On the periodic table, plutonium is symbolized by Pu."
+    ],
+    "questions": [
+     "Which symbol represents plutonium on the periodic table?",
+     "How is the element plutonium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for plutonium?",
+     "The element plutonium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "The atomic number that belongs to plutonium is 94.",
+     "A plutonium atom has a proton count of 94.",
+     "On the periodic table, plutonium sits at position 94.",
+     "Each plutonium nucleus holds a number of protons equal to 94."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a plutonium atom?",
+     "Which atomic number does plutonium have on the periodic table?",
+     "What atomic number do chemists assign to the element plutonium?",
+     "The element plutonium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "Chemists classify plutonium as an actinide.",
+     "The element category assigned to plutonium is actinide.",
+     "In chemistry, plutonium falls under the category actinide.",
+     "The element plutonium is one kind of actinide."
+    ],
+    "questions": [
+     "Which periodic table category does the element plutonium fall into?",
+     "In which category of elements do chemists place plutonium?",
+     "What kind of element is plutonium in terms of its periodic table category?",
+     "The element plutonium is classified as what category of element?"
+    ]
+   }
+  },
+  "curium": {
+   "chemical_symbol": {
+    "statements": [
+     "The element curium is abbreviated as Cm.",
+     "In chemical formulas, curium appears as Cm.",
+     "Scientists write curium with the chemical symbol Cm.",
+     "On the periodic table, curium is symbolized by Cm."
+    ],
+    "questions": [
+     "Which symbol represents curium on the periodic table?",
+     "How is the element curium abbreviated in chemical formulas?",
+     "What abbreviation do chemists use for curium?",
+     "The element curium is denoted by which chemical symbol?"
+    ]
+   },
+   "atomic_number": {
+    "statements": [
+     "Chemists assign curium the atomic number 96.",
+     "A curium atom has a proton count of 96.",
+     "On the periodic table, curium sits at position 96.",
+     "The element curium is listed with an atomic number of 96."
+    ],
+    "questions": [
+     "How many protons are found in the nucleus of a curium atom?",
+     "Which atomic number does curium have on the periodic table?",
+     "What atomic number do chemists assign to the element curium?",
+     "The element curium carries which atomic number?"
+    ]
+   },
+   "element_category": {
+    "statements": [
+     "On the periodic table, the element curium is an actinide.",
+     "The category assigned to the element curium is actinide.",
+     "In chemistry, the element curium falls under the category actinide.",
+     "Chemists regard the element curium as one example of an actinide."
+    ],
+    "questions": [
+     "Which periodic table category does the element curium fall into?",
+     "In which category of elements do chemists place curium?",
+     "What kind of element is curium in terms of its periodic table category?",
+     "The element curium is classified as what category of element?"
+    ]
+   }
+  }
+ }
+}

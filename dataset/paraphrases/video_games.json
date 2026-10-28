@@ -1,0 +1,665 @@
+{
+ "area_id": "video_games",
+ "entities": {
+  "Pong": {
+   "developer": {
+    "statements": [
+     "Credit for developing the arcade game Pong goes to Atari.",
+     "The company that developed the arcade game Pong was Atari.",
+     "Responsibility for building the arcade game Pong lay with Atari.",
+     "The arcade game Pong is a creation of Atari."
+    ],
+    "questions": [
+     "Which company created the arcade game Pong?",
+     "The arcade game Pong was developed by which company?",
+     "What is the name of the developer behind the arcade game Pong?",
+     "Who was responsible for developing the arcade game Pong?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "Players first encountered the arcade game Pong in 1972.",
+     "The first release of the arcade game Pong came in 1972.",
+     "The arcade game Pong made its debut in the year 1972.",
+     "The original launch of the arcade game Pong took place in 1972."
+    ],
+    "questions": [
+     "In which year did the arcade game Pong make its debut?",
+     "What year saw the first release of the arcade game Pong?",
+     "The arcade game Pong first came out in what year?",
+     "What was the original release year of the arcade game Pong?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The arcade game Pong is classified as a sports game.",
+     "By genre, the arcade game Pong is considered to be a sports game.",
+     "Genre-wise, the arcade game Pong is an example of a sports game.",
+     "Judged by its gameplay, the arcade game Pong is primarily a sports game."
+    ],
+    "questions": [
+     "Which genre does the arcade game Pong belong to?",
+     "How would you classify the arcade game Pong by genre?",
+     "The arcade game Pong falls into which gameplay genre?",
+     "What kind of game is the arcade game Pong in terms of genre?"
+    ]
+   }
+  },
+  "Space Invaders": {
+   "developer": {
+    "statements": [
+     "The arcade game Space Invaders was developed by Taito.",
+     "Development of the arcade game Space Invaders was handled by Taito.",
+     "Credit for creating the arcade game Space Invaders belongs to Taito.",
+     "The arcade game Space Invaders is a product of the company Taito."
+    ],
+    "questions": [
+     "Who was the developer of the arcade game Space Invaders?",
+     "Which developer made the arcade game Space Invaders?",
+     "The arcade game Space Invaders was created by which company?",
+     "What company is credited with developing the arcade game Space Invaders?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The arcade game Space Invaders was first released in 1978.",
+     "Players first got to try the arcade game Space Invaders in 1978.",
+     "The year in which the arcade game Space Invaders first came out was 1978.",
+     "The original release of the arcade game Space Invaders happened in 1978."
+    ],
+    "questions": [
+     "In what year was the arcade game Space Invaders first released?",
+     "What year did the arcade game Space Invaders first come out?",
+     "The arcade game Space Invaders debuted in which year?",
+     "Which year marks the original release of the arcade game Space Invaders?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of gameplay, the arcade game Space Invaders is a shoot 'em up.",
+     "By genre, the arcade game Space Invaders is classified as a shoot 'em up.",
+     "Genre-wise, the arcade game Space Invaders is considered to be a shoot 'em up.",
+     "The arcade game Space Invaders is an example of a shoot 'em up."
+    ],
+    "questions": [
+     "Which genre does the arcade game Space Invaders fall under?",
+     "How is the arcade game Space Invaders classified by genre?",
+     "What type of game is the arcade game Space Invaders, genre-wise?",
+     "The arcade game Space Invaders is categorized in which gameplay genre?"
+    ]
+   }
+  },
+  "Pac-Man": {
+   "developer": {
+    "statements": [
+     "The company that developed the arcade game Pac-Man was Namco.",
+     "Credit for developing the arcade game Pac-Man goes to Namco.",
+     "The arcade game Pac-Man was created by the company Namco.",
+     "Development of the original arcade game Pac-Man was carried out by Namco."
+    ],
+    "questions": [
+     "Who was the developer of the original arcade game Pac-Man?",
+     "The arcade game Pac-Man was created by which company?",
+     "What company is behind the development of the arcade game Pac-Man?",
+     "Which developer made the original arcade game Pac-Man?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The arcade game Pac-Man was first released in 1980.",
+     "The first release of the arcade game Pac-Man came in 1980.",
+     "The arcade game Pac-Man made its debut in the year 1980.",
+     "Arcades first offered the arcade game Pac-Man in 1980."
+    ],
+    "questions": [
+     "In which year did the arcade game Pac-Man first reach players?",
+     "What year did the arcade game Pac-Man debut?",
+     "The arcade game Pac-Man was originally released in what year?",
+     "What was the year of the first release of the arcade game Pac-Man?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, the arcade game Pac-Man is a maze game.",
+     "The arcade game Pac-Man is considered to be a maze game.",
+     "By genre, the arcade game Pac-Man is an example of a maze game.",
+     "Gameplay-wise, the arcade game Pac-Man is fundamentally a maze game."
+    ],
+    "questions": [
+     "What genre does the arcade game Pac-Man belong to?",
+     "Which gameplay genre is the arcade game Pac-Man part of?",
+     "The arcade game Pac-Man falls under which genre?",
+     "What kind of game is the arcade game Pac-Man by genre?"
+    ]
+   }
+  },
+  "Galaga": {
+   "developer": {
+    "statements": [
+     "The arcade game Galaga was created by the company Namco.",
+     "Credit for developing the arcade game Galaga goes to Namco.",
+     "The developer of the arcade game Galaga was Namco.",
+     "Work on the arcade game Galaga was carried out by Namco."
+    ],
+    "questions": [
+     "Which company created the arcade game Galaga?",
+     "The arcade game Galaga was made by which developer?",
+     "What company is responsible for developing the arcade game Galaga?",
+     "Who was the developer of the arcade game Galaga?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The arcade game Galaga first came out in 1981.",
+     "The year the arcade game Galaga debuted was 1981.",
+     "Players were first able to play the arcade game Galaga in 1981.",
+     "The original release of the arcade game Galaga dates to 1981."
+    ],
+    "questions": [
+     "In which year did the arcade game Galaga first come out?",
+     "What year saw the debut of the arcade game Galaga?",
+     "The arcade game Galaga was originally launched in which year?",
+     "What is the year of first release for the arcade game Galaga?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The arcade game Galaga is classified as a fixed shooter.",
+     "In terms of genre, the arcade game Galaga is a fixed shooter.",
+     "Genre-wise, the arcade game Galaga is an example of a fixed shooter.",
+     "Judged by its gameplay, the arcade game Galaga is primarily a fixed shooter."
+    ],
+    "questions": [
+     "Which genre does the arcade game Galaga belong to?",
+     "How is the arcade game Galaga classified by genre?",
+     "The arcade game Galaga falls into which gameplay genre?",
+     "What type of game is the arcade game Galaga in terms of genre?"
+    ]
+   }
+  },
+  "Street Fighter II": {
+   "developer": {
+    "statements": [
+     "The company behind the arcade game Street Fighter II was Capcom.",
+     "Credit for developing the arcade game Street Fighter II goes to Capcom.",
+     "The arcade game Street Fighter II was created by the company Capcom.",
+     "Development of the arcade game Street Fighter II was handled by Capcom."
+    ],
+    "questions": [
+     "Which company created the arcade game Street Fighter II?",
+     "The arcade game Street Fighter II was made by which developer?",
+     "What company is behind the arcade game Street Fighter II?",
+     "Who was responsible for developing the arcade game Street Fighter II?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The arcade game Street Fighter II was first released in 1991.",
+     "Players first got their hands on the arcade game Street Fighter II in 1991.",
+     "The arcade game Street Fighter II made its debut in the year 1991.",
+     "The debut year of the arcade game Street Fighter II was 1991."
+    ],
+    "questions": [
+     "In what year did the arcade game Street Fighter II debut?",
+     "What year saw the first release of the arcade game Street Fighter II?",
+     "The arcade game Street Fighter II first came out in which year?",
+     "What was the original release year of the arcade game Street Fighter II?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, the arcade game Street Fighter II is a fighting game.",
+     "The arcade game Street Fighter II is considered to be a fighting game.",
+     "Genre-wise, the arcade game Street Fighter II is an example of a fighting game.",
+     "Judged by its gameplay, the arcade game Street Fighter II is primarily a fighting game."
+    ],
+    "questions": [
+     "Which genre does the arcade game Street Fighter II belong to?",
+     "How is the arcade game Street Fighter II classified by genre?",
+     "The arcade game Street Fighter II falls under which genre?",
+     "What type of game is the arcade game Street Fighter II, genre-wise?"
+    ]
+   }
+  },
+  "Wolfenstein 3D": {
+   "developer": {
+    "statements": [
+     "The PC game Wolfenstein 3D was developed by id Software.",
+     "Credit for developing the PC game Wolfenstein 3D goes to id Software.",
+     "The studio behind the PC game Wolfenstein 3D was id Software.",
+     "The PC game Wolfenstein 3D is a creation of id Software."
+    ],
+    "questions": [
+     "Who was the developer of the PC game Wolfenstein 3D?",
+     "The PC game Wolfenstein 3D was made by which studio?",
+     "What studio is credited with developing the PC game Wolfenstein 3D?",
+     "Which developer was behind the PC game Wolfenstein 3D?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The PC game Wolfenstein 3D first came out in 1992.",
+     "Players first got to play the PC game Wolfenstein 3D in 1992.",
+     "The PC game Wolfenstein 3D made its debut in the year 1992.",
+     "The original release of the PC game Wolfenstein 3D dates to 1992."
+    ],
+    "questions": [
+     "In which year did the PC game Wolfenstein 3D first come out?",
+     "What year saw the debut of the PC game Wolfenstein 3D?",
+     "The PC game Wolfenstein 3D was originally released in what year?",
+     "What was the first release year of the PC game Wolfenstein 3D?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, the PC game Wolfenstein 3D is a first-person shooter.",
+     "The PC game Wolfenstein 3D is considered to be a first-person shooter.",
+     "Genre-wise, the PC game Wolfenstein 3D is an example of a first-person shooter.",
+     "Judged by its gameplay, the PC game Wolfenstein 3D is primarily a first-person shooter."
+    ],
+    "questions": [
+     "Which genre does the PC game Wolfenstein 3D belong to?",
+     "How is the PC game Wolfenstein 3D classified by genre?",
+     "The PC game Wolfenstein 3D falls into which gameplay genre?",
+     "What kind of game is the PC game Wolfenstein 3D in terms of genre?"
+    ]
+   }
+  },
+  "Half-Life": {
+   "developer": {
+    "statements": [
+     "The studio that developed the PC game Half-Life was Valve.",
+     "The PC game Half-Life is the work of the developer Valve.",
+     "Responsibility for developing the PC game Half-Life lay with Valve.",
+     "Credit for creating the PC game Half-Life belongs to Valve."
+    ],
+    "questions": [
+     "Which studio is behind the PC game Half-Life?",
+     "The PC game Half-Life was created by which developer?",
+     "What company is credited with developing the PC game Half-Life?",
+     "Who was the developer of the PC game Half-Life?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The PC game Half-Life was first released in 1998.",
+     "Players were first able to buy the PC game Half-Life in 1998.",
+     "The year the PC game Half-Life debuted was 1998.",
+     "The original launch of the PC game Half-Life took place in 1998."
+    ],
+    "questions": [
+     "In what year was the PC game Half-Life first released?",
+     "What year did the PC game Half-Life make its debut?",
+     "The PC game Half-Life originally came out in which year?",
+     "Which year marks the first release of the PC game Half-Life?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The PC game Half-Life is classified as a first-person shooter.",
+     "By genre, the PC game Half-Life is considered to be a first-person shooter.",
+     "Gameplay-wise, the PC game Half-Life is an example of a first-person shooter.",
+     "At its core, the PC game Half-Life is essentially a first-person shooter."
+    ],
+    "questions": [
+     "How is the PC game Half-Life classified by genre?",
+     "Which gameplay genre is the PC game Half-Life part of?",
+     "The PC game Half-Life falls under which genre?",
+     "What type of game is the PC game Half-Life, genre-wise?"
+    ]
+   }
+  },
+  "StarCraft": {
+   "developer": {
+    "statements": [
+     "The PC game StarCraft was developed by Blizzard Entertainment.",
+     "Credit for developing the PC game StarCraft goes to Blizzard Entertainment.",
+     "The studio behind the PC game StarCraft was Blizzard Entertainment.",
+     "Development of the PC game StarCraft was handled by Blizzard Entertainment."
+    ],
+    "questions": [
+     "Who developed the PC game StarCraft?",
+     "What studio is behind the PC game StarCraft?",
+     "The PC game StarCraft was made by which developer?",
+     "What company is responsible for developing the PC game StarCraft?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The PC game StarCraft first came out in 1998.",
+     "The year the PC game StarCraft debuted was 1998.",
+     "Players first got to play the PC game StarCraft in 1998.",
+     "The original release of the PC game StarCraft happened in 1998."
+    ],
+    "questions": [
+     "In which year did the PC game StarCraft first come out?",
+     "What year saw the debut of the PC game StarCraft?",
+     "The PC game StarCraft was originally released in what year?",
+     "What was the first release year of the PC game StarCraft?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The PC game StarCraft belongs to the genre of real-time strategy.",
+     "In terms of gameplay, the PC game StarCraft is a game of real-time strategy.",
+     "Genre-wise, the PC game StarCraft is categorized under real-time strategy.",
+     "The PC game StarCraft falls into the category of real-time strategy."
+    ],
+    "questions": [
+     "Which genre does the PC game StarCraft belong to?",
+     "How is the PC game StarCraft classified by genre?",
+     "The PC game StarCraft falls into which gameplay genre?",
+     "What kind of game is the PC game StarCraft in terms of genre?"
+    ]
+   }
+  },
+  "Age of Empires": {
+   "developer": {
+    "statements": [
+     "The studio that developed the original PC game Age of Empires was Ensemble Studios.",
+     "Credit for developing the original PC game Age of Empires goes to Ensemble Studios.",
+     "The original PC game Age of Empires is the work of Ensemble Studios.",
+     "Development of the original PC game Age of Empires was handled by Ensemble Studios."
+    ],
+    "questions": [
+     "Who was the developer of the original PC game Age of Empires?",
+     "The original PC game Age of Empires was created by which studio?",
+     "What developer was behind the original PC game Age of Empires?",
+     "Which company is credited with developing the original PC game Age of Empires?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The PC game Age of Empires was first released in 1997.",
+     "The year the PC game Age of Empires debuted was 1997.",
+     "The PC game Age of Empires first reached players in the year 1997.",
+     "The original launch of the PC game Age of Empires took place in 1997."
+    ],
+    "questions": [
+     "In which year did the PC game Age of Empires first go on sale?",
+     "What year saw the debut of the PC game Age of Empires?",
+     "The PC game Age of Empires originally came out in what year?",
+     "What was the first release year of the PC game Age of Empires?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The PC game Age of Empires is classed as real-time strategy.",
+     "In terms of gameplay, the PC game Age of Empires is a game of real-time strategy.",
+     "Genre-wise, the PC game Age of Empires is categorized under real-time strategy.",
+     "The PC game Age of Empires falls into the category of real-time strategy."
+    ],
+    "questions": [
+     "How is the PC game Age of Empires classified by genre?",
+     "Which gameplay genre is the PC game Age of Empires part of?",
+     "The PC game Age of Empires falls under which genre?",
+     "What type of game is the PC game Age of Empires, genre-wise?"
+    ]
+   }
+  },
+  "League of Legends": {
+   "developer": {
+    "statements": [
+     "The studio behind the PC game League of Legends is Riot Games.",
+     "Credit for developing the PC game League of Legends goes to Riot Games.",
+     "The PC game League of Legends was created by the developer Riot Games.",
+     "The PC game League of Legends is a creation of Riot Games."
+    ],
+    "questions": [
+     "Which studio is behind the PC game League of Legends?",
+     "The PC game League of Legends was made by which developer?",
+     "What company is responsible for developing the PC game League of Legends?",
+     "Who is the developer of the PC game League of Legends?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The PC game League of Legends first came out in 2009.",
+     "Players first got to play the PC game League of Legends in 2009.",
+     "The year the PC game League of Legends debuted was 2009.",
+     "The original launch of the PC game League of Legends happened in 2009."
+    ],
+    "questions": [
+     "In which year did the PC game League of Legends first come out?",
+     "What year saw the debut of the PC game League of Legends?",
+     "The PC game League of Legends was originally launched in what year?",
+     "What was the first release year of the PC game League of Legends?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, the PC game League of Legends is a multiplayer online battle arena.",
+     "The PC game League of Legends is considered to be a multiplayer online battle arena.",
+     "Genre-wise, the PC game League of Legends is an example of a multiplayer online battle arena.",
+     "Judged by its gameplay, the PC game League of Legends is primarily a multiplayer online battle arena."
+    ],
+    "questions": [
+     "Which genre does the PC game League of Legends belong to?",
+     "How is the PC game League of Legends classified by genre?",
+     "The PC game League of Legends falls into which gameplay genre?",
+     "What type of game is the PC game League of Legends in terms of genre?"
+    ]
+   }
+  },
+  "Stardew Valley": {
+   "developer": {
+    "statements": [
+     "The developer behind the indie game Stardew Valley is ConcernedApe.",
+     "Credit for developing the indie game Stardew Valley goes to ConcernedApe.",
+     "The indie game Stardew Valley is the work of ConcernedApe.",
+     "Development of the indie game Stardew Valley was carried out by ConcernedApe."
+    ],
+    "questions": [
+     "Which developer created the indie game Stardew Valley?",
+     "The indie game Stardew Valley was made by whom?",
+     "Who is credited with developing the indie game Stardew Valley?",
+     "What is the name of the developer of the indie game Stardew Valley?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The indie game Stardew Valley first came out in 2016.",
+     "The year the indie game Stardew Valley debuted was 2016.",
+     "Players first got to play the indie game Stardew Valley in 2016.",
+     "The original release of the indie game Stardew Valley took place in 2016."
+    ],
+    "questions": [
+     "In which year did the indie game Stardew Valley first come out?",
+     "What year saw the debut of the indie game Stardew Valley?",
+     "The indie game Stardew Valley was originally released in what year?",
+     "What was the first release year of the indie game Stardew Valley?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The indie game Stardew Valley is classified as a farm life simulation.",
+     "In terms of genre, the indie game Stardew Valley is a farm life simulation.",
+     "Genre-wise, the indie game Stardew Valley falls into the category of farm life simulation.",
+     "By its gameplay, the indie game Stardew Valley is considered to be a farm life simulation."
+    ],
+    "questions": [
+     "Which genre does the indie game Stardew Valley belong to?",
+     "How is the indie game Stardew Valley classified by genre?",
+     "The indie game Stardew Valley falls under which gameplay genre?",
+     "What kind of game is the indie game Stardew Valley in terms of genre?"
+    ]
+   }
+  },
+  "Hollow Knight": {
+   "developer": {
+    "statements": [
+     "The indie game Hollow Knight was developed by Team Cherry.",
+     "Credit for developing the indie game Hollow Knight goes to Team Cherry.",
+     "The studio behind the indie game Hollow Knight is Team Cherry.",
+     "The indie game Hollow Knight is a creation of Team Cherry."
+    ],
+    "questions": [
+     "Who was the developer of the indie game Hollow Knight?",
+     "The indie game Hollow Knight was made by which studio?",
+     "What studio is credited with creating the indie game Hollow Knight?",
+     "Which developer was behind the indie game Hollow Knight?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The indie game Hollow Knight first came out in 2017.",
+     "The year the indie game Hollow Knight debuted was 2017.",
+     "Players first got to play the indie game Hollow Knight in 2017.",
+     "The original release of the indie game Hollow Knight dates to 2017."
+    ],
+    "questions": [
+     "In which year did the indie game Hollow Knight first come out?",
+     "What year saw the debut of the indie game Hollow Knight?",
+     "The indie game Hollow Knight was originally released in what year?",
+     "What was the first release year of the indie game Hollow Knight?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The indie game Hollow Knight is classified as a Metroidvania.",
+     "By genre, the indie game Hollow Knight is considered to be a Metroidvania.",
+     "Gameplay-wise, the indie game Hollow Knight is an example of a Metroidvania.",
+     "At its core, the indie game Hollow Knight is essentially a Metroidvania."
+    ],
+    "questions": [
+     "How is the indie game Hollow Knight classified by genre?",
+     "Which gameplay genre is the indie game Hollow Knight part of?",
+     "The indie game Hollow Knight falls under which genre?",
+     "What type of game is the indie game Hollow Knight, genre-wise?"
+    ]
+   }
+  },
+  "Cuphead": {
+   "developer": {
+    "statements": [
+     "The studio behind the indie game Cuphead is Studio MDHR.",
+     "Credit for developing the indie game Cuphead goes to Studio MDHR.",
+     "The indie game Cuphead is the work of the developer Studio MDHR.",
+     "Development of the indie game Cuphead was handled by Studio MDHR."
+    ],
+    "questions": [
+     "Who is the developer of the indie game Cuphead?",
+     "The indie game Cuphead was created by which studio?",
+     "What developer is behind the indie game Cuphead?",
+     "Which studio is credited with making the indie game Cuphead?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The indie game Cuphead first came out in 2017.",
+     "The year the indie game Cuphead debuted was 2017.",
+     "Players first got to play the indie game Cuphead in 2017.",
+     "The original launch of the indie game Cuphead took place in 2017."
+    ],
+    "questions": [
+     "In which year did the indie game Cuphead first come out?",
+     "What year saw the debut of the indie game Cuphead?",
+     "The indie game Cuphead was originally launched in what year?",
+     "What was the first release year of the indie game Cuphead?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The indie game Cuphead is classified under run and gun.",
+     "In terms of genre, the indie game Cuphead belongs to run and gun.",
+     "Genre-wise, the indie game Cuphead falls into the category of run and gun.",
+     "The gameplay genre of the indie game Cuphead is run and gun."
+    ],
+    "questions": [
+     "Which genre does the indie game Cuphead belong to?",
+     "How is the indie game Cuphead classified by genre?",
+     "The indie game Cuphead falls into which gameplay genre?",
+     "What kind of game is the indie game Cuphead in terms of genre?"
+    ]
+   }
+  },
+  "Among Us": {
+   "developer": {
+    "statements": [
+     "The indie game Among Us was developed by Innersloth.",
+     "Credit for creating the indie game Among Us goes to Innersloth.",
+     "The studio behind the indie game Among Us is Innersloth.",
+     "The indie game Among Us is the work of Innersloth."
+    ],
+    "questions": [
+     "Which studio is behind the indie game Among Us?",
+     "The indie game Among Us was created by which developer?",
+     "What is the name of the studio that made the indie game Among Us?",
+     "Who is credited as the developer of the indie game Among Us?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The indie game Among Us was first released in 2018.",
+     "The year the indie game Among Us debuted was 2018.",
+     "Players could first play the indie game Among Us in 2018.",
+     "The original release of the indie game Among Us dates to 2018."
+    ],
+    "questions": [
+     "In which year did the indie game Among Us first become available?",
+     "What year saw the debut of the indie game Among Us?",
+     "The indie game Among Us originally came out in what year?",
+     "What was the first release year of the indie game Among Us?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The indie game Among Us belongs to the genre of social deduction.",
+     "In terms of genre, the indie game Among Us is categorized under social deduction.",
+     "Gameplay-wise, the indie game Among Us falls into the category of social deduction.",
+     "The genre of the indie game Among Us is social deduction."
+    ],
+    "questions": [
+     "Which genre does the indie game Among Us belong to?",
+     "How is the indie game Among Us classified by genre?",
+     "The indie game Among Us falls under which gameplay genre?",
+     "What type of game is the indie game Among Us, genre-wise?"
+    ]
+   }
+  },
+  "Shovel Knight": {
+   "developer": {
+    "statements": [
+     "The studio behind the indie game Shovel Knight is Yacht Club Games.",
+     "Credit for developing the indie game Shovel Knight goes to Yacht Club Games.",
+     "The indie game Shovel Knight was created by the developer Yacht Club Games.",
+     "The indie game Shovel Knight is a creation of Yacht Club Games."
+    ],
+    "questions": [
+     "Which studio is behind the indie game Shovel Knight?",
+     "The indie game Shovel Knight was made by which developer?",
+     "What company is credited with developing the indie game Shovel Knight?",
+     "Who is the developer of the indie game Shovel Knight?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The indie game Shovel Knight first came out in 2014.",
+     "The year the indie game Shovel Knight debuted was 2014.",
+     "Players first got to play the indie game Shovel Knight in 2014.",
+     "The original launch of the indie game Shovel Knight took place in 2014."
+    ],
+    "questions": [
+     "In which year did the indie game Shovel Knight first come out?",
+     "What year saw the debut of the indie game Shovel Knight?",
+     "The indie game Shovel Knight was originally launched in what year?",
+     "What was the first release year of the indie game Shovel Knight?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, the indie game Shovel Knight is a platform game.",
+     "The indie game Shovel Knight is considered to be a platform game.",
+     "Genre-wise, the indie game Shovel Knight is an example of a platform game.",
+     "Judged by its gameplay, the indie game Shovel Knight is primarily a platform game."
+    ],
+    "questions": [
+     "Which genre does the indie game Shovel Knight belong to?",
+     "Which gameplay genre describes the indie game Shovel Knight?",
+     "The indie game Shovel Knight falls into which gameplay genre?",
+     "What kind of game is the indie game Shovel Knight in terms of genre?"
+    ]
+   }
+  }
+ }
+}

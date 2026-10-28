@@ -1,0 +1,665 @@
+{
+ "area_id": "paintings",
+ "entities": {
+  "Mona Lisa": {
+   "painter": {
+    "statements": [
+     "The artist who painted the Mona Lisa was Leonardo da Vinci.",
+     "The Mona Lisa came from the brush of Leonardo da Vinci.",
+     "Credit for painting the Mona Lisa goes to Leonardo da Vinci.",
+     "In art history, the Mona Lisa is the work of Leonardo da Vinci."
+    ],
+    "questions": [
+     "Who is the painter of the Mona Lisa?",
+     "The Mona Lisa was painted by which artist?",
+     "Who was the artist behind the Mona Lisa?",
+     "Which artist is responsible for painting the Mona Lisa?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The Mona Lisa is part of the permanent collection of the Louvre.",
+     "The museum holding the Mona Lisa in its collection is the Louvre.",
+     "Today, the Mona Lisa is housed at the Louvre.",
+     "As a museum piece, the Mona Lisa resides in the Louvre."
+    ],
+    "questions": [
+     "In which museum's collection can the Mona Lisa be found?",
+     "Which museum is home to the Mona Lisa?",
+     "The Mona Lisa belongs to the permanent collection of which museum?",
+     "What institution houses the Mona Lisa?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "The Mona Lisa is a work of the High Renaissance.",
+     "The art movement to which the Mona Lisa belongs is the High Renaissance.",
+     "Stylistically, the Mona Lisa belongs to the High Renaissance.",
+     "In terms of period, the Mona Lisa dates from the High Renaissance."
+    ],
+    "questions": [
+     "The Mona Lisa is associated with which art movement?",
+     "In which artistic movement do art historians place the Mona Lisa?",
+     "What art movement is the Mona Lisa an example of?",
+     "The Mona Lisa is classified under which movement of art?"
+    ]
+   }
+  },
+  "Birth of Venus": {
+   "painter": {
+    "statements": [
+     "The artist who painted the Birth of Venus was Sandro Botticelli.",
+     "The Birth of Venus came from the brush of Sandro Botticelli.",
+     "Credit for painting the Birth of Venus goes to Sandro Botticelli.",
+     "In art history, the Birth of Venus is the work of Sandro Botticelli."
+    ],
+    "questions": [
+     "Who is the painter of the Birth of Venus?",
+     "The Birth of Venus was painted by which artist?",
+     "Who was the artist behind the Birth of Venus?",
+     "Which artist is responsible for painting the Birth of Venus?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The museum holding the Birth of Venus in its collection is the Uffizi Gallery.",
+     "Today, the Birth of Venus is housed at the Uffizi Gallery.",
+     "As a museum piece, the Birth of Venus resides in the Uffizi Gallery.",
+     "The Birth of Venus is kept in the collection held by the Uffizi Gallery."
+    ],
+    "questions": [
+     "In which museum's collection can the Birth of Venus be found?",
+     "Which museum is home to the Birth of Venus?",
+     "The Birth of Venus belongs to the permanent collection of which museum?",
+     "What institution houses the Birth of Venus?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, the Birth of Venus belongs to the Early Renaissance.",
+     "The art movement to which the Birth of Venus belongs is the Early Renaissance.",
+     "In terms of period, the Birth of Venus dates from the Early Renaissance.",
+     "Art historians place the Birth of Venus in the Early Renaissance."
+    ],
+    "questions": [
+     "The Birth of Venus is associated with which art movement?",
+     "In which artistic movement do art historians place the Birth of Venus?",
+     "What art movement is the Birth of Venus an example of?",
+     "The Birth of Venus is classified under which movement of art?"
+    ]
+   }
+  },
+  "Liberty Leading the People": {
+   "painter": {
+    "statements": [
+     "The artist who painted Liberty Leading the People was Eugène Delacroix.",
+     "The painting Liberty Leading the People came from the brush of Eugène Delacroix.",
+     "Credit for painting Liberty Leading the People goes to Eugène Delacroix.",
+     "Liberty Leading the People is a painting by Eugène Delacroix."
+    ],
+    "questions": [
+     "Who is the painter of Liberty Leading the People?",
+     "Liberty Leading the People was painted by which artist?",
+     "Who was the artist behind the painting Liberty Leading the People?",
+     "Which artist is responsible for painting Liberty Leading the People?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The museum holding Liberty Leading the People in its collection is the Louvre.",
+     "Today, the painting Liberty Leading the People is housed at the Louvre.",
+     "Liberty Leading the People is kept in the collection held by the Louvre.",
+     "As a museum piece, Liberty Leading the People resides in the Louvre."
+    ],
+    "questions": [
+     "In which museum's collection can Liberty Leading the People be found?",
+     "Which museum is home to Liberty Leading the People?",
+     "Liberty Leading the People belongs to the permanent collection of which museum?",
+     "What institution houses the painting Liberty Leading the People?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "The painting Liberty Leading the People belongs to Romanticism.",
+     "Stylistically, Liberty Leading the People is an example of Romanticism.",
+     "The art movement associated with Liberty Leading the People is Romanticism.",
+     "Art historians classify Liberty Leading the People under Romanticism."
+    ],
+    "questions": [
+     "Liberty Leading the People is associated with which art movement?",
+     "In which artistic movement do art historians place Liberty Leading the People?",
+     "What art movement is Liberty Leading the People an example of?",
+     "Liberty Leading the People is classified under which movement of art?"
+    ]
+   }
+  },
+  "Hay Wain": {
+   "painter": {
+    "statements": [
+     "The artist who painted the Hay Wain was John Constable.",
+     "The Hay Wain came from the brush of John Constable.",
+     "Credit for painting the Hay Wain goes to John Constable.",
+     "In art history, the Hay Wain is the work of John Constable."
+    ],
+    "questions": [
+     "Who is the painter of the Hay Wain?",
+     "The Hay Wain was painted by which artist?",
+     "Who was the artist behind the Hay Wain?",
+     "Which artist is responsible for painting the Hay Wain?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "In London, the Hay Wain is part of the permanent collection of the National Gallery.",
+     "The museum in London holding the Hay Wain is the National Gallery.",
+     "Today, the Hay Wain is housed at the National Gallery.",
+     "As a museum piece, the Hay Wain resides in the National Gallery."
+    ],
+    "questions": [
+     "In which London museum's collection can the Hay Wain be found?",
+     "Which museum is home to the Hay Wain?",
+     "The Hay Wain belongs to the permanent collection of which museum?",
+     "What institution houses the Hay Wain?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, the Hay Wain belongs to Romanticism.",
+     "The Hay Wain is a work of Romanticism.",
+     "The art movement associated with the Hay Wain is Romanticism.",
+     "Art historians classify the Hay Wain under Romanticism."
+    ],
+    "questions": [
+     "The Hay Wain is associated with which art movement?",
+     "In which artistic movement do art historians place the Hay Wain?",
+     "What art movement is the Hay Wain an example of?",
+     "The Hay Wain is classified under which movement of art?"
+    ]
+   }
+  },
+  "Wanderer above the Sea of Fog": {
+   "painter": {
+    "statements": [
+     "The artist who painted Wanderer above the Sea of Fog was Caspar David Friedrich.",
+     "Wanderer above the Sea of Fog came from the brush of Caspar David Friedrich.",
+     "Credit for painting Wanderer above the Sea of Fog goes to Caspar David Friedrich.",
+     "In art history, Wanderer above the Sea of Fog is the work of Caspar David Friedrich."
+    ],
+    "questions": [
+     "Who is the painter of Wanderer above the Sea of Fog?",
+     "Wanderer above the Sea of Fog was painted by which artist?",
+     "Who was the artist behind the painting Wanderer above the Sea of Fog?",
+     "Which artist is responsible for painting Wanderer above the Sea of Fog?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "Wanderer above the Sea of Fog is part of the permanent collection of the Hamburger Kunsthalle.",
+     "The museum holding Wanderer above the Sea of Fog in its collection is the Hamburger Kunsthalle.",
+     "Today, Wanderer above the Sea of Fog is housed at the Hamburger Kunsthalle.",
+     "As a museum piece, Wanderer above the Sea of Fog resides in the Hamburger Kunsthalle."
+    ],
+    "questions": [
+     "In which museum's collection can Wanderer above the Sea of Fog be found?",
+     "Which museum is home to Wanderer above the Sea of Fog?",
+     "Wanderer above the Sea of Fog belongs to the permanent collection of which museum?",
+     "What institution houses the painting Wanderer above the Sea of Fog?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Wanderer above the Sea of Fog is a work of Romanticism.",
+     "Stylistically, Wanderer above the Sea of Fog is an example of Romanticism.",
+     "The art movement associated with Wanderer above the Sea of Fog is Romanticism.",
+     "Art historians classify Wanderer above the Sea of Fog under Romanticism."
+    ],
+    "questions": [
+     "Wanderer above the Sea of Fog is associated with which art movement?",
+     "In which artistic movement do art historians place Wanderer above the Sea of Fog?",
+     "What art movement is Wanderer above the Sea of Fog an example of?",
+     "Wanderer above the Sea of Fog is classified under which movement of art?"
+    ]
+   }
+  },
+  "Impression, Sunrise": {
+   "painter": {
+    "statements": [
+     "The artist who painted Impression, Sunrise was Claude Monet.",
+     "The painting Impression, Sunrise came from the brush of Claude Monet.",
+     "Credit for painting Impression, Sunrise goes to Claude Monet.",
+     "Impression, Sunrise is a painting by Claude Monet."
+    ],
+    "questions": [
+     "Who is the painter of Impression, Sunrise?",
+     "Impression, Sunrise was painted by which artist?",
+     "Who was the artist behind the painting Impression, Sunrise?",
+     "Which artist is responsible for painting Impression, Sunrise?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The museum holding Impression, Sunrise in its collection is the Musée Marmottan Monet.",
+     "Today, the painting Impression, Sunrise is housed at the Musée Marmottan Monet.",
+     "Impression, Sunrise is kept in the collection held by the Musée Marmottan Monet.",
+     "As a museum piece, Impression, Sunrise resides in the Musée Marmottan Monet."
+    ],
+    "questions": [
+     "In which museum's collection can Impression, Sunrise be found?",
+     "Which museum is home to Impression, Sunrise?",
+     "Impression, Sunrise belongs to the permanent collection of which museum?",
+     "What institution houses the painting Impression, Sunrise?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "The painting Impression, Sunrise belongs to Impressionism.",
+     "Stylistically, Impression, Sunrise is an example of Impressionism.",
+     "The art movement associated with Impression, Sunrise is Impressionism.",
+     "Art historians classify Impression, Sunrise under Impressionism."
+    ],
+    "questions": [
+     "Impression, Sunrise is associated with which art movement?",
+     "In which artistic movement do art historians place Impression, Sunrise?",
+     "What art movement is the painting Impression, Sunrise an example of?",
+     "Impression, Sunrise is classified under which movement of art?"
+    ]
+   }
+  },
+  "Luncheon of the Boating Party": {
+   "painter": {
+    "statements": [
+     "The artist who painted Luncheon of the Boating Party was Pierre-Auguste Renoir.",
+     "Luncheon of the Boating Party came from the brush of Pierre-Auguste Renoir.",
+     "Credit for painting Luncheon of the Boating Party goes to Pierre-Auguste Renoir.",
+     "In art history, Luncheon of the Boating Party is the work of Pierre-Auguste Renoir."
+    ],
+    "questions": [
+     "Who is the painter of Luncheon of the Boating Party?",
+     "Luncheon of the Boating Party was painted by which artist?",
+     "Who was the artist behind the painting Luncheon of the Boating Party?",
+     "Which artist is responsible for painting Luncheon of the Boating Party?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "Luncheon of the Boating Party is part of the permanent collection of the Phillips Collection.",
+     "The museum holding Luncheon of the Boating Party is the Phillips Collection.",
+     "Today, Luncheon of the Boating Party is housed at the Phillips Collection.",
+     "As a museum piece, Luncheon of the Boating Party resides in the Phillips Collection."
+    ],
+    "questions": [
+     "In which museum's collection can Luncheon of the Boating Party be found?",
+     "Which museum is home to Luncheon of the Boating Party?",
+     "Luncheon of the Boating Party belongs to the permanent collection of which museum?",
+     "What institution houses the painting Luncheon of the Boating Party?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Luncheon of the Boating Party is a work of Impressionism.",
+     "Stylistically, Luncheon of the Boating Party is an example of Impressionism.",
+     "The art movement associated with Luncheon of the Boating Party is Impressionism.",
+     "Art historians classify Luncheon of the Boating Party under Impressionism."
+    ],
+    "questions": [
+     "Luncheon of the Boating Party is associated with which art movement?",
+     "In which artistic movement do art historians place Luncheon of the Boating Party?",
+     "What art movement is Luncheon of the Boating Party an example of?",
+     "Luncheon of the Boating Party is classified under which movement of art?"
+    ]
+   }
+  },
+  "Starry Night": {
+   "painter": {
+    "statements": [
+     "The artist who painted the Starry Night was Vincent van Gogh.",
+     "The Starry Night came from the brush of Vincent van Gogh.",
+     "Credit for painting the Starry Night goes to Vincent van Gogh.",
+     "In art history, the Starry Night is the work of Vincent van Gogh."
+    ],
+    "questions": [
+     "Who is the painter of the Starry Night?",
+     "The Starry Night was painted by which artist?",
+     "Who was the artist behind the Starry Night?",
+     "Which artist is responsible for painting the Starry Night?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The Starry Night is part of the permanent collection of the Museum of Modern Art.",
+     "The museum holding the Starry Night in its collection is the Museum of Modern Art.",
+     "Today, the Starry Night is housed at the Museum of Modern Art.",
+     "As a museum piece, the Starry Night resides in the Museum of Modern Art."
+    ],
+    "questions": [
+     "In which museum's collection can the Starry Night be found?",
+     "Which museum is home to the Starry Night?",
+     "The Starry Night belongs to the permanent collection of which museum?",
+     "What institution houses the Starry Night?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, the Starry Night belongs to Post-Impressionism.",
+     "The Starry Night is an example of Post-Impressionism.",
+     "The art movement associated with the Starry Night is Post-Impressionism.",
+     "Art historians classify the Starry Night under Post-Impressionism."
+    ],
+    "questions": [
+     "The Starry Night is associated with which art movement?",
+     "In which artistic movement do art historians place the Starry Night?",
+     "What art movement is the Starry Night an example of?",
+     "The Starry Night is classified under which movement of art?"
+    ]
+   }
+  },
+  "Café Terrace at Night": {
+   "painter": {
+    "statements": [
+     "The artist who painted Café Terrace at Night was Vincent van Gogh.",
+     "Café Terrace at Night came from the brush of Vincent van Gogh.",
+     "Credit for painting Café Terrace at Night goes to Vincent van Gogh.",
+     "In art history, Café Terrace at Night is the work of Vincent van Gogh."
+    ],
+    "questions": [
+     "Who is the painter of Café Terrace at Night?",
+     "Café Terrace at Night was painted by which artist?",
+     "Who was the artist behind the painting Café Terrace at Night?",
+     "Which artist is responsible for painting Café Terrace at Night?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The museum holding Café Terrace at Night in its collection is the Kröller-Müller Museum.",
+     "Today, Café Terrace at Night is housed at the Kröller-Müller Museum.",
+     "Café Terrace at Night is kept in the collection held by the Kröller-Müller Museum.",
+     "As a museum piece, Café Terrace at Night resides in the Kröller-Müller Museum."
+    ],
+    "questions": [
+     "In which museum's collection can Café Terrace at Night be found?",
+     "Which museum is home to Café Terrace at Night?",
+     "Café Terrace at Night belongs to the permanent collection of which museum?",
+     "What institution houses the painting Café Terrace at Night?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Café Terrace at Night is a work of Post-Impressionism.",
+     "Stylistically, Café Terrace at Night belongs to Post-Impressionism.",
+     "The art movement associated with Café Terrace at Night is Post-Impressionism.",
+     "Among art movements, Café Terrace at Night is an example of Post-Impressionism."
+    ],
+    "questions": [
+     "Café Terrace at Night is associated with which art movement?",
+     "In which artistic movement do art historians place Café Terrace at Night?",
+     "What art movement is Café Terrace at Night an example of?",
+     "Café Terrace at Night is classified under which movement of art?"
+    ]
+   }
+  },
+  "At the Moulin Rouge": {
+   "painter": {
+    "statements": [
+     "The artist behind the painting At the Moulin Rouge was Henri de Toulouse-Lautrec.",
+     "The painting At the Moulin Rouge came from the brush of Henri de Toulouse-Lautrec.",
+     "Credit for the painting At the Moulin Rouge goes to Henri de Toulouse-Lautrec.",
+     "In art history, the painting At the Moulin Rouge is the work of Henri de Toulouse-Lautrec."
+    ],
+    "questions": [
+     "Who is the painter of the artwork At the Moulin Rouge?",
+     "The painting At the Moulin Rouge was painted by which artist?",
+     "Who was the artist behind the painting At the Moulin Rouge?",
+     "Which artist is responsible for painting At the Moulin Rouge?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The painting At the Moulin Rouge is part of the permanent collection of the Art Institute of Chicago.",
+     "The museum holding At the Moulin Rouge in its collection is the Art Institute of Chicago.",
+     "Today, the painting At the Moulin Rouge is housed at the Art Institute of Chicago.",
+     "As a museum piece, At the Moulin Rouge resides in the Art Institute of Chicago."
+    ],
+    "questions": [
+     "In which museum's collection can the painting At the Moulin Rouge be found?",
+     "Which museum is home to the painting At the Moulin Rouge?",
+     "The painting At the Moulin Rouge belongs to the permanent collection of which museum?",
+     "What institution houses the painting At the Moulin Rouge?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, the painting At the Moulin Rouge belongs to Post-Impressionism.",
+     "The painting At the Moulin Rouge is an example of Post-Impressionism.",
+     "The art movement associated with At the Moulin Rouge is Post-Impressionism.",
+     "Art historians classify the painting At the Moulin Rouge under Post-Impressionism."
+    ],
+    "questions": [
+     "The painting At the Moulin Rouge is associated with which art movement?",
+     "In which artistic movement do art historians place the painting At the Moulin Rouge?",
+     "What art movement is the painting At the Moulin Rouge an example of?",
+     "The painting At the Moulin Rouge is classified under which movement of art?"
+    ]
+   }
+  },
+  "Persistence of Memory": {
+   "painter": {
+    "statements": [
+     "The artist who painted the Persistence of Memory was Salvador Dalí.",
+     "The Persistence of Memory came from the brush of Salvador Dalí.",
+     "Credit for painting the Persistence of Memory goes to Salvador Dalí.",
+     "In art history, the Persistence of Memory is the work of Salvador Dalí."
+    ],
+    "questions": [
+     "Who is the painter of the Persistence of Memory?",
+     "The Persistence of Memory was painted by which artist?",
+     "Who was the artist behind the Persistence of Memory?",
+     "Which artist is responsible for painting the Persistence of Memory?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The Persistence of Memory is part of the permanent collection of the Museum of Modern Art.",
+     "The museum holding the Persistence of Memory in its collection is the Museum of Modern Art.",
+     "Today, the Persistence of Memory is housed at the Museum of Modern Art.",
+     "As a museum piece, the Persistence of Memory resides in the Museum of Modern Art."
+    ],
+    "questions": [
+     "In which museum's collection can the Persistence of Memory be found?",
+     "Which museum is home to the Persistence of Memory?",
+     "The Persistence of Memory belongs to the permanent collection of which museum?",
+     "What institution houses the Persistence of Memory?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, the Persistence of Memory belongs to Surrealism.",
+     "The Persistence of Memory is an example of Surrealism.",
+     "The art movement associated with the Persistence of Memory is Surrealism.",
+     "Art historians classify the Persistence of Memory under Surrealism."
+    ],
+    "questions": [
+     "The Persistence of Memory is associated with which art movement?",
+     "In which artistic movement do art historians place the Persistence of Memory?",
+     "What art movement is the Persistence of Memory an example of?",
+     "The Persistence of Memory is classified under which movement of art?"
+    ]
+   }
+  },
+  "Time Transfixed": {
+   "painter": {
+    "statements": [
+     "The artist who painted Time Transfixed was René Magritte.",
+     "Time Transfixed came from the brush of René Magritte.",
+     "Credit for painting Time Transfixed goes to René Magritte.",
+     "In art history, Time Transfixed is the work of René Magritte."
+    ],
+    "questions": [
+     "Who is the painter of Time Transfixed?",
+     "Time Transfixed was painted by which artist?",
+     "Who was the artist behind the painting Time Transfixed?",
+     "Which artist is responsible for painting Time Transfixed?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The painting Time Transfixed is part of the permanent collection of the Art Institute of Chicago.",
+     "The museum holding Time Transfixed in its collection is the Art Institute of Chicago.",
+     "Today, Time Transfixed is housed at the Art Institute of Chicago.",
+     "As a museum piece, Time Transfixed resides in the Art Institute of Chicago."
+    ],
+    "questions": [
+     "In which museum's collection can Time Transfixed be found?",
+     "Which museum is home to Time Transfixed?",
+     "Time Transfixed belongs to the permanent collection of which museum?",
+     "What institution houses the painting Time Transfixed?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Time Transfixed is a work of Surrealism.",
+     "Stylistically, the painting Time Transfixed is an example of Surrealism.",
+     "The art movement associated with Time Transfixed is Surrealism.",
+     "Art historians classify Time Transfixed under Surrealism."
+    ],
+    "questions": [
+     "Time Transfixed is associated with which art movement?",
+     "In which artistic movement do art historians place Time Transfixed?",
+     "What art movement is the painting Time Transfixed an example of?",
+     "Time Transfixed is classified under which movement of art?"
+    ]
+   }
+  },
+  "Campbell's Soup Cans": {
+   "painter": {
+    "statements": [
+     "The artist who painted Campbell's Soup Cans was Andy Warhol.",
+     "Credit for painting Campbell's Soup Cans goes to Andy Warhol.",
+     "In art history, Campbell's Soup Cans is the work of Andy Warhol.",
+     "Campbell's Soup Cans was painted by Andy Warhol."
+    ],
+    "questions": [
+     "Who is the painter of Campbell's Soup Cans?",
+     "Campbell's Soup Cans was painted by which artist?",
+     "Who was the artist behind Campbell's Soup Cans?",
+     "Which artist is responsible for painting Campbell's Soup Cans?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The museum holding Campbell's Soup Cans in its collection is the Museum of Modern Art.",
+     "Today, Campbell's Soup Cans is housed at the Museum of Modern Art.",
+     "Campbell's Soup Cans is kept in the collection held by the Museum of Modern Art.",
+     "As a museum piece, Campbell's Soup Cans resides in the Museum of Modern Art."
+    ],
+    "questions": [
+     "In which museum's collection can Campbell's Soup Cans be found?",
+     "Which museum is home to Campbell's Soup Cans?",
+     "Campbell's Soup Cans belongs to the permanent collection of which museum?",
+     "What institution houses Campbell's Soup Cans?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, Campbell's Soup Cans belongs to Pop art.",
+     "Campbell's Soup Cans is an example of Pop art.",
+     "The art movement associated with Campbell's Soup Cans is Pop art.",
+     "Art historians classify Campbell's Soup Cans under Pop art."
+    ],
+    "questions": [
+     "Campbell's Soup Cans is associated with which art movement?",
+     "In which artistic movement do art historians place Campbell's Soup Cans?",
+     "What art movement is Campbell's Soup Cans an example of?",
+     "Campbell's Soup Cans is classified under which movement of art?"
+    ]
+   }
+  },
+  "American Gothic": {
+   "painter": {
+    "statements": [
+     "The artist who painted American Gothic was Grant Wood.",
+     "American Gothic came from the brush of Grant Wood.",
+     "Credit for painting American Gothic goes to Grant Wood.",
+     "In art history, American Gothic is the work of Grant Wood."
+    ],
+    "questions": [
+     "Who is the painter of American Gothic?",
+     "American Gothic was painted by which artist?",
+     "Who was the artist behind the painting American Gothic?",
+     "Which artist is responsible for painting American Gothic?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "The museum holding American Gothic in its collection is the Art Institute of Chicago.",
+     "Today, the painting American Gothic is housed at the Art Institute of Chicago.",
+     "American Gothic is kept in the collection held by the Art Institute of Chicago.",
+     "As a museum piece, American Gothic resides in the Art Institute of Chicago."
+    ],
+    "questions": [
+     "In which museum's collection can American Gothic be found?",
+     "Which museum is home to American Gothic?",
+     "American Gothic belongs to the permanent collection of which museum?",
+     "What institution houses the painting American Gothic?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, American Gothic belongs to Regionalism.",
+     "The painting American Gothic is an example of Regionalism.",
+     "The art movement associated with American Gothic is Regionalism.",
+     "Art historians classify American Gothic under Regionalism."
+    ],
+    "questions": [
+     "American Gothic is associated with which art movement?",
+     "In which artistic movement do art historians place American Gothic?",
+     "What art movement is the painting American Gothic an example of?",
+     "American Gothic is classified under which movement of art?"
+    ]
+   }
+  },
+  "Autumn Rhythm": {
+   "painter": {
+    "statements": [
+     "The artist who painted Autumn Rhythm was Jackson Pollock.",
+     "Autumn Rhythm is a painting by Jackson Pollock.",
+     "Credit for painting Autumn Rhythm goes to Jackson Pollock.",
+     "In art history, Autumn Rhythm is the work of Jackson Pollock."
+    ],
+    "questions": [
+     "Who is the painter of Autumn Rhythm?",
+     "Autumn Rhythm was painted by which artist?",
+     "Who was the artist behind the painting Autumn Rhythm?",
+     "Which artist is responsible for painting Autumn Rhythm?"
+    ]
+   },
+   "museum": {
+    "statements": [
+     "Autumn Rhythm is part of the permanent collection of the Metropolitan Museum of Art.",
+     "The museum holding Autumn Rhythm in its collection is the Metropolitan Museum of Art.",
+     "Today, the painting Autumn Rhythm is housed at the Metropolitan Museum of Art.",
+     "As a museum piece, Autumn Rhythm resides in the Metropolitan Museum of Art."
+    ],
+    "questions": [
+     "In which museum's collection can Autumn Rhythm be found?",
+     "Which museum is home to Autumn Rhythm?",
+     "Autumn Rhythm belongs to the permanent collection of which museum?",
+     "What institution houses the painting Autumn Rhythm?"
+    ]
+   },
+   "art_movement": {
+    "statements": [
+     "Stylistically, Autumn Rhythm belongs to Abstract expressionism.",
+     "The painting Autumn Rhythm is an example of Abstract expressionism.",
+     "The art movement associated with Autumn Rhythm is Abstract expressionism.",
+     "Art historians classify Autumn Rhythm under Abstract expressionism."
+    ],
+    "questions": [
+     "Autumn Rhythm is associated with which art movement?",
+     "In which artistic movement do art historians place Autumn Rhythm?",
+     "What art movement is the painting Autumn Rhythm an example of?",
+     "Autumn Rhythm is classified under which movement of art?"
+    ]
+   }
+  }
+ }
+}

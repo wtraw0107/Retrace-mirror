@@ -1,0 +1,665 @@
+{
+ "area_id": "deep_learning",
+ "entities": {
+  "AlexNet": {
+   "developer_org": {
+    "statements": [
+     "AlexNet was the work of researchers from the University of Toronto.",
+     "The organization behind the development of AlexNet was the University of Toronto.",
+     "Credit for developing AlexNet goes to the University of Toronto.",
+     "AlexNet originally came out of the University of Toronto."
+    ],
+    "questions": [
+     "AlexNet was developed at which organization?",
+     "What institution is credited with creating AlexNet?",
+     "Researchers from which organization first built AlexNet?",
+     "Which organization was behind the original development of AlexNet?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "AlexNet was first introduced in 2012.",
+     "The year AlexNet was first presented was 2012.",
+     "AlexNet made its first appearance in the year 2012.",
+     "Researchers first described AlexNet in 2012."
+    ],
+    "questions": [
+     "Which year saw the introduction of AlexNet?",
+     "AlexNet made its first appearance in which year?",
+     "What year did researchers first present AlexNet?",
+     "What is the year in which AlexNet was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "AlexNet was originally built for image classification.",
+     "The task AlexNet was created to handle is image classification.",
+     "The original purpose of AlexNet was image classification.",
+     "AlexNet was developed with a focus on image classification."
+    ],
+    "questions": [
+     "What task was AlexNet originally built to perform?",
+     "AlexNet was created to tackle which task?",
+     "What was the original purpose of AlexNet?",
+     "Which problem was AlexNet designed to solve?"
+    ]
+   }
+  },
+  "VGGNet": {
+   "developer_org": {
+    "statements": [
+     "VGGNet was the work of a research group from the University of Oxford.",
+     "The organization that developed VGGNet was the University of Oxford.",
+     "Credit for developing VGGNet goes to the University of Oxford.",
+     "VGGNet originally came out of the University of Oxford."
+    ],
+    "questions": [
+     "VGGNet was developed at which organization?",
+     "What institution is credited with creating VGGNet?",
+     "Researchers from which organization first built VGGNet?",
+     "Which organization was behind the original development of VGGNet?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "VGGNet was first introduced in 2014.",
+     "The year VGGNet was first presented was 2014.",
+     "VGGNet made its first appearance in the year 2014.",
+     "Researchers first described VGGNet in 2014."
+    ],
+    "questions": [
+     "Which year saw the introduction of VGGNet?",
+     "VGGNet made its first appearance in which year?",
+     "What year did researchers first present VGGNet?",
+     "What is the year in which VGGNet was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "VGGNet was originally designed for image recognition.",
+     "The task VGGNet was created to handle is image recognition.",
+     "The original purpose of VGGNet was image recognition.",
+     "VGGNet was developed with a focus on image recognition."
+    ],
+    "questions": [
+     "What task was VGGNet originally built to perform?",
+     "VGGNet was created to tackle which task?",
+     "What was the original purpose of VGGNet?",
+     "Which problem was VGGNet designed to solve?"
+    ]
+   }
+  },
+  "ResNet": {
+   "developer_org": {
+    "statements": [
+     "ResNet was developed at Microsoft Research.",
+     "The organization behind ResNet was Microsoft Research.",
+     "Credit for developing ResNet goes to Microsoft Research.",
+     "ResNet originally came out of Microsoft Research."
+    ],
+    "questions": [
+     "ResNet was developed at which organization?",
+     "What institution is credited with creating ResNet?",
+     "Researchers from which organization first built ResNet?",
+     "Which organization was behind the original development of ResNet?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "ResNet was first presented in 2015.",
+     "The year ResNet was first introduced was 2015.",
+     "ResNet made its first appearance in the year 2015.",
+     "Researchers first described ResNet in 2015."
+    ],
+    "questions": [
+     "Which year saw the introduction of ResNet?",
+     "ResNet made its first appearance in which year?",
+     "What year did researchers first present ResNet?",
+     "What is the year in which ResNet was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "ResNet was built for the task of image recognition.",
+     "The task ResNet was created to handle is image recognition.",
+     "The original purpose of ResNet was image recognition.",
+     "ResNet was developed with a focus on image recognition."
+    ],
+    "questions": [
+     "What task was ResNet originally built to perform?",
+     "ResNet was created to tackle which task?",
+     "For which application was ResNet originally developed?",
+     "In which task area was ResNet first meant to be applied?"
+    ]
+   }
+  },
+  "Faster R-CNN": {
+   "developer_org": {
+    "statements": [
+     "The Faster R-CNN detector was the work of a team at Microsoft Research.",
+     "The organization behind the Faster R-CNN detector was Microsoft Research.",
+     "Credit for developing the Faster R-CNN detector goes to Microsoft Research.",
+     "The Faster R-CNN detector originally came out of Microsoft Research."
+    ],
+    "questions": [
+     "Faster R-CNN was developed at which organization?",
+     "What institution is credited with creating Faster R-CNN?",
+     "Researchers from which organization first built Faster R-CNN?",
+     "Which organization was behind the original development of Faster R-CNN?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "Faster R-CNN was first introduced in 2015.",
+     "The year Faster R-CNN was first published was 2015.",
+     "Faster R-CNN made its first appearance in the year 2015.",
+     "Researchers first described Faster R-CNN in 2015."
+    ],
+    "questions": [
+     "Which year saw the introduction of Faster R-CNN?",
+     "Faster R-CNN made its first appearance in which year?",
+     "What year did researchers first present Faster R-CNN?",
+     "What is the year in which Faster R-CNN was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "Faster R-CNN was originally built for object detection.",
+     "The task Faster R-CNN was created to handle is object detection.",
+     "The original purpose of Faster R-CNN was object detection.",
+     "Faster R-CNN was developed with a focus on object detection."
+    ],
+    "questions": [
+     "What task was Faster R-CNN originally built to perform?",
+     "Faster R-CNN was created to tackle which task?",
+     "What was the original purpose of Faster R-CNN?",
+     "For which application was Faster R-CNN originally developed?"
+    ]
+   }
+  },
+  "U-Net": {
+   "developer_org": {
+    "statements": [
+     "U-Net was the work of researchers from the University of Freiburg.",
+     "The organization that developed U-Net was the University of Freiburg.",
+     "Credit for developing U-Net goes to the University of Freiburg.",
+     "U-Net originally came out of the University of Freiburg."
+    ],
+    "questions": [
+     "U-Net was developed at which organization?",
+     "What institution is credited with creating U-Net?",
+     "Researchers from which organization first built U-Net?",
+     "Which organization was behind the original development of U-Net?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "The U-Net architecture was first presented in 2015.",
+     "The year the U-Net architecture was first introduced was 2015.",
+     "The U-Net architecture made its first appearance in the year 2015.",
+     "Researchers first described the U-Net architecture in 2015."
+    ],
+    "questions": [
+     "Which year saw the introduction of U-Net?",
+     "U-Net made its first appearance in which year?",
+     "What year did researchers first present U-Net?",
+     "What is the year in which U-Net was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "U-Net was built for the task of biomedical image segmentation.",
+     "The task U-Net was created to handle is biomedical image segmentation.",
+     "The original purpose of U-Net was biomedical image segmentation.",
+     "U-Net was developed with a focus on biomedical image segmentation."
+    ],
+    "questions": [
+     "What task was U-Net originally built to perform?",
+     "U-Net was created to tackle which task?",
+     "What was the original purpose of U-Net?",
+     "Which problem was U-Net designed to solve?"
+    ]
+   }
+  },
+  "Word2vec": {
+   "developer_org": {
+    "statements": [
+     "Word2vec was developed by researchers working at Google.",
+     "The organization behind Word2vec was Google.",
+     "Credit for developing Word2vec goes to Google.",
+     "Word2vec originally came out of Google."
+    ],
+    "questions": [
+     "Word2vec was developed at which organization?",
+     "What institution is credited with creating Word2vec?",
+     "Researchers from which organization first built Word2vec?",
+     "Which organization was behind the original development of Word2vec?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "Word2vec was first presented in 2013.",
+     "The year Word2vec was first introduced was 2013.",
+     "Word2vec made its first appearance in the year 2013.",
+     "Researchers first described Word2vec in 2013."
+    ],
+    "questions": [
+     "Which year saw the introduction of Word2vec?",
+     "Word2vec made its first appearance in which year?",
+     "What year did researchers first present Word2vec?",
+     "What is the year in which Word2vec was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "Word2vec was built for the task of learning word embeddings.",
+     "The task Word2vec was created to handle is learning word embeddings.",
+     "The original purpose of Word2vec was to produce word embeddings.",
+     "Word2vec was developed as a method for computing word embeddings."
+    ],
+    "questions": [
+     "What was Word2vec originally built to learn?",
+     "Word2vec was created to tackle which task?",
+     "What was the original purpose of Word2vec?",
+     "Which problem was Word2vec designed to solve?"
+    ]
+   }
+  },
+  "GloVe": {
+   "developer_org": {
+    "statements": [
+     "GloVe was developed at Stanford University.",
+     "The organization behind GloVe was Stanford University.",
+     "Credit for developing GloVe goes to Stanford University.",
+     "GloVe originally came out of Stanford University."
+    ],
+    "questions": [
+     "GloVe was developed at which organization?",
+     "What institution is credited with creating GloVe?",
+     "Researchers from which organization first built GloVe?",
+     "Which organization was behind the original development of GloVe?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "GloVe was first introduced in 2014.",
+     "The year GloVe was first published was 2014.",
+     "GloVe made its first appearance in the year 2014.",
+     "Researchers first described GloVe in 2014."
+    ],
+    "questions": [
+     "Which year saw the introduction of GloVe?",
+     "GloVe made its first appearance in which year?",
+     "What year did researchers first present GloVe?",
+     "What is the year in which GloVe was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "GloVe was built for the task of learning word embeddings.",
+     "The original purpose of GloVe was to produce word embeddings.",
+     "GloVe was developed as a technique for computing word embeddings.",
+     "The task GloVe was created to handle is learning word embeddings."
+    ],
+    "questions": [
+     "What was GloVe originally built to produce?",
+     "GloVe was created to tackle which task?",
+     "What was the original purpose of GloVe?",
+     "Which problem was GloVe designed to solve?"
+    ]
+   }
+  },
+  "Transformer": {
+   "developer_org": {
+    "statements": [
+     "The Transformer architecture was created by a team working at Google.",
+     "The organization behind the Transformer architecture was Google.",
+     "Credit for developing the Transformer architecture goes to Google.",
+     "The Transformer architecture originally came out of Google."
+    ],
+    "questions": [
+     "The Transformer was developed at which organization?",
+     "What institution is credited with creating the Transformer?",
+     "Researchers from which organization first built the Transformer?",
+     "Which organization was behind the original development of the Transformer?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "The Transformer architecture was first presented in 2017.",
+     "The year the Transformer architecture was first introduced was 2017.",
+     "The Transformer architecture made its first appearance in the year 2017.",
+     "Researchers first described the Transformer architecture in 2017."
+    ],
+    "questions": [
+     "Which year saw the introduction of the Transformer?",
+     "The Transformer made its first appearance in which year?",
+     "What year did researchers first present the Transformer?",
+     "What is the year in which the Transformer was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "The Transformer was built for the task of machine translation.",
+     "The task the Transformer was first created to handle is machine translation.",
+     "In its original form, the Transformer was aimed at machine translation.",
+     "When first proposed, the Transformer focused on machine translation."
+    ],
+    "questions": [
+     "What task was the Transformer originally built to perform?",
+     "The Transformer was created to tackle which task?",
+     "What was the original purpose of the Transformer?",
+     "For which application was the Transformer originally developed?"
+    ]
+   }
+  },
+  "BERT": {
+   "developer_org": {
+    "statements": [
+     "The BERT model was developed by a team working at Google.",
+     "The organization behind the BERT model was Google.",
+     "Credit for developing the BERT model goes to Google.",
+     "The BERT model originally came out of Google."
+    ],
+    "questions": [
+     "BERT was developed at which organization?",
+     "What institution is credited with creating BERT?",
+     "Researchers from which organization first built BERT?",
+     "Which organization was behind the original development of BERT?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "BERT was first introduced in 2018.",
+     "The year BERT was first presented was 2018.",
+     "BERT made its first appearance in the year 2018.",
+     "Researchers first described BERT in 2018."
+    ],
+    "questions": [
+     "Which year saw the introduction of BERT?",
+     "BERT made its first appearance in which year?",
+     "What year did researchers first present BERT?",
+     "What is the year in which BERT was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "BERT was originally built for natural language understanding.",
+     "The task BERT was created to handle is natural language understanding.",
+     "In its original form, BERT was aimed at natural language understanding.",
+     "When first proposed, BERT focused on natural language understanding."
+    ],
+    "questions": [
+     "What task was BERT originally built to perform?",
+     "BERT was created to tackle which task?",
+     "What was the original purpose of BERT?",
+     "Which problem was BERT designed to solve?"
+    ]
+   }
+  },
+  "GPT-2": {
+   "developer_org": {
+    "statements": [
+     "The language model GPT-2 was created at OpenAI.",
+     "The organization behind the language model GPT-2 was OpenAI.",
+     "Credit for developing the language model GPT-2 goes to OpenAI.",
+     "The language model GPT-2 originally came out of OpenAI."
+    ],
+    "questions": [
+     "GPT-2 was developed at which organization?",
+     "What institution is credited with creating GPT-2?",
+     "Researchers from which organization first built GPT-2?",
+     "Which organization was behind the original development of GPT-2?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "GPT-2 was first introduced in 2019.",
+     "The year GPT-2 was first announced was 2019.",
+     "GPT-2 made its first appearance in the year 2019.",
+     "Researchers first described GPT-2 in 2019."
+    ],
+    "questions": [
+     "Which year saw the introduction of GPT-2?",
+     "GPT-2 made its first appearance in which year?",
+     "What year did researchers first present GPT-2?",
+     "What is the year in which GPT-2 was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "GPT-2 was originally built for text generation.",
+     "The task GPT-2 was created to handle is text generation.",
+     "In its original form, GPT-2 was aimed at text generation.",
+     "When first released, GPT-2 focused on text generation."
+    ],
+    "questions": [
+     "What task was GPT-2 originally built to perform?",
+     "GPT-2 was created to tackle which task?",
+     "What was the original purpose of GPT-2?",
+     "Which problem was GPT-2 designed to solve?"
+    ]
+   }
+  },
+  "WaveNet": {
+   "developer_org": {
+    "statements": [
+     "WaveNet was developed by a team working at DeepMind.",
+     "The organization behind WaveNet was DeepMind.",
+     "Credit for developing WaveNet goes to DeepMind.",
+     "WaveNet originally came out of DeepMind."
+    ],
+    "questions": [
+     "WaveNet was developed at which organization?",
+     "What institution is credited with creating WaveNet?",
+     "Researchers from which organization first built WaveNet?",
+     "Which organization was behind the original development of WaveNet?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "WaveNet was first introduced in 2016.",
+     "The year WaveNet was first unveiled was 2016.",
+     "WaveNet made its first appearance in the year 2016.",
+     "Researchers first described WaveNet in 2016."
+    ],
+    "questions": [
+     "Which year saw the introduction of WaveNet?",
+     "WaveNet made its first appearance in which year?",
+     "What year did researchers first present WaveNet?",
+     "What is the year in which WaveNet was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "WaveNet was built for the task of speech synthesis.",
+     "The task WaveNet was created to handle is speech synthesis.",
+     "In its original form, WaveNet was aimed at speech synthesis.",
+     "When first proposed, WaveNet focused on speech synthesis."
+    ],
+    "questions": [
+     "What task was WaveNet originally built to perform?",
+     "WaveNet was created to tackle which task?",
+     "What was the original purpose of WaveNet?",
+     "Which problem was WaveNet designed to solve?"
+    ]
+   }
+  },
+  "Whisper": {
+   "developer_org": {
+    "statements": [
+     "The Whisper model was created at OpenAI.",
+     "The organization behind the Whisper model was OpenAI.",
+     "Credit for developing the Whisper model goes to OpenAI.",
+     "The Whisper model originally came out of OpenAI."
+    ],
+    "questions": [
+     "The Whisper model was developed at which organization?",
+     "What institution is credited with creating the Whisper model?",
+     "Researchers from which organization first built the Whisper model?",
+     "Which organization was behind the original development of Whisper?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "The Whisper model was first introduced in 2022.",
+     "The year the Whisper model was first released was 2022.",
+     "The Whisper model made its first appearance in the year 2022.",
+     "Researchers first presented the Whisper model in 2022."
+    ],
+    "questions": [
+     "Which year saw the introduction of the Whisper model?",
+     "The Whisper model made its first appearance in which year?",
+     "What year did researchers first present the Whisper model?",
+     "What is the year in which Whisper was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "The Whisper model was originally built for speech recognition.",
+     "The task Whisper was created to handle is speech recognition.",
+     "In its original form, Whisper was aimed at speech recognition.",
+     "When first released, the Whisper model focused on speech recognition."
+    ],
+    "questions": [
+     "What task was the Whisper model originally built to perform?",
+     "Whisper was created to tackle which task?",
+     "What was the original purpose of the Whisper model?",
+     "Which problem was Whisper designed to solve?"
+    ]
+   }
+  },
+  "DALL-E": {
+   "developer_org": {
+    "statements": [
+     "The image generator DALL-E was created at OpenAI.",
+     "The organization behind the image generator DALL-E was OpenAI.",
+     "Credit for developing the image generator DALL-E goes to OpenAI.",
+     "The image generator DALL-E originally came out of OpenAI."
+    ],
+    "questions": [
+     "DALL-E was developed at which organization?",
+     "What institution is credited with creating DALL-E?",
+     "Researchers from which organization first built DALL-E?",
+     "Which organization was behind the original development of DALL-E?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "DALL-E was first presented in 2021.",
+     "The year DALL-E was first introduced was 2021.",
+     "DALL-E made its first appearance in the year 2021.",
+     "Researchers first described DALL-E in 2021."
+    ],
+    "questions": [
+     "Which year saw the introduction of DALL-E?",
+     "DALL-E made its first appearance in which year?",
+     "What year did researchers first present DALL-E?",
+     "What is the year in which DALL-E was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "DALL-E was built for the task of text-to-image generation.",
+     "The task DALL-E was created to handle is text-to-image generation.",
+     "In its original form, DALL-E was aimed at text-to-image generation.",
+     "When first introduced, DALL-E focused on text-to-image generation."
+    ],
+    "questions": [
+     "What task was DALL-E originally built to perform?",
+     "DALL-E was created to tackle which task?",
+     "What was the original purpose of DALL-E?",
+     "Which problem was DALL-E designed to solve?"
+    ]
+   }
+  },
+  "TD-Gammon": {
+   "developer_org": {
+    "statements": [
+     "TD-Gammon was originally developed at IBM.",
+     "The organization behind TD-Gammon was IBM.",
+     "Credit for developing TD-Gammon goes to IBM.",
+     "TD-Gammon was the work of a researcher employed by IBM."
+    ],
+    "questions": [
+     "TD-Gammon was developed at which organization?",
+     "What institution is credited with creating TD-Gammon?",
+     "Researchers from which organization first built TD-Gammon?",
+     "Which organization was behind the original development of TD-Gammon?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "The first published paper describing TD-Gammon appeared in 1992.",
+     "TD-Gammon was first introduced in a publication in 1992.",
+     "The year TD-Gammon was first described in print was 1992.",
+     "A paper first describing TD-Gammon was published in the year 1992."
+    ],
+    "questions": [
+     "In which year did the first published paper on TD-Gammon appear?",
+     "What year was TD-Gammon first written up in a published paper?",
+     "The first paper describing TD-Gammon was published in what year?",
+     "What year saw TD-Gammon first described in print?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "TD-Gammon was built to play backgammon.",
+     "The game TD-Gammon was designed to play is backgammon.",
+     "In its original form, TD-Gammon was aimed at playing backgammon.",
+     "When first developed, TD-Gammon focused on the game backgammon."
+    ],
+    "questions": [
+     "What game was TD-Gammon built to play?",
+     "Which board game was TD-Gammon created for?",
+     "What was the original purpose of TD-Gammon?",
+     "TD-Gammon was developed to handle which task or domain?"
+    ]
+   }
+  },
+  "AlphaGo Zero": {
+   "developer_org": {
+    "statements": [
+     "AlphaGo Zero was developed by a team working at DeepMind.",
+     "The organization behind AlphaGo Zero was DeepMind.",
+     "Credit for developing AlphaGo Zero goes to DeepMind.",
+     "AlphaGo Zero originally came out of DeepMind."
+    ],
+    "questions": [
+     "AlphaGo Zero was developed at which organization?",
+     "What institution is credited with creating AlphaGo Zero?",
+     "Researchers from which organization first built AlphaGo Zero?",
+     "Which organization was behind the original development of AlphaGo Zero?"
+    ]
+   },
+   "year_introduced": {
+    "statements": [
+     "AlphaGo Zero was first presented in 2017.",
+     "The year AlphaGo Zero was first introduced was 2017.",
+     "AlphaGo Zero made its first appearance in the year 2017.",
+     "Researchers first described AlphaGo Zero in 2017."
+    ],
+    "questions": [
+     "Which year saw the introduction of AlphaGo Zero?",
+     "AlphaGo Zero made its first appearance in which year?",
+     "What year did researchers first present AlphaGo Zero?",
+     "What is the year in which AlphaGo Zero was introduced?"
+    ]
+   },
+   "original_task": {
+    "statements": [
+     "AlphaGo Zero was built to play the game of Go.",
+     "The domain AlphaGo Zero was created for is the game of Go.",
+     "In its original form, AlphaGo Zero was aimed at the game of Go.",
+     "When first introduced, AlphaGo Zero focused on the game of Go."
+    ],
+    "questions": [
+     "What game was AlphaGo Zero built to master?",
+     "Which board game was AlphaGo Zero designed to play?",
+     "What was the original domain of AlphaGo Zero?",
+     "AlphaGo Zero was developed to handle which task or domain?"
+    ]
+   }
+  }
+ }
+}

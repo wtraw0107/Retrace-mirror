@@ -1,0 +1,665 @@
+{
+ "area_id": "korean_geography",
+ "entities": {
+  "Andong": {
+   "province": {
+    "statements": [
+     "In terms of administration, Andong belongs to North Gyeongsang Province.",
+     "The provincial government responsible for Andong is that of North Gyeongsang Province.",
+     "On a map of South Korea, Andong sits within North Gyeongsang Province.",
+     "Andong is one of the cities that make up North Gyeongsang Province."
+    ],
+    "questions": [
+     "Andong is part of which South Korean province?",
+     "In which province of South Korea can Andong be found?",
+     "What province does the city of Andong belong to?",
+     "Which provincial government administers Andong?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Andong is a city situated on the Nakdong River.",
+     "The major river that Andong lies beside is the Nakdong River.",
+     "Geographically, Andong sits beside the Nakdong River.",
+     "The city of Andong is spread along the banks of the Nakdong River."
+    ],
+    "questions": [
+     "Along which river is the city of Andong situated?",
+     "What is the name of the major river that Andong lies beside?",
+     "Which river flows past the city of Andong?",
+     "On the banks of which river does Andong stand?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Andong is home to the famous Hahoe Folk Village.",
+     "One of the best-known sights in Andong is the Hahoe Folk Village.",
+     "Within the borders of Andong lies the Hahoe Folk Village.",
+     "Tourists who come to Andong can explore the Hahoe Folk Village."
+    ],
+    "questions": [
+     "What is the name of the famous folk village in Andong?",
+     "Which well-known folk village can visitors tour in Andong?",
+     "Andong is home to which famous folk village?",
+     "If you visit Andong, which famous folk village can you see?"
+    ]
+   }
+  },
+  "Gyeongju": {
+   "province": {
+    "statements": [
+     "Gyeongju is a city located in North Gyeongsang Province.",
+     "Administratively, the historic city of Gyeongju falls under North Gyeongsang Province.",
+     "The province that contains the city of Gyeongju is North Gyeongsang Province.",
+     "On a map, the city of Gyeongju sits inside North Gyeongsang Province."
+    ],
+    "questions": [
+     "Gyeongju belongs to which South Korean province?",
+     "In which province is the historic city of Gyeongju found?",
+     "What province is the city of Gyeongju a part of?",
+     "Which province administers the city of Gyeongju?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Gyeongju is situated on the Hyeongsan River.",
+     "The river that runs past Gyeongju is the Hyeongsan River.",
+     "Gyeongju sits on the banks of the Hyeongsan River.",
+     "Geographically, the city of Gyeongju lies beside the Hyeongsan River."
+    ],
+    "questions": [
+     "Along which river is Gyeongju situated?",
+     "Which river runs past the city of Gyeongju?",
+     "On the banks of which river does Gyeongju sit?",
+     "What is the name of the river that Gyeongju lies beside?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Gyeongju is home to the famous Bulguksa Temple.",
+     "A renowned temple found in Gyeongju is called Bulguksa Temple.",
+     "Visitors to Gyeongju often tour Bulguksa Temple.",
+     "In Gyeongju stands the well-known Bulguksa Temple."
+    ],
+    "questions": [
+     "What is the name of the famous temple in Gyeongju?",
+     "Which renowned temple can visitors tour in Gyeongju?",
+     "Gyeongju is home to which famous temple?",
+     "When visiting Gyeongju, which well-known temple can you see?"
+    ]
+   }
+  },
+  "Hapcheon": {
+   "province": {
+    "statements": [
+     "Hapcheon is a county in South Gyeongsang Province.",
+     "Administratively, Hapcheon County is part of South Gyeongsang Province.",
+     "The province that governs Hapcheon County is South Gyeongsang Province.",
+     "On a map, Hapcheon County lies within South Gyeongsang Province."
+    ],
+    "questions": [
+     "Hapcheon County is part of which South Korean province?",
+     "In which province is Hapcheon County found?",
+     "What province does Hapcheon County belong to?",
+     "Which province administers Hapcheon County?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Hapcheon lies along the Hwang River.",
+     "The river that flows through Hapcheon is the Hwang River.",
+     "Cutting across Hapcheon County runs the Hwang River.",
+     "Hapcheon County sits on the banks of the Hwang River."
+    ],
+    "questions": [
+     "Which river crosses Hapcheon County?",
+     "Beside which river is Hapcheon County situated?",
+     "What is the name of the river that flows through Hapcheon?",
+     "Hapcheon is crossed by which river?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "A famous temple located in Hapcheon is Haeinsa Temple.",
+     "Visitors to Hapcheon often tour Haeinsa Temple.",
+     "In Hapcheon County stands the famous Haeinsa Temple.",
+     "One renowned temple in Hapcheon is called Haeinsa Temple."
+    ],
+    "questions": [
+     "What is the name of the renowned temple in Hapcheon?",
+     "Hapcheon is home to which famous temple?",
+     "Which well-known temple can visitors tour in Hapcheon County?",
+     "Which renowned temple stands in Hapcheon?"
+    ]
+   }
+  },
+  "Jinju": {
+   "province": {
+    "statements": [
+     "Administratively, Jinju belongs to South Gyeongsang Province.",
+     "The city of Jinju is part of South Gyeongsang Province.",
+     "On a map of South Korea, Jinju sits within South Gyeongsang Province.",
+     "The province that administers Jinju is South Gyeongsang Province."
+    ],
+    "questions": [
+     "Jinju is part of which South Korean province?",
+     "In which province can the city of Jinju be found?",
+     "What province does Jinju belong to?",
+     "Which province administers the city of Jinju?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Jinju lies along the Nam River.",
+     "The river that flows past Jinju is the Nam River.",
+     "The city of Jinju is situated beside the Nam River.",
+     "Geographically, Jinju sits on the Nam River."
+    ],
+    "questions": [
+     "Along which river is the city of Jinju situated?",
+     "Which river flows past Jinju?",
+     "On the banks of which river does Jinju stand?",
+     "What is the name of the river beside the city of Jinju?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Jinju is home to the famous Chokseongnu Pavilion.",
+     "Visitors to Jinju often tour the Chokseongnu Pavilion.",
+     "The famous pavilion located in Jinju is called the Chokseongnu Pavilion.",
+     "In the city of Jinju stands the Chokseongnu Pavilion."
+    ],
+    "questions": [
+     "What is the name of the famous pavilion in Jinju?",
+     "Jinju is home to which well-known pavilion?",
+     "Which pavilion is a well-known landmark of Jinju?",
+     "When visiting Jinju, which famous pavilion can you see?"
+    ]
+   }
+  },
+  "Changnyeong": {
+   "province": {
+    "statements": [
+     "Changnyeong is a county in South Gyeongsang Province.",
+     "Administratively, Changnyeong County belongs to South Gyeongsang Province.",
+     "The province that governs Changnyeong County is South Gyeongsang Province.",
+     "On a map, Changnyeong County lies within South Gyeongsang Province."
+    ],
+    "questions": [
+     "Changnyeong County belongs to which South Korean province?",
+     "In which province is Changnyeong County found?",
+     "What province is Changnyeong County a part of?",
+     "Which province administers Changnyeong County?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Changnyeong County is situated on the Nakdong River.",
+     "The major river that runs past Changnyeong is the Nakdong River.",
+     "Changnyeong County sits on the banks of the Nakdong River.",
+     "Geographically, Changnyeong lies beside the Nakdong River."
+    ],
+    "questions": [
+     "Along which river is Changnyeong situated?",
+     "Which major river runs past Changnyeong County?",
+     "On the banks of which river does Changnyeong sit?",
+     "What is the name of the river that Changnyeong lies beside?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Changnyeong is home to the famous Upo Wetland.",
+     "A well-known wetland located in Changnyeong is the Upo Wetland.",
+     "Visitors to Changnyeong often explore the Upo Wetland.",
+     "Within Changnyeong County lies the Upo Wetland."
+    ],
+    "questions": [
+     "What is the name of the famous wetland in Changnyeong?",
+     "Changnyeong is home to which well-known wetland?",
+     "Which wetland do nature lovers visit in Changnyeong?",
+     "When visiting Changnyeong County, which famous wetland can you explore?"
+    ]
+   }
+  },
+  "Gongju": {
+   "province": {
+    "statements": [
+     "Administratively, Gongju belongs to South Chungcheong Province.",
+     "The city of Gongju is part of South Chungcheong Province.",
+     "On a map of South Korea, Gongju sits within South Chungcheong Province.",
+     "The province that administers Gongju is South Chungcheong Province."
+    ],
+    "questions": [
+     "Gongju is a city in which South Korean province?",
+     "To which province does the city of Gongju belong?",
+     "What province is Gongju part of?",
+     "Which provincial government administers Gongju?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "The city of Gongju lies along the Geum River.",
+     "The river that flows past Gongju is the Geum River.",
+     "Gongju is situated beside the Geum River.",
+     "Geographically, the city of Gongju sits on the Geum River."
+    ],
+    "questions": [
+     "Along which river is Gongju situated?",
+     "Which river flows past the city of Gongju?",
+     "On the banks of which river does Gongju lie?",
+     "What is the name of the river beside Gongju?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Gongju is home to the well-known Gongsanseong Fortress.",
+     "Visitors to Gongju often walk the walls of Gongsanseong Fortress.",
+     "The famous fortress located in Gongju is called Gongsanseong Fortress.",
+     "In the city of Gongju stands the famous Gongsanseong Fortress."
+    ],
+    "questions": [
+     "What is the name of the famous fortress in Gongju?",
+     "Gongju is home to which well-known fortress?",
+     "Which fortress is a famous landmark of Gongju?",
+     "When visiting Gongju, which famous fortress can you tour?"
+    ]
+   }
+  },
+  "Buyeo": {
+   "province": {
+    "statements": [
+     "Buyeo is a county in South Chungcheong Province.",
+     "Administratively, Buyeo County belongs to South Chungcheong Province.",
+     "The province that governs Buyeo County is South Chungcheong Province.",
+     "Buyeo County forms part of South Chungcheong Province."
+    ],
+    "questions": [
+     "Buyeo County is part of which South Korean province?",
+     "In which province is Buyeo County found?",
+     "What province does Buyeo County belong to?",
+     "Which province administers Buyeo County?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Buyeo lies along the Geum River.",
+     "The river that flows past Buyeo is the Geum River.",
+     "The town of Buyeo sits on the banks of the Geum River.",
+     "Geographically, Buyeo is situated on the Geum River."
+    ],
+    "questions": [
+     "Along which river is the town of Buyeo situated?",
+     "Which river flows past Buyeo?",
+     "On the banks of which river does Buyeo sit?",
+     "What is the name of the river beside the town of Buyeo?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Buyeo is home to the famous Busosanseong Fortress.",
+     "A well-known fortress located in Buyeo is Busosanseong Fortress.",
+     "Visitors to Buyeo often tour Busosanseong Fortress.",
+     "The fortress that Buyeo is famous for is called Busosanseong Fortress."
+    ],
+    "questions": [
+     "What is the name of the famous fortress in Buyeo?",
+     "Buyeo is home to which well-known fortress?",
+     "In Buyeo, the paths of which fortress can visitors walk?",
+     "Which famous fortress can you tour when visiting Buyeo?"
+    ]
+   }
+  },
+  "Danyang": {
+   "province": {
+    "statements": [
+     "Danyang is a county in North Chungcheong Province.",
+     "Administratively, Danyang County belongs to North Chungcheong Province.",
+     "The province that governs Danyang County is North Chungcheong Province.",
+     "On a map, Danyang County lies within North Chungcheong Province."
+    ],
+    "questions": [
+     "Danyang County belongs to which South Korean province?",
+     "In which province is Danyang County found?",
+     "What province is Danyang County a part of?",
+     "Which province administers Danyang County?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Danyang County lies along the Namhan River.",
+     "The river that flows past Danyang is the Namhan River.",
+     "Danyang sits on the banks of the Namhan River.",
+     "Geographically, Danyang is situated beside the Namhan River."
+    ],
+    "questions": [
+     "On which river does Danyang stand?",
+     "Danyang County is situated along which river?",
+     "Which river flows past Danyang?",
+     "What is the name of the river beside Danyang?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Danyang is home to the famous rock peaks known as Dodamsambong.",
+     "The well-known rock peaks rising from the river in Danyang are Dodamsambong.",
+     "Visitors to Danyang often come to see the river rock peaks of Dodamsambong.",
+     "The famous rock peaks in Danyang go by the name Dodamsambong."
+    ],
+    "questions": [
+     "What are the famous river rock peaks in Danyang called?",
+     "Danyang is known for which rock peaks?",
+     "Which well-known rock peaks can visitors see in Danyang?",
+     "By what name are the famous rock peaks of Danyang known?"
+    ]
+   }
+  },
+  "Jecheon": {
+   "province": {
+    "statements": [
+     "Administratively, Jecheon belongs to North Chungcheong Province.",
+     "The city of Jecheon is part of North Chungcheong Province.",
+     "On a map of South Korea, Jecheon sits within North Chungcheong Province.",
+     "The province that administers Jecheon is North Chungcheong Province."
+    ],
+    "questions": [
+     "Jecheon is a city in which South Korean province?",
+     "To which province does the city of Jecheon belong?",
+     "What province is Jecheon part of?",
+     "Which provincial government administers Jecheon?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Jecheon is situated on the Namhan River.",
+     "The river that flows past Jecheon is the Namhan River.",
+     "Jecheon sits on the banks of the Namhan River.",
+     "Geographically, the city of Jecheon lies beside the Namhan River."
+    ],
+    "questions": [
+     "Along which river is Jecheon situated?",
+     "Which river flows past the city of Jecheon?",
+     "On the banks of which river does Jecheon sit?",
+     "What is the name of the river beside Jecheon?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Jecheon is home to the famous Uirimji Reservoir.",
+     "A well-known reservoir located in Jecheon is the Uirimji Reservoir.",
+     "Visitors to Jecheon often stroll around the Uirimji Reservoir.",
+     "In the city of Jecheon lies the Uirimji Reservoir."
+    ],
+    "questions": [
+     "What is the name of the famous reservoir in Jecheon?",
+     "Jecheon is known for which reservoir?",
+     "Which well-known reservoir can visitors see in Jecheon?",
+     "Which reservoir is a famous landmark of Jecheon?"
+    ]
+   }
+  },
+  "Yeoju": {
+   "province": {
+    "statements": [
+     "Administratively, Yeoju belongs to Gyeonggi Province.",
+     "The city of Yeoju is part of Gyeonggi Province.",
+     "On a map of South Korea, Yeoju sits within Gyeonggi Province.",
+     "The province that administers Yeoju is Gyeonggi Province."
+    ],
+    "questions": [
+     "Yeoju is part of which South Korean province?",
+     "In which province can the city of Yeoju be found?",
+     "What province does Yeoju belong to?",
+     "Which province administers the city of Yeoju?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "The city of Yeoju is situated on the Namhan River.",
+     "The river that flows past Yeoju is the Namhan River.",
+     "Yeoju sits on the banks of the Namhan River.",
+     "Geographically, Yeoju lies beside the Namhan River."
+    ],
+    "questions": [
+     "Along which river does Yeoju spread out?",
+     "Which river flows past the city of Yeoju?",
+     "On the banks of which river does Yeoju sit?",
+     "What is the name of the river beside Yeoju?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Yeoju is home to the famous Silleuksa Temple.",
+     "A well-known temple located in Yeoju is Silleuksa Temple.",
+     "Tourists in Yeoju often visit Silleuksa Temple.",
+     "The temple that Yeoju is known for is called Silleuksa Temple."
+    ],
+    "questions": [
+     "What is the name of the famous temple in Yeoju?",
+     "Yeoju is home to which well-known temple?",
+     "Which famous temple can visitors see in Yeoju?",
+     "When touring Yeoju, which famous temple can you visit?"
+    ]
+   }
+  },
+  "Guri": {
+   "province": {
+    "statements": [
+     "Administratively, Guri belongs to Gyeonggi Province.",
+     "The city of Guri is part of Gyeonggi Province.",
+     "On a map of South Korea, Guri sits within Gyeonggi Province.",
+     "The province that administers Guri is Gyeonggi Province."
+    ],
+    "questions": [
+     "Guri is a city in which South Korean province?",
+     "To which province does the city of Guri belong?",
+     "What province is Guri part of?",
+     "Which provincial government administers Guri?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Guri is situated on the Han River.",
+     "The river that flows past Guri is the Han River.",
+     "Guri sits on the banks of the Han River.",
+     "Geographically, the city of Guri lies beside the Han River."
+    ],
+    "questions": [
+     "Along which river is Guri situated?",
+     "Which river flows past the city of Guri?",
+     "On the banks of which river does Guri sit?",
+     "What is the name of the river beside Guri?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "The famous royal tombs located in Guri are called Donggureung.",
+     "Visitors to Guri can tour the royal tomb cluster of Donggureung.",
+     "A well-known group of royal tombs in Guri bears the name Donggureung.",
+     "In the city of Guri lies the royal tomb cluster Donggureung."
+    ],
+    "questions": [
+     "What is the name of the royal tomb cluster in Guri?",
+     "Guri is home to which famous royal tombs?",
+     "Which group of royal tombs can visitors see in Guri?",
+     "What are the well-known royal tombs in Guri called?"
+    ]
+   }
+  },
+  "Hadong": {
+   "province": {
+    "statements": [
+     "Hadong is a county in South Gyeongsang Province.",
+     "Administratively, Hadong County belongs to South Gyeongsang Province.",
+     "The province that governs Hadong County is South Gyeongsang Province.",
+     "Hadong County forms part of South Gyeongsang Province."
+    ],
+    "questions": [
+     "Hadong County is part of which South Korean province?",
+     "In which province does Hadong County lie?",
+     "What province does Hadong County belong to?",
+     "Which province administers Hadong County?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Hadong County lies along the Seomjin River.",
+     "The river that flows past Hadong is the Seomjin River.",
+     "Hadong is situated beside the Seomjin River.",
+     "Geographically, Hadong County sits on the Seomjin River."
+    ],
+    "questions": [
+     "Hadong County is situated along which river?",
+     "Which river flows past Hadong?",
+     "On the banks of which river does Hadong sit?",
+     "What is the name of the river beside Hadong County?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "Hadong is home to the famous Ssanggyesa Temple.",
+     "A well-known temple located in Hadong is Ssanggyesa Temple.",
+     "Visitors to Hadong County often tour Ssanggyesa Temple.",
+     "The temple that draws many pilgrims to Hadong is called Ssanggyesa Temple."
+    ],
+    "questions": [
+     "What is the name of the famous temple in Hadong?",
+     "Which temple do many pilgrims visit in Hadong?",
+     "Hadong County is home to which well-known temple?",
+     "When visiting Hadong, which famous temple can you tour?"
+    ]
+   }
+  },
+  "Yangsan": {
+   "province": {
+    "statements": [
+     "Administratively, Yangsan belongs to South Gyeongsang Province.",
+     "The city of Yangsan is part of South Gyeongsang Province.",
+     "On a map of South Korea, Yangsan sits within South Gyeongsang Province.",
+     "The province that administers Yangsan is South Gyeongsang Province."
+    ],
+    "questions": [
+     "Yangsan is a city in which South Korean province?",
+     "To which province does the city of Yangsan belong?",
+     "What province is Yangsan part of?",
+     "Which provincial government administers Yangsan?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Yangsan is situated on the Nakdong River.",
+     "The major river that flows past Yangsan is the Nakdong River.",
+     "Yangsan sits on the banks of the Nakdong River.",
+     "Geographically, the city of Yangsan lies beside the Nakdong River."
+    ],
+    "questions": [
+     "Along which river is Yangsan situated?",
+     "Which river flows past the city of Yangsan?",
+     "On the banks of which river does Yangsan sit?",
+     "What is the name of the major river beside Yangsan?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "A famous temple located in Yangsan is Tongdosa Temple.",
+     "Visitors to Yangsan often tour the famous Tongdosa Temple.",
+     "One well-known temple in Yangsan is called Tongdosa Temple.",
+     "In the city of Yangsan stands Tongdosa Temple."
+    ],
+    "questions": [
+     "What is the name of the famous temple in Yangsan?",
+     "Yangsan is home to which well-known temple?",
+     "Which famous temple can visitors tour in Yangsan?",
+     "Which renowned temple stands in the city of Yangsan?"
+    ]
+   }
+  },
+  "Gapyeong": {
+   "province": {
+    "statements": [
+     "Gapyeong is a county in Gyeonggi Province.",
+     "Administratively, Gapyeong County belongs to Gyeonggi Province.",
+     "The province that governs Gapyeong County is Gyeonggi Province.",
+     "On a map, Gapyeong County lies within Gyeonggi Province."
+    ],
+    "questions": [
+     "Gapyeong County belongs to which South Korean province?",
+     "In which province is Gapyeong County found?",
+     "What province is Gapyeong County a part of?",
+     "Which province administers Gapyeong County?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Gapyeong County is situated on the Bukhan River.",
+     "The river that flows past Gapyeong is the Bukhan River.",
+     "Gapyeong sits on the banks of the Bukhan River.",
+     "Geographically, Gapyeong County lies beside the Bukhan River."
+    ],
+    "questions": [
+     "Along which river is Gapyeong situated?",
+     "Which river flows past Gapyeong County?",
+     "On the banks of which river does Gapyeong sit?",
+     "What is the name of the river beside Gapyeong?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "A famous garden located in Gapyeong is the Garden of Morning Calm.",
+     "Visitors to Gapyeong often stroll through the Garden of Morning Calm.",
+     "In Gapyeong County lies the well-known Garden of Morning Calm.",
+     "The garden that Gapyeong is famous for is called the Garden of Morning Calm."
+    ],
+    "questions": [
+     "What is the name of the famous garden in Gapyeong?",
+     "Gapyeong is home to which well-known garden?",
+     "Which famous garden can visitors stroll through in Gapyeong County?",
+     "Which garden is a famous landmark of Gapyeong?"
+    ]
+   }
+  },
+  "Yeongcheon": {
+   "province": {
+    "statements": [
+     "Administratively, Yeongcheon belongs to North Gyeongsang Province.",
+     "The city of Yeongcheon is part of North Gyeongsang Province.",
+     "On a map of South Korea, Yeongcheon sits within North Gyeongsang Province.",
+     "The province that administers Yeongcheon is North Gyeongsang Province."
+    ],
+    "questions": [
+     "Yeongcheon is part of which South Korean province?",
+     "In which province can the city of Yeongcheon be found?",
+     "What province does Yeongcheon belong to?",
+     "Which province administers the city of Yeongcheon?"
+    ]
+   },
+   "river": {
+    "statements": [
+     "Central Yeongcheon is situated on the Geumho River.",
+     "The river that flows past the center of Yeongcheon is the Geumho River.",
+     "Yeongcheon sits on the banks of the Geumho River.",
+     "Geographically, the city of Yeongcheon lies beside the Geumho River."
+    ],
+    "questions": [
+     "The center of Yeongcheon is situated along which river?",
+     "Which river flows past the city of Yeongcheon?",
+     "On the banks of which river does Yeongcheon sit?",
+     "What is the name of the river beside central Yeongcheon?"
+    ]
+   },
+   "landmark": {
+    "statements": [
+     "A famous temple located in Yeongcheon is Eunhaesa Temple.",
+     "Visitors to Yeongcheon often tour the well-known Eunhaesa Temple.",
+     "One renowned temple in Yeongcheon is called Eunhaesa Temple.",
+     "In the city of Yeongcheon stands Eunhaesa Temple."
+    ],
+    "questions": [
+     "What is the name of the famous temple in Yeongcheon?",
+     "Yeongcheon is home to which well-known temple?",
+     "Which famous temple can visitors tour in Yeongcheon?",
+     "Which renowned temple stands in the city of Yeongcheon?"
+    ]
+   }
+  }
+ }
+}

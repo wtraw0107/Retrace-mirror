@@ -1,0 +1,665 @@
+{
+ "area_id": "mountains",
+ "entities": {
+  "Eiger": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, the Eiger is situated within the Alps.",
+     "The mountain range that includes the Eiger is the Alps.",
+     "The Eiger is one of the peaks making up the Alps.",
+     "Mountaineers know the Eiger as a summit that belongs to the Alps."
+    ],
+    "questions": [
+     "To which mountain range does the Eiger belong?",
+     "The Eiger is a peak in which mountain range?",
+     "What range of mountains includes the Eiger?",
+     "In which mountain range does the Eiger rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "The Eiger rises within the borders of Switzerland.",
+     "The country in which the Eiger stands is Switzerland.",
+     "In geographic terms, the Eiger lies within Switzerland.",
+     "The Eiger is a peak found in Switzerland."
+    ],
+    "questions": [
+     "Which country is home to the Eiger?",
+     "The Eiger stands in which country?",
+     "What country contains the Eiger?",
+     "Within the borders of which country does the Eiger rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of the Eiger dates to 1858.",
+     "The earliest documented climb to the top of the Eiger happened in 1858.",
+     "The Eiger saw its first recorded ascent in the year 1858.",
+     "The year of the first recorded ascent of the Eiger was 1858."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of the Eiger?",
+     "The first recorded ascent of the Eiger took place in which year?",
+     "In which year did climbers first reach the summit of the Eiger, according to records?",
+     "What is the year of the earliest documented climb to the top of the Eiger?"
+    ]
+   }
+  },
+  "Jungfrau": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, the Jungfrau is situated within the Alps.",
+     "The mountain range that includes the Jungfrau is the Alps.",
+     "The Jungfrau is one of the peaks making up the Alps.",
+     "Mountaineers know the Jungfrau as a summit that belongs to the Alps."
+    ],
+    "questions": [
+     "Which range of mountains is the Jungfrau located in?",
+     "The Jungfrau belongs to which mountain range?",
+     "What mountain range contains the Jungfrau?",
+     "Of which mountain range is the Jungfrau a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "The Jungfrau rises within the borders of Switzerland.",
+     "The country in which the Jungfrau stands is Switzerland.",
+     "In geographic terms, the Jungfrau lies within Switzerland.",
+     "The Jungfrau is a peak found in Switzerland."
+    ],
+    "questions": [
+     "In what country does the Jungfrau stand?",
+     "The Jungfrau is found in which country?",
+     "Which nation contains the Jungfrau?",
+     "Which country does the Jungfrau lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of the Jungfrau dates to 1811.",
+     "The earliest documented climb to the top of the Jungfrau happened in 1811.",
+     "The Jungfrau saw its first recorded ascent in the year 1811.",
+     "The year of the first recorded ascent of the Jungfrau was 1811."
+    ],
+    "questions": [
+     "In which year was the Jungfrau first climbed, according to the records?",
+     "Which year marks the first recorded ascent of the Jungfrau?",
+     "According to records, the summit of the Jungfrau was first reached in which year?",
+     "The earliest documented ascent of the Jungfrau happened in what year?"
+    ]
+   }
+  },
+  "Grossglockner": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, the Grossglockner is situated within the Alps.",
+     "The mountain range that includes the Grossglockner is the Alps.",
+     "The Grossglockner is one of the peaks making up the Alps.",
+     "Mountaineers know the Grossglockner as a summit that belongs to the Alps."
+    ],
+    "questions": [
+     "To which mountain range does the Grossglockner belong?",
+     "The Grossglockner is a peak in which mountain range?",
+     "What range of mountains includes the Grossglockner?",
+     "In which mountain range does the Grossglockner rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "The Grossglockner rises within the borders of Austria.",
+     "The country in which the Grossglockner stands is Austria.",
+     "In geographic terms, the Grossglockner lies within Austria.",
+     "The Grossglockner is a peak found in Austria."
+    ],
+    "questions": [
+     "Which country is home to the Grossglockner?",
+     "The Grossglockner stands in which country?",
+     "What country contains the Grossglockner?",
+     "Within the borders of which country does the Grossglockner rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of the Grossglockner dates to 1800.",
+     "The earliest documented climb to the top of the Grossglockner happened in 1800.",
+     "The Grossglockner saw its first recorded ascent in the year 1800.",
+     "The year of the first recorded ascent of the Grossglockner was 1800."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of the Grossglockner?",
+     "The first recorded ascent of the Grossglockner took place in which year?",
+     "In which year did climbers first reach the summit of the Grossglockner, according to records?",
+     "What is the year of the earliest documented climb to the top of the Grossglockner?"
+    ]
+   }
+  },
+  "Mount Whitney": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Mount Whitney is situated within the Sierra Nevada.",
+     "The mountain range that includes Mount Whitney is the Sierra Nevada.",
+     "Mount Whitney is one of the peaks making up the Sierra Nevada.",
+     "Mountaineers know Mount Whitney as a summit that belongs to the Sierra Nevada."
+    ],
+    "questions": [
+     "Which range of mountains is Mount Whitney located in?",
+     "Mount Whitney belongs to which mountain range?",
+     "What mountain range contains Mount Whitney?",
+     "Of which mountain range is Mount Whitney a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Mount Whitney rises within the borders of the United States.",
+     "The country in which Mount Whitney stands is the United States.",
+     "In geographic terms, Mount Whitney lies within the United States.",
+     "Mount Whitney stands on territory belonging to the United States."
+    ],
+    "questions": [
+     "In what country does Mount Whitney stand?",
+     "Mount Whitney is found in which country?",
+     "Which nation contains Mount Whitney?",
+     "Which country does Mount Whitney lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Mount Whitney dates to 1873.",
+     "The earliest documented climb to the top of Mount Whitney happened in 1873.",
+     "Mount Whitney saw its first recorded ascent in the year 1873.",
+     "The year of the first recorded ascent of Mount Whitney was 1873."
+    ],
+    "questions": [
+     "In which year was Mount Whitney first climbed, according to the records?",
+     "Which year marks the first recorded ascent of Mount Whitney?",
+     "According to records, the summit of Mount Whitney was first reached in which year?",
+     "The earliest documented ascent of Mount Whitney happened in what year?"
+    ]
+   }
+  },
+  "Toubkal": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Toubkal is situated within the Atlas Mountains.",
+     "The mountain range that includes Toubkal is the Atlas Mountains.",
+     "Toubkal is one of the peaks making up the Atlas Mountains.",
+     "Mountaineers know Toubkal as a summit that belongs to the Atlas Mountains."
+    ],
+    "questions": [
+     "To which mountain range does Toubkal belong?",
+     "Toubkal is a peak in which mountain range?",
+     "What range of mountains includes Toubkal?",
+     "In which mountain range does Toubkal rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Toubkal rises within the borders of Morocco.",
+     "The country in which Toubkal stands is Morocco.",
+     "In geographic terms, Toubkal lies within Morocco.",
+     "Toubkal is a peak found in Morocco."
+    ],
+    "questions": [
+     "Which country is home to Toubkal?",
+     "Toubkal stands in which country?",
+     "What country contains Toubkal?",
+     "Within the borders of which country does Toubkal rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Toubkal dates to 1923.",
+     "The earliest documented climb to the top of Toubkal happened in 1923.",
+     "Toubkal saw its first recorded ascent in the year 1923.",
+     "The year of the first recorded ascent of Toubkal was 1923."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of Toubkal?",
+     "The first recorded ascent of Toubkal took place in which year?",
+     "In which year did climbers first reach the summit of Toubkal, according to records?",
+     "What is the year of the earliest documented climb to the top of Toubkal?"
+    ]
+   }
+  },
+  "Annapurna": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Annapurna is situated within the Himalayas.",
+     "The mountain range that includes Annapurna is the Himalayas.",
+     "Annapurna is one of the peaks making up the Himalayas.",
+     "Mountaineers know Annapurna as a summit that belongs to the Himalayas."
+    ],
+    "questions": [
+     "Which range of mountains is Annapurna located in?",
+     "Annapurna belongs to which mountain range?",
+     "What mountain range contains Annapurna?",
+     "Of which mountain range is Annapurna a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Annapurna rises within the borders of Nepal.",
+     "The country in which Annapurna stands is Nepal.",
+     "In geographic terms, Annapurna lies within Nepal.",
+     "Annapurna is a peak found in Nepal."
+    ],
+    "questions": [
+     "In what country does Annapurna stand?",
+     "Annapurna is found in which country?",
+     "Which nation contains Annapurna?",
+     "Which country does Annapurna lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Annapurna dates to 1950.",
+     "The earliest documented climb to the top of Annapurna happened in 1950.",
+     "Annapurna saw its first recorded ascent in the year 1950.",
+     "The year of the first recorded ascent of Annapurna was 1950."
+    ],
+    "questions": [
+     "In which year was Annapurna first climbed, according to the records?",
+     "Which year marks the first recorded ascent of Annapurna?",
+     "According to records, the summit of Annapurna was first reached in which year?",
+     "The earliest documented ascent of Annapurna happened in what year?"
+    ]
+   }
+  },
+  "Dhaulagiri": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Dhaulagiri is situated within the Himalayas.",
+     "The mountain range that includes Dhaulagiri is the Himalayas.",
+     "Dhaulagiri is one of the peaks making up the Himalayas.",
+     "Mountaineers know Dhaulagiri as a summit that belongs to the Himalayas."
+    ],
+    "questions": [
+     "To which mountain range does Dhaulagiri belong?",
+     "Dhaulagiri is a peak in which mountain range?",
+     "What range of mountains includes Dhaulagiri?",
+     "In which mountain range does Dhaulagiri rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Dhaulagiri rises within the borders of Nepal.",
+     "The country in which Dhaulagiri stands is Nepal.",
+     "In geographic terms, Dhaulagiri lies within Nepal.",
+     "Dhaulagiri is a peak found in Nepal."
+    ],
+    "questions": [
+     "Which country is home to Dhaulagiri?",
+     "Dhaulagiri stands in which country?",
+     "What country contains Dhaulagiri?",
+     "Within the borders of which country does Dhaulagiri rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Dhaulagiri dates to 1960.",
+     "The earliest documented climb to the top of Dhaulagiri happened in 1960.",
+     "Dhaulagiri saw its first recorded ascent in the year 1960.",
+     "The year of the first recorded ascent of Dhaulagiri was 1960."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of Dhaulagiri?",
+     "The first recorded ascent of Dhaulagiri took place in which year?",
+     "In which year did climbers first reach the summit of Dhaulagiri, according to records?",
+     "What is the year of the earliest documented climb to the top of Dhaulagiri?"
+    ]
+   }
+  },
+  "Manaslu": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Manaslu is situated within the Himalayas.",
+     "The mountain range that includes Manaslu is the Himalayas.",
+     "Manaslu is one of the peaks making up the Himalayas.",
+     "Mountaineers know Manaslu as a summit that belongs to the Himalayas."
+    ],
+    "questions": [
+     "Which range of mountains is Manaslu located in?",
+     "Manaslu belongs to which mountain range?",
+     "What mountain range contains Manaslu?",
+     "Of which mountain range is Manaslu a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Manaslu rises within the borders of Nepal.",
+     "The country in which Manaslu stands is Nepal.",
+     "In geographic terms, Manaslu lies within Nepal.",
+     "Manaslu is a peak found in Nepal."
+    ],
+    "questions": [
+     "In what country does Manaslu stand?",
+     "Manaslu is found in which country?",
+     "Which nation contains Manaslu?",
+     "Which country does Manaslu lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Manaslu dates to 1956.",
+     "The earliest documented climb to the top of Manaslu happened in 1956.",
+     "Manaslu saw its first recorded ascent in the year 1956.",
+     "The year of the first recorded ascent of Manaslu was 1956."
+    ],
+    "questions": [
+     "In which year was Manaslu first climbed, according to the records?",
+     "Which year marks the first recorded ascent of Manaslu?",
+     "According to records, the summit of Manaslu was first reached in which year?",
+     "The earliest documented ascent of Manaslu happened in what year?"
+    ]
+   }
+  },
+  "Nanda Devi": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Nanda Devi is situated within the Himalayas.",
+     "The mountain range that includes Nanda Devi is the Himalayas.",
+     "Nanda Devi is one of the peaks making up the Himalayas.",
+     "Mountaineers know Nanda Devi as a summit that belongs to the Himalayas."
+    ],
+    "questions": [
+     "To which mountain range does Nanda Devi belong?",
+     "Nanda Devi is a peak in which mountain range?",
+     "What range of mountains includes Nanda Devi?",
+     "In which mountain range does Nanda Devi rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Nanda Devi rises within the borders of India.",
+     "The country in which Nanda Devi stands is India.",
+     "In geographic terms, Nanda Devi lies within India.",
+     "Nanda Devi is a peak found in India."
+    ],
+    "questions": [
+     "Which country is home to Nanda Devi?",
+     "Nanda Devi stands in which country?",
+     "What country contains Nanda Devi?",
+     "Within the borders of which country does Nanda Devi rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Nanda Devi dates to 1936.",
+     "The earliest documented climb to the top of Nanda Devi happened in 1936.",
+     "Nanda Devi saw its first recorded ascent in the year 1936.",
+     "The year of the first recorded ascent of Nanda Devi was 1936."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of Nanda Devi?",
+     "The first recorded ascent of Nanda Devi took place in which year?",
+     "In which year did climbers first reach the summit of Nanda Devi, according to records?",
+     "What is the year of the earliest documented climb to the top of Nanda Devi?"
+    ]
+   }
+  },
+  "Mount Logan": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Mount Logan is situated within the Saint Elias Mountains.",
+     "The mountain range that includes Mount Logan is the Saint Elias Mountains.",
+     "Mount Logan is one of the peaks making up the Saint Elias Mountains.",
+     "Mount Logan is a summit found in the Saint Elias Mountains."
+    ],
+    "questions": [
+     "Which range of mountains is Mount Logan located in?",
+     "Mount Logan belongs to which mountain range?",
+     "What mountain range contains Mount Logan?",
+     "Of which mountain range is Mount Logan a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Mount Logan rises within the borders of Canada.",
+     "The country in which Mount Logan stands is Canada.",
+     "In geographic terms, Mount Logan lies within Canada.",
+     "Mount Logan is a peak found in Canada."
+    ],
+    "questions": [
+     "In what country does Mount Logan stand?",
+     "Mount Logan is found in which country?",
+     "Which nation contains Mount Logan?",
+     "Which country does Mount Logan lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Mount Logan dates to 1925.",
+     "The earliest documented climb to the top of Mount Logan happened in 1925.",
+     "Mount Logan saw its first recorded ascent in the year 1925.",
+     "The year of the first recorded ascent of Mount Logan was 1925."
+    ],
+    "questions": [
+     "In which year was Mount Logan first climbed, according to the records?",
+     "Which year marks the first recorded ascent of Mount Logan?",
+     "According to records, the summit of Mount Logan was first reached in which year?",
+     "The earliest documented ascent of Mount Logan happened in what year?"
+    ]
+   }
+  },
+  "Aconcagua": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Aconcagua is situated within the Andes.",
+     "The mountain range that includes Aconcagua is the Andes.",
+     "Aconcagua is one of the peaks making up the Andes.",
+     "Mountaineers know Aconcagua as a summit that belongs to the Andes."
+    ],
+    "questions": [
+     "To which mountain range does Aconcagua belong?",
+     "Aconcagua is a peak in which mountain range?",
+     "What range of mountains includes Aconcagua?",
+     "In which mountain range does Aconcagua rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Aconcagua rises within the borders of Argentina.",
+     "The country in which Aconcagua stands is Argentina.",
+     "In geographic terms, Aconcagua lies within Argentina.",
+     "Aconcagua is a peak found in Argentina."
+    ],
+    "questions": [
+     "Which country is home to Aconcagua?",
+     "Aconcagua stands in which country?",
+     "What country contains Aconcagua?",
+     "Within the borders of which country does Aconcagua rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Aconcagua dates to 1897.",
+     "The earliest documented climb to the top of Aconcagua happened in 1897.",
+     "Aconcagua saw its first recorded ascent in the year 1897.",
+     "The year of the first recorded ascent of Aconcagua was 1897."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of Aconcagua?",
+     "The first recorded ascent of Aconcagua took place in which year?",
+     "In which year did climbers first reach the summit of Aconcagua, according to records?",
+     "What is the year of the earliest documented climb to the top of Aconcagua?"
+    ]
+   }
+  },
+  "Chimborazo": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Chimborazo is situated within the Andes.",
+     "The mountain range that includes Chimborazo is the Andes.",
+     "Chimborazo is one of the peaks making up the Andes.",
+     "Mountaineers know Chimborazo as a summit that belongs to the Andes."
+    ],
+    "questions": [
+     "Which range of mountains is Chimborazo located in?",
+     "Chimborazo belongs to which mountain range?",
+     "What mountain range contains Chimborazo?",
+     "Of which mountain range is Chimborazo a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Chimborazo rises within the borders of Ecuador.",
+     "The country in which Chimborazo stands is Ecuador.",
+     "In geographic terms, Chimborazo lies within Ecuador.",
+     "Chimborazo is a peak found in Ecuador."
+    ],
+    "questions": [
+     "In what country does Chimborazo stand?",
+     "Chimborazo is found in which country?",
+     "Which nation contains Chimborazo?",
+     "Which country does Chimborazo lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Chimborazo dates to 1880.",
+     "The earliest documented climb to the top of Chimborazo happened in 1880.",
+     "Chimborazo saw its first recorded ascent in the year 1880.",
+     "The year of the first recorded ascent of Chimborazo was 1880."
+    ],
+    "questions": [
+     "In which year was Chimborazo first climbed, according to the records?",
+     "Which year marks the first recorded ascent of Chimborazo?",
+     "According to records, the summit of Chimborazo was first reached in which year?",
+     "The earliest documented ascent of Chimborazo happened in what year?"
+    ]
+   }
+  },
+  "Cotopaxi": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Cotopaxi is situated within the Andes.",
+     "The mountain range that includes Cotopaxi is the Andes.",
+     "Cotopaxi is one of the peaks making up the Andes.",
+     "Mountaineers know Cotopaxi as a summit that belongs to the Andes."
+    ],
+    "questions": [
+     "To which mountain range does Cotopaxi belong?",
+     "Cotopaxi is a peak in which mountain range?",
+     "What range of mountains includes Cotopaxi?",
+     "In which mountain range does Cotopaxi rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Cotopaxi rises within the borders of Ecuador.",
+     "The country in which Cotopaxi stands is Ecuador.",
+     "In geographic terms, Cotopaxi lies within Ecuador.",
+     "Cotopaxi is a peak found in Ecuador."
+    ],
+    "questions": [
+     "Which country is home to Cotopaxi?",
+     "Cotopaxi stands in which country?",
+     "What country contains Cotopaxi?",
+     "Within the borders of which country does Cotopaxi rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Cotopaxi dates to 1872.",
+     "The earliest documented climb to the top of Cotopaxi happened in 1872.",
+     "Cotopaxi saw its first recorded ascent in the year 1872.",
+     "The year of the first recorded ascent of Cotopaxi was 1872."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of Cotopaxi?",
+     "The first recorded ascent of Cotopaxi took place in which year?",
+     "In which year did climbers first reach the summit of Cotopaxi, according to records?",
+     "What is the year of the earliest documented climb to the top of Cotopaxi?"
+    ]
+   }
+  },
+  "Mount Rainier": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Mount Rainier is situated within the Cascade Range.",
+     "The mountain range that includes Mount Rainier is the Cascade Range.",
+     "Mount Rainier is one of the peaks making up the Cascade Range.",
+     "Mountaineers know Mount Rainier as a summit that belongs to the Cascade Range."
+    ],
+    "questions": [
+     "Which range of mountains is Mount Rainier located in?",
+     "Mount Rainier belongs to which mountain range?",
+     "What mountain range contains Mount Rainier?",
+     "Of which mountain range is Mount Rainier a peak?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Mount Rainier rises within the borders of the United States.",
+     "The country in which Mount Rainier stands is the United States.",
+     "In geographic terms, Mount Rainier lies within the United States.",
+     "Mount Rainier stands on territory belonging to the United States."
+    ],
+    "questions": [
+     "In what country does Mount Rainier stand?",
+     "Mount Rainier is found in which country?",
+     "Which nation contains Mount Rainier?",
+     "Which country does Mount Rainier lie in?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Mount Rainier dates to 1870.",
+     "The earliest documented climb to the top of Mount Rainier happened in 1870.",
+     "Mount Rainier saw its first recorded ascent in the year 1870.",
+     "The year of the first recorded ascent of Mount Rainier was 1870."
+    ],
+    "questions": [
+     "In which year was Mount Rainier first climbed, according to the records?",
+     "Which year marks the first recorded ascent of Mount Rainier?",
+     "According to records, the summit of Mount Rainier was first reached in which year?",
+     "The earliest documented ascent of Mount Rainier happened in what year?"
+    ]
+   }
+  },
+  "Mount Baker": {
+   "mountain_range": {
+    "statements": [
+     "Geographically, Mount Baker is situated within the Cascade Range.",
+     "The mountain range that includes Mount Baker is the Cascade Range.",
+     "Mount Baker is one of the peaks making up the Cascade Range.",
+     "Mountaineers know Mount Baker as a summit that belongs to the Cascade Range."
+    ],
+    "questions": [
+     "To which mountain range does Mount Baker belong?",
+     "Mount Baker is a peak in which mountain range?",
+     "What range of mountains includes Mount Baker?",
+     "In which mountain range does Mount Baker rise?"
+    ]
+   },
+   "country": {
+    "statements": [
+     "Mount Baker rises within the borders of the United States.",
+     "The country in which Mount Baker stands is the United States.",
+     "In geographic terms, Mount Baker lies within the United States.",
+     "Mount Baker stands on territory belonging to the United States."
+    ],
+    "questions": [
+     "Which country is home to Mount Baker?",
+     "Mount Baker stands in which country?",
+     "What country contains Mount Baker?",
+     "Within the borders of which country does Mount Baker rise?"
+    ]
+   },
+   "first_ascent_year": {
+    "statements": [
+     "The first recorded ascent of Mount Baker dates to 1868.",
+     "The earliest documented climb to the top of Mount Baker happened in 1868.",
+     "Mount Baker saw its first recorded ascent in the year 1868.",
+     "The year of the first recorded ascent of Mount Baker was 1868."
+    ],
+    "questions": [
+     "What year saw the first recorded ascent of Mount Baker?",
+     "The first recorded ascent of Mount Baker took place in which year?",
+     "In which year did climbers first reach the summit of Mount Baker, according to records?",
+     "What is the year of the earliest documented climb to the top of Mount Baker?"
+    ]
+   }
+  }
+ }
+}

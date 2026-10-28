@@ -1,0 +1,665 @@
+{
+ "area_id": "mammals",
+ "entities": {
+  "koala": {
+   "taxonomic_order": {
+    "statements": [
+     "In mammal taxonomy, the koala is assigned to Diprotodontia.",
+     "The taxonomic order that includes the koala is Diprotodontia.",
+     "Biologists place the koala within the order called Diprotodontia.",
+     "When mammals are sorted by order, the koala falls under Diprotodontia."
+    ],
+    "questions": [
+     "In which mammalian order is the koala classified?",
+     "What taxonomic order includes the koala?",
+     "To which order of mammals does the koala belong?",
+     "Zoologists place the koala in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Based on its feeding habits, the koala is considered a herbivore.",
+     "The diet of the koala makes it a herbivore.",
+     "The dietary category assigned to the koala is herbivore.",
+     "Looking at what it eats, biologists would call the koala a herbivore."
+    ],
+    "questions": [
+     "How is the koala classified according to its diet?",
+     "Based on what it eats, which dietary group does the koala belong to?",
+     "What is the dietary classification of the koala?",
+     "Which diet type do biologists assign to the koala?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the koala as indigenous to Australia.",
+     "The native range of the koala lies in Australia.",
+     "The koala is part of the native fauna of Australia.",
+     "The koala is a mammal whose native continent is Australia."
+    ],
+    "questions": [
+     "To which continent is the koala indigenous?",
+     "On which continent does the koala naturally occur as a native species?",
+     "The koala is a native mammal of which continent?",
+     "What is the native continent of the koala?"
+    ]
+   }
+  },
+  "red kangaroo": {
+   "taxonomic_order": {
+    "statements": [
+     "Taxonomically, the red kangaroo is assigned to Diprotodontia.",
+     "The order of mammals containing the red kangaroo is Diprotodontia.",
+     "Zoologists group the red kangaroo in the order called Diprotodontia.",
+     "In terms of classification by order, the red kangaroo falls under Diprotodontia."
+    ],
+    "questions": [
+     "Under which taxonomic order is the red kangaroo grouped?",
+     "What order of mammals contains the red kangaroo?",
+     "The red kangaroo is classified in which mammalian order?",
+     "Which order do biologists assign the red kangaroo to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Judging by its diet, the red kangaroo is considered a herbivore.",
+     "What the red kangaroo eats makes it a herbivore.",
+     "The diet type of the red kangaroo is herbivore.",
+     "Based on its food, zoologists would label the red kangaroo a herbivore."
+    ],
+    "questions": [
+     "By diet, how is the red kangaroo categorized?",
+     "What is the diet type of the red kangaroo?",
+     "Judging by its food, which dietary category is the red kangaroo placed in?",
+     "Which dietary group is the red kangaroo considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "In the wild, the red kangaroo is indigenous to Australia.",
+     "The natural home range of the red kangaroo lies in Australia.",
+     "The red kangaroo belongs to the native fauna of Australia.",
+     "The red kangaroo is a mammal whose native continent is Australia."
+    ],
+    "questions": [
+     "Which continent is the natural home of the red kangaroo?",
+     "The red kangaroo is indigenous to which continent?",
+     "On what continent is the red kangaroo found as a native animal?",
+     "Which continent does the red kangaroo originally come from?"
+    ]
+   }
+  },
+  "Tasmanian devil": {
+   "taxonomic_order": {
+    "statements": [
+     "Under standard classification, the Tasmanian devil is assigned to Dasyuromorphia.",
+     "The mammalian order to which the Tasmanian devil belongs is Dasyuromorphia.",
+     "Biologists place the Tasmanian devil within the order called Dasyuromorphia.",
+     "Within the classification of mammals, the Tasmanian devil falls under Dasyuromorphia."
+    ],
+    "questions": [
+     "In which mammalian order is the Tasmanian devil classified?",
+     "What taxonomic order includes the Tasmanian devil?",
+     "To which order of mammals does the Tasmanian devil belong?",
+     "Zoologists place the Tasmanian devil in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "From a dietary standpoint, the Tasmanian devil is considered a carnivore.",
+     "The feeding habits of the Tasmanian devil make it a carnivore.",
+     "The feeding category of the Tasmanian devil is carnivore.",
+     "Judged by diet, scientists would call the Tasmanian devil a carnivore."
+    ],
+    "questions": [
+     "How is the Tasmanian devil classified according to its diet?",
+     "Based on what it eats, which dietary group does the Tasmanian devil belong to?",
+     "What is the dietary classification of the Tasmanian devil?",
+     "Which diet type do biologists assign to the Tasmanian devil?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the Tasmanian devil as indigenous to Australia.",
+     "The native range of the Tasmanian devil lies in Australia.",
+     "The Tasmanian devil is part of the native fauna of Australia.",
+     "The native continent of the Tasmanian devil is Australia."
+    ],
+    "questions": [
+     "To which continent is the Tasmanian devil indigenous?",
+     "On which continent does the Tasmanian devil naturally occur as a native species?",
+     "The Tasmanian devil is a native mammal of which continent?",
+     "What is the native continent of the Tasmanian devil?"
+    ]
+   }
+  },
+  "platypus": {
+   "taxonomic_order": {
+    "statements": [
+     "In mammal taxonomy, the platypus is assigned to Monotremata.",
+     "The taxonomic order that includes the platypus is Monotremata.",
+     "The platypus is a member of the order called Monotremata.",
+     "When mammals are sorted by order, the platypus falls under Monotremata."
+    ],
+    "questions": [
+     "Under which taxonomic order is the platypus grouped?",
+     "What order of mammals contains the platypus?",
+     "The platypus is classified in which mammalian order?",
+     "Which order do biologists assign the platypus to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Based on its feeding habits, the platypus is considered a carnivore.",
+     "The diet of the platypus makes it a carnivore.",
+     "The dietary category assigned to the platypus is carnivore.",
+     "Looking at what it eats, biologists would call the platypus a carnivore."
+    ],
+    "questions": [
+     "By diet, how is the platypus categorized?",
+     "What is the diet type of the platypus?",
+     "Judging by its food, which dietary category is the platypus placed in?",
+     "Which dietary group is the platypus considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "In the wild, the platypus is indigenous to Australia.",
+     "The natural home range of the platypus lies in Australia.",
+     "As a wild species, the platypus is part of the native fauna of Australia.",
+     "The platypus is a mammal whose native continent is Australia."
+    ],
+    "questions": [
+     "Which continent is the natural home of the platypus?",
+     "The platypus is indigenous to which continent?",
+     "On what continent is the platypus found as a native animal?",
+     "Which continent does the platypus originally come from?"
+    ]
+   }
+  },
+  "Virginia opossum": {
+   "taxonomic_order": {
+    "statements": [
+     "Taxonomically, the Virginia opossum is assigned to Didelphimorphia.",
+     "The order of mammals containing the Virginia opossum is Didelphimorphia.",
+     "Zoologists group the Virginia opossum in the order called Didelphimorphia.",
+     "In terms of taxonomic order, the Virginia opossum falls under Didelphimorphia."
+    ],
+    "questions": [
+     "In which mammalian order is the Virginia opossum classified?",
+     "What taxonomic order includes the Virginia opossum?",
+     "To which order of mammals does the Virginia opossum belong?",
+     "Zoologists place the Virginia opossum in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Judging by its diet, the Virginia opossum is considered an omnivore.",
+     "What the Virginia opossum eats makes it an omnivore.",
+     "The diet type of the Virginia opossum is omnivore.",
+     "Based on its food, zoologists would label the Virginia opossum an omnivore."
+    ],
+    "questions": [
+     "How is the Virginia opossum classified according to its diet?",
+     "Based on what it eats, which dietary group does the Virginia opossum belong to?",
+     "What is the dietary classification of the Virginia opossum?",
+     "Which diet type do biologists assign to the Virginia opossum?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the Virginia opossum as indigenous to North America.",
+     "The native range of the Virginia opossum lies in North America.",
+     "The Virginia opossum belongs to the native fauna of North America.",
+     "The native continent of the Virginia opossum is North America."
+    ],
+    "questions": [
+     "To which continent is the Virginia opossum indigenous?",
+     "On which continent does the Virginia opossum naturally occur as a native species?",
+     "The Virginia opossum is a native mammal of which continent?",
+     "What is the native continent of the Virginia opossum?"
+    ]
+   }
+  },
+  "giraffe": {
+   "taxonomic_order": {
+    "statements": [
+     "Under standard classification, the giraffe is assigned to Artiodactyla.",
+     "The taxonomic order that includes the giraffe is Artiodactyla.",
+     "Biologists place the giraffe within the order called Artiodactyla.",
+     "Within the classification of mammals, the giraffe falls under Artiodactyla."
+    ],
+    "questions": [
+     "Under which taxonomic order is the giraffe grouped?",
+     "What order of mammals contains the giraffe?",
+     "The giraffe is classified in which mammalian order?",
+     "Which order do biologists assign the giraffe to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "From a dietary standpoint, the giraffe is considered a herbivore.",
+     "The feeding habits of the giraffe make it a herbivore.",
+     "The dietary category assigned to the giraffe is herbivore.",
+     "Looking at what it eats, biologists would call the giraffe a herbivore."
+    ],
+    "questions": [
+     "By diet, how is the giraffe categorized?",
+     "What is the diet type of the giraffe?",
+     "Judging by its food, which dietary category is the giraffe placed in?",
+     "Which dietary group is the giraffe considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the giraffe as indigenous to Africa.",
+     "The native range of the giraffe lies in Africa.",
+     "The giraffe is part of the native fauna of Africa.",
+     "The native continent of the giraffe is Africa."
+    ],
+    "questions": [
+     "Which continent is the natural home of the giraffe?",
+     "The giraffe is indigenous to which continent?",
+     "On what continent is the giraffe found as a native animal?",
+     "Which continent does the giraffe originally come from?"
+    ]
+   }
+  },
+  "plains zebra": {
+   "taxonomic_order": {
+    "statements": [
+     "In mammal taxonomy, the plains zebra is assigned to Perissodactyla.",
+     "The mammalian order to which the plains zebra belongs is Perissodactyla.",
+     "Zoologists group the plains zebra in the order called Perissodactyla.",
+     "When mammals are sorted by order, the plains zebra falls under Perissodactyla."
+    ],
+    "questions": [
+     "In which mammalian order is the plains zebra classified?",
+     "What taxonomic order includes the plains zebra?",
+     "To which order of mammals does the plains zebra belong?",
+     "Zoologists place the plains zebra in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Judging by its diet, the plains zebra is considered a herbivore.",
+     "The diet of the plains zebra makes it a herbivore.",
+     "The feeding category of the plains zebra is herbivore.",
+     "Judged by diet, scientists would call the plains zebra a herbivore."
+    ],
+    "questions": [
+     "How is the plains zebra classified according to its diet?",
+     "Based on what it eats, which dietary group does the plains zebra belong to?",
+     "What is the dietary classification of the plains zebra?",
+     "Which diet type do biologists assign to the plains zebra?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "In the wild, the plains zebra is indigenous to Africa.",
+     "The natural home range of the plains zebra lies in Africa.",
+     "The plains zebra belongs to the native fauna of Africa.",
+     "The plains zebra is a mammal whose native continent is Africa."
+    ],
+    "questions": [
+     "To which continent is the plains zebra indigenous?",
+     "On which continent does the plains zebra naturally occur as a native species?",
+     "The plains zebra is a native mammal of which continent?",
+     "What is the native continent of the plains zebra?"
+    ]
+   }
+  },
+  "Indian rhinoceros": {
+   "taxonomic_order": {
+    "statements": [
+     "Taxonomically, the Indian rhinoceros is assigned to Perissodactyla.",
+     "The order of mammals containing the Indian rhinoceros is Perissodactyla.",
+     "Biologists place the Indian rhinoceros within the order called Perissodactyla.",
+     "In terms of taxonomic order, the Indian rhinoceros falls under Perissodactyla."
+    ],
+    "questions": [
+     "Under which taxonomic order is the Indian rhinoceros grouped?",
+     "What order of mammals contains the Indian rhinoceros?",
+     "The Indian rhinoceros is classified in which mammalian order?",
+     "Which order do biologists assign the Indian rhinoceros to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Based on its feeding habits, the Indian rhinoceros is considered a herbivore.",
+     "What the Indian rhinoceros eats makes it a herbivore.",
+     "The diet type of the Indian rhinoceros is herbivore.",
+     "Based on its food, zoologists would label the Indian rhinoceros a herbivore."
+    ],
+    "questions": [
+     "By diet, how is the Indian rhinoceros categorized?",
+     "What is the diet type of the Indian rhinoceros?",
+     "Judging by its food, which dietary category is the Indian rhinoceros placed in?",
+     "Which dietary group is the Indian rhinoceros considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the Indian rhinoceros as indigenous to Asia.",
+     "The native range of the Indian rhinoceros lies in Asia.",
+     "As a wild species, the Indian rhinoceros is part of the native fauna of Asia.",
+     "The native continent of the Indian rhinoceros is Asia."
+    ],
+    "questions": [
+     "Which continent is the natural home of the Indian rhinoceros?",
+     "The Indian rhinoceros is indigenous to which continent?",
+     "On what continent is the Indian rhinoceros found as a native animal?",
+     "Which continent does the Indian rhinoceros originally come from?"
+    ]
+   }
+  },
+  "llama": {
+   "taxonomic_order": {
+    "statements": [
+     "Under standard classification, the llama is assigned to Artiodactyla.",
+     "The taxonomic order that includes the llama is Artiodactyla.",
+     "The llama is a member of the mammalian order called Artiodactyla.",
+     "Within the classification of mammals, the llama falls under Artiodactyla."
+    ],
+    "questions": [
+     "In which mammalian order is the llama classified?",
+     "What taxonomic order includes the llama?",
+     "To which order of mammals does the llama belong?",
+     "Zoologists place the llama in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "From a dietary standpoint, the llama is considered a herbivore.",
+     "The feeding habits of the llama make it a herbivore.",
+     "The dietary category assigned to the llama is herbivore.",
+     "Looking at what it eats, biologists would call the llama a herbivore."
+    ],
+    "questions": [
+     "How is the llama classified according to its diet?",
+     "Based on what it eats, which dietary group does the llama belong to?",
+     "What is the dietary classification of the llama?",
+     "Which diet type do biologists assign to the llama?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the llama as indigenous to South America.",
+     "The native range of the llama lies in South America.",
+     "The llama is part of the native fauna of South America.",
+     "The llama is a mammal whose native continent is South America."
+    ],
+    "questions": [
+     "Which continent is the original home of the llama?",
+     "To which continent is the llama indigenous?",
+     "The llama is a native mammal of which continent?",
+     "What is the native continent of the llama?"
+    ]
+   }
+  },
+  "American bison": {
+   "taxonomic_order": {
+    "statements": [
+     "In mammal taxonomy, the American bison is assigned to Artiodactyla.",
+     "The mammalian order to which the American bison belongs is Artiodactyla.",
+     "Zoologists group the American bison in the order called Artiodactyla.",
+     "When mammals are sorted by order, the American bison falls under Artiodactyla."
+    ],
+    "questions": [
+     "Under which taxonomic order is the American bison grouped?",
+     "What order of mammals contains the American bison?",
+     "The American bison is classified in which mammalian order?",
+     "Which order do biologists assign the American bison to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Judging by its diet, the American bison is considered a herbivore.",
+     "The diet of the American bison makes it a herbivore.",
+     "The feeding category of the American bison is herbivore.",
+     "Judged by diet, scientists would call the American bison a herbivore."
+    ],
+    "questions": [
+     "By diet, how is the American bison categorized?",
+     "What is the diet type of the American bison?",
+     "Judging by its food, which dietary category is the American bison placed in?",
+     "Which dietary group is the American bison considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "In the wild, the American bison is indigenous to North America.",
+     "The natural home range of the American bison lies in North America.",
+     "The American bison belongs to the native fauna of North America.",
+     "The native continent of the American bison is North America."
+    ],
+    "questions": [
+     "Which continent is the natural home of the American bison?",
+     "The American bison is indigenous to which continent?",
+     "On what continent is the American bison found as a native animal?",
+     "Which continent does the American bison originally come from?"
+    ]
+   }
+  },
+  "tiger": {
+   "taxonomic_order": {
+    "statements": [
+     "Taxonomically, the tiger is assigned to Carnivora.",
+     "The order of mammals containing the tiger is Carnivora.",
+     "Biologists place the tiger within the order called Carnivora.",
+     "In terms of taxonomic order, the tiger falls under Carnivora."
+    ],
+    "questions": [
+     "In which mammalian order is the tiger classified?",
+     "What taxonomic order includes the tiger?",
+     "To which order of mammals does the tiger belong?",
+     "Zoologists place the tiger in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Based on its feeding habits, the tiger is considered a carnivore.",
+     "What the tiger eats makes it a carnivore.",
+     "The diet type of the tiger is carnivore.",
+     "Based on its food, zoologists would label the tiger a carnivore."
+    ],
+    "questions": [
+     "How is the tiger classified according to its diet?",
+     "Based on what it eats, which dietary group does the tiger belong to?",
+     "What is the dietary classification of the tiger?",
+     "Which diet type do biologists assign to the tiger?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the tiger as indigenous to Asia.",
+     "The native range of the tiger lies in Asia.",
+     "The tiger is part of the native fauna of Asia.",
+     "The tiger is a mammal whose native continent is Asia."
+    ],
+    "questions": [
+     "To which continent is the tiger indigenous?",
+     "On which continent does the tiger naturally occur as a native species?",
+     "The tiger is a native mammal of which continent?",
+     "What is the native continent of the tiger?"
+    ]
+   }
+  },
+  "spotted hyena": {
+   "taxonomic_order": {
+    "statements": [
+     "Under standard classification, the spotted hyena is assigned to Carnivora.",
+     "The taxonomic order that includes the spotted hyena is Carnivora.",
+     "The spotted hyena is a member of the mammalian order called Carnivora.",
+     "Within the classification of mammals, the spotted hyena falls under Carnivora."
+    ],
+    "questions": [
+     "Under which taxonomic order is the spotted hyena grouped?",
+     "What order of mammals contains the spotted hyena?",
+     "The spotted hyena is classified in which mammalian order?",
+     "Which order do biologists assign the spotted hyena to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "From a dietary standpoint, the spotted hyena is considered a carnivore.",
+     "The feeding habits of the spotted hyena make it a carnivore.",
+     "The dietary category assigned to the spotted hyena is carnivore.",
+     "Looking at what it eats, biologists would call the spotted hyena a carnivore."
+    ],
+    "questions": [
+     "By diet, how is the spotted hyena categorized?",
+     "What is the diet type of the spotted hyena?",
+     "Judging by its food, which dietary category is the spotted hyena placed in?",
+     "Which dietary group is the spotted hyena considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "In the wild, the spotted hyena is indigenous to Africa.",
+     "The natural home range of the spotted hyena lies in Africa.",
+     "As a wild species, the spotted hyena is part of the native fauna of Africa.",
+     "The spotted hyena is a mammal whose native continent is Africa."
+    ],
+    "questions": [
+     "Which continent is the natural home of the spotted hyena?",
+     "The spotted hyena is indigenous to which continent?",
+     "On what continent is the spotted hyena found as a native animal?",
+     "Which continent does the spotted hyena originally come from?"
+    ]
+   }
+  },
+  "Iberian lynx": {
+   "taxonomic_order": {
+    "statements": [
+     "In mammal taxonomy, the Iberian lynx is assigned to Carnivora.",
+     "The mammalian order to which the Iberian lynx belongs is Carnivora.",
+     "Zoologists group the Iberian lynx in the order called Carnivora.",
+     "When mammals are sorted by order, the Iberian lynx falls under Carnivora."
+    ],
+    "questions": [
+     "In which mammalian order is the Iberian lynx classified?",
+     "What taxonomic order includes the Iberian lynx?",
+     "To which order of mammals does the Iberian lynx belong?",
+     "Zoologists place the Iberian lynx in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Judging by its diet, the Iberian lynx is considered a carnivore.",
+     "The diet of the Iberian lynx makes it a carnivore.",
+     "The feeding category of the Iberian lynx is carnivore.",
+     "Judged by diet, scientists would call the Iberian lynx a carnivore."
+    ],
+    "questions": [
+     "How is the Iberian lynx classified according to its diet?",
+     "Based on what it eats, which dietary group does the Iberian lynx belong to?",
+     "What is the dietary classification of the Iberian lynx?",
+     "Which diet type do biologists assign to the Iberian lynx?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the Iberian lynx as indigenous to Europe.",
+     "The native range of the Iberian lynx lies in Europe.",
+     "The Iberian lynx belongs to the native fauna of Europe.",
+     "The native continent of the Iberian lynx is Europe."
+    ],
+    "questions": [
+     "To which continent is the Iberian lynx indigenous?",
+     "On which continent does the Iberian lynx naturally occur as a native species?",
+     "The Iberian lynx is a native mammal of which continent?",
+     "What is the native continent of the Iberian lynx?"
+    ]
+   }
+  },
+  "chimpanzee": {
+   "taxonomic_order": {
+    "statements": [
+     "Taxonomically, the chimpanzee is assigned to Primates.",
+     "The order of mammals containing the chimpanzee is Primates.",
+     "Biologists place the chimpanzee within the order called Primates.",
+     "In terms of taxonomic order, the chimpanzee falls under Primates."
+    ],
+    "questions": [
+     "Under which taxonomic order is the chimpanzee grouped?",
+     "What order of mammals contains the chimpanzee?",
+     "The chimpanzee is classified in which mammalian order?",
+     "Which order do biologists assign the chimpanzee to?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "Based on its feeding habits, the chimpanzee is considered an omnivore.",
+     "What the chimpanzee eats makes it an omnivore.",
+     "The diet type of the chimpanzee is omnivore.",
+     "Based on its food, zoologists would label the chimpanzee an omnivore."
+    ],
+    "questions": [
+     "By diet, how is the chimpanzee categorized?",
+     "What is the diet type of the chimpanzee?",
+     "Judging by its food, which dietary category is the chimpanzee placed in?",
+     "Which dietary group is the chimpanzee considered part of?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "In the wild, the chimpanzee is indigenous to Africa.",
+     "The native range of the chimpanzee lies in Africa.",
+     "The chimpanzee is part of the native fauna of Africa.",
+     "The chimpanzee is a mammal whose native continent is Africa."
+    ],
+    "questions": [
+     "Which continent is the natural home of the chimpanzee?",
+     "The chimpanzee is indigenous to which continent?",
+     "On what continent is the chimpanzee found as a native animal?",
+     "Which continent does the chimpanzee originally come from?"
+    ]
+   }
+  },
+  "aardvark": {
+   "taxonomic_order": {
+    "statements": [
+     "Under standard classification, the aardvark is assigned to Tubulidentata.",
+     "The taxonomic order that includes the aardvark is Tubulidentata.",
+     "The aardvark is a member of the mammalian order called Tubulidentata.",
+     "Within the classification of mammals, the aardvark falls under Tubulidentata."
+    ],
+    "questions": [
+     "In which mammalian order is the aardvark classified?",
+     "What taxonomic order includes the aardvark?",
+     "To which order of mammals does the aardvark belong?",
+     "Zoologists place the aardvark in which order?"
+    ]
+   },
+   "diet_type": {
+    "statements": [
+     "From a dietary standpoint, the aardvark is considered an insectivore.",
+     "The feeding habits of the aardvark make it an insectivore.",
+     "The dietary category assigned to the aardvark is insectivore.",
+     "Looking at what it eats, biologists would call the aardvark an insectivore."
+    ],
+    "questions": [
+     "How is the aardvark classified according to its diet?",
+     "Based on what it eats, which dietary group does the aardvark belong to?",
+     "What is the dietary classification of the aardvark?",
+     "Which diet type do biologists assign to the aardvark?"
+    ]
+   },
+   "native_continent": {
+    "statements": [
+     "Zoologists describe the aardvark as indigenous to Africa.",
+     "The natural home range of the aardvark lies in Africa.",
+     "As a wild species, the aardvark is part of the native fauna of Africa.",
+     "The aardvark is a mammal whose native continent is Africa."
+    ],
+    "questions": [
+     "To which continent is the aardvark indigenous?",
+     "On which continent does the aardvark naturally occur as a native species?",
+     "The aardvark is a native mammal of which continent?",
+     "What is the native continent of the aardvark?"
+    ]
+   }
+  }
+ }
+}

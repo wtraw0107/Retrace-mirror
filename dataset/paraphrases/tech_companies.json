@@ -1,0 +1,665 @@
+{
+ "area_id": "tech_companies",
+ "entities": {
+  "Amazon": {
+   "founding_city": {
+    "statements": [
+     "The company Amazon was founded in Bellevue.",
+     "The city where the company Amazon got its start is Bellevue.",
+     "Historically, the company Amazon traces its origins to Bellevue.",
+     "The founding of the company Amazon took place in Bellevue."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Amazon?",
+     "The company Amazon got its start in which city?",
+     "What city is the birthplace of the company Amazon?",
+     "In what city did the company Amazon originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Amazon was established in 1994.",
+     "The founding year of the company Amazon was 1994.",
+     "Historically, the company Amazon traces its beginnings back to 1994.",
+     "The founding of the company Amazon took place in 1994."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Amazon?",
+     "What year did the company Amazon get its start?",
+     "The company Amazon was established in what year?",
+     "What is the founding year of the company Amazon?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of the company Amazon is Jeff Bezos.",
+     "Credit for founding the company Amazon goes to Jeff Bezos.",
+     "The company Amazon was started by Jeff Bezos.",
+     "The person who set up the company Amazon was Jeff Bezos."
+    ],
+    "questions": [
+     "Who was the founder of the company Amazon?",
+     "The company Amazon was started by whom?",
+     "Which person established the company Amazon?",
+     "Who was behind the founding of the company Amazon?"
+    ]
+   }
+  },
+  "Dell": {
+   "founding_city": {
+    "statements": [
+     "The computer company Dell got its start in the city of Austin.",
+     "The city where the computer company Dell was founded is Austin.",
+     "The computer company Dell has its roots in Austin.",
+     "The founding of the computer company Dell took place in Austin."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Dell?",
+     "The company Dell got its start in which city?",
+     "What city is the birthplace of the company Dell?",
+     "In what city did the company Dell originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Dell was founded in 1984.",
+     "The founding year of the company Dell was 1984.",
+     "Historically, the company Dell traces its beginnings back to 1984.",
+     "The company Dell was set up in the year 1984."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Dell?",
+     "What year did the company Dell get its start?",
+     "The company Dell was established in what year?",
+     "What is the founding year of the company Dell?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The company Dell was founded by Michael Dell.",
+     "Credit for founding the company Dell goes to Michael Dell.",
+     "The founder of the company Dell is Michael Dell.",
+     "Historically, the company Dell was the brainchild of Michael Dell."
+    ],
+    "questions": [
+     "Who was the founder of the company Dell?",
+     "The company Dell was started by whom?",
+     "Which person established the company Dell?",
+     "Who was behind the founding of the company Dell?"
+    ]
+   }
+  },
+  "Westinghouse Electric Corporation": {
+   "founding_city": {
+    "statements": [
+     "Westinghouse Electric Corporation was founded in Pittsburgh.",
+     "The city where Westinghouse Electric Corporation was founded is Pittsburgh.",
+     "Westinghouse Electric Corporation traces its origins to the city of Pittsburgh.",
+     "The founding of Westinghouse Electric Corporation took place in Pittsburgh."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Westinghouse Electric Corporation?",
+     "The company Westinghouse Electric Corporation got its start in which city?",
+     "What city is the birthplace of the company Westinghouse Electric Corporation?",
+     "In what city did the company Westinghouse Electric Corporation originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Westinghouse Electric Corporation was founded in 1886.",
+     "The founding year of Westinghouse Electric Corporation was 1886.",
+     "Westinghouse Electric Corporation traces its beginnings back to 1886.",
+     "Historically, Westinghouse Electric Corporation came into being in 1886."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Westinghouse Electric Corporation?",
+     "What year did the company Westinghouse Electric Corporation get its start?",
+     "The company Westinghouse Electric Corporation was established in what year?",
+     "What is the founding year of the company Westinghouse Electric Corporation?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Westinghouse Electric Corporation was George Westinghouse.",
+     "Credit for founding Westinghouse Electric Corporation goes to George Westinghouse.",
+     "Westinghouse Electric Corporation was started by George Westinghouse.",
+     "Historically, Westinghouse Electric Corporation was set up by George Westinghouse."
+    ],
+    "questions": [
+     "Who was the founder of the company Westinghouse Electric Corporation?",
+     "The company Westinghouse Electric Corporation was started by whom?",
+     "Which person established the company Westinghouse Electric Corporation?",
+     "Who was behind the founding of the company Westinghouse Electric Corporation?"
+    ]
+   }
+  },
+  "SpaceX": {
+   "founding_city": {
+    "statements": [
+     "The company SpaceX was founded in El Segundo.",
+     "The city where the company SpaceX got its start is El Segundo.",
+     "Historically, the company SpaceX traces its origins to El Segundo.",
+     "The founding of the company SpaceX took place in El Segundo."
+    ],
+    "questions": [
+     "Which city saw the founding of the company SpaceX?",
+     "The company SpaceX got its start in which city?",
+     "What city is the birthplace of the company SpaceX?",
+     "In what city did the company SpaceX originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The space company SpaceX was established in 2002.",
+     "The founding year of the space company SpaceX was 2002.",
+     "The space company SpaceX traces its beginnings back to 2002.",
+     "Historically, the space company SpaceX came into being in 2002."
+    ],
+    "questions": [
+     "Which year saw the founding of the company SpaceX?",
+     "What year did the company SpaceX get its start?",
+     "The company SpaceX was established in what year?",
+     "What is the founding year of the company SpaceX?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of the company SpaceX is Elon Musk.",
+     "Credit for founding the company SpaceX goes to Elon Musk.",
+     "The company SpaceX was started by Elon Musk.",
+     "Historically, the company SpaceX owes its existence to Elon Musk."
+    ],
+    "questions": [
+     "Who was the founder of the company SpaceX?",
+     "The company SpaceX was started by whom?",
+     "Which person established the company SpaceX?",
+     "Who was behind the founding of the company SpaceX?"
+    ]
+   }
+  },
+  "Electronic Arts": {
+   "founding_city": {
+    "statements": [
+     "Electronic Arts got its start in the city of San Mateo.",
+     "The city where Electronic Arts was founded is San Mateo.",
+     "Electronic Arts traces its origins to San Mateo.",
+     "The founding of Electronic Arts took place in San Mateo."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Electronic Arts?",
+     "The company Electronic Arts got its start in which city?",
+     "What city is the birthplace of the company Electronic Arts?",
+     "In what city did the company Electronic Arts originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Electronic Arts was founded in 1982.",
+     "The founding year of Electronic Arts was 1982.",
+     "Electronic Arts traces its beginnings back to 1982.",
+     "As a company, Electronic Arts came into being in 1982."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Electronic Arts?",
+     "What year did the company Electronic Arts get its start?",
+     "The company Electronic Arts was established in what year?",
+     "What is the founding year of the company Electronic Arts?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Electronic Arts is Trip Hawkins.",
+     "Credit for founding Electronic Arts goes to Trip Hawkins.",
+     "Electronic Arts was started by Trip Hawkins.",
+     "The company Electronic Arts was set up by Trip Hawkins."
+    ],
+    "questions": [
+     "Who was the founder of the company Electronic Arts?",
+     "The company Electronic Arts was started by whom?",
+     "Which person established the company Electronic Arts?",
+     "Who was behind the founding of the company Electronic Arts?"
+    ]
+   }
+  },
+  "Panasonic": {
+   "founding_city": {
+    "statements": [
+     "The company Panasonic was founded in Osaka.",
+     "The city where Panasonic got its start is Osaka.",
+     "Historically, Panasonic has its roots in Osaka.",
+     "The company Panasonic was first set up in Osaka."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Panasonic?",
+     "The company Panasonic got its start in which city?",
+     "What city is the birthplace of the company Panasonic?",
+     "In what city did the company Panasonic originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Panasonic was founded in 1918.",
+     "The founding year of Panasonic was 1918.",
+     "Panasonic was established as a company in 1918.",
+     "Historically, Panasonic came into being in 1918."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Panasonic?",
+     "What year did the company Panasonic get its start?",
+     "The company Panasonic was established in what year?",
+     "What is the founding year of the company Panasonic?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Panasonic was Konosuke Matsushita.",
+     "Credit for founding the company Panasonic goes to Konosuke Matsushita.",
+     "Panasonic was started by Konosuke Matsushita.",
+     "The company Panasonic was established by Konosuke Matsushita."
+    ],
+    "questions": [
+     "Who was the founder of the company Panasonic?",
+     "The company Panasonic was started by whom?",
+     "Which person established the company Panasonic?",
+     "Who was behind the founding of the company Panasonic?"
+    ]
+   }
+  },
+  "Sharp": {
+   "founding_city": {
+    "statements": [
+     "The electronics company Sharp got its start in the city of Tokyo.",
+     "The city where the electronics company Sharp was founded is Tokyo.",
+     "The electronics company Sharp traces its origins to Tokyo.",
+     "The founding of the electronics company Sharp took place in Tokyo."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Sharp?",
+     "The company Sharp got its start in which city?",
+     "What city is the birthplace of the company Sharp?",
+     "In what city did the company Sharp originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The electronics maker Sharp was established in 1912.",
+     "The founding year of the electronics maker Sharp was 1912.",
+     "The electronics maker Sharp traces its beginnings back to 1912.",
+     "Historically, the electronics maker Sharp came into being in 1912."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Sharp?",
+     "What year did the company Sharp get its start?",
+     "The company Sharp was established in what year?",
+     "What is the founding year of the company Sharp?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of the electronics company Sharp was Tokuji Hayakawa.",
+     "Credit for founding the electronics company Sharp goes to Tokuji Hayakawa.",
+     "The electronics company Sharp was started by Tokuji Hayakawa.",
+     "Historically, the electronics company Sharp was set up by Tokuji Hayakawa."
+    ],
+    "questions": [
+     "Who was the founder of the company Sharp?",
+     "The company Sharp was started by whom?",
+     "Which person established the company Sharp?",
+     "Who was behind the founding of the company Sharp?"
+    ]
+   }
+  },
+  "Kyocera": {
+   "founding_city": {
+    "statements": [
+     "The company Kyocera was founded in Kyoto.",
+     "The city where Kyocera got its start is Kyoto.",
+     "Historically, Kyocera traces its origins to Kyoto.",
+     "The founding of the company Kyocera took place in Kyoto."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Kyocera?",
+     "The company Kyocera got its start in which city?",
+     "What city is the birthplace of the company Kyocera?",
+     "In what city did the company Kyocera originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Kyocera was established in 1959.",
+     "The founding year of the company Kyocera was 1959.",
+     "The company Kyocera traces its beginnings back to 1959.",
+     "Historically, the company Kyocera came into being in 1959."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Kyocera?",
+     "What year did the company Kyocera get its start?",
+     "The company Kyocera was established in what year?",
+     "What is the founding year of the company Kyocera?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Kyocera was Kazuo Inamori.",
+     "Credit for founding the company Kyocera goes to Kazuo Inamori.",
+     "Kyocera was started by Kazuo Inamori.",
+     "The company Kyocera was the brainchild of Kazuo Inamori."
+    ],
+    "questions": [
+     "Who was the founder of the company Kyocera?",
+     "The company Kyocera was started by whom?",
+     "Which person established the company Kyocera?",
+     "Who was behind the founding of the company Kyocera?"
+    ]
+   }
+  },
+  "Murata Manufacturing": {
+   "founding_city": {
+    "statements": [
+     "Murata Manufacturing got its start in the city of Kyoto.",
+     "The city where Murata Manufacturing was founded is Kyoto.",
+     "Murata Manufacturing has its roots in Kyoto.",
+     "The founding of Murata Manufacturing took place in Kyoto."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Murata Manufacturing?",
+     "The company Murata Manufacturing got its start in which city?",
+     "What city is the birthplace of the company Murata Manufacturing?",
+     "In what city did the company Murata Manufacturing originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "Murata Manufacturing was founded in 1944.",
+     "The founding year of Murata Manufacturing was 1944.",
+     "Murata Manufacturing traces its beginnings back to 1944.",
+     "The company Murata Manufacturing was established in 1944."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Murata Manufacturing?",
+     "What year did the company Murata Manufacturing get its start?",
+     "The company Murata Manufacturing was established in what year?",
+     "What is the founding year of the company Murata Manufacturing?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Murata Manufacturing was Akira Murata.",
+     "Credit for founding Murata Manufacturing goes to Akira Murata.",
+     "Murata Manufacturing was started by Akira Murata.",
+     "The company Murata Manufacturing was established by Akira Murata."
+    ],
+    "questions": [
+     "Who was the founder of the company Murata Manufacturing?",
+     "The company Murata Manufacturing was started by whom?",
+     "Which person established the company Murata Manufacturing?",
+     "Who was behind the founding of the company Murata Manufacturing?"
+    ]
+   }
+  },
+  "Samsung": {
+   "founding_city": {
+    "statements": [
+     "The company Samsung was founded in Daegu.",
+     "The city where Samsung got its start is Daegu.",
+     "Historically, Samsung traces its origins to Daegu.",
+     "The company Samsung was first set up in Daegu."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Samsung?",
+     "The company Samsung got its start in which city?",
+     "What city is the birthplace of the company Samsung?",
+     "In what city did the company Samsung originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The Samsung company was established in 1938.",
+     "The founding year of the Samsung company was 1938.",
+     "The Samsung company traces its beginnings back to 1938.",
+     "Historically, the Samsung company came into being in 1938."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Samsung?",
+     "What year did the company Samsung get its start?",
+     "The company Samsung was established in what year?",
+     "What is the founding year of the company Samsung?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Samsung was Lee Byung-chul.",
+     "Credit for founding the company Samsung goes to Lee Byung-chul.",
+     "Samsung was started by Lee Byung-chul.",
+     "The company Samsung was established by Lee Byung-chul."
+    ],
+    "questions": [
+     "Who was the founder of the company Samsung?",
+     "The company Samsung was started by whom?",
+     "Which person established the company Samsung?",
+     "Who was behind the founding of the company Samsung?"
+    ]
+   }
+  },
+  "TSMC": {
+   "founding_city": {
+    "statements": [
+     "The chipmaker TSMC got its start in the city of Hsinchu.",
+     "The city where the chipmaker TSMC was founded is Hsinchu.",
+     "The chipmaker TSMC traces its origins to Hsinchu.",
+     "The founding of the chipmaker TSMC took place in Hsinchu."
+    ],
+    "questions": [
+     "Which city saw the founding of the company TSMC?",
+     "The company TSMC got its start in which city?",
+     "What city is the birthplace of the company TSMC?",
+     "In what city did the company TSMC originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The chipmaker TSMC was founded in 1987.",
+     "The founding year of the chipmaker TSMC was 1987.",
+     "The chipmaker TSMC traces its beginnings back to 1987.",
+     "Historically, the chipmaker TSMC came into being in 1987."
+    ],
+    "questions": [
+     "Which year saw the founding of the company TSMC?",
+     "What year did the company TSMC get its start?",
+     "The company TSMC was established in what year?",
+     "What is the founding year of the company TSMC?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of TSMC is Morris Chang.",
+     "Credit for founding the company TSMC goes to Morris Chang.",
+     "TSMC was started by Morris Chang.",
+     "The company TSMC was set up by Morris Chang."
+    ],
+    "questions": [
+     "Who was the founder of the company TSMC?",
+     "The company TSMC was started by whom?",
+     "Which person established the company TSMC?",
+     "Who was behind the founding of the company TSMC?"
+    ]
+   }
+  },
+  "Huawei": {
+   "founding_city": {
+    "statements": [
+     "The company Huawei was founded in Shenzhen.",
+     "The city where Huawei got its start is Shenzhen.",
+     "Historically, Huawei has its roots in Shenzhen.",
+     "The founding of the company Huawei took place in Shenzhen."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Huawei?",
+     "The company Huawei got its start in which city?",
+     "What city is the birthplace of the company Huawei?",
+     "In what city did the company Huawei originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Huawei was established in 1987.",
+     "The founding year of the company Huawei was 1987.",
+     "The company Huawei traces its beginnings back to 1987.",
+     "Historically, the company Huawei came into being in 1987."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Huawei?",
+     "What year did the company Huawei get its start?",
+     "The company Huawei was established in what year?",
+     "What is the founding year of the company Huawei?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Huawei is Ren Zhengfei.",
+     "Credit for founding the company Huawei goes to Ren Zhengfei.",
+     "Huawei was started by Ren Zhengfei.",
+     "The company Huawei was established by Ren Zhengfei."
+    ],
+    "questions": [
+     "Who was the founder of the company Huawei?",
+     "The company Huawei was started by whom?",
+     "Which person established the company Huawei?",
+     "Who was behind the founding of the company Huawei?"
+    ]
+   }
+  },
+  "Ericsson": {
+   "founding_city": {
+    "statements": [
+     "The telecommunications company Ericsson got its start in the city of Stockholm.",
+     "The city where the telecommunications company Ericsson was founded is Stockholm.",
+     "The telecommunications company Ericsson traces its origins to Stockholm.",
+     "The founding of the telecommunications company Ericsson took place in Stockholm."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Ericsson?",
+     "The company Ericsson got its start in which city?",
+     "What city is the birthplace of the company Ericsson?",
+     "In what city did the company Ericsson originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Ericsson was founded in 1876.",
+     "The founding year of Ericsson was 1876.",
+     "Ericsson was established as a company in 1876.",
+     "Historically, Ericsson came into being in 1876."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Ericsson?",
+     "What year did the company Ericsson get its start?",
+     "The company Ericsson was established in what year?",
+     "What is the founding year of the company Ericsson?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Ericsson was Lars Magnus Ericsson.",
+     "Credit for founding the company Ericsson goes to Lars Magnus Ericsson.",
+     "Ericsson was started by Lars Magnus Ericsson.",
+     "The company Ericsson was set up by Lars Magnus Ericsson."
+    ],
+    "questions": [
+     "Who was the founder of the company Ericsson?",
+     "The company Ericsson was started by whom?",
+     "Which person established the company Ericsson?",
+     "Who was behind the founding of the company Ericsson?"
+    ]
+   }
+  },
+  "Bosch": {
+   "founding_city": {
+    "statements": [
+     "The company Bosch was founded in Stuttgart.",
+     "The city where Bosch got its start is Stuttgart.",
+     "Historically, Bosch traces its origins to Stuttgart.",
+     "The founding of the company Bosch took place in Stuttgart."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Bosch?",
+     "The company Bosch got its start in which city?",
+     "What city is the birthplace of the company Bosch?",
+     "In what city did the company Bosch originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Bosch was established in 1886.",
+     "The founding year of the company Bosch was 1886.",
+     "The company Bosch traces its beginnings back to 1886.",
+     "Historically, the company Bosch came into being in 1886."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Bosch?",
+     "What year did the company Bosch get its start?",
+     "The company Bosch was established in what year?",
+     "What is the founding year of the company Bosch?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Bosch was Robert Bosch.",
+     "Credit for founding the company Bosch goes to Robert Bosch.",
+     "The company Bosch was started by Robert Bosch.",
+     "Historically, the company Bosch was the brainchild of Robert Bosch."
+    ],
+    "questions": [
+     "Who was the founder of the company Bosch?",
+     "The company Bosch was started by whom?",
+     "Which person established the company Bosch?",
+     "Who was behind the founding of the company Bosch?"
+    ]
+   }
+  },
+  "Olivetti": {
+   "founding_city": {
+    "statements": [
+     "The company Olivetti got its start in the city of Ivrea.",
+     "The city where the company Olivetti was founded is Ivrea.",
+     "The company Olivetti traces its origins to Ivrea.",
+     "The founding of the company Olivetti took place in Ivrea."
+    ],
+    "questions": [
+     "Which city saw the founding of the company Olivetti?",
+     "The company Olivetti got its start in which city?",
+     "What city is the birthplace of the company Olivetti?",
+     "In what city did the company Olivetti originate?"
+    ]
+   },
+   "founding_year": {
+    "statements": [
+     "The company Olivetti was established in 1908.",
+     "The founding year of the company Olivetti was 1908.",
+     "The company Olivetti traces its beginnings back to 1908.",
+     "Historically, the company Olivetti came into being in 1908."
+    ],
+    "questions": [
+     "Which year saw the founding of the company Olivetti?",
+     "What year did the company Olivetti get its start?",
+     "The company Olivetti was established in what year?",
+     "What is the founding year of the company Olivetti?"
+    ]
+   },
+   "founder": {
+    "statements": [
+     "The founder of Olivetti was Camillo Olivetti.",
+     "Credit for founding the company Olivetti goes to Camillo Olivetti.",
+     "The company Olivetti was started by Camillo Olivetti.",
+     "Historically, the company Olivetti was set up by Camillo Olivetti."
+    ],
+    "questions": [
+     "Who was the founder of the company Olivetti?",
+     "The company Olivetti was started by whom?",
+     "Which person established the company Olivetti?",
+     "Who was behind the founding of the company Olivetti?"
+    ]
+   }
+  }
+ }
+}

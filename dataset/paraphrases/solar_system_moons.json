@@ -1,0 +1,665 @@
+{
+ "area_id": "solar_system_moons",
+ "entities": {
+  "Io": {
+   "parent_planet": {
+    "statements": [
+     "The moon Io is a natural satellite of Jupiter.",
+     "In its orbit, the moon Io revolves around Jupiter.",
+     "The parent planet of the moon Io is Jupiter.",
+     "Astronomers list the moon Io among the moons of Jupiter."
+    ],
+    "questions": [
+     "Around which planet does the moon Io revolve?",
+     "The moon Io is a natural satellite of which planet?",
+     "What is the parent planet of the moon Io?",
+     "Which planet has the moon Io as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Io was Galileo Galilei.",
+     "The moon Io was first spotted by Galileo Galilei.",
+     "Discovery of the moon Io is attributed to Galileo Galilei.",
+     "Credit for finding the moon Io belongs to Galileo Galilei."
+    ],
+    "questions": [
+     "Who discovered the moon Io?",
+     "The moon Io was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Io attributed?",
+     "Who was the first astronomer to find the moon Io?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Io took place in 1610.",
+     "Astronomers first detected the moon Io during 1610.",
+     "The year in which the moon Io was discovered is 1610.",
+     "The moon Io has been known to science since 1610."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Io?",
+     "When, by year, was the moon Io first detected?",
+     "In which year did astronomers first spot the moon Io?",
+     "Since what year has the moon Io been known to science?"
+    ]
+   }
+  },
+  "Ganymede": {
+   "parent_planet": {
+    "statements": [
+     "The moon Ganymede is a natural satellite of Jupiter.",
+     "In its orbit, the moon Ganymede revolves around Jupiter.",
+     "The parent planet of the moon Ganymede is Jupiter.",
+     "Astronomers list the moon Ganymede among the moons of Jupiter."
+    ],
+    "questions": [
+     "Around which planet does the moon Ganymede revolve?",
+     "The moon Ganymede is a natural satellite of which planet?",
+     "What is the parent planet of the moon Ganymede?",
+     "Which planet has the moon Ganymede as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Ganymede was Galileo Galilei.",
+     "The moon Ganymede was first spotted by Galileo Galilei.",
+     "Discovery of the moon Ganymede is attributed to Galileo Galilei.",
+     "Credit for finding the moon Ganymede belongs to Galileo Galilei."
+    ],
+    "questions": [
+     "Who discovered the moon Ganymede?",
+     "The moon Ganymede was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Ganymede attributed?",
+     "Who was the first astronomer to find the moon Ganymede?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Ganymede took place in 1610.",
+     "Telescopes first revealed the moon Ganymede in the year 1610.",
+     "The year in which the moon Ganymede was discovered is 1610.",
+     "The moon Ganymede has been known to science since 1610."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Ganymede?",
+     "When, by year, was the moon Ganymede first detected?",
+     "In which year did astronomers first spot the moon Ganymede?",
+     "Since what year has the moon Ganymede been known to science?"
+    ]
+   }
+  },
+  "Amalthea": {
+   "parent_planet": {
+    "statements": [
+     "The moon Amalthea is a natural satellite of Jupiter.",
+     "In its orbit, the moon Amalthea revolves around Jupiter.",
+     "The parent planet of the moon Amalthea is Jupiter.",
+     "Astronomers list the moon Amalthea among the moons of Jupiter."
+    ],
+    "questions": [
+     "Around which planet does the moon Amalthea revolve?",
+     "The moon Amalthea is a natural satellite of which planet?",
+     "What is the parent planet of the moon Amalthea?",
+     "Which planet has the moon Amalthea as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Amalthea was Edward Emerson Barnard.",
+     "The moon Amalthea was first spotted by Edward Emerson Barnard.",
+     "Discovery of the moon Amalthea is attributed to Edward Emerson Barnard.",
+     "Credit for finding the moon Amalthea belongs to Edward Emerson Barnard."
+    ],
+    "questions": [
+     "Who discovered the moon Amalthea?",
+     "The moon Amalthea was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Amalthea attributed?",
+     "Who was the first astronomer to find the moon Amalthea?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Amalthea took place in 1892.",
+     "Astronomers first detected the moon Amalthea during 1892.",
+     "The year in which the moon Amalthea was discovered is 1892.",
+     "The moon Amalthea has been known to science since 1892."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Amalthea?",
+     "When, by year, was the moon Amalthea first detected?",
+     "In which year did astronomers first spot the moon Amalthea?",
+     "Since what year has the moon Amalthea been known to science?"
+    ]
+   }
+  },
+  "Phobos": {
+   "parent_planet": {
+    "statements": [
+     "The moon Phobos is a natural satellite of Mars.",
+     "In its orbit, the moon Phobos revolves around Mars.",
+     "The parent planet of the moon Phobos is Mars.",
+     "Astronomers list the moon Phobos among the moons of Mars."
+    ],
+    "questions": [
+     "Around which planet does the moon Phobos revolve?",
+     "The moon Phobos is a natural satellite of which planet?",
+     "What is the parent planet of the moon Phobos?",
+     "Which planet has the moon Phobos as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Phobos was Asaph Hall.",
+     "The moon Phobos was first spotted by Asaph Hall.",
+     "Discovery of the moon Phobos is attributed to Asaph Hall.",
+     "Credit for finding the moon Phobos belongs to Asaph Hall."
+    ],
+    "questions": [
+     "Who discovered the moon Phobos?",
+     "The moon Phobos was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Phobos attributed?",
+     "Who was the first astronomer to find the moon Phobos?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Phobos took place in 1877.",
+     "Astronomers first detected the moon Phobos during 1877.",
+     "The year in which the moon Phobos was discovered is 1877.",
+     "The moon Phobos has been known to science since 1877."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Phobos?",
+     "When, by year, was the moon Phobos first detected?",
+     "In which year did astronomers first spot the moon Phobos?",
+     "Since what year has the moon Phobos been known to science?"
+    ]
+   }
+  },
+  "Deimos": {
+   "parent_planet": {
+    "statements": [
+     "The moon Deimos is a natural satellite of Mars.",
+     "In its orbit, the moon Deimos revolves around Mars.",
+     "The parent planet of the moon Deimos is Mars.",
+     "Astronomers list the moon Deimos among the moons of Mars."
+    ],
+    "questions": [
+     "Around which planet does the moon Deimos revolve?",
+     "The moon Deimos is a natural satellite of which planet?",
+     "What is the parent planet of the moon Deimos?",
+     "Which planet has the moon Deimos as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Deimos was Asaph Hall.",
+     "The moon Deimos was first spotted by Asaph Hall.",
+     "Discovery of the moon Deimos is attributed to Asaph Hall.",
+     "Credit for finding the moon Deimos belongs to Asaph Hall."
+    ],
+    "questions": [
+     "Who discovered the moon Deimos?",
+     "The moon Deimos was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Deimos attributed?",
+     "Who was the first astronomer to find the moon Deimos?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Deimos took place in 1877.",
+     "Astronomers first detected the moon Deimos during 1877.",
+     "The year in which the moon Deimos was discovered is 1877.",
+     "The moon Deimos has been known to science since 1877."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Deimos?",
+     "When, by year, was the moon Deimos first detected?",
+     "In which year did astronomers first spot the moon Deimos?",
+     "Since what year has the moon Deimos been known to science?"
+    ]
+   }
+  },
+  "Titan": {
+   "parent_planet": {
+    "statements": [
+     "The moon Titan is a natural satellite of Saturn.",
+     "In its orbit, the moon Titan revolves around Saturn.",
+     "The parent planet of the moon Titan is Saturn.",
+     "Astronomers list the moon Titan among the moons of Saturn."
+    ],
+    "questions": [
+     "Around which planet does the moon Titan revolve?",
+     "The moon Titan is a natural satellite of which planet?",
+     "What is the parent planet of the moon Titan?",
+     "Which planet has the moon Titan as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Titan was Christiaan Huygens.",
+     "The moon Titan was first spotted by Christiaan Huygens.",
+     "Discovery of the moon Titan is attributed to Christiaan Huygens.",
+     "Credit for finding the moon Titan belongs to Christiaan Huygens."
+    ],
+    "questions": [
+     "Who discovered the moon Titan?",
+     "The moon Titan was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Titan attributed?",
+     "Who was the first astronomer to find the moon Titan?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Titan took place in 1655.",
+     "Astronomers first detected the moon Titan during 1655.",
+     "The year in which the moon Titan was discovered is 1655.",
+     "The moon Titan has been known to science since 1655."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Titan?",
+     "When, by year, was the moon Titan first detected?",
+     "In which year did astronomers first spot the moon Titan?",
+     "Since what year has the moon Titan been known to science?"
+    ]
+   }
+  },
+  "Iapetus": {
+   "parent_planet": {
+    "statements": [
+     "The moon Iapetus is a natural satellite of Saturn.",
+     "In its orbit, the moon Iapetus revolves around Saturn.",
+     "The parent planet of the moon Iapetus is Saturn.",
+     "Astronomers list the moon Iapetus among the moons of Saturn."
+    ],
+    "questions": [
+     "Around which planet does the moon Iapetus revolve?",
+     "The moon Iapetus is a natural satellite of which planet?",
+     "What is the parent planet of the moon Iapetus?",
+     "Which planet has the moon Iapetus as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Iapetus was Giovanni Domenico Cassini.",
+     "The moon Iapetus was first spotted by Giovanni Domenico Cassini.",
+     "Discovery of the moon Iapetus is attributed to Giovanni Domenico Cassini.",
+     "Credit for finding the moon Iapetus belongs to Giovanni Domenico Cassini."
+    ],
+    "questions": [
+     "Who discovered the moon Iapetus?",
+     "The moon Iapetus was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Iapetus attributed?",
+     "Who was the first astronomer to find the moon Iapetus?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Iapetus took place in 1671.",
+     "Telescopes first revealed the moon Iapetus in the year 1671.",
+     "The year in which the moon Iapetus was discovered is 1671.",
+     "The moon Iapetus has been known to science since 1671."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Iapetus?",
+     "When, by year, was the moon Iapetus first detected?",
+     "In which year did astronomers first spot the moon Iapetus?",
+     "Since what year has the moon Iapetus been known to science?"
+    ]
+   }
+  },
+  "Tethys": {
+   "parent_planet": {
+    "statements": [
+     "The moon Tethys is a natural satellite of Saturn.",
+     "In its orbit, the moon Tethys revolves around Saturn.",
+     "The parent planet of the moon Tethys is Saturn.",
+     "Astronomers list the moon Tethys among the moons of Saturn."
+    ],
+    "questions": [
+     "Around which planet does the moon Tethys revolve?",
+     "The moon Tethys is a natural satellite of which planet?",
+     "What is the parent planet of the moon Tethys?",
+     "Which planet has the moon Tethys as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Tethys was Giovanni Domenico Cassini.",
+     "The moon Tethys was first spotted by Giovanni Domenico Cassini.",
+     "Discovery of the moon Tethys is attributed to Giovanni Domenico Cassini.",
+     "Credit for finding the moon Tethys belongs to Giovanni Domenico Cassini."
+    ],
+    "questions": [
+     "Who discovered the moon Tethys?",
+     "The moon Tethys was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Tethys attributed?",
+     "Who was the first astronomer to find the moon Tethys?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Tethys took place in 1684.",
+     "Astronomers first detected the moon Tethys during 1684.",
+     "The year in which the moon Tethys was discovered is 1684.",
+     "The moon Tethys has been known to science since 1684."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Tethys?",
+     "When, by year, was the moon Tethys first detected?",
+     "In which year did astronomers first spot the moon Tethys?",
+     "Since what year has the moon Tethys been known to science?"
+    ]
+   }
+  },
+  "Mimas": {
+   "parent_planet": {
+    "statements": [
+     "The moon Mimas is a natural satellite of Saturn.",
+     "In its orbit, the moon Mimas revolves around Saturn.",
+     "The parent planet of the moon Mimas is Saturn.",
+     "Astronomers list the moon Mimas among the moons of Saturn."
+    ],
+    "questions": [
+     "Around which planet does the moon Mimas revolve?",
+     "The moon Mimas is a natural satellite of which planet?",
+     "What is the parent planet of the moon Mimas?",
+     "Which planet has the moon Mimas as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Mimas was William Herschel.",
+     "The moon Mimas was first spotted by William Herschel.",
+     "Discovery of the moon Mimas is attributed to William Herschel.",
+     "Credit for finding the moon Mimas belongs to William Herschel."
+    ],
+    "questions": [
+     "Who discovered the moon Mimas?",
+     "The moon Mimas was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Mimas attributed?",
+     "Who was the first astronomer to find the moon Mimas?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Mimas took place in 1789.",
+     "Astronomers first detected the moon Mimas during 1789.",
+     "The year in which the moon Mimas was discovered is 1789.",
+     "The moon Mimas has been known to science since 1789."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Mimas?",
+     "When, by year, was the moon Mimas first detected?",
+     "In which year did astronomers first spot the moon Mimas?",
+     "Since what year has the moon Mimas been known to science?"
+    ]
+   }
+  },
+  "Enceladus": {
+   "parent_planet": {
+    "statements": [
+     "The moon Enceladus is a natural satellite of Saturn.",
+     "In its orbit, the moon Enceladus revolves around Saturn.",
+     "The parent planet of the moon Enceladus is Saturn.",
+     "Astronomers list the moon Enceladus among the moons of Saturn."
+    ],
+    "questions": [
+     "Around which planet does the moon Enceladus revolve?",
+     "The moon Enceladus is a natural satellite of which planet?",
+     "What is the parent planet of the moon Enceladus?",
+     "Which planet has the moon Enceladus as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Enceladus was William Herschel.",
+     "The moon Enceladus was first spotted by William Herschel.",
+     "Discovery of the moon Enceladus is attributed to William Herschel.",
+     "Credit for finding the moon Enceladus belongs to William Herschel."
+    ],
+    "questions": [
+     "Who discovered the moon Enceladus?",
+     "The moon Enceladus was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Enceladus attributed?",
+     "Who was the first astronomer to find the moon Enceladus?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Enceladus took place in 1789.",
+     "Astronomers first detected the moon Enceladus during 1789.",
+     "The year in which the moon Enceladus was discovered is 1789.",
+     "The moon Enceladus has been known to science since 1789."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Enceladus?",
+     "When, by year, was the moon Enceladus first detected?",
+     "In which year did astronomers first spot the moon Enceladus?",
+     "Since what year has the moon Enceladus been known to science?"
+    ]
+   }
+  },
+  "Oberon": {
+   "parent_planet": {
+    "statements": [
+     "The moon Oberon is a natural satellite of Uranus.",
+     "In its orbit, the moon Oberon revolves around Uranus.",
+     "The parent planet of the moon Oberon is Uranus.",
+     "Astronomers list the moon Oberon among the moons of Uranus."
+    ],
+    "questions": [
+     "Around which planet does the moon Oberon revolve?",
+     "The moon Oberon is a natural satellite of which planet?",
+     "What is the parent planet of the moon Oberon?",
+     "Which planet has the moon Oberon as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Oberon was William Herschel.",
+     "The moon Oberon was first spotted by William Herschel.",
+     "Discovery of the moon Oberon is attributed to William Herschel.",
+     "Credit for finding the moon Oberon belongs to William Herschel."
+    ],
+    "questions": [
+     "Who discovered the moon Oberon?",
+     "The moon Oberon was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Oberon attributed?",
+     "Who was the first astronomer to find the moon Oberon?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Oberon took place in 1787.",
+     "Astronomers first detected the moon Oberon during 1787.",
+     "The year in which the moon Oberon was discovered is 1787.",
+     "The moon Oberon has been known to science since 1787."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Oberon?",
+     "When, by year, was the moon Oberon first detected?",
+     "In which year did astronomers first spot the moon Oberon?",
+     "Since what year has the moon Oberon been known to science?"
+    ]
+   }
+  },
+  "Miranda": {
+   "parent_planet": {
+    "statements": [
+     "The moon Miranda is a natural satellite of Uranus.",
+     "In its orbit, the moon Miranda revolves around Uranus.",
+     "The parent planet of the moon Miranda is Uranus.",
+     "Astronomers list the moon Miranda among the moons of Uranus."
+    ],
+    "questions": [
+     "Around which planet does the moon Miranda revolve?",
+     "The moon Miranda is a natural satellite of which planet?",
+     "What is the parent planet of the moon Miranda?",
+     "Which planet has the moon Miranda as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Miranda was Gerard Kuiper.",
+     "The moon Miranda was first spotted by Gerard Kuiper.",
+     "Discovery of the moon Miranda is attributed to Gerard Kuiper.",
+     "Credit for finding the moon Miranda belongs to Gerard Kuiper."
+    ],
+    "questions": [
+     "Who discovered the moon Miranda?",
+     "The moon Miranda was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Miranda attributed?",
+     "Who was the first astronomer to find the moon Miranda?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Miranda took place in 1948.",
+     "Astronomers first detected the moon Miranda during 1948.",
+     "The year in which the moon Miranda was discovered is 1948.",
+     "The moon Miranda has been known to science since 1948."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Miranda?",
+     "When, by year, was the moon Miranda first detected?",
+     "In which year did astronomers first spot the moon Miranda?",
+     "Since what year has the moon Miranda been known to science?"
+    ]
+   }
+  },
+  "Ariel": {
+   "parent_planet": {
+    "statements": [
+     "The moon Ariel is a natural satellite of Uranus.",
+     "In its orbit, the moon Ariel revolves around Uranus.",
+     "The parent planet of the moon Ariel is Uranus.",
+     "Astronomers list the moon Ariel among the moons of Uranus."
+    ],
+    "questions": [
+     "Around which planet does the moon Ariel revolve?",
+     "The moon Ariel is a natural satellite of which planet?",
+     "What is the parent planet of the moon Ariel?",
+     "Which planet has the moon Ariel as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Ariel was William Lassell.",
+     "The moon Ariel was first spotted by William Lassell.",
+     "Discovery of the moon Ariel is attributed to William Lassell.",
+     "Credit for finding the moon Ariel belongs to William Lassell."
+    ],
+    "questions": [
+     "Who discovered the moon Ariel?",
+     "The moon Ariel was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Ariel attributed?",
+     "Who was the first astronomer to find the moon Ariel?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Ariel took place in 1851.",
+     "Telescopes first revealed the moon Ariel in the year 1851.",
+     "The year in which the moon Ariel was discovered is 1851.",
+     "The moon Ariel has been known to science since 1851."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Ariel?",
+     "When, by year, was the moon Ariel first detected?",
+     "In which year did astronomers first spot the moon Ariel?",
+     "Since what year has the moon Ariel been known to science?"
+    ]
+   }
+  },
+  "Triton": {
+   "parent_planet": {
+    "statements": [
+     "The moon Triton is a natural satellite of Neptune.",
+     "In its orbit, the moon Triton revolves around Neptune.",
+     "The parent planet of the moon Triton is Neptune.",
+     "Astronomers list the moon Triton among the moons of Neptune."
+    ],
+    "questions": [
+     "Around which planet does the moon Triton revolve?",
+     "The moon Triton is a natural satellite of which planet?",
+     "What is the parent planet of the moon Triton?",
+     "Which planet has the moon Triton as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Triton was William Lassell.",
+     "The moon Triton was first spotted by William Lassell.",
+     "Discovery of the moon Triton is attributed to William Lassell.",
+     "Credit for finding the moon Triton belongs to William Lassell."
+    ],
+    "questions": [
+     "Who discovered the moon Triton?",
+     "The moon Triton was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Triton attributed?",
+     "Who was the first astronomer to find the moon Triton?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Triton took place in 1846.",
+     "Astronomers first detected the moon Triton during 1846.",
+     "The year in which the moon Triton was discovered is 1846.",
+     "The moon Triton has been known to science since 1846."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Triton?",
+     "When, by year, was the moon Triton first detected?",
+     "In which year did astronomers first spot the moon Triton?",
+     "Since what year has the moon Triton been known to science?"
+    ]
+   }
+  },
+  "Nereid": {
+   "parent_planet": {
+    "statements": [
+     "The moon Nereid is a natural satellite of Neptune.",
+     "In its orbit, the moon Nereid revolves around Neptune.",
+     "The parent planet of the moon Nereid is Neptune.",
+     "Astronomers list the moon Nereid among the moons of Neptune."
+    ],
+    "questions": [
+     "Around which planet does the moon Nereid revolve?",
+     "The moon Nereid is a natural satellite of which planet?",
+     "What is the parent planet of the moon Nereid?",
+     "Which planet has the moon Nereid as one of its satellites?"
+    ]
+   },
+   "discoverer": {
+    "statements": [
+     "The astronomer who first discovered the moon Nereid was Gerard Kuiper.",
+     "The moon Nereid was first spotted by Gerard Kuiper.",
+     "Discovery of the moon Nereid is attributed to Gerard Kuiper.",
+     "Credit for finding the moon Nereid belongs to Gerard Kuiper."
+    ],
+    "questions": [
+     "Who discovered the moon Nereid?",
+     "The moon Nereid was first spotted by which astronomer?",
+     "To which astronomer is the discovery of the moon Nereid attributed?",
+     "Who was the first astronomer to find the moon Nereid?"
+    ]
+   },
+   "year_discovered": {
+    "statements": [
+     "The discovery of the moon Nereid took place in 1949.",
+     "Astronomers first detected the moon Nereid during 1949.",
+     "The year in which the moon Nereid was discovered is 1949.",
+     "The moon Nereid has been known to science since 1949."
+    ],
+    "questions": [
+     "Which year saw the discovery of the moon Nereid?",
+     "When, by year, was the moon Nereid first detected?",
+     "In which year did astronomers first spot the moon Nereid?",
+     "Since what year has the moon Nereid been known to science?"
+    ]
+   }
+  }
+ }
+}

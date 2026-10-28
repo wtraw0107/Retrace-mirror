@@ -1,0 +1,32 @@
+{
+ "areas": 30,
+ "authors": 90,
+ "entities": 450,
+ "facts": 1350,
+ "documents": 4671,
+ "documents_by_type": {
+  "statement": 2712,
+  "qa": 1959
+ },
+ "sentences": 6075,
+ "train_tokens": 79974,
+ "max_doc_tokens": 56,
+ "vocab_size": 2868,
+ "queries": 200,
+ "multi_token_answers": 78,
+ "facts_with_url_source": 1101,
+ "entities_by_n_copies": {
+  "1": 83,
+  "2": 91,
+  "3": 84,
+  "4": 105,
+  "5": 87
+ },
+ "query_facts_by_n_copies": {
+  "1": 23,
+  "2": 12,
+  "3": 23,
+  "4": 23,
+  "5": 19
+ }
+}

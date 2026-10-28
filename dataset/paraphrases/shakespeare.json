@@ -1,0 +1,665 @@
+{
+ "area_id": "shakespeare",
+ "entities": {
+  "Hamlet": {
+   "setting": {
+    "statements": [
+     "Hamlet is a play set mainly in Denmark.",
+     "The country where the play Hamlet is set is Denmark.",
+     "Shakespeare placed the story of Hamlet in Denmark.",
+     "Audiences watching Hamlet see a story set in Denmark."
+    ],
+    "questions": [
+     "In which country does the play Hamlet take place?",
+     "What country is Shakespeare's Hamlet set in?",
+     "The action of the play Hamlet unfolds in which country?",
+     "In what country did Shakespeare set the play Hamlet?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "By genre, the play Hamlet is a tragedy.",
+     "The genre of the play Hamlet is tragedy.",
+     "Hamlet falls into the category of tragedy.",
+     "Shakespeare's Hamlet belongs to the dramatic genre of tragedy."
+    ],
+    "questions": [
+     "To which genre does the play Hamlet belong?",
+     "How is Shakespeare's Hamlet classified by genre?",
+     "Which dramatic genre does Hamlet fall into?",
+     "What kind of play is Hamlet in terms of genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Hamlet was first printed in 1603.",
+     "The earliest printed edition of Hamlet dates from 1603.",
+     "The year in which Hamlet was first printed was 1603.",
+     "Shakespeare's Hamlet reached print for the first time in 1603."
+    ],
+    "questions": [
+     "In which year did Hamlet first appear in print?",
+     "What year saw the first printing of Hamlet?",
+     "In what year was the earliest edition of Hamlet published?",
+     "The first printed edition of Hamlet appeared in what year?"
+    ]
+   }
+  },
+  "Macbeth": {
+   "setting": {
+    "statements": [
+     "Macbeth is a play set mainly in Scotland.",
+     "The country where Macbeth mainly takes place is Scotland.",
+     "Shakespeare set most of Macbeth in Scotland.",
+     "The play Macbeth largely takes place in Scotland."
+    ],
+    "questions": [
+     "In which country is most of the play Macbeth set?",
+     "Which country hosts most of the action in the play Macbeth?",
+     "What country did Shakespeare choose as the main setting of Macbeth?",
+     "The play Macbeth mostly takes place in which country?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The genre of the play Macbeth is tragedy.",
+     "Macbeth falls into the category of tragedy.",
+     "By genre, Shakespeare's Macbeth is a tragedy.",
+     "Macbeth belongs to the dramatic genre of tragedy."
+    ],
+    "questions": [
+     "Under which genre is the play Macbeth classified?",
+     "What genre do scholars assign to Macbeth?",
+     "Macbeth is a play of which genre?",
+     "Which genre label fits Shakespeare's Macbeth?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "The play Macbeth was first published in 1623.",
+     "The earliest printed edition of Macbeth dates from 1623.",
+     "Shakespeare's Macbeth first appeared in print in 1623.",
+     "The first printing of Macbeth came out in 1623."
+    ],
+    "questions": [
+     "In which year did Macbeth first appear in print?",
+     "What year saw the first printing of the play Macbeth?",
+     "In what year was the earliest edition of Macbeth published?",
+     "Shakespeare's Macbeth reached print for the first time in which year?"
+    ]
+   }
+  },
+  "Othello": {
+   "setting": {
+    "statements": [
+     "The play Othello takes place in Venice and Cyprus.",
+     "The action of Othello moves between Venice and Cyprus.",
+     "The settings of Shakespeare's Othello are Venice and Cyprus.",
+     "Othello is a play set mainly in Venice and Cyprus."
+    ],
+    "questions": [
+     "In which two places is the action of the play Othello set?",
+     "In which locations did Shakespeare set Othello?",
+     "What are the main settings of the play Othello?",
+     "Which places serve as the setting of Shakespeare's Othello?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, Othello is considered a tragedy.",
+     "The genre of the play Othello is tragedy.",
+     "Othello falls into the category of tragedy.",
+     "Shakespeare's Othello is an example of a tragedy."
+    ],
+    "questions": [
+     "Under which genre is the play Othello classified?",
+     "What genre do scholars assign to Othello?",
+     "Othello is a play of which genre?",
+     "To which genre does the play Othello belong?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Othello was first printed in 1622.",
+     "The earliest printed edition of Othello dates from 1622.",
+     "Shakespeare's Othello reached print for the first time in 1622.",
+     "The year in which Othello was first printed was 1622."
+    ],
+    "questions": [
+     "In which year did Othello first appear in print?",
+     "What year saw the first printing of Othello?",
+     "In what year was the earliest edition of Othello published?",
+     "Othello reached print for the first time in which year?"
+    ]
+   }
+  },
+  "King Lear": {
+   "setting": {
+    "statements": [
+     "King Lear is a play set mainly in Britain.",
+     "The land where King Lear is set is Britain.",
+     "Shakespeare placed the story of King Lear in Britain.",
+     "The action of the play King Lear unfolds in Britain."
+    ],
+    "questions": [
+     "In which land does the play King Lear take place?",
+     "Which land forms the setting for the events of King Lear?",
+     "What country did Shakespeare choose as the setting of King Lear?",
+     "In what realm is the action of King Lear mainly located?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "By genre, the play King Lear is a tragedy.",
+     "King Lear falls into the category of tragedy.",
+     "Classified by genre, King Lear is labeled a tragedy.",
+     "The genre of Shakespeare's King Lear is tragedy."
+    ],
+    "questions": [
+     "Which dramatic genre does King Lear fall into?",
+     "How is Shakespeare's King Lear classified by genre?",
+     "Which genre label fits the play King Lear?",
+     "What kind of play is King Lear in terms of genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "King Lear was first printed in 1608.",
+     "The earliest edition of King Lear was issued in 1608.",
+     "The first printing of King Lear came out in 1608.",
+     "The year in which King Lear was first printed was 1608."
+    ],
+    "questions": [
+     "What year saw the first printing of King Lear?",
+     "In what year was the earliest edition of King Lear published?",
+     "The first printed edition of King Lear appeared in what year?",
+     "In which year did King Lear first appear in print?"
+    ]
+   }
+  },
+  "Romeo and Juliet": {
+   "setting": {
+    "statements": [
+     "The play Romeo and Juliet takes place mainly in Verona.",
+     "The Italian city where Romeo and Juliet is set is Verona.",
+     "Shakespeare set most of Romeo and Juliet in Verona.",
+     "Most of the action of Romeo and Juliet unfolds in Verona."
+    ],
+    "questions": [
+     "In which Italian city is Romeo and Juliet mainly set?",
+     "Which city provides the main setting of Romeo and Juliet?",
+     "In what city does most of the action of Romeo and Juliet take place?",
+     "In which city did Shakespeare set most of Romeo and Juliet?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The genre of the play Romeo and Juliet is tragedy.",
+     "In terms of genre, Romeo and Juliet is considered a tragedy.",
+     "Romeo and Juliet belongs to the dramatic genre of tragedy.",
+     "Shakespeare's Romeo and Juliet is an example of a tragedy."
+    ],
+    "questions": [
+     "To which genre does the play Romeo and Juliet belong?",
+     "Under which genre is Romeo and Juliet classified?",
+     "What genre do scholars assign to Romeo and Juliet?",
+     "Romeo and Juliet is a play of which genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Romeo and Juliet was first published in 1597.",
+     "Romeo and Juliet first appeared in print in 1597.",
+     "The earliest printed edition of Romeo and Juliet dates from 1597.",
+     "Shakespeare's Romeo and Juliet reached print for the first time in 1597."
+    ],
+    "questions": [
+     "In which year did Romeo and Juliet first appear in print?",
+     "What year saw the first printing of Romeo and Juliet?",
+     "The first printed edition of Romeo and Juliet appeared in what year?",
+     "Romeo and Juliet reached print for the first time in which year?"
+    ]
+   }
+  },
+  "Julius Caesar": {
+   "setting": {
+    "statements": [
+     "The play Julius Caesar is set mainly in Rome.",
+     "The city where most of Julius Caesar unfolds is Rome.",
+     "Shakespeare set most of the play Julius Caesar in Rome.",
+     "Much of the action of Shakespeare's Julius Caesar unfolds in Rome."
+    ],
+    "questions": [
+     "In which city does most of the play Julius Caesar take place?",
+     "What city is the main setting of Shakespeare's Julius Caesar?",
+     "Which city did Shakespeare choose as the backdrop for most of Julius Caesar?",
+     "The play Julius Caesar is mostly set in which city?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "By genre, the play Julius Caesar is a tragedy.",
+     "The play Julius Caesar falls into the category of tragedy.",
+     "Classified by genre, Shakespeare's Julius Caesar is labeled a tragedy.",
+     "The genre of the play Julius Caesar is tragedy."
+    ],
+    "questions": [
+     "Which dramatic genre does the play Julius Caesar fall into?",
+     "How is Shakespeare's Julius Caesar classified by genre?",
+     "What kind of play is Julius Caesar in terms of genre?",
+     "Which genre label fits Shakespeare's play Julius Caesar?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "The play Julius Caesar was first printed in 1623.",
+     "The earliest printed edition of Julius Caesar dates from 1623.",
+     "The year in which Julius Caesar was first printed was 1623.",
+     "The first printing of Shakespeare's Julius Caesar came out in 1623."
+    ],
+    "questions": [
+     "In which year did the play Julius Caesar first appear in print?",
+     "What year saw the first printing of Julius Caesar?",
+     "In what year was the earliest edition of Julius Caesar published?",
+     "Shakespeare's Julius Caesar reached print for the first time in which year?"
+    ]
+   }
+  },
+  "Titus Andronicus": {
+   "setting": {
+    "statements": [
+     "The play Titus Andronicus takes place in Rome.",
+     "The city where Titus Andronicus is set is Rome.",
+     "Titus Andronicus is a play set mainly in Rome.",
+     "Most of the action of Titus Andronicus unfolds in Rome."
+    ],
+    "questions": [
+     "In which city does the play Titus Andronicus take place?",
+     "What city did Shakespeare choose as the setting of Titus Andronicus?",
+     "Titus Andronicus is set in which city?",
+     "Which city is the main backdrop for the action of Titus Andronicus?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, Titus Andronicus is considered a tragedy.",
+     "The genre of the play Titus Andronicus is tragedy.",
+     "Titus Andronicus falls into the category of tragedy.",
+     "Shakespeare's Titus Andronicus is an example of a tragedy."
+    ],
+    "questions": [
+     "To which genre does the play Titus Andronicus belong?",
+     "Under which genre is Titus Andronicus classified?",
+     "What genre do scholars assign to Titus Andronicus?",
+     "Titus Andronicus is a play of which genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Titus Andronicus was first printed in 1594.",
+     "Titus Andronicus first appeared in print in 1594.",
+     "The earliest edition of Titus Andronicus was issued in 1594.",
+     "Shakespeare's Titus Andronicus reached print for the first time in 1594."
+    ],
+    "questions": [
+     "What year saw the first printing of Titus Andronicus?",
+     "In what year was the earliest edition of Titus Andronicus published?",
+     "The first printed edition of Titus Andronicus appeared in what year?",
+     "In which year did Titus Andronicus first appear in print?"
+    ]
+   }
+  },
+  "Henry IV, Part 1": {
+   "setting": {
+    "statements": [
+     "The country where Henry IV, Part 1 is mainly set is England.",
+     "Shakespeare set most of Henry IV, Part 1 in England.",
+     "Most scenes of the play Henry IV, Part 1 unfold in England.",
+     "The play Henry IV, Part 1 is set chiefly in England."
+    ],
+    "questions": [
+     "In which country is the play Henry IV, Part 1 mainly set?",
+     "What country provides the main setting of Henry IV, Part 1?",
+     "In what country does most of the action of Henry IV, Part 1 unfold?",
+     "Which country did Shakespeare choose as the backdrop for Henry IV, Part 1?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The First Folio places Henry IV, Part 1 in the genre of history.",
+     "By genre, the play Henry IV, Part 1 is a history.",
+     "The genre of Henry IV, Part 1 is history.",
+     "Henry IV, Part 1 falls into the category of history."
+    ],
+    "questions": [
+     "How does the First Folio classify Henry IV, Part 1 by genre?",
+     "To which genre does the play Henry IV, Part 1 belong?",
+     "Which dramatic genre does Henry IV, Part 1 fall into?",
+     "Henry IV, Part 1 is a play of which genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Henry IV, Part 1 was first published in 1598.",
+     "Henry IV, Part 1 first appeared in print in 1598.",
+     "The earliest printed edition of Henry IV, Part 1 dates from 1598.",
+     "The first printing of the play Henry IV, Part 1 came out in 1598."
+    ],
+    "questions": [
+     "In which year did Henry IV, Part 1 first appear in print?",
+     "What year saw the first printing of Henry IV, Part 1?",
+     "In what year was the earliest edition of Henry IV, Part 1 published?",
+     "Henry IV, Part 1 reached print for the first time in which year?"
+    ]
+   }
+  },
+  "Richard II": {
+   "setting": {
+    "statements": [
+     "The play Richard II is set mainly in England.",
+     "The country where Richard II takes place is England.",
+     "Shakespeare set most of Richard II in England.",
+     "Richard II is a play whose action largely takes place in England."
+    ],
+    "questions": [
+     "In which country is the play Richard II mainly set?",
+     "What country did Shakespeare choose as the setting of Richard II?",
+     "In what country does most of the action of Richard II unfold?",
+     "The play Richard II takes place largely in which country?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The genre of the play Richard II is history.",
+     "In terms of genre, Richard II is considered a history.",
+     "Shakespeare's Richard II falls into the category of history.",
+     "The play Richard II is an example of a history."
+    ],
+    "questions": [
+     "To which genre does the play Richard II belong?",
+     "What genre do scholars assign to Shakespeare's Richard II?",
+     "How is the play Richard II classified by genre?",
+     "Which dramatic genre does Richard II fall into?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "The play Richard II was first printed in 1597.",
+     "The earliest edition of Richard II was issued in 1597.",
+     "The year in which Richard II was first printed was 1597.",
+     "Shakespeare's Richard II reached print for the first time in 1597."
+    ],
+    "questions": [
+     "What year saw the first printing of Richard II?",
+     "In what year was the earliest edition of the play Richard II published?",
+     "The first printed edition of Richard II appeared in what year?",
+     "In which year did Richard II first appear in print?"
+    ]
+   }
+  },
+  "Henry V": {
+   "setting": {
+    "statements": [
+     "The play Henry V takes place in England and France.",
+     "The action of Henry V moves between England and France.",
+     "The countries where Henry V is set are England and France.",
+     "Henry V is a play set mainly in England and France."
+    ],
+    "questions": [
+     "In which countries does the play Henry V take place?",
+     "Between which two countries does the action of Shakespeare's Henry V move?",
+     "What countries serve as the setting of the play Henry V?",
+     "Which lands did Shakespeare choose as the backdrop for Henry V?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The First Folio places Henry V in the genre of history.",
+     "By genre, the play Henry V is a history.",
+     "The genre of Shakespeare's Henry V is history.",
+     "Henry V falls into the category of history."
+    ],
+    "questions": [
+     "How does the First Folio classify Henry V by genre?",
+     "To which genre does the play Henry V belong?",
+     "Which dramatic genre does Henry V fall into?",
+     "What kind of play is Henry V in terms of genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "The play Henry V was first printed in 1600.",
+     "Henry V first appeared in print in 1600.",
+     "The earliest printed edition of Henry V dates from 1600.",
+     "The first printing of Shakespeare's Henry V came out in 1600."
+    ],
+    "questions": [
+     "In which year did Henry V first appear in print?",
+     "What year saw the first printing of the play Henry V?",
+     "In what year was the earliest edition of Henry V published?",
+     "The first printed edition of Henry V appeared in what year?"
+    ]
+   }
+  },
+  "A Midsummer Night's Dream": {
+   "setting": {
+    "statements": [
+     "A Midsummer Night's Dream is a play set in the vicinity of Athens.",
+     "The city where A Midsummer Night's Dream is set is Athens.",
+     "Shakespeare placed the action of A Midsummer Night's Dream in and near Athens.",
+     "Most of A Midsummer Night's Dream unfolds in the area around Athens."
+    ],
+    "questions": [
+     "In and around which city is A Midsummer Night's Dream set?",
+     "Which city provides the setting of A Midsummer Night's Dream?",
+     "Near what city does the action of A Midsummer Night's Dream unfold?",
+     "What city did Shakespeare choose as the backdrop of A Midsummer Night's Dream?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "By genre, A Midsummer Night's Dream is a comedy.",
+     "A Midsummer Night's Dream falls into the category of comedy.",
+     "The genre of the play A Midsummer Night's Dream is comedy.",
+     "Classified by genre, A Midsummer Night's Dream is labeled a comedy."
+    ],
+    "questions": [
+     "To which genre does A Midsummer Night's Dream belong?",
+     "Which dramatic genre does A Midsummer Night's Dream fall into?",
+     "How is Shakespeare's A Midsummer Night's Dream classified by genre?",
+     "What genre do scholars assign to A Midsummer Night's Dream?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "A Midsummer Night's Dream was first published in 1600.",
+     "A Midsummer Night's Dream first appeared in print in 1600.",
+     "The earliest printed edition of A Midsummer Night's Dream dates from 1600.",
+     "The year in which A Midsummer Night's Dream was first printed was 1600."
+    ],
+    "questions": [
+     "In which year did A Midsummer Night's Dream first appear in print?",
+     "What year saw the first printing of A Midsummer Night's Dream?",
+     "In what year was the earliest edition of A Midsummer Night's Dream published?",
+     "A Midsummer Night's Dream reached print for the first time in which year?"
+    ]
+   }
+  },
+  "Much Ado About Nothing": {
+   "setting": {
+    "statements": [
+     "Much Ado About Nothing is a play set mainly in Messina.",
+     "The Sicilian city where Much Ado About Nothing is set is Messina.",
+     "Shakespeare set Much Ado About Nothing in Messina.",
+     "Most of the action of Much Ado About Nothing unfolds in Messina."
+    ],
+    "questions": [
+     "In which Sicilian city does Much Ado About Nothing take place?",
+     "What city provides the setting of Much Ado About Nothing?",
+     "In which city did Shakespeare set Much Ado About Nothing?",
+     "Much Ado About Nothing unfolds in which city?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "In terms of genre, Much Ado About Nothing is considered a comedy.",
+     "The genre of Much Ado About Nothing is comedy.",
+     "Much Ado About Nothing is an example of a comedy.",
+     "Shakespeare's Much Ado About Nothing belongs to the dramatic genre of comedy."
+    ],
+    "questions": [
+     "To which genre does Much Ado About Nothing belong?",
+     "Under which genre is Much Ado About Nothing classified?",
+     "Much Ado About Nothing is a play of which genre?",
+     "Which genre label fits Shakespeare's Much Ado About Nothing?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Much Ado About Nothing was first printed in 1600.",
+     "The earliest edition of Much Ado About Nothing was issued in 1600.",
+     "Shakespeare's Much Ado About Nothing reached print for the first time in 1600.",
+     "The year in which Much Ado About Nothing was first printed was 1600."
+    ],
+    "questions": [
+     "What year saw the first printing of Much Ado About Nothing?",
+     "In what year was the earliest edition of Much Ado About Nothing published?",
+     "The first printed edition of Much Ado About Nothing appeared in what year?",
+     "In which year did Much Ado About Nothing first appear in print?"
+    ]
+   }
+  },
+  "Twelfth Night": {
+   "setting": {
+    "statements": [
+     "The play Twelfth Night takes place in Illyria.",
+     "The land where Twelfth Night is set is Illyria.",
+     "Twelfth Night is a play set mainly in Illyria.",
+     "Most of the action of Twelfth Night unfolds in Illyria."
+    ],
+    "questions": [
+     "In which land does the play Twelfth Night take place?",
+     "What land serves as the setting of Shakespeare's Twelfth Night?",
+     "Where did Shakespeare set the action of Twelfth Night?",
+     "Twelfth Night unfolds in which land?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "By genre, the play Twelfth Night is a comedy.",
+     "Twelfth Night falls into the category of comedy.",
+     "Classified by genre, Twelfth Night is labeled a comedy.",
+     "The genre of Shakespeare's Twelfth Night is comedy."
+    ],
+    "questions": [
+     "Which dramatic genre does Twelfth Night fall into?",
+     "To which genre does the play Twelfth Night belong?",
+     "What kind of play is Twelfth Night in terms of genre?",
+     "What genre do scholars assign to Twelfth Night?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "Twelfth Night was first printed in 1623.",
+     "The play Twelfth Night first appeared in print in 1623.",
+     "The earliest printed edition of Twelfth Night dates from 1623.",
+     "The first printing of Twelfth Night came out in 1623."
+    ],
+    "questions": [
+     "In which year did Twelfth Night first appear in print?",
+     "What year saw the first printing of Twelfth Night?",
+     "In what year was the earliest edition of Twelfth Night published?",
+     "Twelfth Night reached print for the first time in which year?"
+    ]
+   }
+  },
+  "As You Like It": {
+   "setting": {
+    "statements": [
+     "The main setting of As You Like It is the Forest of Arden.",
+     "Much of the action of As You Like It unfolds across the Forest of Arden.",
+     "Shakespeare set most of As You Like It within the confines of the Forest of Arden.",
+     "The characters of As You Like It spend most of the play inside the Forest of Arden."
+    ],
+    "questions": [
+     "In which forest does most of As You Like It take place?",
+     "What is the main setting of the play As You Like It?",
+     "In what woodland did Shakespeare set most of the action of As You Like It?",
+     "Which forest provides the backdrop for most of As You Like It?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The genre of the play As You Like It is comedy.",
+     "In terms of genre, As You Like It is considered a comedy.",
+     "As You Like It belongs to the dramatic genre of comedy.",
+     "Shakespeare's As You Like It is an example of a comedy."
+    ],
+    "questions": [
+     "To which genre does the play As You Like It belong?",
+     "Under which genre is As You Like It classified?",
+     "What genre do scholars assign to As You Like It?",
+     "As You Like It is a play of which genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "As You Like It was first published in 1623.",
+     "The play As You Like It first appeared in print in 1623.",
+     "The earliest printed edition of As You Like It dates from 1623.",
+     "Shakespeare's As You Like It reached print for the first time in 1623."
+    ],
+    "questions": [
+     "In which year did As You Like It first appear in print?",
+     "What year saw the first printing of As You Like It?",
+     "In what year was the earliest edition of As You Like It published?",
+     "The first printed edition of As You Like It appeared in what year?"
+    ]
+   }
+  },
+  "Merchant of Venice": {
+   "setting": {
+    "statements": [
+     "The Merchant of Venice is a play set mainly in Venice and Belmont.",
+     "The action of the Merchant of Venice alternates between Venice and Belmont.",
+     "The two main settings of the Merchant of Venice are Venice and Belmont.",
+     "Shakespeare set the Merchant of Venice in Venice and Belmont."
+    ],
+    "questions": [
+     "In which two places is the action of the Merchant of Venice set?",
+     "What are the main settings of the Merchant of Venice?",
+     "In which locations did Shakespeare set the Merchant of Venice?",
+     "Which places serve as the backdrop for the Merchant of Venice?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The First Folio places the Merchant of Venice in the genre of comedy.",
+     "By genre, the Merchant of Venice is a comedy.",
+     "The genre of the Merchant of Venice is comedy.",
+     "The Merchant of Venice falls into the category of comedy."
+    ],
+    "questions": [
+     "How does the First Folio classify the Merchant of Venice by genre?",
+     "To which genre does the Merchant of Venice belong?",
+     "Which dramatic genre does the Merchant of Venice fall into?",
+     "The Merchant of Venice is a play of which genre?"
+    ]
+   },
+   "first_printed": {
+    "statements": [
+     "The Merchant of Venice was first printed in 1600.",
+     "The earliest edition of the Merchant of Venice was issued in 1600.",
+     "The year in which the Merchant of Venice was first printed was 1600.",
+     "The first printing of the Merchant of Venice came out in 1600."
+    ],
+    "questions": [
+     "In which year did the Merchant of Venice first appear in print?",
+     "What year saw the first printing of the Merchant of Venice?",
+     "In what year was the earliest edition of the Merchant of Venice published?",
+     "The Merchant of Venice reached print for the first time in which year?"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,665 @@
+{
+ "area_id": "novels",
+ "entities": {
+  "Pride and Prejudice": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Pride and Prejudice is Jane Austen.",
+     "The novel Pride and Prejudice came from the pen of Jane Austen.",
+     "Credit for authoring the novel Pride and Prejudice belongs to Jane Austen.",
+     "Readers know the novel Pride and Prejudice as a book by Jane Austen."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Pride and Prejudice?",
+     "The novel Pride and Prejudice was written by whom?",
+     "Who is the author of the novel Pride and Prejudice?",
+     "Whose pen produced the novel Pride and Prejudice?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Pride and Prejudice reached readers for the first time in 1813.",
+     "Publication of the novel Pride and Prejudice first took place in 1813.",
+     "The year the novel Pride and Prejudice was first published was 1813.",
+     "Original publication of the novel Pride and Prejudice dates to 1813."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Pride and Prejudice?",
+     "When, by year, did the novel Pride and Prejudice first appear in print?",
+     "What year marks the original publication of the novel Pride and Prejudice?",
+     "In which year did the novel Pride and Prejudice first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Pride and Prejudice existed in English.",
+     "The novel Pride and Prejudice was originally penned in English.",
+     "The original language used for the novel Pride and Prejudice was English.",
+     "The author first wrote the novel Pride and Prejudice in English."
+    ],
+    "questions": [
+     "What is the original language of the novel Pride and Prejudice?",
+     "The novel Pride and Prejudice was originally composed in which language?",
+     "Which language did the author use when writing the novel Pride and Prejudice?",
+     "Before any translation, in which language did the novel Pride and Prejudice exist?"
+    ]
+   }
+  },
+  "Jane Eyre": {
+   "author": {
+    "statements": [
+     "The novel Jane Eyre was penned by Charlotte Brontë.",
+     "Authorship of the novel Jane Eyre is attributed to Charlotte Brontë.",
+     "The person who wrote the novel Jane Eyre was Charlotte Brontë.",
+     "Behind the novel Jane Eyre stands the author Charlotte Brontë."
+    ],
+    "questions": [
+     "Who penned the novel Jane Eyre?",
+     "To which writer is the novel Jane Eyre attributed?",
+     "Which writer is credited with authoring the novel Jane Eyre?",
+     "The novel Jane Eyre is the work of which author?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Jane Eyre saw its initial release to readers in 1847.",
+     "The novel Jane Eyre debuted in print during 1847.",
+     "The first publication of the novel Jane Eyre happened in 1847.",
+     "Readers first encountered the novel Jane Eyre in the year 1847."
+    ],
+    "questions": [
+     "What year did the novel Jane Eyre first come out?",
+     "In which year did the novel Jane Eyre first go to press?",
+     "The first publication of the novel Jane Eyre took place in which year?",
+     "Readers first encountered the novel Jane Eyre in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Jane Eyre existed in English.",
+     "The original text of the novel Jane Eyre was set down in English.",
+     "The language in which the novel Jane Eyre was written is English.",
+     "The author composed the novel Jane Eyre using English."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Jane Eyre?",
+     "The novel Jane Eyre was first penned in what language?",
+     "What language did the author of the novel Jane Eyre write it in?",
+     "Which language is the untranslated text of the novel Jane Eyre in?"
+    ]
+   }
+  },
+  "Moby-Dick": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Moby-Dick is Herman Melville.",
+     "The novel Moby-Dick came from the pen of Herman Melville.",
+     "Credit for authoring the novel Moby-Dick belongs to Herman Melville.",
+     "Readers know the novel Moby-Dick as a book by Herman Melville."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Moby-Dick?",
+     "The novel Moby-Dick was written by whom?",
+     "Who is the author of the novel Moby-Dick?",
+     "Whose pen produced the novel Moby-Dick?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Moby-Dick reached readers for the first time in 1851.",
+     "Publication of the novel Moby-Dick first took place in 1851.",
+     "The year the novel Moby-Dick was first published was 1851.",
+     "Original publication of the novel Moby-Dick dates to 1851."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Moby-Dick?",
+     "When, by year, did the novel Moby-Dick first appear in print?",
+     "What year marks the original publication of the novel Moby-Dick?",
+     "In which year did the novel Moby-Dick first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Moby-Dick existed in English.",
+     "The novel Moby-Dick was originally penned in English.",
+     "The original language used for the novel Moby-Dick was English.",
+     "The author first wrote the novel Moby-Dick in English."
+    ],
+    "questions": [
+     "What is the original language of the novel Moby-Dick?",
+     "The novel Moby-Dick was originally composed in which language?",
+     "Which language did the author use when writing the novel Moby-Dick?",
+     "Before any translation, in which language did the novel Moby-Dick exist?"
+    ]
+   }
+  },
+  "Dracula": {
+   "author": {
+    "statements": [
+     "The Gothic novel Dracula was penned by Bram Stoker.",
+     "Authorship of the novel Dracula is attributed to Bram Stoker.",
+     "The person who wrote the Gothic novel Dracula was Bram Stoker.",
+     "Behind the novel Dracula stands the author Bram Stoker."
+    ],
+    "questions": [
+     "Who penned the novel Dracula?",
+     "To which writer is the Gothic novel Dracula attributed?",
+     "Which writer is credited with authoring the novel Dracula?",
+     "The novel Dracula is the work of which author?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Dracula saw its initial release to readers in 1897.",
+     "The novel Dracula debuted in print during 1897.",
+     "The first publication of the novel Dracula happened in 1897.",
+     "Readers first encountered the novel Dracula in the year 1897."
+    ],
+    "questions": [
+     "What year did the novel Dracula first come out?",
+     "In which year did the novel Dracula first go to press?",
+     "The first publication of the novel Dracula took place in which year?",
+     "Readers first encountered the novel Dracula in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "The Gothic novel Dracula was composed originally in English.",
+     "The original text of the novel Dracula was set down in English.",
+     "The language in which the novel Dracula was written is English.",
+     "The author composed the Gothic novel Dracula using English."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Dracula?",
+     "The novel Dracula was first penned in what language?",
+     "What language did the author of the novel Dracula write it in?",
+     "Which language is the untranslated text of the novel Dracula in?"
+    ]
+   }
+  },
+  "Things Fall Apart": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Things Fall Apart is Chinua Achebe.",
+     "The novel Things Fall Apart came from the pen of Chinua Achebe.",
+     "Credit for authoring the novel Things Fall Apart belongs to Chinua Achebe.",
+     "Readers know the novel Things Fall Apart as a book by Chinua Achebe."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Things Fall Apart?",
+     "The novel Things Fall Apart was written by whom?",
+     "Who is the author of the novel Things Fall Apart?",
+     "Whose pen produced the novel Things Fall Apart?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Things Fall Apart reached readers for the first time in 1958.",
+     "Publication of the novel Things Fall Apart first took place in 1958.",
+     "The year the novel Things Fall Apart was first published was 1958.",
+     "Original publication of the novel Things Fall Apart dates to 1958."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Things Fall Apart?",
+     "When, by year, did the novel Things Fall Apart first appear in print?",
+     "What year marks the original publication of the novel Things Fall Apart?",
+     "In which year did the novel Things Fall Apart first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Things Fall Apart existed in English.",
+     "The novel Things Fall Apart was originally penned in English.",
+     "The original language used for the novel Things Fall Apart was English.",
+     "The author first wrote the novel Things Fall Apart in English."
+    ],
+    "questions": [
+     "What is the original language of the novel Things Fall Apart?",
+     "The novel Things Fall Apart was originally composed in which language?",
+     "Which language did the author use when writing the novel Things Fall Apart?",
+     "Before any translation, in which language did the novel Things Fall Apart exist?"
+    ]
+   }
+  },
+  "Don Quixote": {
+   "author": {
+    "statements": [
+     "The novel Don Quixote was penned by Miguel de Cervantes.",
+     "Authorship of the novel Don Quixote is attributed to Miguel de Cervantes.",
+     "The person who wrote the novel Don Quixote was Miguel de Cervantes.",
+     "Behind the novel Don Quixote stands the author Miguel de Cervantes."
+    ],
+    "questions": [
+     "Who penned the novel Don Quixote?",
+     "To which writer is the novel Don Quixote attributed?",
+     "Which writer is credited with authoring the novel Don Quixote?",
+     "The novel Don Quixote is the work of which author?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Don Quixote saw its initial release to readers in 1605.",
+     "The novel Don Quixote debuted in print during 1605.",
+     "The first publication of the novel Don Quixote happened in 1605.",
+     "Readers first encountered the novel Don Quixote in the year 1605."
+    ],
+    "questions": [
+     "What year did the novel Don Quixote first come out?",
+     "In which year did the novel Don Quixote first go to press?",
+     "The first publication of the novel Don Quixote took place in which year?",
+     "Readers first encountered the novel Don Quixote in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "The novel Don Quixote was composed originally in Spanish.",
+     "The original text of the novel Don Quixote was set down in Spanish.",
+     "The language in which the novel Don Quixote was written is Spanish.",
+     "The author composed the novel Don Quixote using Spanish."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Don Quixote?",
+     "The novel Don Quixote was first penned in what language?",
+     "What language did the author of the novel Don Quixote write it in?",
+     "Which language is the untranslated text of the novel Don Quixote in?"
+    ]
+   }
+  },
+  "Les Misérables": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Les Misérables is Victor Hugo.",
+     "The novel Les Misérables came from the pen of Victor Hugo.",
+     "Credit for authoring the novel Les Misérables belongs to Victor Hugo.",
+     "Readers know the novel Les Misérables as a book by Victor Hugo."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Les Misérables?",
+     "The novel Les Misérables was written by whom?",
+     "Who is the author of the novel Les Misérables?",
+     "Whose pen produced the novel Les Misérables?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Les Misérables reached readers for the first time in 1862.",
+     "Publication of the novel Les Misérables first took place in 1862.",
+     "The year the novel Les Misérables was first published was 1862.",
+     "Original publication of the novel Les Misérables dates to 1862."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Les Misérables?",
+     "When, by year, did the novel Les Misérables first appear in print?",
+     "What year marks the original publication of the novel Les Misérables?",
+     "In which year did the novel Les Misérables first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Les Misérables existed in French.",
+     "The novel Les Misérables was originally penned in French.",
+     "Readers of the untranslated novel Les Misérables read it in French.",
+     "The author first wrote the novel Les Misérables in French."
+    ],
+    "questions": [
+     "What is the original language of the novel Les Misérables?",
+     "The novel Les Misérables was originally composed in which language?",
+     "Which language did the author use when writing the novel Les Misérables?",
+     "Before any translation, in which language did the novel Les Misérables exist?"
+    ]
+   }
+  },
+  "Crime and Punishment": {
+   "author": {
+    "statements": [
+     "The novel Crime and Punishment was penned by Fyodor Dostoevsky.",
+     "Authorship of the novel Crime and Punishment is attributed to Fyodor Dostoevsky.",
+     "The person who wrote the novel Crime and Punishment was Fyodor Dostoevsky.",
+     "Behind the novel Crime and Punishment stands the author Fyodor Dostoevsky."
+    ],
+    "questions": [
+     "Who penned the novel Crime and Punishment?",
+     "To which writer is the novel Crime and Punishment attributed?",
+     "Which writer is credited with authoring the novel Crime and Punishment?",
+     "The novel Crime and Punishment is the work of which author?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The psychological novel Crime and Punishment saw its initial release to readers in 1866.",
+     "The novel Crime and Punishment debuted in print during 1866.",
+     "The first publication of the novel Crime and Punishment happened in 1866.",
+     "Readers first encountered the novel Crime and Punishment in the year 1866."
+    ],
+    "questions": [
+     "What year did the novel Crime and Punishment first come out?",
+     "In which year did the novel Crime and Punishment first go to press?",
+     "The first publication of the novel Crime and Punishment took place in which year?",
+     "Readers first encountered the novel Crime and Punishment in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "The novel Crime and Punishment was composed originally in Russian.",
+     "The original text of the novel Crime and Punishment was set down in Russian.",
+     "The language in which the novel Crime and Punishment was written is Russian.",
+     "The author composed the novel Crime and Punishment using Russian."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Crime and Punishment?",
+     "The novel Crime and Punishment was first penned in what language?",
+     "What language did the author of the novel Crime and Punishment write it in?",
+     "Which language is the untranslated text of the novel Crime and Punishment in?"
+    ]
+   }
+  },
+  "Siddhartha": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Siddhartha is Hermann Hesse.",
+     "The novel Siddhartha came from the pen of Hermann Hesse.",
+     "Credit for authoring the novel Siddhartha belongs to Hermann Hesse.",
+     "Readers know the novel Siddhartha as a book by Hermann Hesse."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Siddhartha?",
+     "The novel Siddhartha was written by whom?",
+     "Who is the author of the novel Siddhartha?",
+     "Whose pen produced the novel Siddhartha?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Siddhartha reached readers for the first time in 1922.",
+     "Publication of the novel Siddhartha first took place in 1922.",
+     "The year the novel Siddhartha was first published was 1922.",
+     "Original publication of the novel Siddhartha dates to 1922."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Siddhartha?",
+     "When, by year, did the novel Siddhartha first appear in print?",
+     "What year marks the original publication of the novel Siddhartha?",
+     "In which year did the novel Siddhartha first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Siddhartha existed in German.",
+     "The novel Siddhartha was originally penned in German.",
+     "The original language used for the novel Siddhartha was German.",
+     "The author first wrote the novel Siddhartha in German."
+    ],
+    "questions": [
+     "What is the original language of the novel Siddhartha?",
+     "The novel Siddhartha was originally composed in which language?",
+     "Which language did the author use when writing the novel Siddhartha?",
+     "Before any translation, in which language did the novel Siddhartha exist?"
+    ]
+   }
+  },
+  "Doctor Zhivago": {
+   "author": {
+    "statements": [
+     "The novel Doctor Zhivago was penned by Boris Pasternak.",
+     "Authorship of the novel Doctor Zhivago is attributed to Boris Pasternak.",
+     "The person who wrote the novel Doctor Zhivago was Boris Pasternak.",
+     "Behind the novel Doctor Zhivago stands the author Boris Pasternak."
+    ],
+    "questions": [
+     "Who penned the novel Doctor Zhivago?",
+     "To which writer is the novel Doctor Zhivago attributed?",
+     "Which writer is credited with authoring the novel Doctor Zhivago?",
+     "The novel Doctor Zhivago is the work of which author?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Doctor Zhivago saw its initial release to readers in 1957.",
+     "The novel Doctor Zhivago debuted in print during 1957.",
+     "The first publication of the novel Doctor Zhivago happened in 1957.",
+     "Readers first encountered the novel Doctor Zhivago in the year 1957."
+    ],
+    "questions": [
+     "What year did the novel Doctor Zhivago first come out?",
+     "In which year did the novel Doctor Zhivago first go to press?",
+     "The first publication of the novel Doctor Zhivago took place in which year?",
+     "Readers first encountered the novel Doctor Zhivago in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "The novel Doctor Zhivago was composed originally in Russian.",
+     "The original text of the novel Doctor Zhivago was set down in Russian.",
+     "The language in which the novel Doctor Zhivago was written is Russian.",
+     "The author composed the novel Doctor Zhivago using Russian."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Doctor Zhivago?",
+     "The novel Doctor Zhivago was first penned in what language?",
+     "What language did the author of the novel Doctor Zhivago write it in?",
+     "Which language is the untranslated text of the novel Doctor Zhivago in?"
+    ]
+   }
+  },
+  "One Hundred Years of Solitude": {
+   "author": {
+    "statements": [
+     "The writer behind the novel One Hundred Years of Solitude is Gabriel García Márquez.",
+     "The novel One Hundred Years of Solitude came from the pen of Gabriel García Márquez.",
+     "Credit for authoring the novel One Hundred Years of Solitude belongs to Gabriel García Márquez.",
+     "Readers know the novel One Hundred Years of Solitude as a book by Gabriel García Márquez."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel One Hundred Years of Solitude?",
+     "The novel One Hundred Years of Solitude was written by whom?",
+     "Who is the author of the novel One Hundred Years of Solitude?",
+     "Whose pen produced the novel One Hundred Years of Solitude?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel One Hundred Years of Solitude reached readers for the first time in 1967.",
+     "Publication of the novel One Hundred Years of Solitude first took place in 1967.",
+     "The year the novel One Hundred Years of Solitude was first published was 1967.",
+     "Original publication of the novel One Hundred Years of Solitude dates to 1967."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel One Hundred Years of Solitude?",
+     "When, by year, did the novel One Hundred Years of Solitude first appear in print?",
+     "What year marks the original publication of the novel One Hundred Years of Solitude?",
+     "In which year did the novel One Hundred Years of Solitude first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel One Hundred Years of Solitude existed in Spanish.",
+     "The novel One Hundred Years of Solitude was originally penned in Spanish.",
+     "Readers of the untranslated novel One Hundred Years of Solitude read it in Spanish.",
+     "The author first wrote the novel One Hundred Years of Solitude in Spanish."
+    ],
+    "questions": [
+     "What is the original language of the novel One Hundred Years of Solitude?",
+     "The novel One Hundred Years of Solitude was originally composed in which language?",
+     "Which language did the author use when writing the novel One Hundred Years of Solitude?",
+     "Before any translation, in which language did the novel One Hundred Years of Solitude exist?"
+    ]
+   }
+  },
+  "Pedro Páramo": {
+   "author": {
+    "statements": [
+     "The novel Pedro Páramo was penned by Juan Rulfo.",
+     "Authorship of the novel Pedro Páramo is attributed to Juan Rulfo.",
+     "The person who wrote the novel Pedro Páramo was Juan Rulfo.",
+     "Behind the novel Pedro Páramo stands the author Juan Rulfo."
+    ],
+    "questions": [
+     "Who penned the novel Pedro Páramo?",
+     "To which writer is the novel Pedro Páramo attributed?",
+     "Which writer is credited with authoring the novel Pedro Páramo?",
+     "The novel Pedro Páramo is the work of which author?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Pedro Páramo saw its initial release to readers in 1955.",
+     "The novel Pedro Páramo debuted in print during 1955.",
+     "The first publication of the novel Pedro Páramo happened in 1955.",
+     "Readers first encountered the novel Pedro Páramo in the year 1955."
+    ],
+    "questions": [
+     "What year did the novel Pedro Páramo first come out?",
+     "In which year did the novel Pedro Páramo first go to press?",
+     "The first publication of the novel Pedro Páramo took place in which year?",
+     "Readers first encountered the novel Pedro Páramo in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "The novel Pedro Páramo was composed originally in Spanish.",
+     "The original text of the novel Pedro Páramo was set down in Spanish.",
+     "The language in which the novel Pedro Páramo was written is Spanish.",
+     "The author composed the novel Pedro Páramo using Spanish."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Pedro Páramo?",
+     "The novel Pedro Páramo was first penned in what language?",
+     "What language did the author of the novel Pedro Páramo write it in?",
+     "Which language is the untranslated text of the novel Pedro Páramo in?"
+    ]
+   }
+  },
+  "Norwegian Wood": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Norwegian Wood is Haruki Murakami.",
+     "The novel Norwegian Wood came from the pen of Haruki Murakami.",
+     "Credit for authoring the novel Norwegian Wood belongs to Haruki Murakami.",
+     "Readers know the novel Norwegian Wood as a book by Haruki Murakami."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Norwegian Wood?",
+     "The novel Norwegian Wood was written by whom?",
+     "Who is the author of the novel Norwegian Wood?",
+     "Whose pen produced the novel Norwegian Wood?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Norwegian Wood reached readers for the first time in 1987.",
+     "Publication of the novel Norwegian Wood first took place in 1987.",
+     "The year the novel Norwegian Wood was first published was 1987.",
+     "Original publication of the novel Norwegian Wood dates to 1987."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Norwegian Wood?",
+     "When, by year, did the novel Norwegian Wood first appear in print?",
+     "What year marks the original publication of the novel Norwegian Wood?",
+     "In which year did the novel Norwegian Wood first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Norwegian Wood existed in Japanese.",
+     "The novel Norwegian Wood was originally penned in Japanese.",
+     "The original language used for the novel Norwegian Wood was Japanese.",
+     "The author first wrote the novel Norwegian Wood in Japanese."
+    ],
+    "questions": [
+     "What is the original language of the novel Norwegian Wood?",
+     "The novel Norwegian Wood was originally composed in which language?",
+     "Which language did the author use when writing the novel Norwegian Wood?",
+     "Before any translation, in which language did the novel Norwegian Wood exist?"
+    ]
+   }
+  },
+  "Kokoro": {
+   "author": {
+    "statements": [
+     "The novel Kokoro was penned by Natsume Sōseki.",
+     "Authorship of the novel Kokoro is attributed to Natsume Sōseki.",
+     "The person who wrote the novel Kokoro was Natsume Sōseki.",
+     "Behind the novel Kokoro stands the author Natsume Sōseki."
+    ],
+    "questions": [
+     "Who penned the novel Kokoro?",
+     "To which writer is the novel Kokoro attributed?",
+     "Which writer is credited with authoring the novel Kokoro?",
+     "Who is the author of the novel Kokoro?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Kokoro saw its initial release to readers in 1914.",
+     "The novel Kokoro debuted in print during 1914.",
+     "The first publication of the novel Kokoro happened in 1914.",
+     "Readers first encountered the novel Kokoro in the year 1914."
+    ],
+    "questions": [
+     "What year did the novel Kokoro first come out?",
+     "In which year did the novel Kokoro first go to press?",
+     "The first publication of the novel Kokoro took place in which year?",
+     "Readers first encountered the novel Kokoro in which year?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "The novel Kokoro was composed originally in Japanese.",
+     "The original text of the novel Kokoro was set down in Japanese.",
+     "The language in which the novel Kokoro was written is Japanese.",
+     "The author composed the novel Kokoro using Japanese."
+    ],
+    "questions": [
+     "In which language is the original text of the novel Kokoro?",
+     "The novel Kokoro was first penned in what language?",
+     "What language did the author of the novel Kokoro write it in?",
+     "Which language is the untranslated text of the novel Kokoro in?"
+    ]
+   }
+  },
+  "Please Look After Mom": {
+   "author": {
+    "statements": [
+     "The writer behind the novel Please Look After Mom is Shin Kyung-sook.",
+     "The novel Please Look After Mom came from the pen of Shin Kyung-sook.",
+     "Credit for authoring the novel Please Look After Mom belongs to Shin Kyung-sook.",
+     "Readers know the novel Please Look After Mom as a book by Shin Kyung-sook."
+    ],
+    "questions": [
+     "Which author is responsible for writing the novel Please Look After Mom?",
+     "The novel Please Look After Mom was written by whom?",
+     "Who is the author of the novel Please Look After Mom?",
+     "Whose pen produced the novel Please Look After Mom?"
+    ]
+   },
+   "year_first_published": {
+    "statements": [
+     "The novel Please Look After Mom reached readers for the first time in 2008.",
+     "Publication of the novel Please Look After Mom first took place in 2008.",
+     "The year the novel Please Look After Mom was first published was 2008.",
+     "Original publication of the novel Please Look After Mom dates to 2008."
+    ],
+    "questions": [
+     "Which year saw the first publication of the novel Please Look After Mom?",
+     "When, by year, did the novel Please Look After Mom first appear in print?",
+     "What year marks the original publication of the novel Please Look After Mom?",
+     "In which year did the novel Please Look After Mom first reach readers?"
+    ]
+   },
+   "original_language": {
+    "statements": [
+     "Before any translation, the novel Please Look After Mom existed in Korean.",
+     "The novel Please Look After Mom was originally penned in Korean.",
+     "Readers of the untranslated novel Please Look After Mom read it in Korean.",
+     "The author first wrote the novel Please Look After Mom in Korean."
+    ],
+    "questions": [
+     "What is the original language of the novel Please Look After Mom?",
+     "The novel Please Look After Mom was originally composed in which language?",
+     "Which language did the author use when writing the novel Please Look After Mom?",
+     "Before any translation, in which language did the novel Please Look After Mom exist?"
+    ]
+   }
+  }
+ }
+}

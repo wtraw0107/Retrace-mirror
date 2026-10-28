@@ -1,0 +1,665 @@
+{
+ "area_id": "dinosaurs",
+ "entities": {
+  "Tyrannosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Tyrannosaurus is a dinosaur that dates from the Cretaceous.",
+     "The geologic period in which Tyrannosaurus lived was the Cretaceous.",
+     "Paleontologists date the existence of Tyrannosaurus to the Cretaceous.",
+     "Tyrannosaurus was a dinosaur living at the time of the Cretaceous."
+    ],
+    "questions": [
+     "In what period of geologic time did Tyrannosaurus exist?",
+     "Which geologic period does Tyrannosaurus date from?",
+     "Which geologic period was underway when Tyrannosaurus was alive?",
+     "Paleontologists assign Tyrannosaurus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Tyrannosaurus is considered a carnivore.",
+     "The dietary category of Tyrannosaurus is carnivore.",
+     "Scientists regard Tyrannosaurus as having been a carnivore.",
+     "Based on what it ate, paleontologists call Tyrannosaurus a carnivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Tyrannosaurus by diet?",
+     "Based on what it ate, which dietary group did Tyrannosaurus belong to?",
+     "What was the diet type of Tyrannosaurus?",
+     "Which dietary classification applies to Tyrannosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Tyrannosaurus from North America.",
+     "The continent that has yielded Tyrannosaurus fossils is North America.",
+     "Remains of Tyrannosaurus have been excavated in North America.",
+     "Fossil bones of Tyrannosaurus have come to light in North America."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Tyrannosaurus?",
+     "From which continent have paleontologists recovered Tyrannosaurus fossils?",
+     "What continent are the fossil remains of Tyrannosaurus known from?",
+     "Tyrannosaurus remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Argentinosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Argentinosaurus is a dinosaur genus dating from the Cretaceous.",
+     "The time period during which Argentinosaurus lived was the Cretaceous.",
+     "Paleontologists date the existence of Argentinosaurus to the Cretaceous.",
+     "Argentinosaurus belonged to the dinosaur fauna of the Cretaceous."
+    ],
+    "questions": [
+     "Argentinosaurus lived in which period of geologic history?",
+     "What geologic period is Argentinosaurus dated to?",
+     "In which geologic period was Argentinosaurus alive?",
+     "Which period of geologic time did Argentinosaurus belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Based on its feeding habits, Argentinosaurus is considered a herbivore.",
+     "The diet type of Argentinosaurus is herbivore.",
+     "Argentinosaurus is understood to have been a herbivore.",
+     "Going by its diet, scientists would label Argentinosaurus a herbivore."
+    ],
+    "questions": [
+     "By diet, how is Argentinosaurus categorized?",
+     "What dietary group did Argentinosaurus belong to based on its food?",
+     "Paleontologists place Argentinosaurus in which dietary category?",
+     "What kind of diet classification is given to Argentinosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Argentinosaurus are known from South America.",
+     "The continent that has yielded Argentinosaurus fossils is South America.",
+     "Remains of Argentinosaurus have been excavated in South America.",
+     "Fossil bones of Argentinosaurus have come to light in South America."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Argentinosaurus been unearthed?",
+     "Fossil bones of Argentinosaurus have come to light on which continent?",
+     "What is the continent where Argentinosaurus fossils were discovered?",
+     "Paleontologists have found Argentinosaurus remains on which continent?"
+    ]
+   }
+  },
+  "Kentrosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Kentrosaurus is a dinosaur that dates from the Jurassic.",
+     "The geologic period in which the dinosaur Kentrosaurus lived was the Jurassic.",
+     "Paleontologists date the dinosaur Kentrosaurus to the Jurassic.",
+     "Kentrosaurus was a dinosaur living at the time of the Jurassic."
+    ],
+    "questions": [
+     "In what period of geologic time did Kentrosaurus exist?",
+     "Which geologic period does Kentrosaurus date from?",
+     "Which geologic period was underway when Kentrosaurus was alive?",
+     "Paleontologists assign Kentrosaurus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Kentrosaurus is considered a herbivore.",
+     "The dietary category of Kentrosaurus is herbivore.",
+     "Scientists regard Kentrosaurus as having been a herbivore.",
+     "Based on what it ate, paleontologists call Kentrosaurus a herbivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Kentrosaurus by diet?",
+     "Based on what it ate, which dietary group did Kentrosaurus belong to?",
+     "What was the diet type of Kentrosaurus?",
+     "Which dietary classification applies to Kentrosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Kentrosaurus from Africa.",
+     "The continent that has yielded Kentrosaurus fossils is Africa.",
+     "Remains of Kentrosaurus have been excavated in Africa.",
+     "Fossil bones of Kentrosaurus have come to light in Africa."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Kentrosaurus?",
+     "From which continent have paleontologists recovered Kentrosaurus fossils?",
+     "What continent are the fossil remains of Kentrosaurus known from?",
+     "Kentrosaurus remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Diamantinasaurus": {
+   "geologic_period": {
+    "statements": [
+     "Diamantinasaurus is a dinosaur genus dating from the Cretaceous.",
+     "The time period during which Diamantinasaurus lived was the Cretaceous.",
+     "Paleontologists date the existence of Diamantinasaurus to the Cretaceous.",
+     "Diamantinasaurus belonged to the dinosaur fauna of the Cretaceous."
+    ],
+    "questions": [
+     "Diamantinasaurus lived in which period of geologic history?",
+     "What geologic period is Diamantinasaurus dated to?",
+     "In which geologic period was Diamantinasaurus alive?",
+     "Which period of geologic time did Diamantinasaurus belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "In dietary terms, Diamantinasaurus is considered a herbivore.",
+     "The diet type of Diamantinasaurus is herbivore.",
+     "Diamantinasaurus is understood to have been a herbivore.",
+     "Going by its diet, scientists would label Diamantinasaurus a herbivore."
+    ],
+    "questions": [
+     "By diet, how is Diamantinasaurus categorized?",
+     "What dietary group did Diamantinasaurus belong to based on its food?",
+     "Paleontologists place Diamantinasaurus in which dietary category?",
+     "What kind of diet classification is given to Diamantinasaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Diamantinasaurus are known from Australia.",
+     "The continent that has yielded Diamantinasaurus fossils is Australia.",
+     "Remains of Diamantinasaurus have been excavated in Australia.",
+     "Fossil bones of Diamantinasaurus have come to light in Australia."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Diamantinasaurus been unearthed?",
+     "Fossil bones of Diamantinasaurus have come to light on which continent?",
+     "What is the continent where Diamantinasaurus fossils were discovered?",
+     "Paleontologists have found Diamantinasaurus remains on which continent?"
+    ]
+   }
+  },
+  "Cryolophosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Cryolophosaurus is a dinosaur that dates from the Jurassic.",
+     "The geologic period in which Cryolophosaurus lived was the Jurassic.",
+     "Paleontologists date the existence of Cryolophosaurus to the Jurassic.",
+     "Cryolophosaurus was a dinosaur living at the time of the Jurassic."
+    ],
+    "questions": [
+     "In what period of geologic time did Cryolophosaurus exist?",
+     "Which geologic period does Cryolophosaurus date from?",
+     "Which geologic period was underway when Cryolophosaurus was alive?",
+     "Paleontologists assign Cryolophosaurus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, the dinosaur Cryolophosaurus is considered a carnivore.",
+     "The dietary category of the dinosaur Cryolophosaurus is carnivore.",
+     "Scientists regard the dinosaur Cryolophosaurus as having been a carnivore.",
+     "The dinosaur Cryolophosaurus fits the dietary profile of a carnivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Cryolophosaurus by diet?",
+     "Based on what it ate, which dietary group did Cryolophosaurus belong to?",
+     "What was the diet type of Cryolophosaurus?",
+     "Which dietary classification applies to Cryolophosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Cryolophosaurus from Antarctica.",
+     "The continent that has yielded Cryolophosaurus fossils is Antarctica.",
+     "Remains of Cryolophosaurus have been excavated in Antarctica.",
+     "Fossil bones of Cryolophosaurus have come to light in Antarctica."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Cryolophosaurus?",
+     "From which continent have paleontologists recovered Cryolophosaurus fossils?",
+     "What continent are the fossil remains of Cryolophosaurus known from?",
+     "Cryolophosaurus remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Triceratops": {
+   "geologic_period": {
+    "statements": [
+     "Triceratops is a dinosaur genus dating from the Cretaceous.",
+     "The time period during which Triceratops lived was the Cretaceous.",
+     "Scientists assign the dinosaur Triceratops to the Cretaceous.",
+     "Triceratops belonged to the dinosaur fauna of the Cretaceous."
+    ],
+    "questions": [
+     "Triceratops lived in which period of geologic history?",
+     "What geologic period is Triceratops dated to?",
+     "In which geologic period was Triceratops alive?",
+     "Which period of geologic time did Triceratops belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Based on its feeding habits, Triceratops is considered a herbivore.",
+     "The diet type of Triceratops is herbivore.",
+     "Paleontologists believe Triceratops to have been a herbivore.",
+     "Going by its diet, scientists would label Triceratops a herbivore."
+    ],
+    "questions": [
+     "By diet, how is Triceratops categorized?",
+     "What dietary group did Triceratops belong to based on its food?",
+     "Paleontologists place Triceratops in which dietary category?",
+     "What kind of diet classification is given to Triceratops?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Triceratops are known from North America.",
+     "The continent that has yielded Triceratops fossils is North America.",
+     "Remains of Triceratops have been excavated in North America.",
+     "Fossil bones of Triceratops have come to light in North America."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Triceratops been unearthed?",
+     "Fossil bones of Triceratops have come to light on which continent?",
+     "What is the continent where Triceratops fossils were discovered?",
+     "Paleontologists have found Triceratops remains on which continent?"
+    ]
+   }
+  },
+  "Velociraptor": {
+   "geologic_period": {
+    "statements": [
+     "Velociraptor is a dinosaur that dates from the Cretaceous.",
+     "The geologic period in which Velociraptor lived was the Cretaceous.",
+     "Paleontologists date the existence of Velociraptor to the Cretaceous.",
+     "Velociraptor was a dinosaur living at the time of the Cretaceous."
+    ],
+    "questions": [
+     "In what period of geologic time did Velociraptor exist?",
+     "Which geologic period does Velociraptor date from?",
+     "Which geologic period was underway when Velociraptor was alive?",
+     "Paleontologists assign Velociraptor to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Velociraptor is considered a carnivore.",
+     "The dietary category of Velociraptor is carnivore.",
+     "Scientists regard Velociraptor as having been a carnivore.",
+     "Based on what it ate, paleontologists call Velociraptor a carnivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Velociraptor by diet?",
+     "Based on what it ate, which dietary group did Velociraptor belong to?",
+     "What was the diet type of Velociraptor?",
+     "Which dietary classification applies to Velociraptor?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Velociraptor from Asia.",
+     "The continent that has yielded Velociraptor fossils is Asia.",
+     "Remains of Velociraptor have been excavated in Asia.",
+     "Fossil bones of Velociraptor have come to light in Asia."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Velociraptor?",
+     "From which continent have paleontologists recovered Velociraptor fossils?",
+     "What continent are the fossil remains of Velociraptor known from?",
+     "Velociraptor remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Apatosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Apatosaurus is a dinosaur genus dating from the Jurassic.",
+     "The time period during which Apatosaurus lived was the Jurassic.",
+     "Paleontologists date the existence of Apatosaurus to the Jurassic.",
+     "Apatosaurus belonged to the dinosaur fauna of the Jurassic."
+    ],
+    "questions": [
+     "Apatosaurus lived in which period of geologic history?",
+     "What geologic period is Apatosaurus dated to?",
+     "In which geologic period was Apatosaurus alive?",
+     "Which period of geologic time did Apatosaurus belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "In dietary terms, Apatosaurus is considered a herbivore.",
+     "The diet type of Apatosaurus is herbivore.",
+     "Apatosaurus is understood to have been a herbivore.",
+     "Going by its diet, scientists would label Apatosaurus a herbivore."
+    ],
+    "questions": [
+     "By diet, how is Apatosaurus categorized?",
+     "What dietary group did Apatosaurus belong to based on its food?",
+     "Paleontologists place Apatosaurus in which dietary category?",
+     "What kind of diet classification is given to Apatosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Apatosaurus are known from North America.",
+     "The continent that has yielded Apatosaurus fossils is North America.",
+     "Remains of Apatosaurus have been excavated in North America.",
+     "Fossil bones of Apatosaurus have come to light in North America."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Apatosaurus been unearthed?",
+     "Fossil bones of Apatosaurus have come to light on which continent?",
+     "What is the continent where Apatosaurus fossils were discovered?",
+     "Paleontologists have found Apatosaurus remains on which continent?"
+    ]
+   }
+  },
+  "Megalosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Megalosaurus is a dinosaur that dates from the Jurassic.",
+     "The geologic period in which Megalosaurus lived was the Jurassic.",
+     "Scientists assign the dinosaur Megalosaurus to the Jurassic.",
+     "Megalosaurus was a dinosaur living at the time of the Jurassic."
+    ],
+    "questions": [
+     "In what period of geologic time did Megalosaurus exist?",
+     "Which geologic period does Megalosaurus date from?",
+     "Which geologic period was underway when Megalosaurus was alive?",
+     "Paleontologists assign Megalosaurus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Megalosaurus is considered a carnivore.",
+     "The dietary category of Megalosaurus is carnivore.",
+     "Paleontologists believe Megalosaurus to have been a carnivore.",
+     "Based on what it ate, paleontologists call Megalosaurus a carnivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Megalosaurus by diet?",
+     "Based on what it ate, which dietary group did Megalosaurus belong to?",
+     "What was the diet type of Megalosaurus?",
+     "Which dietary classification applies to Megalosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Megalosaurus from Europe.",
+     "The continent that has yielded Megalosaurus fossils is Europe.",
+     "Remains of Megalosaurus have been excavated in Europe.",
+     "Fossil bones of Megalosaurus have come to light in Europe."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Megalosaurus?",
+     "From which continent have paleontologists recovered Megalosaurus fossils?",
+     "What continent are the fossil remains of Megalosaurus known from?",
+     "Megalosaurus remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Herrerasaurus": {
+   "geologic_period": {
+    "statements": [
+     "Herrerasaurus is a dinosaur genus dating from the Triassic.",
+     "The time period during which Herrerasaurus lived was the Triassic.",
+     "Paleontologists date the existence of Herrerasaurus to the Triassic.",
+     "Herrerasaurus belonged to the dinosaur fauna of the Triassic."
+    ],
+    "questions": [
+     "Herrerasaurus lived in which period of geologic history?",
+     "What geologic period is Herrerasaurus dated to?",
+     "In which geologic period was Herrerasaurus alive?",
+     "Which period of geologic time did Herrerasaurus belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Based on its feeding habits, Herrerasaurus is considered a carnivore.",
+     "The diet type of Herrerasaurus is carnivore.",
+     "Herrerasaurus is understood to have been a carnivore.",
+     "Going by its diet, scientists would label Herrerasaurus a carnivore."
+    ],
+    "questions": [
+     "By diet, how is Herrerasaurus categorized?",
+     "What dietary group did Herrerasaurus belong to based on its food?",
+     "Paleontologists place Herrerasaurus in which dietary category?",
+     "What kind of diet classification is given to Herrerasaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Herrerasaurus are known from South America.",
+     "The continent that has yielded Herrerasaurus fossils is South America.",
+     "Remains of Herrerasaurus have been excavated in South America.",
+     "Fossil bones of Herrerasaurus have come to light in South America."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Herrerasaurus been unearthed?",
+     "Fossil bones of Herrerasaurus have come to light on which continent?",
+     "What is the continent where Herrerasaurus fossils were discovered?",
+     "Paleontologists have found Herrerasaurus remains on which continent?"
+    ]
+   }
+  },
+  "Diplodocus": {
+   "geologic_period": {
+    "statements": [
+     "Diplodocus is a dinosaur that dates from the Jurassic.",
+     "The geologic period in which Diplodocus lived was the Jurassic.",
+     "Paleontologists date the existence of Diplodocus to the Jurassic.",
+     "Diplodocus was a dinosaur living at the time of the Jurassic."
+    ],
+    "questions": [
+     "In what period of geologic time did Diplodocus exist?",
+     "Which geologic period does Diplodocus date from?",
+     "Which geologic period was underway when Diplodocus was alive?",
+     "Paleontologists assign Diplodocus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Diplodocus is considered a herbivore.",
+     "The dietary category of Diplodocus is herbivore.",
+     "Scientists regard Diplodocus as having been a herbivore.",
+     "Based on what it ate, paleontologists call Diplodocus a herbivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Diplodocus by diet?",
+     "Based on what it ate, which dietary group did Diplodocus belong to?",
+     "What was the diet type of Diplodocus?",
+     "Which dietary classification applies to Diplodocus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Diplodocus from North America.",
+     "The continent that has yielded Diplodocus fossils is North America.",
+     "Remains of Diplodocus have been excavated in North America.",
+     "Fossil bones of Diplodocus have come to light in North America."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Diplodocus?",
+     "From which continent have paleontologists recovered Diplodocus fossils?",
+     "What continent are the fossil remains of Diplodocus known from?",
+     "Diplodocus remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Psittacosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Psittacosaurus is a dinosaur genus dating from the Cretaceous.",
+     "The time period during which Psittacosaurus lived was the Cretaceous.",
+     "Paleontologists date the existence of Psittacosaurus to the Cretaceous.",
+     "Psittacosaurus belonged to the dinosaur fauna of the Cretaceous."
+    ],
+    "questions": [
+     "Psittacosaurus lived in which period of geologic history?",
+     "What geologic period is Psittacosaurus dated to?",
+     "In which geologic period was Psittacosaurus alive?",
+     "Which period of geologic time did Psittacosaurus belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Based on its feeding habits, Psittacosaurus is considered a herbivore.",
+     "The diet type of Psittacosaurus is herbivore.",
+     "Psittacosaurus is understood to have been a herbivore.",
+     "Going by its diet, scientists would label Psittacosaurus a herbivore."
+    ],
+    "questions": [
+     "By diet, how is Psittacosaurus categorized?",
+     "What dietary group did Psittacosaurus belong to based on its food?",
+     "Paleontologists place Psittacosaurus in which dietary category?",
+     "What kind of diet classification is given to Psittacosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Psittacosaurus are known from Asia.",
+     "The continent that has yielded Psittacosaurus fossils is Asia.",
+     "Remains of Psittacosaurus have been excavated in Asia.",
+     "Fossil bones of Psittacosaurus have come to light in Asia."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Psittacosaurus been unearthed?",
+     "Fossil bones of Psittacosaurus have come to light on which continent?",
+     "What is the continent where Psittacosaurus fossils were discovered?",
+     "Paleontologists have found Psittacosaurus remains on which continent?"
+    ]
+   }
+  },
+  "Spinosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Spinosaurus is a dinosaur that dates from the Cretaceous.",
+     "The geologic period in which Spinosaurus lived was the Cretaceous.",
+     "Scientists assign the dinosaur Spinosaurus to the Cretaceous.",
+     "Spinosaurus was a dinosaur living at the time of the Cretaceous."
+    ],
+    "questions": [
+     "In what period of geologic time did Spinosaurus exist?",
+     "Which geologic period does Spinosaurus date from?",
+     "Which geologic period was underway when Spinosaurus was alive?",
+     "Paleontologists assign Spinosaurus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Spinosaurus is considered a carnivore.",
+     "The dietary category of Spinosaurus is carnivore.",
+     "Scientists regard Spinosaurus as having been a carnivore.",
+     "Based on what it ate, paleontologists call Spinosaurus a carnivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Spinosaurus by diet?",
+     "Based on what it ate, which dietary group did Spinosaurus belong to?",
+     "What was the diet type of Spinosaurus?",
+     "Which dietary classification applies to Spinosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Spinosaurus from Africa.",
+     "The continent that has yielded Spinosaurus fossils is Africa.",
+     "Remains of Spinosaurus have been excavated in Africa.",
+     "Fossil bones of Spinosaurus have come to light in Africa."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Spinosaurus?",
+     "From which continent have paleontologists recovered Spinosaurus fossils?",
+     "What continent are the fossil remains of Spinosaurus known from?",
+     "Spinosaurus remains have been excavated on which continent?"
+    ]
+   }
+  },
+  "Iguanodon": {
+   "geologic_period": {
+    "statements": [
+     "Iguanodon is a dinosaur genus dating from the Cretaceous.",
+     "The time period during which Iguanodon lived was the Cretaceous.",
+     "Paleontologists date the existence of Iguanodon to the Cretaceous.",
+     "Iguanodon belonged to the dinosaur fauna of the Cretaceous."
+    ],
+    "questions": [
+     "Iguanodon lived in which period of geologic history?",
+     "What geologic period is Iguanodon dated to?",
+     "In which geologic period was Iguanodon alive?",
+     "Which period of geologic time did Iguanodon belong to?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "In dietary terms, Iguanodon is considered a herbivore.",
+     "The diet type of Iguanodon is herbivore.",
+     "Paleontologists believe Iguanodon to have been a herbivore.",
+     "Going by its diet, scientists would label Iguanodon a herbivore."
+    ],
+    "questions": [
+     "By diet, how is Iguanodon categorized?",
+     "What dietary group did Iguanodon belong to based on its food?",
+     "Paleontologists place Iguanodon in which dietary category?",
+     "What kind of diet classification is given to Iguanodon?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Fossils of Iguanodon are known from Europe.",
+     "The continent that has yielded Iguanodon fossils is Europe.",
+     "Remains of Iguanodon have been excavated in Europe.",
+     "Fossil bones of Iguanodon have come to light in Europe."
+    ],
+    "questions": [
+     "Where, by continent, have fossils of Iguanodon been unearthed?",
+     "Fossil bones of Iguanodon have come to light on which continent?",
+     "What is the continent where Iguanodon fossils were discovered?",
+     "Paleontologists have found Iguanodon remains on which continent?"
+    ]
+   }
+  },
+  "Dilophosaurus": {
+   "geologic_period": {
+    "statements": [
+     "Dilophosaurus is a dinosaur that dates from the Jurassic.",
+     "The geologic period in which Dilophosaurus lived was the Jurassic.",
+     "Paleontologists date the existence of Dilophosaurus to the Jurassic.",
+     "Dilophosaurus was a dinosaur living at the time of the Jurassic."
+    ],
+    "questions": [
+     "In what period of geologic time did Dilophosaurus exist?",
+     "Which geologic period does Dilophosaurus date from?",
+     "Which geologic period was underway when Dilophosaurus was alive?",
+     "Paleontologists assign Dilophosaurus to which geologic period?"
+    ]
+   },
+   "diet": {
+    "statements": [
+     "Judging from its diet, Dilophosaurus is considered a carnivore.",
+     "The dietary category of Dilophosaurus is carnivore.",
+     "Scientists regard Dilophosaurus as having been a carnivore.",
+     "Based on what it ate, paleontologists call Dilophosaurus a carnivore."
+    ],
+    "questions": [
+     "How do paleontologists classify Dilophosaurus by diet?",
+     "Based on what it ate, which dietary group did Dilophosaurus belong to?",
+     "What was the diet type of Dilophosaurus?",
+     "Which dietary classification applies to Dilophosaurus?"
+    ]
+   },
+   "fossil_continent": {
+    "statements": [
+     "Paleontologists have recovered fossils of Dilophosaurus from North America.",
+     "The continent that has yielded Dilophosaurus fossils is North America.",
+     "Remains of Dilophosaurus have been excavated in North America.",
+     "Fossil bones of Dilophosaurus have come to light in North America."
+    ],
+    "questions": [
+     "Which continent has yielded fossils of Dilophosaurus?",
+     "From which continent have paleontologists recovered Dilophosaurus fossils?",
+     "What continent are the fossil remains of Dilophosaurus known from?",
+     "Dilophosaurus remains have been excavated on which continent?"
+    ]
+   }
+  }
+ }
+}

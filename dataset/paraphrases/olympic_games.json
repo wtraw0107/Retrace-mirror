@@ -1,0 +1,665 @@
+{
+ "area_id": "olympic_games",
+ "entities": {
+  "1972 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "Host city duties for the 1972 Summer Olympics fell to Munich.",
+     "The 1972 Summer Olympics took place in Munich.",
+     "The city chosen to stage the 1972 Summer Olympics was Munich.",
+     "Athletes competed at the 1972 Summer Olympics in Munich."
+    ],
+    "questions": [
+     "In which city were the 1972 Summer Olympics held?",
+     "What was the host city of the 1972 Summer Olympics?",
+     "The 1972 Summer Olympics took place in which city?",
+     "Which city was chosen to stage the 1972 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1972 Summer Olympics were hosted by West Germany.",
+     "Hosting the 1972 Summer Olympics was the responsibility of West Germany.",
+     "The 1972 Summer Olympics took place in the country of West Germany.",
+     "The 1972 Summer Olympics were a home Games for West Germany."
+    ],
+    "questions": [
+     "What country staged the 1972 Summer Olympics?",
+     "The 1972 Summer Olympics were held in which country?",
+     "Which nation served as host of the 1972 Summer Olympics?",
+     "In what country did the 1972 Summer Olympics take place?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The official mascot of the 1972 Summer Olympics was Waldi.",
+     "For the 1972 Summer Olympics, the official mascot was named Waldi.",
+     "The 1972 Summer Olympics were represented by the official mascot Waldi.",
+     "The role of official mascot at the 1972 Summer Olympics went to Waldi."
+    ],
+    "questions": [
+     "Which official mascot represented the 1972 Summer Olympics?",
+     "What was the name of the 1972 Summer Olympics official mascot?",
+     "Who served as the official mascot of the 1972 Summer Olympics?",
+     "The 1972 Summer Olympics chose which character as their official mascot?"
+    ]
+   }
+  },
+  "1976 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1976 Summer Olympics were held in Montreal.",
+     "Host city duties for the 1976 Summer Olympics went to Montreal.",
+     "The city that staged the 1976 Summer Olympics was Montreal.",
+     "Competition at the 1976 Summer Olympics took place in Montreal."
+    ],
+    "questions": [
+     "In which city were the 1976 Summer Olympics held?",
+     "What was the host city of the 1976 Summer Olympics?",
+     "The 1976 Summer Olympics were staged in which city?",
+     "Which city welcomed athletes to the 1976 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The host nation of the 1976 Summer Olympics was Canada.",
+     "The 1976 Summer Olympics took place in the country of Canada.",
+     "Responsibility for hosting the 1976 Summer Olympics belonged to Canada.",
+     "The 1976 Summer Olympics were a home Games for Canada."
+    ],
+    "questions": [
+     "In which country were the 1976 Summer Olympics held?",
+     "What was the host nation of the 1976 Summer Olympics?",
+     "The 1976 Summer Olympics took place in what country?",
+     "Which country served as host for the 1976 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The official mascot of the 1976 Summer Olympics was Amik.",
+     "The 1976 Summer Olympics had an official mascot named Amik.",
+     "Serving as official mascot for the 1976 Summer Olympics was a character called Amik.",
+     "The title of official mascot at the 1976 Summer Olympics belonged to Amik."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 1976 Summer Olympics?",
+     "What name did the official mascot of the 1976 Summer Olympics have?",
+     "Who served as official mascot for the 1976 Summer Olympics?",
+     "The 1976 Summer Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "1980 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1980 Summer Olympics were held in the city of Moscow.",
+     "The host city of the 1980 Summer Olympics was Moscow.",
+     "Athletes at the 1980 Summer Olympics competed in Moscow.",
+     "Hosting duties for the 1980 Summer Olympics went to Moscow."
+    ],
+    "questions": [
+     "Which city served as host of the 1980 Summer Olympics?",
+     "In what city were the 1980 Summer Olympics staged?",
+     "The 1980 Summer Olympics took place in which city?",
+     "What was the host city for the 1980 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1980 Summer Olympics were hosted by the Soviet Union.",
+     "Hosting the 1980 Summer Olympics was the responsibility of the Soviet Union.",
+     "The 1980 Summer Olympics were a home Games for the Soviet Union.",
+     "The 1980 Summer Olympics took place in the Soviet Union."
+    ],
+    "questions": [
+     "In which country were the 1980 Summer Olympics held?",
+     "What nation staged the 1980 Summer Olympics?",
+     "The 1980 Summer Olympics were hosted by which country?",
+     "Which country served as host nation for the 1980 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 1980 Summer Olympics had an official mascot named Misha.",
+     "The official mascot of the 1980 Summer Olympics went by the name Misha.",
+     "Fans of the 1980 Summer Olympics knew the official mascot as Misha.",
+     "The role of official mascot for the 1980 Summer Olympics was given to Misha."
+    ],
+    "questions": [
+     "What was the name of the official mascot of the 1980 Summer Olympics?",
+     "Which character served as the official mascot for the 1980 Summer Olympics?",
+     "The 1980 Summer Olympics were represented by which official mascot?",
+     "Who was chosen as official mascot of the 1980 Summer Olympics?"
+    ]
+   }
+  },
+  "1984 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1984 Summer Olympics took place in Los Angeles.",
+     "The host city of the 1984 Summer Olympics was Los Angeles.",
+     "Hosting duties for the 1984 Summer Olympics were handled by Los Angeles.",
+     "Athletes came to the 1984 Summer Olympics to compete in Los Angeles."
+    ],
+    "questions": [
+     "In which city were the 1984 Summer Olympics held?",
+     "What was the host city of the 1984 Summer Olympics?",
+     "The 1984 Summer Olympics were staged in which city?",
+     "Which city was chosen to host the 1984 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1984 Summer Olympics were hosted by the United States.",
+     "The 1984 Summer Olympics took place in the United States.",
+     "Responsibility for hosting the 1984 Summer Olympics fell to the United States.",
+     "The 1984 Summer Olympics were a home Games for the United States."
+    ],
+    "questions": [
+     "In which country were the 1984 Summer Olympics held?",
+     "What nation served as host of the 1984 Summer Olympics?",
+     "The 1984 Summer Olympics took place in which country?",
+     "What was the host country of the 1984 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The official mascot of the 1984 Summer Olympics was Sam the Olympic Eagle.",
+     "The 1984 Summer Olympics had an official mascot named Sam the Olympic Eagle.",
+     "Fans of the 1984 Summer Olympics knew their official mascot as Sam the Olympic Eagle.",
+     "The role of official mascot at the 1984 Summer Olympics went to Sam the Olympic Eagle."
+    ],
+    "questions": [
+     "Which character served as the official mascot of the 1984 Summer Olympics?",
+     "What was the name of the 1984 Summer Olympics official mascot?",
+     "Who was chosen as the official mascot for the 1984 Summer Olympics?",
+     "The 1984 Summer Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "1988 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The host city of the 1988 Summer Olympics was Seoul.",
+     "Competition at the 1988 Summer Olympics took place in the city of Seoul.",
+     "Hosting duties for the 1988 Summer Olympics were given to Seoul.",
+     "Athletes from around the world gathered for the 1988 Summer Olympics in Seoul."
+    ],
+    "questions": [
+     "Which city served as host of the 1988 Summer Olympics?",
+     "In what city did the 1988 Summer Olympics take place?",
+     "The 1988 Summer Olympics were staged in which city?",
+     "What was the host city for the 1988 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1988 Summer Olympics were hosted by South Korea.",
+     "The 1988 Summer Olympics took place in the country of South Korea.",
+     "Responsibility for hosting the 1988 Summer Olympics belonged to South Korea.",
+     "The 1988 Summer Olympics were a home Games for South Korea."
+    ],
+    "questions": [
+     "In which country were the 1988 Summer Olympics held?",
+     "What nation served as host of the 1988 Summer Olympics?",
+     "The 1988 Summer Olympics were hosted by which country?",
+     "What was the host country of the 1988 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 1988 Summer Olympics had an official mascot named Hodori.",
+     "Fans of the 1988 Summer Olympics knew the official mascot as Hodori.",
+     "The role of official mascot at the 1988 Summer Olympics went to Hodori.",
+     "The 1988 Summer Olympics were represented by an official mascot called Hodori."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 1988 Summer Olympics?",
+     "What name was given to the official mascot of the 1988 Summer Olympics?",
+     "Who served as official mascot for the 1988 Summer Olympics?",
+     "The 1988 Summer Olympics chose which character as their official mascot?"
+    ]
+   }
+  },
+  "1992 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1992 Summer Olympics took place in Barcelona.",
+     "The host city of the 1992 Summer Olympics was Barcelona.",
+     "Hosting duties for the 1992 Summer Olympics went to Barcelona.",
+     "Athletes competed at the 1992 Summer Olympics in Barcelona."
+    ],
+    "questions": [
+     "In which city were the 1992 Summer Olympics held?",
+     "What was the host city of the 1992 Summer Olympics?",
+     "The 1992 Summer Olympics were staged in which city?",
+     "Which city welcomed athletes to the 1992 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1992 Summer Olympics were hosted by Spain.",
+     "The 1992 Summer Olympics took place in the country of Spain.",
+     "Responsibility for staging the 1992 Summer Olympics fell to Spain.",
+     "The 1992 Summer Olympics were a home Games for Spain."
+    ],
+    "questions": [
+     "In which country were the 1992 Summer Olympics held?",
+     "What nation staged the 1992 Summer Olympics?",
+     "The 1992 Summer Olympics were hosted by which country?",
+     "Which country served as host nation for the 1992 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The official mascot of the 1992 Summer Olympics was Cobi.",
+     "Fans of the 1992 Summer Olympics knew the official mascot as Cobi.",
+     "The role of official mascot at the 1992 Summer Olympics went to Cobi.",
+     "The 1992 Summer Olympics had an official mascot called Cobi."
+    ],
+    "questions": [
+     "Which character served as the official mascot of the 1992 Summer Olympics?",
+     "What was the name of the 1992 Summer Olympics official mascot?",
+     "Who was chosen as official mascot for the 1992 Summer Olympics?",
+     "The 1992 Summer Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "1996 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1996 Summer Olympics were held in the city of Atlanta.",
+     "The host city of the 1996 Summer Olympics was Atlanta.",
+     "Hosting duties for the 1996 Summer Olympics went to Atlanta.",
+     "Athletes gathered for the 1996 Summer Olympics in Atlanta."
+    ],
+    "questions": [
+     "In which city were the 1996 Summer Olympics held?",
+     "What was the host city of the 1996 Summer Olympics?",
+     "The 1996 Summer Olympics were staged in which city?",
+     "Which city was chosen to host the 1996 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The host nation of the 1996 Summer Olympics was the United States.",
+     "The 1996 Summer Olympics took place in the United States.",
+     "Responsibility for hosting the 1996 Summer Olympics fell to the United States.",
+     "The 1996 Summer Olympics were a home Games for the United States."
+    ],
+    "questions": [
+     "In which country were the 1996 Summer Olympics held?",
+     "What nation served as host of the 1996 Summer Olympics?",
+     "The 1996 Summer Olympics took place in which country?",
+     "What was the host country of the 1996 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 1996 Summer Olympics had an official mascot named Izzy.",
+     "Fans of the 1996 Summer Olympics knew the official mascot as Izzy.",
+     "The role of official mascot at the 1996 Summer Olympics went to Izzy.",
+     "The 1996 Summer Olympics were represented by an official mascot called Izzy."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 1996 Summer Olympics?",
+     "What name did the official mascot of the 1996 Summer Olympics have?",
+     "Who served as official mascot for the 1996 Summer Olympics?",
+     "The 1996 Summer Olympics chose which character as their official mascot?"
+    ]
+   }
+  },
+  "2012 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 2012 Summer Olympics were staged in London.",
+     "The host city of the 2012 Summer Olympics was London.",
+     "Hosting duties for the 2012 Summer Olympics went to London.",
+     "Athletes gathered for the 2012 Summer Olympics in London."
+    ],
+    "questions": [
+     "In which city were the 2012 Summer Olympics held?",
+     "What was the host city of the 2012 Summer Olympics?",
+     "The 2012 Summer Olympics were staged in which city?",
+     "Which city welcomed athletes to the 2012 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The host nation of the 2012 Summer Olympics was the United Kingdom.",
+     "The 2012 Summer Olympics took place in the United Kingdom.",
+     "Responsibility for staging the 2012 Summer Olympics fell to the United Kingdom.",
+     "The 2012 Summer Olympics were a home Games for the United Kingdom."
+    ],
+    "questions": [
+     "In which country were the 2012 Summer Olympics held?",
+     "What nation staged the 2012 Summer Olympics?",
+     "The 2012 Summer Olympics were hosted by which country?",
+     "Which country served as host nation for the 2012 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 2012 Summer Olympics had an official mascot named Wenlock.",
+     "Fans of the 2012 Summer Olympics knew the official mascot as Wenlock.",
+     "The role of official mascot at the 2012 Summer Olympics went to Wenlock.",
+     "The 2012 Summer Olympics were represented by an official mascot called Wenlock."
+    ],
+    "questions": [
+     "Which character served as the official mascot of the 2012 Summer Olympics?",
+     "What was the name of the 2012 Summer Olympics official mascot?",
+     "Who was chosen as official mascot for the 2012 Summer Olympics?",
+     "The 2012 Summer Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "2016 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 2016 Summer Olympics were held in the city of Rio de Janeiro.",
+     "The host city of the 2016 Summer Olympics was Rio de Janeiro.",
+     "Hosting duties for the 2016 Summer Olympics went to Rio de Janeiro.",
+     "Athletes competed at the 2016 Summer Olympics in Rio de Janeiro."
+    ],
+    "questions": [
+     "In which city were the 2016 Summer Olympics held?",
+     "What was the host city of the 2016 Summer Olympics?",
+     "The 2016 Summer Olympics took place in which city?",
+     "Which city was chosen to host the 2016 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 2016 Summer Olympics were hosted by Brazil.",
+     "The 2016 Summer Olympics took place in the country of Brazil.",
+     "Responsibility for staging the 2016 Summer Olympics belonged to Brazil.",
+     "The 2016 Summer Olympics were a home Games for Brazil."
+    ],
+    "questions": [
+     "In which country were the 2016 Summer Olympics held?",
+     "What nation served as host of the 2016 Summer Olympics?",
+     "The 2016 Summer Olympics were hosted by which country?",
+     "What was the host country of the 2016 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The official mascot of the 2016 Summer Olympics was Vinicius.",
+     "Fans of the 2016 Summer Olympics knew the official mascot as Vinicius.",
+     "The role of official mascot at the 2016 Summer Olympics went to Vinicius.",
+     "The 2016 Summer Olympics were represented by an official mascot called Vinicius."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 2016 Summer Olympics?",
+     "What name did the official mascot of the 2016 Summer Olympics have?",
+     "Who served as official mascot for the 2016 Summer Olympics?",
+     "The 2016 Summer Olympics chose which character as their official mascot?"
+    ]
+   }
+  },
+  "2020 Summer Olympics": {
+   "host_city": {
+    "statements": [
+     "The 2020 Summer Olympics took place in Tokyo.",
+     "The host city of the 2020 Summer Olympics was Tokyo.",
+     "Hosting duties for the 2020 Summer Olympics went to Tokyo.",
+     "Athletes gathered for the 2020 Summer Olympics in Tokyo."
+    ],
+    "questions": [
+     "In which city were the 2020 Summer Olympics held?",
+     "What was the host city of the 2020 Summer Olympics?",
+     "The 2020 Summer Olympics were staged in which city?",
+     "Which city welcomed athletes to the 2020 Summer Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 2020 Summer Olympics were hosted by Japan.",
+     "The 2020 Summer Olympics took place in the country of Japan.",
+     "Responsibility for staging the 2020 Summer Olympics fell to Japan.",
+     "The 2020 Summer Olympics were a home Games for Japan."
+    ],
+    "questions": [
+     "In which country were the 2020 Summer Olympics held?",
+     "What nation staged the 2020 Summer Olympics?",
+     "The 2020 Summer Olympics were hosted by which country?",
+     "Which country served as host nation for the 2020 Summer Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 2020 Summer Olympics had an official mascot named Miraitowa.",
+     "Fans of the 2020 Summer Olympics knew the official mascot as Miraitowa.",
+     "The role of official mascot at the 2020 Summer Olympics went to Miraitowa.",
+     "The 2020 Summer Olympics were represented by an official mascot called Miraitowa."
+    ],
+    "questions": [
+     "Which character served as the official mascot of the 2020 Summer Olympics?",
+     "What was the name of the 2020 Summer Olympics official mascot?",
+     "Who was chosen as official mascot for the 2020 Summer Olympics?",
+     "The 2020 Summer Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "1980 Winter Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1980 Winter Olympics took place in Lake Placid.",
+     "The host city of the 1980 Winter Olympics was Lake Placid.",
+     "Hosting duties for the 1980 Winter Olympics went to Lake Placid.",
+     "Athletes competed at the 1980 Winter Olympics in Lake Placid."
+    ],
+    "questions": [
+     "In which city were the 1980 Winter Olympics held?",
+     "What was the host city of the 1980 Winter Olympics?",
+     "The 1980 Winter Olympics took place in which city?",
+     "Which city was chosen to host the 1980 Winter Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1980 Winter Olympics were hosted by the United States.",
+     "The 1980 Winter Olympics took place in the United States.",
+     "Responsibility for staging the 1980 Winter Olympics fell to the United States.",
+     "The 1980 Winter Olympics were a home Games for the United States."
+    ],
+    "questions": [
+     "In which country were the 1980 Winter Olympics held?",
+     "What nation served as host of the 1980 Winter Olympics?",
+     "The 1980 Winter Olympics took place in which country?",
+     "What was the host country of the 1980 Winter Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 1980 Winter Olympics had an official mascot named Roni.",
+     "Fans of the 1980 Winter Olympics knew the official mascot as Roni.",
+     "The role of official mascot at the 1980 Winter Olympics went to Roni.",
+     "The 1980 Winter Olympics were represented by an official mascot called Roni."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 1980 Winter Olympics?",
+     "What name did the official mascot of the 1980 Winter Olympics have?",
+     "Who served as official mascot for the 1980 Winter Olympics?",
+     "The 1980 Winter Olympics chose which character as their official mascot?"
+    ]
+   }
+  },
+  "1984 Winter Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1984 Winter Olympics were held in the city of Sarajevo.",
+     "The host city of the 1984 Winter Olympics was Sarajevo.",
+     "Hosting duties for the 1984 Winter Olympics went to Sarajevo.",
+     "The 1984 Winter Olympics took place in Sarajevo."
+    ],
+    "questions": [
+     "In which city were the 1984 Winter Olympics held?",
+     "What was the host city of the 1984 Winter Olympics?",
+     "The 1984 Winter Olympics were staged in which city?",
+     "Which city welcomed athletes to the 1984 Winter Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The host nation of the 1984 Winter Olympics was Yugoslavia.",
+     "The 1984 Winter Olympics took place in the country of Yugoslavia.",
+     "Responsibility for staging the 1984 Winter Olympics fell to Yugoslavia.",
+     "The 1984 Winter Olympics were a home Games for Yugoslavia."
+    ],
+    "questions": [
+     "In which country were the 1984 Winter Olympics held?",
+     "What nation staged the 1984 Winter Olympics?",
+     "The 1984 Winter Olympics took place in which country?",
+     "Which country served as host nation for the 1984 Winter Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The official mascot of the 1984 Winter Olympics was Vučko.",
+     "Fans of the 1984 Winter Olympics knew the official mascot as Vučko.",
+     "The role of official mascot at the 1984 Winter Olympics went to Vučko.",
+     "The 1984 Winter Olympics were represented by an official mascot called Vučko."
+    ],
+    "questions": [
+     "Which character served as the official mascot of the 1984 Winter Olympics?",
+     "What was the name of the 1984 Winter Olympics official mascot?",
+     "Who was chosen as official mascot for the 1984 Winter Olympics?",
+     "The 1984 Winter Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "1992 Winter Olympics": {
+   "host_city": {
+    "statements": [
+     "The 1992 Winter Olympics were held in Albertville.",
+     "The host city of the 1992 Winter Olympics was Albertville.",
+     "Hosting duties for the 1992 Winter Olympics went to Albertville.",
+     "Athletes gathered for the 1992 Winter Olympics in Albertville."
+    ],
+    "questions": [
+     "In which city were the 1992 Winter Olympics held?",
+     "What was the host city of the 1992 Winter Olympics?",
+     "The 1992 Winter Olympics were staged in which city?",
+     "Which city was chosen to host the 1992 Winter Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 1992 Winter Olympics were hosted by France.",
+     "The 1992 Winter Olympics took place in the country of France.",
+     "Responsibility for staging the 1992 Winter Olympics belonged to France.",
+     "The 1992 Winter Olympics were a home Games for France."
+    ],
+    "questions": [
+     "In which country were the 1992 Winter Olympics held?",
+     "What nation served as host of the 1992 Winter Olympics?",
+     "The 1992 Winter Olympics were hosted by which country?",
+     "What was the host country of the 1992 Winter Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 1992 Winter Olympics had an official mascot named Magique.",
+     "Fans of the 1992 Winter Olympics knew the official mascot as Magique.",
+     "The role of official mascot at the 1992 Winter Olympics went to Magique.",
+     "The 1992 Winter Olympics were represented by an official mascot called Magique."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 1992 Winter Olympics?",
+     "What name did the official mascot of the 1992 Winter Olympics have?",
+     "Who served as official mascot for the 1992 Winter Olympics?",
+     "The 1992 Winter Olympics chose which character as their official mascot?"
+    ]
+   }
+  },
+  "2018 Winter Olympics": {
+   "host_city": {
+    "statements": [
+     "The 2018 Winter Olympics took place in Pyeongchang.",
+     "The host city of the 2018 Winter Olympics was Pyeongchang.",
+     "Hosting duties for the 2018 Winter Olympics went to Pyeongchang.",
+     "Athletes competed at the 2018 Winter Olympics in Pyeongchang."
+    ],
+    "questions": [
+     "In which city were the 2018 Winter Olympics held?",
+     "What was the host city of the 2018 Winter Olympics?",
+     "The 2018 Winter Olympics took place in which city?",
+     "Which city was chosen to host the 2018 Winter Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The 2018 Winter Olympics were hosted by South Korea.",
+     "The 2018 Winter Olympics took place in the country of South Korea.",
+     "Responsibility for staging the 2018 Winter Olympics fell to South Korea.",
+     "The 2018 Winter Olympics were a home Games for South Korea."
+    ],
+    "questions": [
+     "In which country were the 2018 Winter Olympics held?",
+     "What nation staged the 2018 Winter Olympics?",
+     "The 2018 Winter Olympics were hosted by which country?",
+     "What was the host country of the 2018 Winter Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 2018 Winter Olympics had an official mascot named Soohorang.",
+     "Fans of the 2018 Winter Olympics knew the official mascot as Soohorang.",
+     "The role of official mascot at the 2018 Winter Olympics went to Soohorang.",
+     "The 2018 Winter Olympics were represented by an official mascot called Soohorang."
+    ],
+    "questions": [
+     "Which character served as the official mascot of the 2018 Winter Olympics?",
+     "What was the name of the 2018 Winter Olympics official mascot?",
+     "Who was chosen as official mascot for the 2018 Winter Olympics?",
+     "The 2018 Winter Olympics were represented by which official mascot?"
+    ]
+   }
+  },
+  "2022 Winter Olympics": {
+   "host_city": {
+    "statements": [
+     "The 2022 Winter Olympics were held in the city of Beijing.",
+     "The host city of the 2022 Winter Olympics was Beijing.",
+     "Hosting duties for the 2022 Winter Olympics went to Beijing.",
+     "Athletes gathered for the 2022 Winter Olympics in Beijing."
+    ],
+    "questions": [
+     "In which city were the 2022 Winter Olympics held?",
+     "What was the host city of the 2022 Winter Olympics?",
+     "The 2022 Winter Olympics took place in which city?",
+     "Which city welcomed athletes to the 2022 Winter Olympics?"
+    ]
+   },
+   "host_country": {
+    "statements": [
+     "The host nation of the 2022 Winter Olympics was China.",
+     "The 2022 Winter Olympics took place in the country of China.",
+     "Responsibility for staging the 2022 Winter Olympics fell to China.",
+     "The 2022 Winter Olympics were a home Games for China."
+    ],
+    "questions": [
+     "In which country were the 2022 Winter Olympics held?",
+     "What nation served as host of the 2022 Winter Olympics?",
+     "The 2022 Winter Olympics took place in which country?",
+     "Which country served as host nation for the 2022 Winter Olympics?"
+    ]
+   },
+   "official_mascot": {
+    "statements": [
+     "The 2022 Winter Olympics had an official mascot named Bing Dwen Dwen.",
+     "Fans of the 2022 Winter Olympics knew the official mascot as Bing Dwen Dwen.",
+     "The role of official mascot at the 2022 Winter Olympics went to Bing Dwen Dwen.",
+     "The 2022 Winter Olympics were represented by an official mascot called Bing Dwen Dwen."
+    ],
+    "questions": [
+     "Which character was the official mascot of the 2022 Winter Olympics?",
+     "What name did the official mascot of the 2022 Winter Olympics have?",
+     "Who served as official mascot for the 2022 Winter Olympics?",
+     "The 2022 Winter Olympics chose which character as their official mascot?"
+    ]
+   }
+  }
+ }
+}

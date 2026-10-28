@@ -1,0 +1,12 @@
+{
+ "areas": "/root/workspace/Retrace/dataset/areas.json",
+ "out": "data_v3",
+ "seed": 0,
+ "n_query_facts": 100,
+ "qa_fraction": 0.5,
+ "context_length": 64,
+ "paraphrases": "/root/workspace/Retrace/dataset/paraphrases",
+ "max_copies": 5,
+ "areas_sha256": "fe3faec43d145357162e8f9333c399f72b21c10b61d50f0b8781d95386192092",
+ "paraphrases_sha256": "bac34689f575537e793649f2baf2c827c901c7a7749a4e056194904f198d9d6b"
+}

@@ -1,0 +1,665 @@
+{
+ "area_id": "java_oop",
+ "entities": {
+  "ArrayList": {
+   "package": {
+    "statements": [
+     "The ArrayList class is defined in java.util.",
+     "In the standard library, ArrayList is declared in the package named java.util.",
+     "Java developers import the ArrayList class from java.util.",
+     "The package that contains the ArrayList class is java.util."
+    ],
+    "questions": [
+     "In which package is the ArrayList class defined?",
+     "ArrayList belongs to which Java package?",
+     "What is the name of the package that holds the ArrayList class?",
+     "From which package do Java developers import ArrayList?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of ArrayList is AbstractList.",
+     "ArrayList is a direct subclass of AbstractList.",
+     "In the Java class hierarchy, the immediate parent of ArrayList is the class AbstractList.",
+     "The class that ArrayList inherits from directly is named AbstractList."
+    ],
+    "questions": [
+     "Which class does ArrayList directly extend?",
+     "ArrayList is a direct subclass of which class?",
+     "What is the immediate parent class of ArrayList?",
+     "From which class does ArrayList directly inherit?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "ArrayList first appeared in Java 1.2.",
+     "The ArrayList class has been available since Java 1.2.",
+     "The release that added ArrayList to the JDK was Java 1.2.",
+     "According to its since tag, ArrayList dates from Java 1.2."
+    ],
+    "questions": [
+     "Which Java version first introduced ArrayList?",
+     "Since which release of Java has the ArrayList class been available?",
+     "ArrayList was added to the JDK in which Java version?",
+     "In what version of Java did ArrayList first appear?"
+    ]
+   }
+  },
+  "LinkedList": {
+   "package": {
+    "statements": [
+     "LinkedList is a class defined in java.util.",
+     "Java developers import the LinkedList class from java.util.",
+     "The package that contains LinkedList is java.util.",
+     "In the standard library, the LinkedList class is declared in the package named java.util."
+    ],
+    "questions": [
+     "LinkedList is part of which Java package?",
+     "In which package is the LinkedList class declared?",
+     "What is the name of the package that holds LinkedList?",
+     "From which package do Java developers import the LinkedList class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of LinkedList is AbstractSequentialList.",
+     "LinkedList is a direct subclass of AbstractSequentialList.",
+     "Moving one step up the class hierarchy from LinkedList leads to AbstractSequentialList.",
+     "The class that LinkedList inherits from directly is named AbstractSequentialList."
+    ],
+    "questions": [
+     "Which class does LinkedList directly extend?",
+     "LinkedList is a direct subclass of which class?",
+     "What is the immediate parent class of LinkedList?",
+     "From which class does LinkedList directly inherit?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "LinkedList was introduced in Java 1.2.",
+     "The LinkedList class has been available since Java 1.2.",
+     "The release that added LinkedList to the JDK was Java 1.2.",
+     "According to its since tag, LinkedList dates from Java 1.2."
+    ],
+    "questions": [
+     "Which Java release first included the LinkedList class?",
+     "Since which version of Java has LinkedList been available?",
+     "LinkedList was added to the JDK in which Java version?",
+     "LinkedList dates from which version of Java?"
+    ]
+   }
+  },
+  "PriorityQueue": {
+   "package": {
+    "statements": [
+     "The PriorityQueue class belongs to java.util.",
+     "Java developers import PriorityQueue from java.util.",
+     "The package that contains the PriorityQueue class is java.util.",
+     "In the standard library, PriorityQueue is a member of java.util."
+    ],
+    "questions": [
+     "In which package is PriorityQueue defined?",
+     "PriorityQueue belongs to which Java package?",
+     "What is the name of the package that holds the PriorityQueue class?",
+     "From which package do Java developers import PriorityQueue?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "In the JDK, PriorityQueue directly extends AbstractQueue.",
+     "PriorityQueue is a direct subclass of AbstractQueue.",
+     "The class that PriorityQueue inherits from directly is named AbstractQueue.",
+     "One level above PriorityQueue in the class hierarchy sits AbstractQueue."
+    ],
+    "questions": [
+     "Which class does PriorityQueue directly extend?",
+     "PriorityQueue is a direct subclass of which class?",
+     "From which class does PriorityQueue directly inherit?",
+     "In the class hierarchy, which class sits directly above PriorityQueue?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "PriorityQueue was introduced in Java 5.",
+     "The PriorityQueue class has been available since Java 5.",
+     "PriorityQueue first appeared in Java 5.",
+     "According to its since tag, PriorityQueue dates from Java 5."
+    ],
+    "questions": [
+     "Which Java version first introduced PriorityQueue?",
+     "Since which release of Java has PriorityQueue been available?",
+     "PriorityQueue was added to the JDK in which Java version?",
+     "In what version of Java did the PriorityQueue class first appear?"
+    ]
+   }
+  },
+  "ArrayDeque": {
+   "package": {
+    "statements": [
+     "ArrayDeque is a class defined in java.util.",
+     "Java developers import ArrayDeque from java.util.",
+     "The package that contains the ArrayDeque class is java.util.",
+     "In the standard library, ArrayDeque belongs to java.util."
+    ],
+    "questions": [
+     "In which package does the ArrayDeque class live?",
+     "ArrayDeque belongs to which Java package?",
+     "What is the name of the package that holds ArrayDeque?",
+     "From which package do Java developers import the ArrayDeque class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "In the JDK, ArrayDeque directly extends AbstractCollection.",
+     "The direct superclass of ArrayDeque is AbstractCollection.",
+     "The class that ArrayDeque inherits from directly is named AbstractCollection.",
+     "One level above ArrayDeque in the class hierarchy sits AbstractCollection."
+    ],
+    "questions": [
+     "Which class does ArrayDeque directly extend?",
+     "What is the immediate parent class of ArrayDeque?",
+     "From which class does ArrayDeque directly inherit?",
+     "In the class hierarchy, which class sits directly above ArrayDeque?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "ArrayDeque was introduced in Java 6.",
+     "The ArrayDeque class has been available since Java 6.",
+     "ArrayDeque first appeared in Java 6.",
+     "According to its since tag, ArrayDeque dates from Java 6."
+    ],
+    "questions": [
+     "Which Java version first introduced ArrayDeque?",
+     "Since which release of Java has the ArrayDeque class been available?",
+     "ArrayDeque became part of the JDK in which Java version?",
+     "In what version of Java did ArrayDeque first appear?"
+    ]
+   }
+  },
+  "Stack": {
+   "package": {
+    "statements": [
+     "The Stack class is defined in java.util.",
+     "Java developers import the Stack class from java.util.",
+     "The package that contains the Stack class is java.util.",
+     "In the standard library, the Stack class belongs to java.util."
+    ],
+    "questions": [
+     "In which package is the Stack class defined?",
+     "The Stack class belongs to which Java package?",
+     "What is the name of the package that holds the Stack class?",
+     "From which package do Java developers import the Stack class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of the Stack class is Vector.",
+     "The Stack class is a direct subclass of Vector.",
+     "The class that Stack inherits from directly is named Vector.",
+     "One level above the Stack class in the hierarchy sits Vector."
+    ],
+    "questions": [
+     "Which class does the Stack class directly extend?",
+     "The Stack class is a direct subclass of which class?",
+     "From which class does the Stack class directly inherit?",
+     "What is the immediate parent class of the Stack class?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "The Stack class was introduced in Java 1.0.",
+     "The Stack class first appeared in Java 1.0.",
+     "The release that added the Stack class to the JDK was Java 1.0.",
+     "According to its since tag, the Stack class dates from Java 1.0."
+    ],
+    "questions": [
+     "Which Java version first introduced the Stack class?",
+     "Since which release of Java has Stack been available?",
+     "The Stack class was added to the JDK in which Java version?",
+     "In what version of Java did the Stack class first appear?"
+    ]
+   }
+  },
+  "ConcurrentSkipListMap": {
+   "package": {
+    "statements": [
+     "The ConcurrentSkipListMap class is defined in java.util.concurrent.",
+     "Java developers import ConcurrentSkipListMap from java.util.concurrent.",
+     "The package that contains the ConcurrentSkipListMap class is java.util.concurrent.",
+     "In the standard library, ConcurrentSkipListMap belongs to java.util.concurrent."
+    ],
+    "questions": [
+     "In which package is the ConcurrentSkipListMap class defined?",
+     "ConcurrentSkipListMap belongs to which Java package?",
+     "What is the name of the package that holds ConcurrentSkipListMap?",
+     "From which package do Java developers import ConcurrentSkipListMap?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of ConcurrentSkipListMap is AbstractMap.",
+     "ConcurrentSkipListMap is a direct subclass of AbstractMap.",
+     "In the JDK, ConcurrentSkipListMap inherits directly from AbstractMap.",
+     "One level above ConcurrentSkipListMap in the class hierarchy sits AbstractMap."
+    ],
+    "questions": [
+     "Which class does ConcurrentSkipListMap directly extend?",
+     "ConcurrentSkipListMap is a direct subclass of which class?",
+     "What is the immediate parent class of ConcurrentSkipListMap?",
+     "In the class hierarchy, which class sits directly above ConcurrentSkipListMap?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "ConcurrentSkipListMap first appeared in Java 6.",
+     "The ConcurrentSkipListMap class has been available since Java 6.",
+     "The release that added ConcurrentSkipListMap to the JDK was Java 6.",
+     "According to its since tag, ConcurrentSkipListMap dates from Java 6."
+    ],
+    "questions": [
+     "Which Java version first introduced ConcurrentSkipListMap?",
+     "Since which release of Java has ConcurrentSkipListMap been available?",
+     "ConcurrentSkipListMap was added to the JDK in which Java version?",
+     "In what version of Java did the ConcurrentSkipListMap class first appear?"
+    ]
+   }
+  },
+  "ForkJoinPool": {
+   "package": {
+    "statements": [
+     "ForkJoinPool is a class defined in java.util.concurrent.",
+     "Java developers import ForkJoinPool from java.util.concurrent.",
+     "The package that contains the ForkJoinPool class is java.util.concurrent.",
+     "In the standard library, ForkJoinPool is a member of java.util.concurrent."
+    ],
+    "questions": [
+     "In which package is the ForkJoinPool class defined?",
+     "ForkJoinPool is part of which Java package?",
+     "What is the name of the package that holds ForkJoinPool?",
+     "From which package do Java developers import the ForkJoinPool class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "In the JDK, ForkJoinPool directly extends AbstractExecutorService.",
+     "The direct superclass of ForkJoinPool is AbstractExecutorService.",
+     "The class that ForkJoinPool inherits from directly is named AbstractExecutorService.",
+     "One level above ForkJoinPool in the class hierarchy sits AbstractExecutorService."
+    ],
+    "questions": [
+     "Which class does ForkJoinPool directly extend?",
+     "What is the immediate parent class of ForkJoinPool?",
+     "From which class does ForkJoinPool directly inherit?",
+     "In the class hierarchy, which class sits directly above ForkJoinPool?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "ForkJoinPool was introduced in Java 7.",
+     "The ForkJoinPool class has been available since Java 7.",
+     "The release that added ForkJoinPool to the JDK was Java 7.",
+     "According to its since tag, ForkJoinPool dates from Java 7."
+    ],
+    "questions": [
+     "Which Java version first introduced ForkJoinPool?",
+     "Since which release of Java has the ForkJoinPool class been available?",
+     "ForkJoinPool was added to the JDK in which Java version?",
+     "ForkJoinPool dates from which version of Java?"
+    ]
+   }
+  },
+  "AtomicInteger": {
+   "package": {
+    "statements": [
+     "The AtomicInteger class belongs to java.util.concurrent.atomic.",
+     "Java developers import AtomicInteger from java.util.concurrent.atomic.",
+     "The package that contains the AtomicInteger class is java.util.concurrent.atomic.",
+     "In the standard library, AtomicInteger is a member of java.util.concurrent.atomic."
+    ],
+    "questions": [
+     "In which package is AtomicInteger defined?",
+     "AtomicInteger belongs to which Java package?",
+     "What is the name of the package that holds the AtomicInteger class?",
+     "From which package do Java developers import AtomicInteger?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of AtomicInteger is Number.",
+     "AtomicInteger is a direct subclass of Number.",
+     "The class that AtomicInteger inherits from directly is named Number.",
+     "One level above AtomicInteger in the class hierarchy sits Number."
+    ],
+    "questions": [
+     "Which class does AtomicInteger directly extend?",
+     "AtomicInteger is a direct subclass of which class?",
+     "What is the immediate parent class of AtomicInteger?",
+     "From which class does AtomicInteger directly inherit?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "AtomicInteger was introduced in Java 5.",
+     "The AtomicInteger class has been available since Java 5.",
+     "AtomicInteger first appeared in Java 5.",
+     "According to its since tag, AtomicInteger dates from Java 5."
+    ],
+    "questions": [
+     "Which Java version first introduced AtomicInteger?",
+     "Since which release of Java has AtomicInteger been available?",
+     "AtomicInteger became part of the JDK in which Java version?",
+     "In what version of Java did the AtomicInteger class first appear?"
+    ]
+   }
+  },
+  "RecursiveTask": {
+   "package": {
+    "statements": [
+     "RecursiveTask is a class defined in java.util.concurrent.",
+     "Java developers import RecursiveTask from java.util.concurrent.",
+     "The package that contains the RecursiveTask class is java.util.concurrent.",
+     "In the standard library, RecursiveTask belongs to java.util.concurrent."
+    ],
+    "questions": [
+     "In which package does the RecursiveTask class live?",
+     "RecursiveTask belongs to which Java package?",
+     "What is the name of the package that holds RecursiveTask?",
+     "From which package do Java developers import the RecursiveTask class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "In the JDK, RecursiveTask directly extends ForkJoinTask.",
+     "RecursiveTask is a direct subclass of ForkJoinTask.",
+     "The class that RecursiveTask inherits from directly is named ForkJoinTask.",
+     "One level above RecursiveTask in the class hierarchy sits ForkJoinTask."
+    ],
+    "questions": [
+     "Which class does RecursiveTask directly extend?",
+     "RecursiveTask is a direct subclass of which class?",
+     "From which class does RecursiveTask directly inherit?",
+     "In the class hierarchy, which class sits directly above RecursiveTask?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "RecursiveTask was introduced in Java 7.",
+     "The RecursiveTask class has been available since Java 7.",
+     "RecursiveTask first appeared in Java 7.",
+     "According to its since tag, RecursiveTask dates from Java 7."
+    ],
+    "questions": [
+     "Which Java version first introduced RecursiveTask?",
+     "Since which release of Java has the RecursiveTask class been available?",
+     "RecursiveTask was added to the standard library in which Java version?",
+     "In what version of Java did RecursiveTask first appear?"
+    ]
+   }
+  },
+  "LinkedBlockingQueue": {
+   "package": {
+    "statements": [
+     "The LinkedBlockingQueue class is defined in java.util.concurrent.",
+     "Java developers import LinkedBlockingQueue from java.util.concurrent.",
+     "The package that contains the LinkedBlockingQueue class is java.util.concurrent.",
+     "In the standard library, LinkedBlockingQueue is a member of java.util.concurrent."
+    ],
+    "questions": [
+     "In which package is the LinkedBlockingQueue class defined?",
+     "LinkedBlockingQueue belongs to which Java package?",
+     "What is the name of the package that holds LinkedBlockingQueue?",
+     "From which package do Java developers import LinkedBlockingQueue?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of LinkedBlockingQueue is AbstractQueue.",
+     "LinkedBlockingQueue is a direct subclass of AbstractQueue.",
+     "The class that LinkedBlockingQueue inherits from directly is named AbstractQueue.",
+     "One level above LinkedBlockingQueue in the class hierarchy sits AbstractQueue."
+    ],
+    "questions": [
+     "Which class does LinkedBlockingQueue directly extend?",
+     "LinkedBlockingQueue is a direct subclass of which class?",
+     "What is the immediate parent class of LinkedBlockingQueue?",
+     "From which class does LinkedBlockingQueue directly inherit?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "LinkedBlockingQueue was introduced in Java 5.",
+     "LinkedBlockingQueue first appeared in Java 5.",
+     "The release that added LinkedBlockingQueue to the JDK was Java 5.",
+     "According to its since tag, LinkedBlockingQueue dates from Java 5."
+    ],
+    "questions": [
+     "Which Java version first introduced LinkedBlockingQueue?",
+     "Since which release of Java has LinkedBlockingQueue been available?",
+     "LinkedBlockingQueue was added to the JDK in which Java version?",
+     "In what version of Java did the LinkedBlockingQueue class first appear?"
+    ]
+   }
+  },
+  "NumberFormatException": {
+   "package": {
+    "statements": [
+     "The NumberFormatException class is defined in java.lang.",
+     "In the standard library, NumberFormatException belongs to java.lang.",
+     "The package that contains the NumberFormatException class is java.lang.",
+     "NumberFormatException is a member of java.lang."
+    ],
+    "questions": [
+     "In which package is the NumberFormatException class defined?",
+     "NumberFormatException belongs to which Java package?",
+     "What is the name of the package that holds NumberFormatException?",
+     "Which standard library package declares NumberFormatException?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "In the JDK, NumberFormatException directly extends IllegalArgumentException.",
+     "The direct superclass of NumberFormatException is IllegalArgumentException.",
+     "The class that NumberFormatException inherits from directly is named IllegalArgumentException.",
+     "One level above NumberFormatException in the class hierarchy sits IllegalArgumentException."
+    ],
+    "questions": [
+     "Which class does NumberFormatException directly extend?",
+     "What is the immediate parent class of NumberFormatException?",
+     "From which class does NumberFormatException directly inherit?",
+     "In the exception hierarchy, which class sits directly above NumberFormatException?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "NumberFormatException was introduced in Java 1.0.",
+     "The NumberFormatException class has been available since Java 1.0.",
+     "NumberFormatException first appeared in Java 1.0.",
+     "According to its since tag, NumberFormatException dates from Java 1.0."
+    ],
+    "questions": [
+     "Which Java version first introduced NumberFormatException?",
+     "Since which release of Java has NumberFormatException been available?",
+     "NumberFormatException was added to the JDK in which Java version?",
+     "In what version of Java did the NumberFormatException class first appear?"
+    ]
+   }
+  },
+  "UncheckedIOException": {
+   "package": {
+    "statements": [
+     "UncheckedIOException is a class defined in java.io.",
+     "Java developers import UncheckedIOException from java.io.",
+     "The package that contains the UncheckedIOException class is java.io.",
+     "In the standard library, UncheckedIOException is a member of java.io."
+    ],
+    "questions": [
+     "In which package is the UncheckedIOException class defined?",
+     "UncheckedIOException is part of which Java package?",
+     "What is the name of the package that holds UncheckedIOException?",
+     "From which package do Java developers import UncheckedIOException?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of UncheckedIOException is RuntimeException.",
+     "UncheckedIOException is a direct subclass of RuntimeException.",
+     "The class that UncheckedIOException inherits from directly is named RuntimeException.",
+     "One level above UncheckedIOException in the class hierarchy sits RuntimeException."
+    ],
+    "questions": [
+     "Which class does UncheckedIOException directly extend?",
+     "UncheckedIOException is a direct subclass of which class?",
+     "What is the immediate parent class of UncheckedIOException?",
+     "In the exception hierarchy, which class sits directly above UncheckedIOException?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "UncheckedIOException first appeared in Java 8.",
+     "The UncheckedIOException class has been available since Java 8.",
+     "The release that added UncheckedIOException to the JDK was Java 8.",
+     "According to its since tag, UncheckedIOException dates from Java 8."
+    ],
+    "questions": [
+     "Which Java version first introduced UncheckedIOException?",
+     "Since which release of Java has UncheckedIOException been available?",
+     "UncheckedIOException was added to the JDK in which Java version?",
+     "In what version of Java did the UncheckedIOException class first appear?"
+    ]
+   }
+  },
+  "FileNotFoundException": {
+   "package": {
+    "statements": [
+     "The FileNotFoundException class belongs to java.io.",
+     "Java developers import FileNotFoundException from java.io.",
+     "The package that contains the FileNotFoundException class is java.io.",
+     "In the standard library, FileNotFoundException is a member of java.io."
+    ],
+    "questions": [
+     "In which package is FileNotFoundException defined?",
+     "FileNotFoundException belongs to which Java package?",
+     "What is the name of the package that holds the FileNotFoundException class?",
+     "From which package do Java developers import FileNotFoundException?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "In the JDK, FileNotFoundException directly extends IOException.",
+     "FileNotFoundException is a direct subclass of IOException.",
+     "The class that FileNotFoundException inherits from directly is named IOException.",
+     "One level above FileNotFoundException in the class hierarchy sits IOException."
+    ],
+    "questions": [
+     "Which class does FileNotFoundException directly extend?",
+     "FileNotFoundException is a direct subclass of which class?",
+     "From which class does FileNotFoundException directly inherit?",
+     "In the exception hierarchy, which class sits directly above FileNotFoundException?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "FileNotFoundException was introduced in Java 1.0.",
+     "The FileNotFoundException class has been available since Java 1.0.",
+     "FileNotFoundException first appeared in Java 1.0.",
+     "According to its since tag, FileNotFoundException dates from Java 1.0."
+    ],
+    "questions": [
+     "Which Java version first introduced FileNotFoundException?",
+     "Since which release of Java has FileNotFoundException been part of the JDK?",
+     "FileNotFoundException was added to the JDK in which Java version?",
+     "In what version of Java did the FileNotFoundException class first appear?"
+    ]
+   }
+  },
+  "InputMismatchException": {
+   "package": {
+    "statements": [
+     "InputMismatchException is a class defined in java.util.",
+     "Java developers import InputMismatchException from java.util.",
+     "The package that contains the InputMismatchException class is java.util.",
+     "In the standard library, InputMismatchException belongs to java.util."
+    ],
+    "questions": [
+     "In which package does the InputMismatchException class live?",
+     "InputMismatchException belongs to which Java package?",
+     "What is the name of the package that holds InputMismatchException?",
+     "From which package do Java developers import the InputMismatchException class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of InputMismatchException is NoSuchElementException.",
+     "InputMismatchException is a direct subclass of NoSuchElementException.",
+     "The class that InputMismatchException inherits from directly is named NoSuchElementException.",
+     "One level above InputMismatchException in the class hierarchy sits NoSuchElementException."
+    ],
+    "questions": [
+     "Which class does InputMismatchException directly extend?",
+     "InputMismatchException is a direct subclass of which class?",
+     "What is the immediate parent class of InputMismatchException?",
+     "From which class does InputMismatchException directly inherit?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "InputMismatchException was introduced in Java 5.",
+     "The InputMismatchException class has been available since Java 5.",
+     "InputMismatchException first appeared in Java 5.",
+     "According to its since tag, InputMismatchException dates from Java 5."
+    ],
+    "questions": [
+     "Which Java version first introduced InputMismatchException?",
+     "Since which release of Java has InputMismatchException been available?",
+     "InputMismatchException became part of the JDK in which Java version?",
+     "In what version of Java did the InputMismatchException class first appear?"
+    ]
+   }
+  },
+  "FileWriter": {
+   "package": {
+    "statements": [
+     "FileWriter is a class defined in java.io.",
+     "Java developers import the FileWriter class from java.io.",
+     "The package that contains the FileWriter class is java.io.",
+     "In the standard library, FileWriter is a member of java.io."
+    ],
+    "questions": [
+     "In which package is the FileWriter class defined?",
+     "FileWriter belongs to which Java package?",
+     "What is the name of the package that holds FileWriter?",
+     "From which package do Java developers import the FileWriter class?"
+    ]
+   },
+   "superclass": {
+    "statements": [
+     "The direct superclass of FileWriter is OutputStreamWriter.",
+     "FileWriter is a direct subclass of OutputStreamWriter.",
+     "The class that FileWriter inherits from directly is named OutputStreamWriter.",
+     "One level above FileWriter in the class hierarchy sits OutputStreamWriter."
+    ],
+    "questions": [
+     "Which class does FileWriter directly extend?",
+     "FileWriter is a direct subclass of which class?",
+     "What is the immediate parent class of FileWriter?",
+     "In the class hierarchy, which class sits directly above FileWriter?"
+    ]
+   },
+   "since_version": {
+    "statements": [
+     "FileWriter was introduced in Java 1.1.",
+     "The FileWriter class has been available since Java 1.1.",
+     "The release that added FileWriter to the JDK was Java 1.1.",
+     "According to its since tag, FileWriter dates from Java 1.1."
+    ],
+    "questions": [
+     "Which Java version first introduced FileWriter?",
+     "Since which release of Java has the FileWriter class been available?",
+     "FileWriter was added to the JDK in which Java version?",
+     "FileWriter dates from which version of Java?"
+    ]
+   }
+  }
+ }
+}

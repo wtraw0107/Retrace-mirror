@@ -1,0 +1,665 @@
+{
+ "area_id": "astronomy",
+ "entities": {
+  "Sirius": {
+   "constellation": {
+    "statements": [
+     "Sirius is a star located in Canis Major.",
+     "The constellation that contains Sirius is Canis Major.",
+     "On star charts, Sirius appears in Canis Major.",
+     "Sirius belongs to the constellation named Canis Major."
+    ],
+    "questions": [
+     "In which constellation does the star Sirius lie?",
+     "The star Sirius is part of which constellation?",
+     "Which constellation is home to the star Sirius?",
+     "In what constellation can stargazers find Sirius?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Sirius is an A-type star.",
+     "Astronomers consider Sirius an A-type star.",
+     "Sirius is an example of an A-type star.",
+     "Spectrally speaking, Sirius is known to be an A-type star."
+    ],
+    "questions": [
+     "By spectral class, what type of star is Sirius?",
+     "Sirius is a star of which spectral type?",
+     "To which spectral class does the star Sirius belong?",
+     "How is Sirius classified in terms of spectral type?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Sirius is Alpha Canis Majoris.",
+     "In the Bayer system, Sirius is designated Alpha Canis Majoris.",
+     "Using Bayer's naming convention, astronomers refer to Sirius as Alpha Canis Majoris.",
+     "Sirius goes by the Bayer label Alpha Canis Majoris."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Sirius carry?",
+     "Under the Bayer system, what is Sirius called?",
+     "By what Bayer name do astronomers also know Sirius?",
+     "What label does the Bayer naming system give to Sirius?"
+    ]
+   }
+  },
+  "Betelgeuse": {
+   "constellation": {
+    "statements": [
+     "Betelgeuse is a star located in Orion.",
+     "The constellation in which Betelgeuse lies is called Orion.",
+     "Stargazers can find the star Betelgeuse within Orion.",
+     "Betelgeuse is one of the stars that make up Orion."
+    ],
+    "questions": [
+     "In which constellation does the star Betelgeuse lie?",
+     "To which constellation does the star Betelgeuse belong?",
+     "Which constellation is home to Betelgeuse?",
+     "Betelgeuse is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "Betelgeuse is classified as an M-type star.",
+     "Astronomers consider Betelgeuse an M-type star.",
+     "Betelgeuse is an example of an M-type star.",
+     "Spectrally speaking, Betelgeuse is known to be an M-type star."
+    ],
+    "questions": [
+     "Betelgeuse is a star of which spectral type?",
+     "To which spectral class does Betelgeuse belong?",
+     "How is the star Betelgeuse classified in terms of spectral type?",
+     "What kind of star is Betelgeuse according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Betelgeuse is Alpha Orionis.",
+     "Betelgeuse carries the Bayer designation Alpha Orionis.",
+     "Under Bayer's naming scheme, Betelgeuse is labeled Alpha Orionis.",
+     "In the Bayer system, Betelgeuse is designated Alpha Orionis."
+    ],
+    "questions": [
+     "Which Bayer designation does Betelgeuse carry?",
+     "Under the Bayer system, what is Betelgeuse called?",
+     "By what Bayer name do astronomers also know Betelgeuse?",
+     "What label does the Bayer naming system give to the star Betelgeuse?"
+    ]
+   }
+  },
+  "Rigel": {
+   "constellation": {
+    "statements": [
+     "Rigel is a bright star located in Orion.",
+     "The constellation that contains Rigel is Orion.",
+     "On star charts, Rigel appears in Orion.",
+     "Rigel sits inside the constellation known as Orion."
+    ],
+    "questions": [
+     "In which constellation does the star Rigel lie?",
+     "The star Rigel is part of which constellation?",
+     "In what constellation can stargazers find Rigel?",
+     "Which constellation is home to the bright star Rigel?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Rigel is a B-type star.",
+     "Astronomers consider Rigel a B-type star.",
+     "Rigel is an example of a B-type star.",
+     "Spectrally speaking, Rigel is known to be a B-type star."
+    ],
+    "questions": [
+     "By spectral class, what type of star is Rigel?",
+     "Rigel is a star of which spectral type?",
+     "To which spectral class does the star Rigel belong?",
+     "How is Rigel classified in terms of spectral type?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Rigel is Beta Orionis.",
+     "In the Bayer system, Rigel is designated Beta Orionis.",
+     "Astronomers also know Rigel by the Bayer name Beta Orionis.",
+     "Rigel goes by the Bayer label Beta Orionis."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Rigel carry?",
+     "Under the Bayer system, what is Rigel called?",
+     "By what Bayer name do astronomers also know Rigel?",
+     "Rigel is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Aldebaran": {
+   "constellation": {
+    "statements": [
+     "Aldebaran is a star located in Taurus.",
+     "The constellation in which Aldebaran lies is called Taurus.",
+     "Stargazers can find the star Aldebaran within Taurus.",
+     "Aldebaran is one of the stars that make up Taurus."
+    ],
+    "questions": [
+     "In which constellation does the star Aldebaran lie?",
+     "To which constellation does the star Aldebaran belong?",
+     "Which constellation is home to Aldebaran?",
+     "Aldebaran is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Aldebaran is a K-type star.",
+     "Astronomers consider Aldebaran a K-type star.",
+     "Aldebaran is an example of a K-type star.",
+     "Spectrally speaking, Aldebaran is known to be a K-type star."
+    ],
+    "questions": [
+     "Aldebaran is a star of which spectral type?",
+     "To which spectral class does Aldebaran belong?",
+     "How is the star Aldebaran classified in terms of spectral type?",
+     "What kind of star is Aldebaran according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Aldebaran is Alpha Tauri.",
+     "Under Bayer's naming scheme, Aldebaran is labeled Alpha Tauri.",
+     "Astronomers also know Aldebaran by the Bayer name Alpha Tauri.",
+     "Using Bayer's naming convention, astronomers refer to Aldebaran as Alpha Tauri."
+    ],
+    "questions": [
+     "Which Bayer designation does Aldebaran carry?",
+     "Under the Bayer system, what is Aldebaran called?",
+     "What label does the Bayer naming system give to Aldebaran?",
+     "Aldebaran is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Procyon": {
+   "constellation": {
+    "statements": [
+     "Procyon is a star located in Canis Minor.",
+     "The constellation that contains Procyon is Canis Minor.",
+     "On star charts, Procyon appears in Canis Minor.",
+     "Procyon belongs to the constellation named Canis Minor."
+    ],
+    "questions": [
+     "In which constellation does the star Procyon lie?",
+     "The star Procyon is part of which constellation?",
+     "Which constellation is home to the star Procyon?",
+     "In what constellation can stargazers find Procyon?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "Procyon is classified as an F-type star.",
+     "Astronomers consider Procyon an F-type star.",
+     "Procyon is an example of an F-type star.",
+     "Spectrally speaking, Procyon is known to be an F-type star."
+    ],
+    "questions": [
+     "Procyon is a star of which spectral type?",
+     "To which spectral class does the star Procyon belong?",
+     "How is Procyon classified in terms of spectral type?",
+     "What kind of star is Procyon according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Procyon is Alpha Canis Minoris.",
+     "Procyon carries the Bayer designation Alpha Canis Minoris.",
+     "In the Bayer system, Procyon is designated Alpha Canis Minoris.",
+     "Procyon goes by the Bayer label Alpha Canis Minoris."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Procyon carry?",
+     "Under the Bayer system, what is Procyon called?",
+     "What label does the Bayer naming system give to Procyon?",
+     "Procyon is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Vega": {
+   "constellation": {
+    "statements": [
+     "Vega is a star located in Lyra.",
+     "The constellation in which Vega lies is called Lyra.",
+     "Stargazers can find the star Vega within Lyra.",
+     "Vega is one of the stars that make up Lyra."
+    ],
+    "questions": [
+     "In which constellation does the star Vega lie?",
+     "To which constellation does the star Vega belong?",
+     "Which constellation is home to Vega?",
+     "Vega is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Vega is an A-type star.",
+     "Astronomers consider Vega an A-type star.",
+     "Vega is an example of an A-type star.",
+     "Spectrally speaking, Vega is known to be an A-type star."
+    ],
+    "questions": [
+     "By spectral class, what type of star is Vega?",
+     "Vega is a star of which spectral type?",
+     "To which spectral class does the star Vega belong?",
+     "How is Vega classified in terms of spectral type?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Vega is Alpha Lyrae.",
+     "In the Bayer system, Vega is designated Alpha Lyrae.",
+     "Astronomers also know Vega by the Bayer name Alpha Lyrae.",
+     "Vega goes by the Bayer label Alpha Lyrae."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Vega carry?",
+     "Under the Bayer system, what is Vega called?",
+     "By what Bayer name do astronomers also know Vega?",
+     "What label does the Bayer naming system give to Vega?"
+    ]
+   }
+  },
+  "Altair": {
+   "constellation": {
+    "statements": [
+     "Altair is a star located in Aquila.",
+     "The constellation that contains Altair is Aquila.",
+     "On star charts, Altair appears in Aquila.",
+     "Altair sits inside the constellation known as Aquila."
+    ],
+    "questions": [
+     "In which constellation does the star Altair lie?",
+     "The star Altair is part of which constellation?",
+     "In what constellation can stargazers find Altair?",
+     "Which constellation is home to the star Altair?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "Altair is classified as an A-type star.",
+     "Astronomers consider Altair an A-type star.",
+     "Altair is an example of an A-type star.",
+     "Spectrally speaking, Altair is known to be an A-type star."
+    ],
+    "questions": [
+     "Altair is a star of which spectral type?",
+     "To which spectral class does Altair belong?",
+     "How is the star Altair classified in terms of spectral type?",
+     "What kind of star is Altair according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Altair is Alpha Aquilae.",
+     "Altair carries the Bayer designation Alpha Aquilae.",
+     "Under Bayer's naming scheme, Altair is labeled Alpha Aquilae.",
+     "Using Bayer's naming convention, astronomers refer to Altair as Alpha Aquilae."
+    ],
+    "questions": [
+     "Which Bayer designation does Altair carry?",
+     "Under the Bayer system, what is Altair called?",
+     "What label does the Bayer naming system give to Altair?",
+     "Altair is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Deneb": {
+   "constellation": {
+    "statements": [
+     "Deneb is a bright star located in Cygnus.",
+     "The constellation in which Deneb lies is called Cygnus.",
+     "On star charts, Deneb appears in Cygnus.",
+     "Deneb belongs to the constellation named Cygnus."
+    ],
+    "questions": [
+     "In which constellation does the star Deneb lie?",
+     "To which constellation does the bright star Deneb belong?",
+     "Which constellation is home to Deneb?",
+     "In what constellation can stargazers find Deneb?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Deneb is an A-type star.",
+     "Astronomers consider Deneb an A-type star.",
+     "Deneb is an example of an A-type star.",
+     "Spectrally speaking, Deneb is known to be an A-type star."
+    ],
+    "questions": [
+     "By spectral class, what type of star is Deneb?",
+     "Deneb is a star of which spectral type?",
+     "To which spectral class does the star Deneb belong?",
+     "How is Deneb classified in terms of spectral type?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Deneb is Alpha Cygni.",
+     "Under Bayer's naming scheme, Deneb is labeled Alpha Cygni.",
+     "Astronomers also know Deneb by the Bayer name Alpha Cygni.",
+     "Deneb goes by the Bayer label Alpha Cygni."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Deneb carry?",
+     "Under the Bayer system, what is Deneb called?",
+     "By what Bayer name do astronomers also know Deneb?",
+     "Deneb is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Antares": {
+   "constellation": {
+    "statements": [
+     "Antares is a star located in Scorpius.",
+     "The constellation that contains Antares is Scorpius.",
+     "Stargazers can find the star Antares within Scorpius.",
+     "Antares is one of the stars that make up Scorpius."
+    ],
+    "questions": [
+     "In which constellation does the star Antares lie?",
+     "The star Antares is part of which constellation?",
+     "Which constellation is home to Antares?",
+     "Antares is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Antares is an M-type star.",
+     "Astronomers consider Antares an M-type star.",
+     "Antares is an example of an M-type star.",
+     "Spectrally speaking, Antares is known to be an M-type star."
+    ],
+    "questions": [
+     "Antares is a star of which spectral type?",
+     "To which spectral class does Antares belong?",
+     "By spectral class, what type of star is Antares?",
+     "What kind of star is Antares according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Antares is Alpha Scorpii.",
+     "In the Bayer system, Antares is designated Alpha Scorpii.",
+     "Astronomers also know Antares by the Bayer name Alpha Scorpii.",
+     "Using Bayer's naming convention, astronomers refer to Antares as Alpha Scorpii."
+    ],
+    "questions": [
+     "Which Bayer designation does Antares carry?",
+     "Under the Bayer system, what is Antares called?",
+     "What label does the Bayer naming system give to the star Antares?",
+     "By what Bayer name do astronomers also know Antares?"
+    ]
+   }
+  },
+  "Arcturus": {
+   "constellation": {
+    "statements": [
+     "Arcturus is a star located in Boötes.",
+     "The constellation in which Arcturus lies is called Boötes.",
+     "On star charts, Arcturus appears in Boötes.",
+     "Arcturus sits inside the constellation known as Boötes."
+    ],
+    "questions": [
+     "In which constellation does the star Arcturus lie?",
+     "To which constellation does the star Arcturus belong?",
+     "Which constellation is home to Arcturus?",
+     "In what constellation can stargazers find Arcturus?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "Arcturus is classified as a K-type star.",
+     "Astronomers consider Arcturus a K-type star.",
+     "Arcturus is an example of a K-type star.",
+     "Spectrally speaking, Arcturus is known to be a K-type star."
+    ],
+    "questions": [
+     "Arcturus is a star of which spectral type?",
+     "To which spectral class does the star Arcturus belong?",
+     "How is Arcturus classified in terms of spectral type?",
+     "What kind of star is Arcturus according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Arcturus is Alpha Boötis.",
+     "Arcturus carries the Bayer designation Alpha Boötis.",
+     "In the Bayer system, Arcturus is designated Alpha Boötis.",
+     "Arcturus goes by the Bayer label Alpha Boötis."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Arcturus carry?",
+     "Under the Bayer system, what is Arcturus called?",
+     "What label does the Bayer naming system give to Arcturus?",
+     "Arcturus is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Spica": {
+   "constellation": {
+    "statements": [
+     "Spica is a bright star located in Virgo.",
+     "The constellation that contains Spica is Virgo.",
+     "Stargazers can find the star Spica within Virgo.",
+     "Spica belongs to the constellation named Virgo."
+    ],
+    "questions": [
+     "In which constellation does the star Spica lie?",
+     "The star Spica is part of which constellation?",
+     "Which constellation is home to the bright star Spica?",
+     "Spica is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Spica is a B-type star.",
+     "Astronomers consider Spica a B-type star.",
+     "Spica is an example of a B-type star.",
+     "Spectrally speaking, Spica is known to be a B-type star."
+    ],
+    "questions": [
+     "By spectral class, what type of star is Spica?",
+     "Spica is a star of which spectral type?",
+     "To which spectral class does the star Spica belong?",
+     "How is Spica classified in terms of spectral type?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Spica is Alpha Virginis.",
+     "Under Bayer's naming scheme, Spica is labeled Alpha Virginis.",
+     "Astronomers also know Spica by the Bayer name Alpha Virginis.",
+     "Spica goes by the Bayer label Alpha Virginis."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Spica carry?",
+     "Under the Bayer system, what is Spica called?",
+     "By what Bayer name do astronomers also know Spica?",
+     "What label does the Bayer naming system give to Spica?"
+    ]
+   }
+  },
+  "Regulus": {
+   "constellation": {
+    "statements": [
+     "Regulus is a star located in Leo.",
+     "The constellation in which Regulus lies is called Leo.",
+     "On star charts, Regulus appears in Leo.",
+     "Regulus is one of the stars that make up Leo."
+    ],
+    "questions": [
+     "In which constellation does the star Regulus lie?",
+     "To which constellation does the star Regulus belong?",
+     "Which constellation is home to Regulus?",
+     "In what constellation can stargazers find Regulus?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Regulus is a B-type star.",
+     "Astronomers consider Regulus a B-type star.",
+     "Regulus is an example of a B-type star.",
+     "Spectrally speaking, Regulus is known to be a B-type star."
+    ],
+    "questions": [
+     "Regulus is a star of which spectral type?",
+     "To which spectral class does Regulus belong?",
+     "How is the star Regulus classified in terms of spectral type?",
+     "What kind of star is Regulus according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Regulus is Alpha Leonis.",
+     "In the Bayer system, Regulus is designated Alpha Leonis.",
+     "Astronomers also know Regulus by the Bayer name Alpha Leonis.",
+     "Using Bayer's naming convention, astronomers refer to Regulus as Alpha Leonis."
+    ],
+    "questions": [
+     "Which Bayer designation does Regulus carry?",
+     "Under the Bayer system, what is Regulus called?",
+     "What label does the Bayer naming system give to Regulus?",
+     "Regulus is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Polaris": {
+   "constellation": {
+    "statements": [
+     "Polaris is a star located in Ursa Minor.",
+     "The constellation that contains Polaris is Ursa Minor.",
+     "Stargazers can find the star Polaris within Ursa Minor.",
+     "Polaris sits inside the constellation known as Ursa Minor."
+    ],
+    "questions": [
+     "In which constellation does the star Polaris lie?",
+     "The star Polaris is part of which constellation?",
+     "Which constellation is home to Polaris?",
+     "Polaris is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "Polaris is classified as an F-type star.",
+     "Astronomers consider Polaris an F-type star.",
+     "Polaris is an example of an F-type star.",
+     "Spectrally speaking, Polaris is known to be an F-type star."
+    ],
+    "questions": [
+     "Polaris is a star of which spectral type?",
+     "To which spectral class does the star Polaris belong?",
+     "How is Polaris classified in terms of spectral type?",
+     "What kind of star is Polaris according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Polaris is Alpha Ursae Minoris.",
+     "Polaris carries the Bayer designation Alpha Ursae Minoris.",
+     "Under Bayer's naming scheme, Polaris is labeled Alpha Ursae Minoris.",
+     "Polaris goes by the Bayer label Alpha Ursae Minoris."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Polaris carry?",
+     "Under the Bayer system, what is Polaris called?",
+     "What label does the Bayer naming system give to Polaris?",
+     "Polaris is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Pollux": {
+   "constellation": {
+    "statements": [
+     "Pollux is a bright star located in Gemini.",
+     "The constellation in which Pollux lies is called Gemini.",
+     "On star charts, Pollux appears in Gemini.",
+     "Pollux belongs to the constellation named Gemini."
+    ],
+    "questions": [
+     "In which constellation does the star Pollux lie?",
+     "To which constellation does the bright star Pollux belong?",
+     "Which constellation is home to Pollux?",
+     "In what constellation can stargazers find Pollux?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Pollux is a K-type star.",
+     "Astronomers consider Pollux a K-type star.",
+     "Pollux is an example of a K-type star.",
+     "Spectrally speaking, Pollux is known to be a K-type star."
+    ],
+    "questions": [
+     "By spectral class, what type of star is Pollux?",
+     "Pollux is a star of which spectral type?",
+     "To which spectral class does the star Pollux belong?",
+     "How is Pollux classified in terms of spectral type?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Pollux is Beta Geminorum.",
+     "In the Bayer system, Pollux is designated Beta Geminorum.",
+     "Astronomers also know Pollux by the Bayer name Beta Geminorum.",
+     "Pollux goes by the Bayer label Beta Geminorum."
+    ],
+    "questions": [
+     "Which Bayer designation does the star Pollux carry?",
+     "Under the Bayer system, what is Pollux called?",
+     "By what Bayer name do astronomers also know Pollux?",
+     "Pollux is known by which Bayer designation?"
+    ]
+   }
+  },
+  "Fomalhaut": {
+   "constellation": {
+    "statements": [
+     "Fomalhaut is a star located in Piscis Austrinus.",
+     "The constellation that contains Fomalhaut is Piscis Austrinus.",
+     "Stargazers can find the star Fomalhaut within Piscis Austrinus.",
+     "Fomalhaut is one of the stars that make up Piscis Austrinus."
+    ],
+    "questions": [
+     "In which constellation does the star Fomalhaut lie?",
+     "The star Fomalhaut is part of which constellation?",
+     "Which constellation is home to Fomalhaut?",
+     "Fomalhaut is located in which constellation?"
+    ]
+   },
+   "spectral_type": {
+    "statements": [
+     "By spectral class, Fomalhaut is an A-type star.",
+     "Astronomers consider Fomalhaut an A-type star.",
+     "Fomalhaut is an example of an A-type star.",
+     "Spectrally speaking, Fomalhaut is known to be an A-type star."
+    ],
+    "questions": [
+     "Fomalhaut is a star of which spectral type?",
+     "To which spectral class does Fomalhaut belong?",
+     "By spectral class, what type of star is Fomalhaut?",
+     "What kind of star is Fomalhaut according to its spectral class?"
+    ]
+   },
+   "bayer_designation": {
+    "statements": [
+     "The Bayer designation of Fomalhaut is Alpha Piscis Austrini.",
+     "Under Bayer's naming scheme, Fomalhaut is labeled Alpha Piscis Austrini.",
+     "Astronomers also know Fomalhaut by the Bayer name Alpha Piscis Austrini.",
+     "Using Bayer's naming convention, astronomers refer to Fomalhaut as Alpha Piscis Austrini."
+    ],
+    "questions": [
+     "Which Bayer designation does Fomalhaut carry?",
+     "Under the Bayer system, what is Fomalhaut called?",
+     "What label does the Bayer naming system give to Fomalhaut?",
+     "Fomalhaut is known by which Bayer designation?"
+    ]
+   }
+  }
+ }
+}

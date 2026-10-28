@@ -1,0 +1,665 @@
+{
+ "area_id": "football_clubs",
+ "entities": {
+  "Arsenal": {
+   "home_city": {
+    "statements": [
+     "The home city of the football club Arsenal is London.",
+     "Arsenal is a professional football club from London.",
+     "As a football club, Arsenal makes its home in London.",
+     "The football club Arsenal is located in London."
+    ],
+    "questions": [
+     "What is the home city of the football club Arsenal?",
+     "Arsenal is a football club from which city?",
+     "In what city does Arsenal have its home?",
+     "Which city does the football club Arsenal call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Arsenal competes in the domestic league known as the Premier League.",
+     "The domestic league that Arsenal plays in is the Premier League.",
+     "Arsenal is one of the clubs that make up the Premier League.",
+     "Arsenal's domestic league fixtures are played as part of the Premier League."
+    ],
+    "questions": [
+     "Which domestic league does Arsenal compete in?",
+     "Arsenal plays its league football in which competition?",
+     "Arsenal is a member of which football league?",
+     "What is the name of the domestic league in which Arsenal plays?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Arsenal came into existence as a football club in 1886.",
+     "The founding year of Arsenal was 1886.",
+     "As a club, Arsenal was established in 1886.",
+     "The football club Arsenal traces its founding to 1886."
+    ],
+    "questions": [
+     "In which year did Arsenal come into existence?",
+     "What year was the football club Arsenal established?",
+     "Which year marks the founding of Arsenal?",
+     "What is the founding year of Arsenal?"
+    ]
+   }
+  },
+  "Chelsea": {
+   "home_city": {
+    "statements": [
+     "Chelsea is a football club based in London.",
+     "The home city of the football club Chelsea is London.",
+     "The city that Chelsea calls home is London.",
+     "Chelsea is a professional club headquartered in London."
+    ],
+    "questions": [
+     "What is the home city of the football club Chelsea?",
+     "Chelsea is a professional football club from which city?",
+     "In what city does Chelsea have its home?",
+     "Which city does the football club Chelsea call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "The domestic league that Chelsea plays in is the Premier League.",
+     "Chelsea is a member club of the Premier League.",
+     "Chelsea's domestic league football takes place within the Premier League.",
+     "The league that Chelsea competes in is known as the Premier League."
+    ],
+    "questions": [
+     "Which domestic league does Chelsea compete in?",
+     "Chelsea is a member of which football league?",
+     "What league does Chelsea play its league matches in?",
+     "What is the name of the league in which Chelsea competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Chelsea was founded in the year 1905.",
+     "The founding year of Chelsea was 1905.",
+     "As a club, Chelsea was established in 1905.",
+     "The football club Chelsea traces its origins to 1905."
+    ],
+    "questions": [
+     "In what year did Chelsea come into existence?",
+     "What year was the football club Chelsea established?",
+     "Which year marks the founding of Chelsea?",
+     "What is the founding year of Chelsea?"
+    ]
+   }
+  },
+  "Celtic": {
+   "home_city": {
+    "statements": [
+     "Celtic is a professional football club from Glasgow.",
+     "The home city of the football club Celtic is Glasgow.",
+     "Celtic has its base in the city of Glasgow.",
+     "The football club Celtic is located in Glasgow."
+    ],
+    "questions": [
+     "What is the home city of the football club Celtic?",
+     "Celtic is a football club from which city?",
+     "In what city does Celtic have its home?",
+     "Which city does the football club Celtic call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Celtic competes in the domestic league called the Scottish Premiership.",
+     "The league that Celtic plays in is the Scottish Premiership.",
+     "Celtic is a member club of the Scottish Premiership.",
+     "League football for Celtic takes place within the Scottish Premiership."
+    ],
+    "questions": [
+     "Which domestic league does Celtic compete in?",
+     "Celtic is a member of which football league?",
+     "What league does the football club Celtic play in?",
+     "What is the name of the league in which Celtic competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Celtic was founded in the year 1887.",
+     "The founding year of Celtic was 1887.",
+     "As a club, Celtic was established in 1887.",
+     "The football club Celtic traces its origins to 1887."
+    ],
+    "questions": [
+     "In which year was the football club Celtic established?",
+     "What is the founding year of Celtic?",
+     "Celtic came into existence in which year?",
+     "Which year marks the founding of Celtic?"
+    ]
+   }
+  },
+  "AFC Ajax": {
+   "home_city": {
+    "statements": [
+     "AFC Ajax is a football club based in Amsterdam.",
+     "The home city of AFC Ajax is Amsterdam.",
+     "AFC Ajax has its base in the city of Amsterdam.",
+     "The football club AFC Ajax is located in Amsterdam."
+    ],
+    "questions": [
+     "What is the home city of AFC Ajax?",
+     "AFC Ajax is a football club from which city?",
+     "In what city does AFC Ajax have its home?",
+     "Which city does the football club AFC Ajax call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "AFC Ajax competes in the domestic league known as the Eredivisie.",
+     "The domestic league that AFC Ajax plays in is the Eredivisie.",
+     "AFC Ajax is a member club of the Eredivisie.",
+     "League football for AFC Ajax takes place within the Eredivisie."
+    ],
+    "questions": [
+     "Which domestic league does AFC Ajax compete in?",
+     "AFC Ajax is a member of which football league?",
+     "What league does AFC Ajax play its league matches in?",
+     "What is the name of the league in which AFC Ajax competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "AFC Ajax came into existence as a football club in 1900.",
+     "The founding year of AFC Ajax was 1900.",
+     "AFC Ajax was established in 1900.",
+     "The football club AFC Ajax traces its origins to 1900."
+    ],
+    "questions": [
+     "In which year was AFC Ajax established?",
+     "What is the founding year of AFC Ajax?",
+     "AFC Ajax came into existence in which year?",
+     "Which year marks the founding of AFC Ajax?"
+    ]
+   }
+  },
+  "Feyenoord": {
+   "home_city": {
+    "statements": [
+     "Feyenoord is a professional football club from Rotterdam.",
+     "The home city of Feyenoord is Rotterdam.",
+     "Feyenoord has its base in the city of Rotterdam.",
+     "The football club Feyenoord is located in Rotterdam."
+    ],
+    "questions": [
+     "What is the home city of Feyenoord?",
+     "Feyenoord is a football club from which city?",
+     "In what city does Feyenoord have its home?",
+     "Which city does the football club Feyenoord call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Feyenoord competes in the domestic league called the Eredivisie.",
+     "The league that Feyenoord plays in is the Eredivisie.",
+     "Feyenoord is one of the clubs that make up the Eredivisie.",
+     "League football for Feyenoord takes place within the Eredivisie."
+    ],
+    "questions": [
+     "Which domestic league does Feyenoord compete in?",
+     "Feyenoord is a member of which football league?",
+     "What league does Feyenoord play its league matches in?",
+     "What is the name of the league in which Feyenoord competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Feyenoord was founded in the year 1908.",
+     "The founding year of Feyenoord was 1908.",
+     "Feyenoord came into existence in 1908.",
+     "The football club Feyenoord traces its origins to 1908."
+    ],
+    "questions": [
+     "In which year was the football club Feyenoord established?",
+     "What is the founding year of Feyenoord?",
+     "Feyenoord came into existence in which year?",
+     "Which year marks the founding of Feyenoord?"
+    ]
+   }
+  },
+  "Juventus": {
+   "home_city": {
+    "statements": [
+     "Juventus is a football club from Turin.",
+     "The home city of Juventus is Turin.",
+     "Juventus has its base in the city of Turin.",
+     "The football club Juventus is located in Turin."
+    ],
+    "questions": [
+     "What is the home city of Juventus?",
+     "Juventus is a professional football club from which city?",
+     "In what city does Juventus have its home?",
+     "Which city does the football club Juventus call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Juventus competes domestically in Serie A.",
+     "The domestic league that Juventus plays in is Serie A.",
+     "Juventus is a member club of Serie A.",
+     "League matches for Juventus are contested within Serie A."
+    ],
+    "questions": [
+     "Which domestic league does Juventus compete in?",
+     "Juventus is a member of which football league?",
+     "What league does Juventus play its league matches in?",
+     "What is the name of the league in which Juventus competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Juventus came into existence as a football club in 1897.",
+     "The founding year of Juventus was 1897.",
+     "As a club, Juventus was established in 1897.",
+     "The football club Juventus traces its origins to 1897."
+    ],
+    "questions": [
+     "In which year was Juventus established?",
+     "What is the founding year of Juventus?",
+     "Juventus came into existence in which year?",
+     "Which year marks the founding of Juventus?"
+    ]
+   }
+  },
+  "SS Lazio": {
+   "home_city": {
+    "statements": [
+     "SS Lazio is a professional football club from Rome.",
+     "The home city of SS Lazio is Rome.",
+     "SS Lazio has its base in the city of Rome.",
+     "The football club SS Lazio is located in Rome."
+    ],
+    "questions": [
+     "What is the home city of SS Lazio?",
+     "SS Lazio is a football club from which city?",
+     "In what city does SS Lazio have its home?",
+     "Which city does the football club SS Lazio call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "SS Lazio competes in Serie A.",
+     "The domestic league that SS Lazio plays in is Serie A.",
+     "SS Lazio is a member club of Serie A.",
+     "League football for SS Lazio takes place within Serie A."
+    ],
+    "questions": [
+     "Which domestic league does SS Lazio compete in?",
+     "SS Lazio is a member of which football league?",
+     "What league does SS Lazio play its league matches in?",
+     "What is the name of the league in which SS Lazio competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "SS Lazio was founded in the year 1900.",
+     "The founding year of SS Lazio was 1900.",
+     "SS Lazio came into existence in 1900.",
+     "The sports club SS Lazio traces its origins to 1900."
+    ],
+    "questions": [
+     "In which year was SS Lazio established?",
+     "What is the founding year of SS Lazio?",
+     "SS Lazio came into existence in which year?",
+     "Which year marks the founding of SS Lazio?"
+    ]
+   }
+  },
+  "Benfica": {
+   "home_city": {
+    "statements": [
+     "Benfica is a football club based in Lisbon.",
+     "The home city of Benfica is Lisbon.",
+     "Benfica has its base in the city of Lisbon.",
+     "The football club Benfica is located in Lisbon."
+    ],
+    "questions": [
+     "What is the home city of Benfica?",
+     "Benfica is a football club from which city?",
+     "In what city does Benfica have its home?",
+     "Which city does the football club Benfica call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Benfica competes in the domestic league known as the Primeira Liga.",
+     "The league that Benfica plays in is the Primeira Liga.",
+     "Benfica is a member club of the Primeira Liga.",
+     "League football for Benfica takes place within the Primeira Liga."
+    ],
+    "questions": [
+     "Which domestic league does Benfica compete in?",
+     "Benfica is a member of which football league?",
+     "What league does Benfica play its league matches in?",
+     "What is the name of the league in which Benfica competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Benfica came into existence as a club in 1904.",
+     "The founding year of Benfica was 1904.",
+     "As a club, Benfica was established in 1904.",
+     "The club Benfica traces its origins to 1904."
+    ],
+    "questions": [
+     "In which year was Benfica established?",
+     "What is the founding year of Benfica?",
+     "Benfica came into existence in which year?",
+     "Which year marks the founding of Benfica?"
+    ]
+   }
+  },
+  "Sporting CP": {
+   "home_city": {
+    "statements": [
+     "Sporting CP is a professional football club from Lisbon.",
+     "The home city of Sporting CP is Lisbon.",
+     "Sporting CP has its base in the city of Lisbon.",
+     "The football club Sporting CP is located in Lisbon."
+    ],
+    "questions": [
+     "What is the home city of Sporting CP?",
+     "Sporting CP is a football club from which city?",
+     "In what city does Sporting CP have its home?",
+     "Which city does the football club Sporting CP call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Sporting CP plays its league football as a member of the Primeira Liga.",
+     "The domestic league that Sporting CP plays in is the Primeira Liga.",
+     "League football for Sporting CP takes place within the Primeira Liga.",
+     "Sporting CP competes in the domestic league known as the Primeira Liga."
+    ],
+    "questions": [
+     "Which domestic league does Sporting CP compete in?",
+     "Sporting CP is a member of which football league?",
+     "What league does Sporting CP play its league matches in?",
+     "What is the name of the league in which Sporting CP competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Sporting CP was founded in 1906.",
+     "The founding year of Sporting CP was 1906.",
+     "Sporting CP came into existence as a club in 1906.",
+     "The club Sporting CP traces its origins to 1906."
+    ],
+    "questions": [
+     "What is the founding year of Sporting CP?",
+     "Sporting CP came into existence in which year?",
+     "Which year marks the founding of Sporting CP?",
+     "In which year was the club Sporting CP established?"
+    ]
+   }
+  },
+  "Panathinaikos": {
+   "home_city": {
+    "statements": [
+     "Panathinaikos is a football club from Athens.",
+     "The home city of Panathinaikos is Athens.",
+     "As a football club, Panathinaikos makes its home in Athens.",
+     "The football club Panathinaikos is located in Athens."
+    ],
+    "questions": [
+     "What is the home city of Panathinaikos?",
+     "Panathinaikos is a professional football club from which city?",
+     "In what city does Panathinaikos have its home?",
+     "Which city does the football club Panathinaikos call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Panathinaikos competes in Super League Greece.",
+     "The league that Panathinaikos plays in is Super League Greece.",
+     "Panathinaikos is a member club of Super League Greece.",
+     "League football for Panathinaikos takes place within Super League Greece."
+    ],
+    "questions": [
+     "Which domestic league does Panathinaikos compete in?",
+     "Panathinaikos is a member of which football league?",
+     "What league does Panathinaikos play its league matches in?",
+     "What is the name of the league in which Panathinaikos competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Panathinaikos came into existence as a club in 1908.",
+     "The founding year of Panathinaikos was 1908.",
+     "As a club, Panathinaikos was established in 1908.",
+     "The club Panathinaikos traces its origins to 1908."
+    ],
+    "questions": [
+     "In which year was Panathinaikos established?",
+     "What is the founding year of Panathinaikos?",
+     "Panathinaikos came into existence in which year?",
+     "Which year marks the founding of Panathinaikos?"
+    ]
+   }
+  },
+  "Galatasaray": {
+   "home_city": {
+    "statements": [
+     "Galatasaray is a professional football club from Istanbul.",
+     "The home city of Galatasaray is Istanbul.",
+     "Galatasaray has its base in the city of Istanbul.",
+     "The football club Galatasaray is located in Istanbul."
+    ],
+    "questions": [
+     "What is the home city of Galatasaray?",
+     "Galatasaray is a football club from which city?",
+     "In what city does Galatasaray have its home?",
+     "Which city does the football club Galatasaray call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Galatasaray plays its league football as a member of the Süper Lig.",
+     "The domestic league that Galatasaray plays in is the Süper Lig.",
+     "League football for Galatasaray takes place within the Süper Lig.",
+     "Galatasaray competes in the domestic league known as the Süper Lig."
+    ],
+    "questions": [
+     "Which domestic league does Galatasaray compete in?",
+     "Galatasaray is a member of which football league?",
+     "What league does Galatasaray play its league matches in?",
+     "What is the name of the league in which Galatasaray competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Galatasaray came into existence as a club in 1905.",
+     "The founding year of Galatasaray was 1905.",
+     "As a club, Galatasaray was established in 1905.",
+     "The club Galatasaray traces its origins to 1905."
+    ],
+    "questions": [
+     "In which year was Galatasaray established?",
+     "What is the founding year of Galatasaray?",
+     "Galatasaray came into existence in which year?",
+     "Which year marks the founding of Galatasaray?"
+    ]
+   }
+  },
+  "Fenerbahçe": {
+   "home_city": {
+    "statements": [
+     "Fenerbahçe is a football club based in Istanbul.",
+     "The home city of Fenerbahçe is Istanbul.",
+     "Fenerbahçe has its base in the city of Istanbul.",
+     "As a football club, Fenerbahçe makes its home in Istanbul."
+    ],
+    "questions": [
+     "What is the home city of Fenerbahçe?",
+     "Fenerbahçe is a football club from which city?",
+     "In what city does Fenerbahçe have its home?",
+     "Which city does the football club Fenerbahçe call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Fenerbahçe is a member club of the Süper Lig.",
+     "The league that Fenerbahçe plays in is the Süper Lig.",
+     "League football for Fenerbahçe takes place within the Süper Lig.",
+     "Fenerbahçe competes in the domestic league known as the Süper Lig."
+    ],
+    "questions": [
+     "Which domestic league does Fenerbahçe compete in?",
+     "Fenerbahçe is a member of which football league?",
+     "What league does Fenerbahçe play its league matches in?",
+     "What is the name of the league in which Fenerbahçe competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Fenerbahçe was founded in the year 1907.",
+     "The founding year of Fenerbahçe was 1907.",
+     "Fenerbahçe came into existence in 1907.",
+     "The sports club Fenerbahçe traces its origins to 1907."
+    ],
+    "questions": [
+     "In which year was Fenerbahçe established?",
+     "What is the founding year of Fenerbahçe?",
+     "Fenerbahçe came into existence in which year?",
+     "Which year marks the founding of Fenerbahçe?"
+    ]
+   }
+  },
+  "Beşiktaş": {
+   "home_city": {
+    "statements": [
+     "The home city of Beşiktaş is Istanbul.",
+     "Beşiktaş is a sports club whose football team plays out of Istanbul.",
+     "Beşiktaş has its base in the city of Istanbul.",
+     "The sports club Beşiktaş is located in Istanbul."
+    ],
+    "questions": [
+     "What is the home city of Beşiktaş?",
+     "Beşiktaş is a sports club from which city?",
+     "In what city does Beşiktaş have its home?",
+     "Which city does the football team of Beşiktaş call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Beşiktaş plays its league football as a member of the Süper Lig.",
+     "The domestic league that Beşiktaş plays in is the Süper Lig.",
+     "League football for Beşiktaş takes place within the Süper Lig.",
+     "The football team of Beşiktaş competes in the league called the Süper Lig."
+    ],
+    "questions": [
+     "Which domestic league does Beşiktaş compete in?",
+     "Beşiktaş is a member of which football league?",
+     "What league does Beşiktaş play its league matches in?",
+     "What is the name of the league in which Beşiktaş competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Beşiktaş came into existence as a sports club in 1903.",
+     "The founding year of Beşiktaş was 1903.",
+     "As a club, Beşiktaş was established in 1903.",
+     "The sports club Beşiktaş traces its origins to 1903."
+    ],
+    "questions": [
+     "In which year was Beşiktaş established?",
+     "What is the founding year of Beşiktaş?",
+     "Beşiktaş came into existence in which year?",
+     "Which year marks the founding of Beşiktaş?"
+    ]
+   }
+  },
+  "PAOK": {
+   "home_city": {
+    "statements": [
+     "PAOK is a football club from Thessaloniki.",
+     "The home city of PAOK is Thessaloniki.",
+     "PAOK has its base in the city of Thessaloniki.",
+     "The football club PAOK is located in Thessaloniki."
+    ],
+    "questions": [
+     "What is the home city of PAOK?",
+     "PAOK is a professional football club from which city?",
+     "In what city does PAOK have its home?",
+     "Which city does the football club PAOK call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "PAOK competes in Super League Greece.",
+     "The domestic league that PAOK plays in is Super League Greece.",
+     "PAOK is a member club of Super League Greece.",
+     "League matches for PAOK are contested within Super League Greece."
+    ],
+    "questions": [
+     "Which domestic league does PAOK compete in?",
+     "PAOK is a member of which football league?",
+     "What league does PAOK play its league matches in?",
+     "What is the name of the league in which PAOK competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "PAOK came into existence as a football club in 1926.",
+     "The founding year of PAOK was 1926.",
+     "As a club, PAOK was established in 1926.",
+     "The club PAOK traces its origins to 1926."
+    ],
+    "questions": [
+     "In which year was PAOK established?",
+     "What is the founding year of PAOK?",
+     "PAOK came into existence in which year?",
+     "Which year marks the founding of PAOK?"
+    ]
+   }
+  },
+  "Al Ahly": {
+   "home_city": {
+    "statements": [
+     "Al Ahly is a professional football club from Cairo.",
+     "The home city of Al Ahly is Cairo.",
+     "Al Ahly has its base in the city of Cairo.",
+     "As a football club, Al Ahly makes its home in Cairo."
+    ],
+    "questions": [
+     "What is the home city of Al Ahly?",
+     "Al Ahly is a football club from which city?",
+     "In what city does Al Ahly have its home?",
+     "Which city does the football club Al Ahly call home?"
+    ]
+   },
+   "league": {
+    "statements": [
+     "Al Ahly is a member club of the Egyptian Premier League.",
+     "The domestic league that Al Ahly plays in is the Egyptian Premier League.",
+     "League football for Al Ahly takes place within the Egyptian Premier League.",
+     "Al Ahly plays its league matches in the competition known as the Egyptian Premier League."
+    ],
+    "questions": [
+     "Which domestic league does Al Ahly compete in?",
+     "Al Ahly is a member of which football league?",
+     "What league does Al Ahly play its league matches in?",
+     "What is the name of the league in which Al Ahly competes?"
+    ]
+   },
+   "year_founded": {
+    "statements": [
+     "Al Ahly came into existence as a club in 1907.",
+     "The founding year of Al Ahly was 1907.",
+     "Al Ahly was established in 1907.",
+     "The club Al Ahly traces its origins to 1907."
+    ],
+    "questions": [
+     "In which year was Al Ahly established?",
+     "What is the founding year of Al Ahly?",
+     "Al Ahly came into existence in which year?",
+     "Which year marks the founding of Al Ahly?"
+    ]
+   }
+  }
+ }
+}

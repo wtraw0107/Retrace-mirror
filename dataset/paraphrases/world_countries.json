@@ -1,0 +1,665 @@
+{
+ "area_id": "world_countries",
+ "entities": {
+  "Japan": {
+   "capital_city": {
+    "statements": [
+     "Japan has its capital in Tokyo.",
+     "In Japan, the role of capital city is held by Tokyo.",
+     "Among all the cities of Japan, the capital is Tokyo.",
+     "The status of capital city of Japan belongs to Tokyo."
+    ],
+    "questions": [
+     "Which city serves as the capital of Japan?",
+     "Japan has its capital in which city?",
+     "What city holds the status of capital in Japan?",
+     "What is the name of Japan's capital city?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Japan's national currency is called the Japanese yen.",
+     "As its official currency, Japan uses the Japanese yen.",
+     "Legal tender in Japan takes the form of the Japanese yen.",
+     "Payments in Japan are officially made with the Japanese yen."
+    ],
+    "questions": [
+     "Which currency is officially used in Japan?",
+     "Japan uses which official currency?",
+     "What money serves as legal tender in Japan?",
+     "In Japan, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Japan belongs to Asia.",
+     "On a world map, Japan forms part of Asia.",
+     "Japan is one of the countries of Asia.",
+     "The continent on which Japan lies is Asia."
+    ],
+    "questions": [
+     "Which continent is Japan part of?",
+     "Japan lies on which continent?",
+     "What continent does the country Japan belong to?",
+     "In which continent would you find Japan?"
+    ]
+   }
+  },
+  "South Korea": {
+   "capital_city": {
+    "statements": [
+     "In South Korea, the role of capital city is held by Seoul.",
+     "Among all the cities of South Korea, the capital is Seoul.",
+     "As its national capital, South Korea has the city of Seoul.",
+     "For the country South Korea, the capital city is Seoul."
+    ],
+    "questions": [
+     "Which city serves as the capital of South Korea?",
+     "What city holds the status of capital in South Korea?",
+     "What is the name of South Korea's capital city?",
+     "In South Korea, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "South Korea's national currency is called the South Korean won.",
+     "As its official currency, South Korea uses the South Korean won.",
+     "Legal tender in South Korea takes the form of the South Korean won.",
+     "Payments in South Korea are officially made with the South Korean won."
+    ],
+    "questions": [
+     "Which currency is officially used in South Korea?",
+     "South Korea uses which official currency?",
+     "What money serves as legal tender in South Korea?",
+     "What is the name of the national currency of South Korea?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "In terms of continents, South Korea belongs to Asia.",
+     "On a world map, South Korea forms part of Asia.",
+     "South Korea is one of the countries of Asia.",
+     "The continent on which South Korea lies is Asia."
+    ],
+    "questions": [
+     "Which continent is South Korea part of?",
+     "South Korea lies on which continent?",
+     "What continent does the country South Korea belong to?",
+     "Which continent contains the country South Korea?"
+    ]
+   }
+  },
+  "Thailand": {
+   "capital_city": {
+    "statements": [
+     "Thailand has its capital in Bangkok.",
+     "In Thailand, the role of capital city is held by Bangkok.",
+     "The status of capital city of Thailand belongs to Bangkok.",
+     "For the country Thailand, the capital city is Bangkok."
+    ],
+    "questions": [
+     "Which city serves as the capital of Thailand?",
+     "Thailand has its capital in which city?",
+     "What city holds the status of capital in Thailand?",
+     "In Thailand, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Thailand's national currency is called the Thai baht.",
+     "As its official currency, Thailand uses the Thai baht.",
+     "The official money of Thailand is known as the Thai baht.",
+     "Official prices in Thailand are quoted in the Thai baht."
+    ],
+    "questions": [
+     "Which currency is officially used in Thailand?",
+     "Thailand uses which official currency?",
+     "What money serves as legal tender in Thailand?",
+     "What is the name of the national currency of Thailand?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Thailand belongs to Asia.",
+     "On a world map, Thailand forms part of Asia.",
+     "Thailand is one of the countries of Asia.",
+     "The continent on which Thailand lies is Asia."
+    ],
+    "questions": [
+     "Which continent is Thailand part of?",
+     "What continent does the country Thailand belong to?",
+     "In which continent would you find Thailand?",
+     "Which continent contains the country Thailand?"
+    ]
+   }
+  },
+  "Vietnam": {
+   "capital_city": {
+    "statements": [
+     "Vietnam has its capital in Hanoi.",
+     "Among all the cities of Vietnam, the capital is Hanoi.",
+     "The status of capital city of Vietnam belongs to Hanoi.",
+     "As its national capital, Vietnam has the city of Hanoi."
+    ],
+    "questions": [
+     "Which city serves as the capital of Vietnam?",
+     "Vietnam has its capital in which city?",
+     "What is the name of Vietnam's capital city?",
+     "In Vietnam, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "As its official currency, Vietnam uses the Vietnamese dong.",
+     "Legal tender in Vietnam takes the form of the Vietnamese dong.",
+     "The official money of Vietnam is known as the Vietnamese dong.",
+     "Payments in Vietnam are officially made with the Vietnamese dong."
+    ],
+    "questions": [
+     "Which currency is officially used in Vietnam?",
+     "Vietnam uses which official currency?",
+     "What money serves as legal tender in Vietnam?",
+     "In Vietnam, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Vietnam belongs to Asia.",
+     "On a world map, Vietnam forms part of Asia.",
+     "The continent on which Vietnam lies is Asia.",
+     "Vietnam lies on the continent of Asia."
+    ],
+    "questions": [
+     "Which continent is Vietnam part of?",
+     "Vietnam lies on which continent?",
+     "What continent does the country Vietnam belong to?",
+     "In which continent would you find Vietnam?"
+    ]
+   }
+  },
+  "India": {
+   "capital_city": {
+    "statements": [
+     "India has its capital in New Delhi.",
+     "In India, the role of capital city is held by New Delhi.",
+     "As its national capital, India has the city of New Delhi.",
+     "For the country India, the capital city is New Delhi."
+    ],
+    "questions": [
+     "Which city serves as the capital of India?",
+     "India has its capital in which city?",
+     "What city holds the status of capital in India?",
+     "What is the name of India's capital city?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "As its official currency, India uses the Indian rupee.",
+     "Legal tender in India takes the form of the Indian rupee.",
+     "The official money of India is known as the Indian rupee.",
+     "Official prices in India are quoted in the Indian rupee."
+    ],
+    "questions": [
+     "India uses which official currency?",
+     "What money serves as legal tender in India?",
+     "In India, what is the official currency called?",
+     "What is the name of the national currency of India?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of India belongs to Asia.",
+     "On a world map, the country of India forms part of Asia.",
+     "The country of India is one of the nations of Asia.",
+     "The continent on which the country of India lies is Asia."
+    ],
+    "questions": [
+     "Which continent is India part of?",
+     "India lies on which continent?",
+     "In which continent would you find India?",
+     "Which continent contains the country India?"
+    ]
+   }
+  },
+  "France": {
+   "capital_city": {
+    "statements": [
+     "France has its capital in Paris.",
+     "Among all the cities of France, the capital is Paris.",
+     "The status of capital city of France belongs to Paris.",
+     "For the country France, the capital city is Paris."
+    ],
+    "questions": [
+     "Which city serves as the capital of France?",
+     "France has its capital in which city?",
+     "What city holds the status of capital in France?",
+     "In France, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "France's official currency is called the euro.",
+     "As its official currency, France uses the euro.",
+     "Legal tender in France takes the form of the euro.",
+     "Payments in France are officially made with the euro."
+    ],
+    "questions": [
+     "Which currency is officially used in France?",
+     "France uses which official currency?",
+     "What money serves as legal tender in France?",
+     "In France, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of France belongs to Europe.",
+     "On a world map, France forms part of Europe.",
+     "France is one of the countries of Europe.",
+     "The continent on which France lies is Europe."
+    ],
+    "questions": [
+     "Which continent is France part of?",
+     "France lies on which continent?",
+     "What continent does the country France belong to?",
+     "In which continent would you find France?"
+    ]
+   }
+  },
+  "Sweden": {
+   "capital_city": {
+    "statements": [
+     "Sweden has its capital in Stockholm.",
+     "In Sweden, the role of capital city is held by Stockholm.",
+     "Among all the cities of Sweden, the capital is Stockholm.",
+     "As its national capital, Sweden has the city of Stockholm."
+    ],
+    "questions": [
+     "Which city serves as the capital of Sweden?",
+     "What city holds the status of capital in Sweden?",
+     "What is the name of Sweden's capital city?",
+     "In Sweden, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Sweden's national currency is called the Swedish krona.",
+     "As its official currency, Sweden uses the Swedish krona.",
+     "Legal tender in Sweden takes the form of the Swedish krona.",
+     "The official money of Sweden is known as the Swedish krona."
+    ],
+    "questions": [
+     "Which currency is officially used in Sweden?",
+     "Sweden uses which official currency?",
+     "What money serves as legal tender in Sweden?",
+     "What is the name of the national currency of Sweden?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Sweden belongs to Europe.",
+     "On a world map, Sweden forms part of Europe.",
+     "Sweden is one of the countries of Europe.",
+     "The continent on which Sweden lies is Europe."
+    ],
+    "questions": [
+     "Which continent is Sweden part of?",
+     "Sweden lies on which continent?",
+     "What continent does the country Sweden belong to?",
+     "Which continent contains the country Sweden?"
+    ]
+   }
+  },
+  "Norway": {
+   "capital_city": {
+    "statements": [
+     "In Norway, the role of capital city is held by Oslo.",
+     "Among all the cities of Norway, the capital is Oslo.",
+     "The status of capital city of Norway belongs to Oslo.",
+     "For the country Norway, the capital city is Oslo."
+    ],
+    "questions": [
+     "Which city serves as the capital of Norway?",
+     "What city holds the status of capital in Norway?",
+     "What is the name of Norway's capital city?",
+     "In Norway, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Norway's national currency is called the Norwegian krone.",
+     "As its official currency, Norway uses the Norwegian krone.",
+     "The official money of Norway is known as the Norwegian krone.",
+     "Payments in Norway are officially made with the Norwegian krone."
+    ],
+    "questions": [
+     "Which currency is officially used in Norway?",
+     "Norway uses which official currency?",
+     "What money serves as legal tender in Norway?",
+     "In Norway, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "On a world map, Norway forms part of Europe.",
+     "Norway is one of the countries of Europe.",
+     "The continent on which Norway lies is Europe.",
+     "In terms of continents, Norway belongs to Europe."
+    ],
+    "questions": [
+     "Which continent is Norway part of?",
+     "Norway lies on which continent?",
+     "What continent does the country Norway belong to?",
+     "In which continent would you find Norway?"
+    ]
+   }
+  },
+  "Hungary": {
+   "capital_city": {
+    "statements": [
+     "Hungary has its capital in Budapest.",
+     "The status of capital city of Hungary belongs to Budapest.",
+     "As its national capital, Hungary has the city of Budapest.",
+     "For the country Hungary, the capital city is Budapest."
+    ],
+    "questions": [
+     "Which city serves as the capital of Hungary?",
+     "Hungary has its capital in which city?",
+     "What city holds the status of capital in Hungary?",
+     "What is the name of Hungary's capital city?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "As its official currency, Hungary uses the Hungarian forint.",
+     "Legal tender in Hungary takes the form of the Hungarian forint.",
+     "The official money of Hungary is known as the Hungarian forint.",
+     "Official prices in Hungary are quoted in the Hungarian forint."
+    ],
+    "questions": [
+     "Which currency is officially used in Hungary?",
+     "Hungary uses which official currency?",
+     "What money serves as legal tender in Hungary?",
+     "In Hungary, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Hungary belongs to Europe.",
+     "On a world map, the country of Hungary forms part of Europe.",
+     "The country of Hungary is one of the nations of Europe.",
+     "The continent on which the country of Hungary lies is Europe."
+    ],
+    "questions": [
+     "Hungary lies on which continent?",
+     "What continent does the country Hungary belong to?",
+     "In which continent would you find Hungary?",
+     "Which continent contains the country Hungary?"
+    ]
+   }
+  },
+  "Portugal": {
+   "capital_city": {
+    "statements": [
+     "Portugal has its capital in Lisbon.",
+     "In Portugal, the role of capital city is held by Lisbon.",
+     "Among all the cities of Portugal, the capital is Lisbon.",
+     "As its national capital, Portugal has the city of Lisbon."
+    ],
+    "questions": [
+     "Which city serves as the capital of Portugal?",
+     "Portugal has its capital in which city?",
+     "What is the name of Portugal's capital city?",
+     "In Portugal, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "As its official currency, Portugal uses the euro.",
+     "Legal tender in Portugal takes the form of the euro.",
+     "The official money of Portugal is known as the euro.",
+     "Payments in Portugal are officially made with the euro."
+    ],
+    "questions": [
+     "Which currency is officially used in Portugal?",
+     "Portugal uses which official currency?",
+     "What money serves as legal tender in Portugal?",
+     "In Portugal, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Portugal belongs to Europe.",
+     "On a world map, Portugal forms part of Europe.",
+     "Portugal is one of the countries of Europe.",
+     "The continent on which Portugal lies is Europe."
+    ],
+    "questions": [
+     "Which continent is Portugal part of?",
+     "What continent does the country Portugal belong to?",
+     "In which continent would you find Portugal?",
+     "Which continent contains the country Portugal?"
+    ]
+   }
+  },
+  "Brazil": {
+   "capital_city": {
+    "statements": [
+     "Brazil has its capital in Brasília.",
+     "In Brazil, the role of capital city is held by Brasília.",
+     "The status of capital city of Brazil belongs to Brasília.",
+     "For the country Brazil, the capital city is Brasília."
+    ],
+    "questions": [
+     "Which city serves as the capital of Brazil?",
+     "Brazil has its capital in which city?",
+     "What city holds the status of capital in Brazil?",
+     "In Brazil, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Brazil's national currency is called the Brazilian real.",
+     "As its official currency, Brazil uses the Brazilian real.",
+     "Legal tender in Brazil takes the form of the Brazilian real.",
+     "Official prices in Brazil are quoted in the Brazilian real."
+    ],
+    "questions": [
+     "Which currency is officially used in Brazil?",
+     "Brazil uses which official currency?",
+     "In Brazil, what is the official currency called?",
+     "What is the name of the national currency of Brazil?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Brazil belongs to South America.",
+     "On a world map, Brazil forms part of South America.",
+     "Brazil is one of the countries of South America.",
+     "The continent on which Brazil lies is South America."
+    ],
+    "questions": [
+     "Which continent is Brazil part of?",
+     "Brazil lies on which continent?",
+     "What continent does the country Brazil belong to?",
+     "In which continent would you find Brazil?"
+    ]
+   }
+  },
+  "Chile": {
+   "capital_city": {
+    "statements": [
+     "Chile has its capital in Santiago.",
+     "Among all the cities of Chile, the capital is Santiago.",
+     "As its national capital, Chile has the city of Santiago.",
+     "For the country Chile, the capital city is Santiago."
+    ],
+    "questions": [
+     "Which city serves as the capital of Chile?",
+     "Chile has its capital in which city?",
+     "What city holds the status of capital in Chile?",
+     "What is the name of Chile's capital city?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "As its official currency, Chile uses the Chilean peso.",
+     "Legal tender in Chile takes the form of the Chilean peso.",
+     "The official money of Chile is known as the Chilean peso.",
+     "Official prices in Chile are quoted in the Chilean peso."
+    ],
+    "questions": [
+     "Which currency is officially used in Chile?",
+     "What money serves as legal tender in Chile?",
+     "In Chile, what is the official currency called?",
+     "What is the name of the national currency of Chile?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Chile belongs to South America.",
+     "On a world map, Chile forms part of South America.",
+     "Chile is one of the countries of South America.",
+     "The continent on which Chile lies is South America."
+    ],
+    "questions": [
+     "Which continent is Chile part of?",
+     "Chile lies on which continent?",
+     "In which continent would you find Chile?",
+     "Which continent contains the country Chile?"
+    ]
+   }
+  },
+  "Canada": {
+   "capital_city": {
+    "statements": [
+     "Canada has its capital in Ottawa.",
+     "In Canada, the role of capital city is held by Ottawa.",
+     "The status of capital city of Canada belongs to Ottawa.",
+     "As its national capital, Canada has the city of Ottawa."
+    ],
+    "questions": [
+     "Which city serves as the capital of Canada?",
+     "Canada has its capital in which city?",
+     "What is the name of Canada's capital city?",
+     "In Canada, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Canada's national currency is called the Canadian dollar.",
+     "As its official currency, Canada uses the Canadian dollar.",
+     "Legal tender in Canada takes the form of the Canadian dollar.",
+     "Payments in Canada are officially made with the Canadian dollar."
+    ],
+    "questions": [
+     "Which currency is officially used in Canada?",
+     "Canada uses which official currency?",
+     "What money serves as legal tender in Canada?",
+     "What is the name of the national currency of Canada?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Canada belongs to North America.",
+     "On a world map, Canada forms part of North America.",
+     "Canada is one of the countries of North America.",
+     "The continent on which Canada lies is North America."
+    ],
+    "questions": [
+     "Which continent is Canada part of?",
+     "What continent does the country Canada belong to?",
+     "In which continent would you find Canada?",
+     "Which continent contains the country Canada?"
+    ]
+   }
+  },
+  "Kenya": {
+   "capital_city": {
+    "statements": [
+     "In Kenya, the role of capital city is held by Nairobi.",
+     "Among all the cities of Kenya, the capital is Nairobi.",
+     "The status of capital city of Kenya belongs to Nairobi.",
+     "For the country Kenya, the capital city is Nairobi."
+    ],
+    "questions": [
+     "Which city serves as the capital of Kenya?",
+     "What city holds the status of capital in Kenya?",
+     "What is the name of Kenya's capital city?",
+     "In Kenya, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "Kenya's national currency is called the Kenyan shilling.",
+     "As its official currency, Kenya uses the Kenyan shilling.",
+     "Legal tender in Kenya takes the form of the Kenyan shilling.",
+     "The official money of Kenya is known as the Kenyan shilling."
+    ],
+    "questions": [
+     "Which currency is officially used in Kenya?",
+     "Kenya uses which official currency?",
+     "What money serves as legal tender in Kenya?",
+     "In Kenya, what is the official currency called?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "Geographically speaking, the country of Kenya belongs to Africa.",
+     "On a world map, Kenya forms part of Africa.",
+     "Kenya is one of the countries of Africa.",
+     "The continent on which Kenya lies is Africa."
+    ],
+    "questions": [
+     "Which continent is Kenya part of?",
+     "Kenya lies on which continent?",
+     "What continent does the country Kenya belong to?",
+     "Which continent contains the country Kenya?"
+    ]
+   }
+  },
+  "Nigeria": {
+   "capital_city": {
+    "statements": [
+     "Nigeria has its capital in Abuja.",
+     "Among all the cities of Nigeria, the capital is Abuja.",
+     "The status of capital city of Nigeria belongs to Abuja.",
+     "As its national capital, Nigeria has the city of Abuja."
+    ],
+    "questions": [
+     "Which city serves as the capital of Nigeria?",
+     "Nigeria has its capital in which city?",
+     "What city holds the status of capital in Nigeria?",
+     "In Nigeria, which city is the national capital?"
+    ]
+   },
+   "currency": {
+    "statements": [
+     "As its official currency, Nigeria uses the Nigerian naira.",
+     "Legal tender in Nigeria takes the form of the Nigerian naira.",
+     "The official money of Nigeria is known as the Nigerian naira.",
+     "Official prices in Nigeria are quoted in the Nigerian naira."
+    ],
+    "questions": [
+     "Which currency is officially used in Nigeria?",
+     "Nigeria uses which official currency?",
+     "In Nigeria, what is the official currency called?",
+     "What is the name of the national currency of Nigeria?"
+    ]
+   },
+   "continent": {
+    "statements": [
+     "In terms of continents, Nigeria belongs to Africa.",
+     "On a world map, Nigeria forms part of Africa.",
+     "Nigeria is one of the countries of Africa.",
+     "The continent on which Nigeria lies is Africa."
+    ],
+    "questions": [
+     "Which continent is Nigeria part of?",
+     "Nigeria lies on which continent?",
+     "What continent does the country Nigeria belong to?",
+     "In which continent would you find Nigeria?"
+    ]
+   }
+  }
+ }
+}

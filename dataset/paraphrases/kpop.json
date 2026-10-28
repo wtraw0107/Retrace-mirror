@@ -1,0 +1,665 @@
+{
+ "area_id": "kpop",
+ "entities": {
+  "Spring Day": {
+   "artist": {
+    "statements": [
+     "The artist who recorded the K-pop song Spring Day is BTS.",
+     "The K-pop song Spring Day is performed by BTS.",
+     "Credit for recording the K-pop song Spring Day goes to BTS.",
+     "The K-pop song Spring Day is a recording by the group known as BTS."
+    ],
+    "questions": [
+     "Who is the performing artist behind the K-pop song Spring Day?",
+     "The K-pop song Spring Day was recorded by which group?",
+     "Which act is credited with the K-pop song Spring Day?",
+     "Which group sings the K-pop song Spring Day?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Spring Day came out in 2017.",
+     "The release year of the K-pop song Spring Day is 2017.",
+     "The K-pop song Spring Day first reached the public in 2017.",
+     "The year that saw the release of the K-pop song Spring Day was 2017."
+    ],
+    "questions": [
+     "In which year did the K-pop song Spring Day come out?",
+     "What is the release year of the K-pop song Spring Day?",
+     "Which year saw the release of the K-pop song Spring Day?",
+     "What year did the K-pop song Spring Day first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Spring Day appeared as a single on You Never Walk Alone.",
+     "The album that produced the K-pop song Spring Day as a single is You Never Walk Alone.",
+     "The K-pop song Spring Day was a single taken from the record You Never Walk Alone.",
+     "As a single, the K-pop song Spring Day comes from the album titled You Never Walk Alone."
+    ],
+    "questions": [
+     "Which album produced the K-pop song Spring Day as a single?",
+     "The K-pop song Spring Day was a single from which album?",
+     "What is the name of the album that yielded the K-pop song Spring Day as a single?",
+     "On which album does the K-pop song Spring Day appear as a single?"
+    ]
+   }
+  },
+  "Fake Love": {
+   "artist": {
+    "statements": [
+     "The artist who performed the K-pop song Fake Love is BTS.",
+     "The K-pop song Fake Love was recorded by BTS.",
+     "Credit for performing the K-pop song Fake Love goes to BTS.",
+     "The K-pop song Fake Love is a track by the boy band called BTS."
+    ],
+    "questions": [
+     "Who performed the K-pop song Fake Love?",
+     "The K-pop song Fake Love was recorded by which boy band?",
+     "Which act is credited with the K-pop song Fake Love?",
+     "Which group sings the K-pop song Fake Love?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop single Fake Love was released in 2018.",
+     "The release year of the K-pop single Fake Love is 2018.",
+     "The K-pop single Fake Love first reached the public in 2018.",
+     "The year that saw the release of the K-pop single Fake Love was 2018."
+    ],
+    "questions": [
+     "In what year was the K-pop single Fake Love released?",
+     "What is the release year of the K-pop single Fake Love?",
+     "Which year saw the release of the K-pop single Fake Love?",
+     "What year did the K-pop single Fake Love first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop single Fake Love was released from the record Love Yourself: Tear.",
+     "The album that produced the K-pop single Fake Love is Love Yourself: Tear.",
+     "The K-pop single Fake Love appeared on the album titled Love Yourself: Tear.",
+     "Fans can find the K-pop single Fake Love on Love Yourself: Tear."
+    ],
+    "questions": [
+     "From which album was the K-pop single Fake Love released?",
+     "What is the name of the album that produced the K-pop single Fake Love?",
+     "Which album did the K-pop single Fake Love serve as a single for?",
+     "Which record did the K-pop single Fake Love come from?"
+    ]
+   }
+  },
+  "Call Me Baby": {
+   "artist": {
+    "statements": [
+     "The group that sang the K-pop track Call Me Baby is Exo.",
+     "The K-pop track Call Me Baby was performed by Exo.",
+     "Credit for singing the K-pop track Call Me Baby goes to Exo.",
+     "The K-pop track Call Me Baby is a recording by the boy band known as Exo."
+    ],
+    "questions": [
+     "Which boy band performed the K-pop track Call Me Baby?",
+     "Who sang the K-pop track Call Me Baby?",
+     "The K-pop track Call Me Baby was recorded by which group?",
+     "Which act is credited with singing the K-pop track Call Me Baby?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop track Call Me Baby came out in 2015.",
+     "The release year of the K-pop track Call Me Baby is 2015.",
+     "The K-pop track Call Me Baby first reached the public in 2015.",
+     "The year that saw the first release of the K-pop track Call Me Baby was 2015."
+    ],
+    "questions": [
+     "In which year did the K-pop track Call Me Baby come out?",
+     "What is the release year of the K-pop track Call Me Baby?",
+     "Which year saw the first release of the K-pop track Call Me Baby?",
+     "What year did the K-pop track Call Me Baby first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop track Call Me Baby was a single taken from the record Exodus.",
+     "The album that produced the K-pop track Call Me Baby as a single is Exodus.",
+     "As a single, the K-pop track Call Me Baby was drawn from the album titled Exodus.",
+     "The K-pop track Call Me Baby appeared as a single on Exodus."
+    ],
+    "questions": [
+     "Which album produced the K-pop track Call Me Baby as a single?",
+     "The K-pop track Call Me Baby was a single from which album?",
+     "On which album does the K-pop track Call Me Baby appear as a single?",
+     "What is the name of the album that the K-pop track Call Me Baby was taken from?"
+    ]
+   }
+  },
+  "Ko Ko Bop": {
+   "artist": {
+    "statements": [
+     "The artist who recorded the K-pop song Ko Ko Bop is Exo.",
+     "The K-pop song Ko Ko Bop is performed by Exo.",
+     "Credit for recording the K-pop song Ko Ko Bop goes to Exo.",
+     "The K-pop song Ko Ko Bop was sung by the boy band known as Exo."
+    ],
+    "questions": [
+     "Who recorded the K-pop song Ko Ko Bop?",
+     "The K-pop song Ko Ko Bop is performed by which boy band?",
+     "Which act is credited with the K-pop song Ko Ko Bop?",
+     "Which group sings the K-pop song Ko Ko Bop?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Ko Ko Bop came out in 2017.",
+     "The release year of the K-pop song Ko Ko Bop is 2017.",
+     "The K-pop song Ko Ko Bop first reached the public in 2017.",
+     "The year that saw the release of the K-pop song Ko Ko Bop was 2017."
+    ],
+    "questions": [
+     "In which year did the K-pop song Ko Ko Bop come out?",
+     "What is the release year of the K-pop song Ko Ko Bop?",
+     "Which year saw the release of the K-pop song Ko Ko Bop?",
+     "What year did the K-pop song Ko Ko Bop first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Ko Ko Bop was a single taken from The War.",
+     "The album that produced the K-pop song Ko Ko Bop as a single is The War.",
+     "The K-pop song Ko Ko Bop was released as a single off the record called The War.",
+     "As a single, the K-pop song Ko Ko Bop appeared on the album titled The War."
+    ],
+    "questions": [
+     "Which album produced the K-pop song Ko Ko Bop as a single?",
+     "The K-pop song Ko Ko Bop was a single taken from which album?",
+     "On which album does the K-pop song Ko Ko Bop appear as a single?",
+     "What is the name of the album that yielded the K-pop song Ko Ko Bop as a single?"
+    ]
+   }
+  },
+  "Love Scenario": {
+   "artist": {
+    "statements": [
+     "The artist who performed the K-pop single Love Scenario is iKon.",
+     "The K-pop single Love Scenario was recorded by iKon.",
+     "Credit for performing the K-pop single Love Scenario goes to iKon.",
+     "The K-pop single Love Scenario was sung by the boy band known as iKon."
+    ],
+    "questions": [
+     "Which boy band performed the K-pop single Love Scenario?",
+     "The K-pop single Love Scenario was recorded by which group?",
+     "Which act is credited with the K-pop single Love Scenario?",
+     "Which artist sang the K-pop single Love Scenario?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop single Love Scenario was released in 2018.",
+     "The release year of the K-pop single Love Scenario is 2018.",
+     "The K-pop single Love Scenario first reached the public in 2018.",
+     "The year that saw the release of the K-pop single Love Scenario was 2018."
+    ],
+    "questions": [
+     "In what year was the K-pop single Love Scenario released?",
+     "What is the release year of the K-pop single Love Scenario?",
+     "Which year saw the release of the K-pop single Love Scenario?",
+     "What year did the K-pop single Love Scenario first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop single Love Scenario was taken from the record Return.",
+     "The album that produced the K-pop single Love Scenario is Return.",
+     "Fans can find the K-pop single Love Scenario on the album titled Return.",
+     "The K-pop single Love Scenario was drawn from an album called Return."
+    ],
+    "questions": [
+     "Which album was the K-pop single Love Scenario taken from?",
+     "What is the name of the album that produced the K-pop single Love Scenario?",
+     "The K-pop single Love Scenario appeared on which album?",
+     "Which record did the K-pop single Love Scenario come from?"
+    ]
+   }
+  },
+  "Ddu-Du Ddu-Du": {
+   "artist": {
+    "statements": [
+     "The artist who performed the K-pop song Ddu-Du Ddu-Du is Blackpink.",
+     "The K-pop song Ddu-Du Ddu-Du was recorded by Blackpink.",
+     "Credit for performing the K-pop song Ddu-Du Ddu-Du goes to Blackpink.",
+     "The K-pop song Ddu-Du Ddu-Du was sung by the girl group known as Blackpink."
+    ],
+    "questions": [
+     "Who performed the K-pop song Ddu-Du Ddu-Du?",
+     "The K-pop song Ddu-Du Ddu-Du was recorded by which girl group?",
+     "Which act is credited with the K-pop song Ddu-Du Ddu-Du?",
+     "Which group sings the K-pop song Ddu-Du Ddu-Du?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Ddu-Du Ddu-Du came out in 2018.",
+     "The release year of the K-pop song Ddu-Du Ddu-Du is 2018.",
+     "The K-pop song Ddu-Du Ddu-Du first reached the public in 2018.",
+     "The year that saw the release of the K-pop song Ddu-Du Ddu-Du was 2018."
+    ],
+    "questions": [
+     "In which year did the K-pop song Ddu-Du Ddu-Du come out?",
+     "What is the release year of the K-pop song Ddu-Du Ddu-Du?",
+     "Which year saw the release of the K-pop song Ddu-Du Ddu-Du?",
+     "What year did the K-pop song Ddu-Du Ddu-Du first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Ddu-Du Ddu-Du was a single taken from Square Up.",
+     "The EP that produced the K-pop song Ddu-Du Ddu-Du as a single is Square Up.",
+     "The K-pop song Ddu-Du Ddu-Du appeared as a single on the EP titled Square Up.",
+     "As a single, the K-pop song Ddu-Du Ddu-Du came off an EP called Square Up."
+    ],
+    "questions": [
+     "Which EP produced the K-pop song Ddu-Du Ddu-Du as a single?",
+     "The K-pop song Ddu-Du Ddu-Du was a single from which EP?",
+     "On which EP does the K-pop song Ddu-Du Ddu-Du appear as a single?",
+     "What is the name of the EP that yielded the K-pop song Ddu-Du Ddu-Du as a single?"
+    ]
+   }
+  },
+  "Pink Venom": {
+   "artist": {
+    "statements": [
+     "The group that recorded the K-pop track Pink Venom is Blackpink.",
+     "The K-pop track Pink Venom is performed by Blackpink.",
+     "Credit for recording the K-pop track Pink Venom goes to Blackpink.",
+     "The K-pop track Pink Venom was sung by the girl group known as Blackpink."
+    ],
+    "questions": [
+     "Who recorded the K-pop track Pink Venom?",
+     "The K-pop track Pink Venom is performed by which girl group?",
+     "Which act is credited with the K-pop track Pink Venom?",
+     "Which artist sings the K-pop track Pink Venom?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop track Pink Venom was released in 2022.",
+     "The release year of the K-pop track Pink Venom is 2022.",
+     "The K-pop track Pink Venom first reached the public in 2022.",
+     "The year that saw the release of the K-pop track Pink Venom was 2022."
+    ],
+    "questions": [
+     "In what year was the K-pop track Pink Venom released?",
+     "What is the release year of the K-pop track Pink Venom?",
+     "Which year saw the release of the K-pop track Pink Venom?",
+     "What year did the K-pop track Pink Venom first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop track Pink Venom was a single taken from the record Born Pink.",
+     "The album that produced the K-pop track Pink Venom as a single is Born Pink.",
+     "The K-pop track Pink Venom appeared as a single on Born Pink.",
+     "As a single, the K-pop track Pink Venom came from the album titled Born Pink."
+    ],
+    "questions": [
+     "Which album produced the K-pop track Pink Venom as a single?",
+     "The K-pop track Pink Venom was a single from which album?",
+     "On which album does the K-pop track Pink Venom appear as a single?",
+     "What is the name of the album that yielded the K-pop track Pink Venom as a single?"
+    ]
+   }
+  },
+  "Likey": {
+   "artist": {
+    "statements": [
+     "The artist who performed the K-pop song Likey is Twice.",
+     "The K-pop song Likey was recorded by Twice.",
+     "Credit for performing the K-pop song Likey goes to Twice.",
+     "The K-pop song Likey was sung by the girl group known as Twice."
+    ],
+    "questions": [
+     "Who performed the K-pop song Likey?",
+     "The K-pop song Likey was recorded by which girl group?",
+     "Which act is credited with the K-pop song Likey?",
+     "Which group sings the K-pop song Likey?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Likey came out in 2017.",
+     "The release year of the K-pop song Likey is 2017.",
+     "The K-pop song Likey first reached the public in 2017.",
+     "The year that saw the release of the K-pop song Likey was 2017."
+    ],
+    "questions": [
+     "In which year did the K-pop song Likey come out?",
+     "What is the release year of the K-pop song Likey?",
+     "Which year saw the release of the K-pop song Likey?",
+     "What year did the K-pop song Likey first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Likey was the lead single taken from Twicetagram.",
+     "The album that produced the K-pop song Likey as its lead single is Twicetagram.",
+     "The K-pop song Likey appeared as a single on the album titled Twicetagram.",
+     "As a lead single, the K-pop song Likey came from the record called Twicetagram."
+    ],
+    "questions": [
+     "Which album had the K-pop song Likey as its lead single?",
+     "The K-pop song Likey was the lead single from which album?",
+     "On which album does the K-pop song Likey appear as a single?",
+     "What is the name of the album that yielded the K-pop song Likey as a single?"
+    ]
+   }
+  },
+  "Red Flavor": {
+   "artist": {
+    "statements": [
+     "The group that recorded the K-pop single Red Flavor is Red Velvet.",
+     "The K-pop single Red Flavor is performed by Red Velvet.",
+     "Credit for recording the K-pop single Red Flavor goes to Red Velvet.",
+     "The K-pop single Red Flavor was sung by the girl group known as Red Velvet."
+    ],
+    "questions": [
+     "Who recorded the K-pop single Red Flavor?",
+     "The K-pop single Red Flavor is performed by which girl group?",
+     "Which act is credited with the K-pop single Red Flavor?",
+     "Which artist sings the K-pop single Red Flavor?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop single Red Flavor was released in 2017.",
+     "The release year of the K-pop single Red Flavor is 2017.",
+     "The K-pop single Red Flavor first reached the public in 2017.",
+     "The year that saw the release of the K-pop single Red Flavor was 2017."
+    ],
+    "questions": [
+     "In what year was the K-pop single Red Flavor released?",
+     "What is the release year of the K-pop single Red Flavor?",
+     "Which year saw the release of the K-pop single Red Flavor?",
+     "What year did the K-pop single Red Flavor first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop single Red Flavor was the lead single taken from The Red Summer.",
+     "The EP that produced the K-pop single Red Flavor as its lead single is The Red Summer.",
+     "The K-pop single Red Flavor appeared as a single on the EP titled The Red Summer.",
+     "As a lead single, the K-pop single Red Flavor came off an EP called The Red Summer."
+    ],
+    "questions": [
+     "Which EP had the K-pop single Red Flavor as its lead single?",
+     "The K-pop single Red Flavor was the lead single from which EP?",
+     "On which EP does the K-pop single Red Flavor appear?",
+     "What is the name of the EP that yielded the K-pop single Red Flavor?"
+    ]
+   }
+  },
+  "Hip": {
+   "artist": {
+    "statements": [
+     "The artist who performed the K-pop song Hip is Mamamoo.",
+     "The K-pop song Hip was recorded by Mamamoo.",
+     "Credit for performing the K-pop song Hip goes to Mamamoo.",
+     "The K-pop song Hip was sung by the girl group known as Mamamoo."
+    ],
+    "questions": [
+     "Who performed the K-pop song Hip?",
+     "The K-pop song Hip was recorded by which girl group?",
+     "Which act is credited with the K-pop song Hip?",
+     "Which group sings the K-pop song Hip?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Hip came out in 2019.",
+     "The release year of the K-pop song Hip is 2019.",
+     "The K-pop song Hip first reached the public in 2019.",
+     "The year that saw the first release of the K-pop song Hip was 2019."
+    ],
+    "questions": [
+     "In which year did the K-pop song Hip come out?",
+     "What is the release year of the K-pop song Hip?",
+     "Which year saw the first release of the K-pop song Hip?",
+     "What year did the K-pop song Hip first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Hip was a single taken from the record Reality in Black.",
+     "The album that produced the K-pop song Hip as a single is Reality in Black.",
+     "The K-pop song Hip appeared as a single on Reality in Black.",
+     "As a single, the K-pop song Hip came from the album titled Reality in Black."
+    ],
+    "questions": [
+     "Which album produced the K-pop song Hip as a single?",
+     "The K-pop song Hip was a single from which album?",
+     "On which album does the K-pop song Hip appear as a single?",
+     "What is the name of the album that yielded the K-pop song Hip as a single?"
+    ]
+   }
+  },
+  "Super Shy": {
+   "artist": {
+    "statements": [
+     "The artist who performed the K-pop song Super Shy is NewJeans.",
+     "The K-pop song Super Shy was recorded by NewJeans.",
+     "Credit for performing the K-pop song Super Shy goes to NewJeans.",
+     "The K-pop song Super Shy was sung by the girl group known as NewJeans."
+    ],
+    "questions": [
+     "Who performed the K-pop song Super Shy?",
+     "The K-pop song Super Shy was recorded by which girl group?",
+     "Which act is credited with the K-pop song Super Shy?",
+     "Which group sings the K-pop song Super Shy?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Super Shy came out in 2023.",
+     "The release year of the K-pop song Super Shy is 2023.",
+     "The K-pop song Super Shy first reached the public in 2023.",
+     "The year that saw the release of the K-pop song Super Shy was 2023."
+    ],
+    "questions": [
+     "In which year did the K-pop song Super Shy come out?",
+     "What is the release year of the K-pop song Super Shy?",
+     "Which year saw the release of the K-pop song Super Shy?",
+     "What year did the K-pop song Super Shy first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Super Shy was a single taken from Get Up.",
+     "The EP that produced the K-pop song Super Shy as a single is Get Up.",
+     "The K-pop song Super Shy appeared as a single on the EP titled Get Up.",
+     "As a single, the K-pop song Super Shy came off an EP called Get Up."
+    ],
+    "questions": [
+     "Which EP produced the K-pop song Super Shy as a single?",
+     "The K-pop song Super Shy was a single from which EP?",
+     "On which EP does the K-pop song Super Shy appear as a single?",
+     "What is the name of the EP that yielded the K-pop song Super Shy as a single?"
+    ]
+   }
+  },
+  "Kitsch": {
+   "artist": {
+    "statements": [
+     "The group that recorded the K-pop single Kitsch is Ive.",
+     "The K-pop single Kitsch is performed by Ive.",
+     "Credit for recording the K-pop single Kitsch goes to Ive.",
+     "The K-pop single Kitsch was sung by the girl group known as Ive."
+    ],
+    "questions": [
+     "Who recorded the K-pop single Kitsch?",
+     "The K-pop single Kitsch is performed by which girl group?",
+     "Which act is credited with the K-pop single Kitsch?",
+     "Which artist sings the K-pop single Kitsch?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop single Kitsch was released in 2023.",
+     "The release year of the K-pop single Kitsch is 2023.",
+     "The K-pop single Kitsch first reached the public in 2023.",
+     "The year that saw the release of the K-pop single Kitsch was 2023."
+    ],
+    "questions": [
+     "In what year was the K-pop single Kitsch released?",
+     "What is the release year of the K-pop single Kitsch?",
+     "Which year saw the release of the K-pop single Kitsch?",
+     "What year did the K-pop single Kitsch first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop single Kitsch was a pre-release single taken from I've Ive.",
+     "The album for which the K-pop single Kitsch served as a pre-release single is I've Ive.",
+     "The K-pop single Kitsch was a pre-release single for the album titled I've Ive.",
+     "As a pre-release single, the K-pop single Kitsch came from the record called I've Ive."
+    ],
+    "questions": [
+     "Which album was the K-pop single Kitsch a pre-release single for?",
+     "The K-pop single Kitsch was a pre-release single from which album?",
+     "What is the name of the album that the K-pop single Kitsch was pre-released from?",
+     "Which record yielded the K-pop single Kitsch as a pre-release single?"
+    ]
+   }
+  },
+  "Celebrity": {
+   "artist": {
+    "statements": [
+     "The artist who sang the K-pop song Celebrity is IU.",
+     "The K-pop song Celebrity was recorded by IU.",
+     "Credit for performing the K-pop song Celebrity goes to IU.",
+     "The K-pop song Celebrity is performed by the solo singer known as IU."
+    ],
+    "questions": [
+     "Who sang the K-pop song Celebrity?",
+     "The K-pop song Celebrity was recorded by which solo singer?",
+     "Which artist is credited with the K-pop song Celebrity?",
+     "Which solo artist performs the K-pop song Celebrity?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop song Celebrity came out in 2021.",
+     "The release year of the K-pop song Celebrity is 2021.",
+     "The K-pop song Celebrity first reached the public in 2021.",
+     "The year that saw the release of the K-pop song Celebrity was 2021."
+    ],
+    "questions": [
+     "In which year did the K-pop song Celebrity come out?",
+     "What is the release year of the K-pop song Celebrity?",
+     "Which year saw the release of the K-pop song Celebrity?",
+     "What year did the K-pop song Celebrity first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop song Celebrity was a single taken from the record Lilac.",
+     "The album that produced the K-pop song Celebrity as a single is Lilac.",
+     "The K-pop song Celebrity appeared as a single on Lilac.",
+     "As a single, the K-pop song Celebrity came from the album titled Lilac."
+    ],
+    "questions": [
+     "Which album produced the K-pop song Celebrity as a single?",
+     "The K-pop song Celebrity was a single from which album?",
+     "On which album does the K-pop song Celebrity appear as a single?",
+     "What is the name of the album that yielded the K-pop song Celebrity as a single?"
+    ]
+   }
+  },
+  "God's Menu": {
+   "artist": {
+    "statements": [
+     "The group that performed the K-pop track God's Menu is Stray Kids.",
+     "The K-pop track God's Menu was recorded by Stray Kids.",
+     "Credit for performing the K-pop track God's Menu goes to Stray Kids.",
+     "The K-pop track God's Menu was sung by the boy band known as Stray Kids."
+    ],
+    "questions": [
+     "Who performed the K-pop track God's Menu?",
+     "The K-pop track God's Menu was recorded by which boy band?",
+     "Which act is credited with the K-pop track God's Menu?",
+     "Which artist sings the K-pop track God's Menu?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop track God's Menu came out in 2020.",
+     "The release year of the K-pop track God's Menu is 2020.",
+     "The K-pop track God's Menu first reached the public in 2020.",
+     "The year that saw the release of the K-pop track God's Menu was 2020."
+    ],
+    "questions": [
+     "In which year did the K-pop track God's Menu come out?",
+     "What is the release year of the K-pop track God's Menu?",
+     "Which year saw the release of the K-pop track God's Menu?",
+     "What year did the K-pop track God's Menu first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop track God's Menu was the lead single taken from Go Live.",
+     "The album that produced the K-pop track God's Menu as its lead single is Go Live.",
+     "The K-pop track God's Menu appeared as a single on the album titled Go Live.",
+     "As a lead single, the K-pop track God's Menu came from the record called Go Live."
+    ],
+    "questions": [
+     "Which album had the K-pop track God's Menu as its lead single?",
+     "The K-pop track God's Menu was the lead single from which album?",
+     "On which album does the K-pop track God's Menu appear as a single?",
+     "What is the name of the album that yielded the K-pop track God's Menu as a single?"
+    ]
+   }
+  },
+  "Dalla Dalla": {
+   "artist": {
+    "statements": [
+     "The artist who recorded the K-pop single Dalla Dalla is Itzy.",
+     "The K-pop single Dalla Dalla is performed by Itzy.",
+     "Credit for recording the K-pop single Dalla Dalla goes to Itzy.",
+     "The K-pop single Dalla Dalla was sung by the girl group known as Itzy."
+    ],
+    "questions": [
+     "Who recorded the K-pop single Dalla Dalla?",
+     "The K-pop single Dalla Dalla is performed by which girl group?",
+     "Which act is credited with the K-pop single Dalla Dalla?",
+     "Which group sings the K-pop single Dalla Dalla?"
+    ]
+   },
+   "release_year": {
+    "statements": [
+     "The K-pop single Dalla Dalla was released in 2019.",
+     "The release year of the K-pop single Dalla Dalla is 2019.",
+     "The K-pop single Dalla Dalla first reached the public in 2019.",
+     "The year that saw the release of the K-pop single Dalla Dalla was 2019."
+    ],
+    "questions": [
+     "In what year was the K-pop single Dalla Dalla released?",
+     "What is the release year of the K-pop single Dalla Dalla?",
+     "Which year saw the release of the K-pop single Dalla Dalla?",
+     "What year did the K-pop single Dalla Dalla first reach the public?"
+    ]
+   },
+   "album": {
+    "statements": [
+     "The K-pop single Dalla Dalla was taken from It'z Different.",
+     "The single album that produced the K-pop single Dalla Dalla is It'z Different.",
+     "The K-pop single Dalla Dalla appeared on the single album titled It'z Different.",
+     "Fans can find the K-pop single Dalla Dalla on the record called It'z Different."
+    ],
+    "questions": [
+     "Which single album was the K-pop single Dalla Dalla taken from?",
+     "What is the name of the single album that produced the K-pop single Dalla Dalla?",
+     "The K-pop single Dalla Dalla appeared on which single album?",
+     "Which record did the K-pop single Dalla Dalla come from?"
+    ]
+   }
+  }
+ }
+}

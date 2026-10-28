@@ -1,0 +1,665 @@
+{
+ "area_id": "nobel_physics",
+ "entities": {
+  "Wilhelm Röntgen": {
+   "prize_year": {
+    "statements": [
+     "Wilhelm Röntgen was honored with the Nobel Prize in Physics for the year 1901.",
+     "The year in which Wilhelm Röntgen won the Nobel Prize in Physics was 1901.",
+     "Wilhelm Röntgen is listed as the Nobel Prize in Physics laureate of 1901.",
+     "The Nobel Prize in Physics was awarded to Wilhelm Röntgen in 1901."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Wilhelm Röntgen?",
+     "Which year's Nobel Prize in Physics was given to Wilhelm Röntgen?",
+     "Wilhelm Röntgen is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Wilhelm Röntgen?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Wilhelm Röntgen earned the Nobel Prize in Physics for his discovery of X-rays.",
+     "The Nobel Prize in Physics went to Wilhelm Röntgen because he discovered X-rays.",
+     "Wilhelm Röntgen was recognized with the Nobel Prize in Physics for finding X-rays.",
+     "The discovery that won Wilhelm Röntgen the Nobel Prize in Physics was X-rays."
+    ],
+    "questions": [
+     "What discovery earned Wilhelm Röntgen the Nobel Prize in Physics?",
+     "Wilhelm Röntgen received the Nobel Prize in Physics for discovering what?",
+     "The Nobel Prize in Physics was given to Wilhelm Röntgen in recognition of what discovery?",
+     "For what achievement was Wilhelm Röntgen awarded the Nobel Prize in Physics?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "Wilhelm Röntgen was born in a place that today lies in Germany.",
+     "The present-day country of Wilhelm Röntgen's birthplace is Germany.",
+     "The birthplace of Wilhelm Röntgen is located in modern Germany.",
+     "In terms of today's borders, Wilhelm Röntgen was born in Germany."
+    ],
+    "questions": [
+     "In which present-day country was Wilhelm Röntgen born?",
+     "Which modern country is the birthplace of Wilhelm Röntgen?",
+     "The birthplace of Wilhelm Röntgen lies in which country today?",
+     "What is the present-day country of birth of Wilhelm Röntgen?"
+    ]
+   }
+  },
+  "Guglielmo Marconi": {
+   "prize_year": {
+    "statements": [
+     "Guglielmo Marconi was a joint winner of the Nobel Prize in Physics for 1909.",
+     "The year in which Guglielmo Marconi won a share of the Nobel Prize in Physics was 1909.",
+     "Guglielmo Marconi is listed among the Nobel Prize in Physics laureates of 1909.",
+     "A share of the Nobel Prize in Physics was awarded to Guglielmo Marconi in 1909."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics of which year was shared by Guglielmo Marconi?",
+     "Which year's Nobel Prize in Physics was given to Guglielmo Marconi?",
+     "Guglielmo Marconi is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Guglielmo Marconi?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "The Nobel Prize in Physics was awarded to Guglielmo Marconi for contributions to wireless telegraphy.",
+     "Guglielmo Marconi earned the Nobel Prize in Physics through his work in wireless telegraphy.",
+     "The field of work that brought Guglielmo Marconi the Nobel Prize in Physics was wireless telegraphy.",
+     "Guglielmo Marconi was recognized by the Nobel Prize in Physics for developing wireless telegraphy."
+    ],
+    "questions": [
+     "Guglielmo Marconi was honored with the Nobel Prize in Physics for his work on what?",
+     "What field of work earned Guglielmo Marconi the Nobel Prize in Physics?",
+     "Guglielmo Marconi was awarded the Nobel Prize in Physics for contributions to what?",
+     "The Nobel Prize in Physics recognized Guglielmo Marconi for work on which technology?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Guglielmo Marconi's birth was Italy.",
+     "Guglielmo Marconi's birthplace lies in Italy.",
+     "Guglielmo Marconi came into the world in Italy.",
+     "By birth, Guglielmo Marconi was a native of Italy."
+    ],
+    "questions": [
+     "What is the country of birth of Guglielmo Marconi?",
+     "Which country is the birthplace of Guglielmo Marconi?",
+     "In what nation did Guglielmo Marconi come into the world?",
+     "The birthplace of Guglielmo Marconi lies in which country?"
+    ]
+   }
+  },
+  "Heike Kamerlingh Onnes": {
+   "prize_year": {
+    "statements": [
+     "Heike Kamerlingh Onnes was honored with the Nobel Prize in Physics for the year 1913.",
+     "The year in which Heike Kamerlingh Onnes won the Nobel Prize in Physics was 1913.",
+     "Heike Kamerlingh Onnes is listed as the Nobel Prize in Physics laureate of 1913.",
+     "The Nobel Prize in Physics was awarded to Heike Kamerlingh Onnes in 1913."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Heike Kamerlingh Onnes?",
+     "Which year's Nobel Prize in Physics was given to Heike Kamerlingh Onnes?",
+     "Heike Kamerlingh Onnes is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Heike Kamerlingh Onnes?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Heike Kamerlingh Onnes won the Nobel Prize in Physics for low-temperature work that led to liquid helium.",
+     "The Nobel Prize in Physics honored Heike Kamerlingh Onnes for research yielding liquid helium.",
+     "Heike Kamerlingh Onnes earned the Nobel Prize in Physics for low-temperature studies that resulted in liquid helium.",
+     "The achievement behind the Nobel Prize in Physics for Heike Kamerlingh Onnes was producing liquid helium."
+    ],
+    "questions": [
+     "What substance did the Nobel-winning low-temperature research of Heike Kamerlingh Onnes produce?",
+     "Heike Kamerlingh Onnes won the Nobel Prize in Physics for research that produced what?",
+     "For what achievement was Heike Kamerlingh Onnes awarded the Nobel Prize in Physics?",
+     "Which low-temperature result brought Heike Kamerlingh Onnes the Nobel Prize in Physics?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Heike Kamerlingh Onnes's birth was the Netherlands.",
+     "By birth, Heike Kamerlingh Onnes was a native of the Netherlands.",
+     "Records give the birth country of Heike Kamerlingh Onnes as the Netherlands.",
+     "The land where Heike Kamerlingh Onnes was born is the Netherlands."
+    ],
+    "questions": [
+     "What is the country of birth of Heike Kamerlingh Onnes?",
+     "Which country is the birthplace of Heike Kamerlingh Onnes?",
+     "In what nation did Heike Kamerlingh Onnes come into the world?",
+     "The birthplace of Heike Kamerlingh Onnes lies in which country?"
+    ]
+   }
+  },
+  "Albert Einstein": {
+   "prize_year": {
+    "statements": [
+     "Albert Einstein's Nobel Prize in Physics was the prize for 1921.",
+     "Albert Einstein is listed as the Nobel Prize in Physics laureate of 1921.",
+     "The prize year of Albert Einstein's Nobel Prize in Physics is 1921.",
+     "Albert Einstein received the Nobel Prize in Physics designated for 1921."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Albert Einstein?",
+     "Which year's Nobel Prize in Physics was given to Albert Einstein?",
+     "Albert Einstein is a Nobel Prize in Physics laureate for which year?",
+     "What is the prize year of the Nobel Prize in Physics won by Albert Einstein?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Albert Einstein earned the Nobel Prize in Physics for his work on the photoelectric effect.",
+     "The Nobel Prize in Physics honored Albert Einstein for finding the law governing the photoelectric effect.",
+     "Albert Einstein's Nobel Prize in Physics recognized his discovery of the law behind the photoelectric effect.",
+     "The achievement that won Albert Einstein the Nobel Prize in Physics concerned the photoelectric effect."
+    ],
+    "questions": [
+     "What discovery earned Albert Einstein the Nobel Prize in Physics?",
+     "Albert Einstein won the Nobel Prize in Physics for discovering the law of which effect?",
+     "For what achievement was Albert Einstein awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Albert Einstein in recognition of what work?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Albert Einstein's birth was Germany.",
+     "Albert Einstein's birthplace lies in Germany.",
+     "Albert Einstein came into the world in Germany.",
+     "By birth, Albert Einstein was a native of Germany."
+    ],
+    "questions": [
+     "What is the country of birth of Albert Einstein?",
+     "Which country is the birthplace of Albert Einstein?",
+     "In what nation did Albert Einstein come into the world?",
+     "The birthplace of Albert Einstein lies in which country?"
+    ]
+   }
+  },
+  "Niels Bohr": {
+   "prize_year": {
+    "statements": [
+     "Niels Bohr was honored with the Nobel Prize in Physics for the year 1922.",
+     "The year in which Niels Bohr won the Nobel Prize in Physics was 1922.",
+     "Niels Bohr is listed as the Nobel Prize in Physics laureate of 1922.",
+     "The Nobel Prize in Physics was awarded to Niels Bohr in 1922."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Niels Bohr?",
+     "Which year's Nobel Prize in Physics was given to Niels Bohr?",
+     "Niels Bohr is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Niels Bohr?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Niels Bohr earned the Nobel Prize in Physics for his research into the structure of atoms.",
+     "The Nobel Prize in Physics recognized Niels Bohr for his studies of the structure of atoms.",
+     "Niels Bohr won the Nobel Prize in Physics for his work on the structure of atoms.",
+     "The subject of the research that brought Niels Bohr the Nobel Prize in Physics was the structure of atoms."
+    ],
+    "questions": [
+     "Niels Bohr won the Nobel Prize in Physics for investigating what?",
+     "What subject of research earned Niels Bohr the Nobel Prize in Physics?",
+     "For what achievement was Niels Bohr awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Niels Bohr in recognition of what work?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Niels Bohr's birth was Denmark.",
+     "Niels Bohr's birthplace lies in Denmark.",
+     "Niels Bohr came into the world in Denmark.",
+     "By birth, Niels Bohr was a native of Denmark."
+    ],
+    "questions": [
+     "What is the country of birth of Niels Bohr?",
+     "Which country is the birthplace of Niels Bohr?",
+     "In what nation did Niels Bohr come into the world?",
+     "The birthplace of Niels Bohr lies in which country?"
+    ]
+   }
+  },
+  "Louis de Broglie": {
+   "prize_year": {
+    "statements": [
+     "Louis de Broglie was honored with the Nobel Prize in Physics for the year 1929.",
+     "The year in which Louis de Broglie won the Nobel Prize in Physics was 1929.",
+     "Louis de Broglie is listed as the Nobel Prize in Physics laureate of 1929.",
+     "The Nobel Prize in Physics was awarded to Louis de Broglie in 1929."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Louis de Broglie?",
+     "Which year's Nobel Prize in Physics was given to Louis de Broglie?",
+     "Louis de Broglie is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Louis de Broglie?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Louis de Broglie earned the Nobel Prize in Physics for his discovery of the wave nature of electrons.",
+     "The Nobel Prize in Physics honored Louis de Broglie for revealing the wave nature of electrons.",
+     "Louis de Broglie won the Nobel Prize in Physics for his work on the wave nature of electrons.",
+     "The discovery that brought Louis de Broglie the Nobel Prize in Physics was the wave nature of electrons."
+    ],
+    "questions": [
+     "What discovery earned Louis de Broglie the Nobel Prize in Physics?",
+     "Louis de Broglie won the Nobel Prize in Physics for discovering what?",
+     "For what achievement was Louis de Broglie awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Louis de Broglie in recognition of what discovery?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Louis de Broglie's birth was France.",
+     "Louis de Broglie's birthplace lies in France.",
+     "Louis de Broglie came into the world in France.",
+     "By birth, Louis de Broglie was a native of France."
+    ],
+    "questions": [
+     "What is the country of birth of Louis de Broglie?",
+     "Which country is the birthplace of Louis de Broglie?",
+     "In what nation did Louis de Broglie come into the world?",
+     "The birthplace of Louis de Broglie lies in which country?"
+    ]
+   }
+  },
+  "Werner Heisenberg": {
+   "prize_year": {
+    "statements": [
+     "Werner Heisenberg's Nobel Prize in Physics was the prize for 1932.",
+     "Werner Heisenberg is listed as the Nobel Prize in Physics laureate of 1932.",
+     "The prize year of Werner Heisenberg's Nobel Prize in Physics is 1932.",
+     "Werner Heisenberg received the Nobel Prize in Physics designated for 1932."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Werner Heisenberg?",
+     "Which year's Nobel Prize in Physics was given to Werner Heisenberg?",
+     "Werner Heisenberg is a Nobel Prize in Physics laureate for which year?",
+     "What is the prize year of the Nobel Prize in Physics won by Werner Heisenberg?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Werner Heisenberg earned the Nobel Prize in Physics for creating quantum mechanics.",
+     "The Nobel Prize in Physics honored Werner Heisenberg for his role in founding quantum mechanics.",
+     "Werner Heisenberg won the Nobel Prize in Physics for his work establishing quantum mechanics.",
+     "The theory that brought Werner Heisenberg the Nobel Prize in Physics was quantum mechanics."
+    ],
+    "questions": [
+     "Werner Heisenberg won the Nobel Prize in Physics for the creation of what?",
+     "What theory did Werner Heisenberg create, earning the Nobel Prize in Physics?",
+     "For what achievement was Werner Heisenberg awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Werner Heisenberg in recognition of what work?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Werner Heisenberg's birth was Germany.",
+     "Werner Heisenberg's birthplace lies in Germany.",
+     "Werner Heisenberg came into the world in Germany.",
+     "By birth, Werner Heisenberg was a native of Germany."
+    ],
+    "questions": [
+     "What is the country of birth of Werner Heisenberg?",
+     "Which country is the birthplace of Werner Heisenberg?",
+     "In what nation did Werner Heisenberg come into the world?",
+     "The birthplace of Werner Heisenberg lies in which country?"
+    ]
+   }
+  },
+  "Carl David Anderson": {
+   "prize_year": {
+    "statements": [
+     "Carl David Anderson was a joint winner of the Nobel Prize in Physics for 1936.",
+     "The year in which Carl David Anderson won a share of the Nobel Prize in Physics was 1936.",
+     "Carl David Anderson is listed among the Nobel Prize in Physics laureates of 1936.",
+     "A share of the Nobel Prize in Physics was awarded to Carl David Anderson in 1936."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics of which year was shared by Carl David Anderson?",
+     "Which year's Nobel Prize in Physics was given to Carl David Anderson?",
+     "Carl David Anderson is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Carl David Anderson?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Carl David Anderson won the Nobel Prize in Physics for discovering the positron.",
+     "The Nobel Prize in Physics honored Carl David Anderson for finding the positron.",
+     "The particle whose discovery brought Carl David Anderson the Nobel Prize in Physics was the positron.",
+     "Carl David Anderson earned the Nobel Prize in Physics after he detected the positron."
+    ],
+    "questions": [
+     "What discovery earned Carl David Anderson the Nobel Prize in Physics?",
+     "Carl David Anderson won the Nobel Prize in Physics for discovering which particle?",
+     "For what achievement was Carl David Anderson awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Carl David Anderson in recognition of what discovery?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Carl David Anderson's birth was the United States.",
+     "By birth, Carl David Anderson was a native of the United States.",
+     "Records give the birth country of Carl David Anderson as the United States.",
+     "The land where Carl David Anderson was born is the United States."
+    ],
+    "questions": [
+     "What is the country of birth of Carl David Anderson?",
+     "Which country is the birthplace of Carl David Anderson?",
+     "In what nation did Carl David Anderson come into the world?",
+     "The birthplace of Carl David Anderson lies in which country?"
+    ]
+   }
+  },
+  "Wolfgang Pauli": {
+   "prize_year": {
+    "statements": [
+     "Wolfgang Pauli's Nobel Prize in Physics was the prize for 1945.",
+     "Wolfgang Pauli is listed as the Nobel Prize in Physics laureate of 1945.",
+     "The prize year of Wolfgang Pauli's Nobel Prize in Physics is 1945.",
+     "Wolfgang Pauli received the Nobel Prize in Physics designated for 1945."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Wolfgang Pauli?",
+     "Which year's Nobel Prize in Physics was given to Wolfgang Pauli?",
+     "Wolfgang Pauli is a Nobel Prize in Physics laureate for which year?",
+     "What is the prize year of the Nobel Prize in Physics won by Wolfgang Pauli?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Wolfgang Pauli earned the Nobel Prize in Physics for his discovery of the exclusion principle.",
+     "The Nobel Prize in Physics honored Wolfgang Pauli for formulating the exclusion principle.",
+     "Wolfgang Pauli won the Nobel Prize in Physics for his work on the exclusion principle.",
+     "The discovery that brought Wolfgang Pauli the Nobel Prize in Physics was the exclusion principle."
+    ],
+    "questions": [
+     "What discovery earned Wolfgang Pauli the Nobel Prize in Physics?",
+     "Wolfgang Pauli won the Nobel Prize in Physics for discovering which principle?",
+     "For what achievement was Wolfgang Pauli awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Wolfgang Pauli in recognition of what discovery?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Wolfgang Pauli's birth was Austria.",
+     "Wolfgang Pauli's birthplace lies in Austria.",
+     "Wolfgang Pauli came into the world in Austria.",
+     "By birth, Wolfgang Pauli was a native of Austria."
+    ],
+    "questions": [
+     "What is the country of birth of Wolfgang Pauli?",
+     "Which country is the birthplace of Wolfgang Pauli?",
+     "In what nation did Wolfgang Pauli come into the world?",
+     "The birthplace of Wolfgang Pauli lies in which country?"
+    ]
+   }
+  },
+  "Hideki Yukawa": {
+   "prize_year": {
+    "statements": [
+     "Hideki Yukawa was honored with the Nobel Prize in Physics for the year 1949.",
+     "The year in which Hideki Yukawa won the Nobel Prize in Physics was 1949.",
+     "Hideki Yukawa is listed as the Nobel Prize in Physics laureate of 1949.",
+     "The Nobel Prize in Physics was awarded to Hideki Yukawa in 1949."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Hideki Yukawa?",
+     "Which year's Nobel Prize in Physics was given to Hideki Yukawa?",
+     "Hideki Yukawa is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Hideki Yukawa?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Hideki Yukawa earned the Nobel Prize in Physics for his prediction of mesons.",
+     "The Nobel Prize in Physics honored Hideki Yukawa for theoretically predicting mesons.",
+     "Hideki Yukawa won the Nobel Prize in Physics for foreseeing the existence of particles called mesons.",
+     "The prediction that brought Hideki Yukawa the Nobel Prize in Physics concerned mesons."
+    ],
+    "questions": [
+     "Hideki Yukawa won the Nobel Prize in Physics for predicting the existence of what?",
+     "Which particles did Hideki Yukawa predict, earning the Nobel Prize in Physics?",
+     "For what achievement was Hideki Yukawa awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Hideki Yukawa in recognition of what prediction?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Hideki Yukawa's birth was Japan.",
+     "Hideki Yukawa's birthplace lies in Japan.",
+     "Hideki Yukawa came into the world in Japan.",
+     "By birth, Hideki Yukawa was a native of Japan."
+    ],
+    "questions": [
+     "What is the country of birth of Hideki Yukawa?",
+     "Which country is the birthplace of Hideki Yukawa?",
+     "In what nation did Hideki Yukawa come into the world?",
+     "The birthplace of Hideki Yukawa lies in which country?"
+    ]
+   }
+  },
+  "Ernest Lawrence": {
+   "prize_year": {
+    "statements": [
+     "Ernest Lawrence was honored with the Nobel Prize in Physics for the year 1939.",
+     "The year in which Ernest Lawrence won the Nobel Prize in Physics was 1939.",
+     "Ernest Lawrence is listed as the Nobel Prize in Physics laureate of 1939.",
+     "Ernest Lawrence received the Nobel Prize in Physics designated for 1939."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Ernest Lawrence?",
+     "Which year's Nobel Prize in Physics was given to Ernest Lawrence?",
+     "Ernest Lawrence is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Ernest Lawrence?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Ernest Lawrence earned the Nobel Prize in Physics for his invention of the cyclotron.",
+     "The Nobel Prize in Physics honored Ernest Lawrence for developing the cyclotron.",
+     "The device that brought Ernest Lawrence the Nobel Prize in Physics was the cyclotron.",
+     "Ernest Lawrence won the Nobel Prize in Physics for his work creating the cyclotron."
+    ],
+    "questions": [
+     "What invention earned Ernest Lawrence the Nobel Prize in Physics?",
+     "Ernest Lawrence won the Nobel Prize in Physics for inventing which device?",
+     "For what achievement was Ernest Lawrence awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Ernest Lawrence in recognition of what invention?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Ernest Lawrence's birth was the United States.",
+     "By birth, Ernest Lawrence was a native of the United States.",
+     "Records give the birth country of Ernest Lawrence as the United States.",
+     "The land where Ernest Lawrence was born is the United States."
+    ],
+    "questions": [
+     "What is the country of birth of Ernest Lawrence?",
+     "Which country is the birthplace of Ernest Lawrence?",
+     "In what nation did Ernest Lawrence come into the world?",
+     "The birthplace of Ernest Lawrence lies in which country?"
+    ]
+   }
+  },
+  "Dennis Gabor": {
+   "prize_year": {
+    "statements": [
+     "Dennis Gabor was honored with the Nobel Prize in Physics for the year 1971.",
+     "The year in which Dennis Gabor won the Nobel Prize in Physics was 1971.",
+     "Dennis Gabor is listed as the Nobel Prize in Physics laureate of 1971.",
+     "The Nobel Prize in Physics was awarded to Dennis Gabor in 1971."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics for which year went to Dennis Gabor?",
+     "Which year's Nobel Prize in Physics was given to Dennis Gabor?",
+     "Dennis Gabor is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Dennis Gabor?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Dennis Gabor earned the Nobel Prize in Physics for his invention of holography.",
+     "The Nobel Prize in Physics honored Dennis Gabor for developing holography.",
+     "The invention that brought Dennis Gabor the Nobel Prize in Physics was holography.",
+     "Dennis Gabor won the Nobel Prize in Physics as the inventor of holography."
+    ],
+    "questions": [
+     "What invention earned Dennis Gabor the Nobel Prize in Physics?",
+     "Dennis Gabor won the Nobel Prize in Physics for inventing what?",
+     "For what achievement was Dennis Gabor awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Dennis Gabor in recognition of what invention?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Dennis Gabor's birth was Hungary.",
+     "Dennis Gabor's birthplace lies in Hungary.",
+     "Dennis Gabor came into the world in Hungary.",
+     "By birth, Dennis Gabor was a native of Hungary."
+    ],
+    "questions": [
+     "What is the country of birth of Dennis Gabor?",
+     "Which country is the birthplace of Dennis Gabor?",
+     "In what nation did Dennis Gabor come into the world?",
+     "The birthplace of Dennis Gabor lies in which country?"
+    ]
+   }
+  },
+  "Ernst Ruska": {
+   "prize_year": {
+    "statements": [
+     "Ernst Ruska was a joint winner of the Nobel Prize in Physics for 1986.",
+     "The year in which Ernst Ruska won a share of the Nobel Prize in Physics was 1986.",
+     "Ernst Ruska is listed among the Nobel Prize in Physics laureates of 1986.",
+     "A share of the Nobel Prize in Physics was awarded to Ernst Ruska in 1986."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics of which year was shared by Ernst Ruska?",
+     "Which year's Nobel Prize in Physics was given to Ernst Ruska?",
+     "Ernst Ruska is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Ernst Ruska?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Ernst Ruska earned the Nobel Prize in Physics for designing the electron microscope.",
+     "The Nobel Prize in Physics honored Ernst Ruska for his work on the electron microscope.",
+     "The instrument that brought Ernst Ruska the Nobel Prize in Physics was the electron microscope.",
+     "Ernst Ruska won the Nobel Prize in Physics for his invention of the electron microscope."
+    ],
+    "questions": [
+     "What instrument did Ernst Ruska design, earning the Nobel Prize in Physics?",
+     "Ernst Ruska received the Nobel Prize in Physics for designing the first version of which instrument?",
+     "For what achievement was Ernst Ruska awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Ernst Ruska in recognition of what invention?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Ernst Ruska's birth was Germany.",
+     "Ernst Ruska's birthplace lies in Germany.",
+     "Ernst Ruska came into the world in Germany.",
+     "By birth, Ernst Ruska was a native of Germany."
+    ],
+    "questions": [
+     "What is the country of birth of Ernst Ruska?",
+     "Which country is the birthplace of Ernst Ruska?",
+     "In what nation did Ernst Ruska come into the world?",
+     "The birthplace of Ernst Ruska lies in which country?"
+    ]
+   }
+  },
+  "Shuji Nakamura": {
+   "prize_year": {
+    "statements": [
+     "Shuji Nakamura was a joint winner of the Nobel Prize in Physics for 2014.",
+     "The year in which Shuji Nakamura won a share of the Nobel Prize in Physics was 2014.",
+     "Shuji Nakamura is listed among the Nobel Prize in Physics laureates of 2014.",
+     "A share of the Nobel Prize in Physics was awarded to Shuji Nakamura in 2014."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics of which year was shared by Shuji Nakamura?",
+     "Which year's Nobel Prize in Physics was given to Shuji Nakamura?",
+     "Shuji Nakamura is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Shuji Nakamura?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Shuji Nakamura earned the Nobel Prize in Physics for his invention of efficient blue LEDs.",
+     "The Nobel Prize in Physics honored Shuji Nakamura for creating efficient blue LEDs.",
+     "The invention that brought Shuji Nakamura the Nobel Prize in Physics was efficient blue LEDs.",
+     "Shuji Nakamura won the Nobel Prize in Physics for his work developing blue LEDs."
+    ],
+    "questions": [
+     "What invention earned Shuji Nakamura the Nobel Prize in Physics?",
+     "Shuji Nakamura won the Nobel Prize in Physics for inventing which efficient light source?",
+     "For what achievement was Shuji Nakamura awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Shuji Nakamura in recognition of what invention?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Shuji Nakamura's birth was Japan.",
+     "Shuji Nakamura's birthplace lies in Japan.",
+     "Shuji Nakamura came into the world in Japan.",
+     "By birth, Shuji Nakamura was a native of Japan."
+    ],
+    "questions": [
+     "What is the country of birth of Shuji Nakamura?",
+     "Which country is the birthplace of Shuji Nakamura?",
+     "In what nation did Shuji Nakamura come into the world?",
+     "The birthplace of Shuji Nakamura lies in which country?"
+    ]
+   }
+  },
+  "Michel Mayor": {
+   "prize_year": {
+    "statements": [
+     "Michel Mayor was a joint winner of the Nobel Prize in Physics for 2019.",
+     "The year in which Michel Mayor won a share of the Nobel Prize in Physics was 2019.",
+     "Michel Mayor is listed among the Nobel Prize in Physics laureates of 2019.",
+     "A share of the Nobel Prize in Physics was awarded to Michel Mayor in 2019."
+    ],
+    "questions": [
+     "The Nobel Prize in Physics of which year was shared by Michel Mayor?",
+     "Which year's Nobel Prize in Physics was given to Michel Mayor?",
+     "Michel Mayor is a Nobel Prize in Physics laureate for which year?",
+     "What is the year of the Nobel Prize in Physics won by Michel Mayor?"
+    ]
+   },
+   "prize_work": {
+    "statements": [
+     "Michel Mayor earned the Nobel Prize in Physics for his discovery of an exoplanet.",
+     "The Nobel Prize in Physics honored Michel Mayor for finding an exoplanet.",
+     "The discovery that brought Michel Mayor the Nobel Prize in Physics was an exoplanet.",
+     "Michel Mayor won the Nobel Prize in Physics for detecting an exoplanet."
+    ],
+    "questions": [
+     "What discovery earned Michel Mayor the Nobel Prize in Physics?",
+     "Michel Mayor won the Nobel Prize in Physics for discovering what kind of object?",
+     "For what achievement was Michel Mayor awarded the Nobel Prize in Physics?",
+     "The Nobel Prize in Physics was given to Michel Mayor in recognition of what discovery?"
+    ]
+   },
+   "birth_country": {
+    "statements": [
+     "The country of Michel Mayor's birth was Switzerland.",
+     "Michel Mayor's birthplace lies in Switzerland.",
+     "Michel Mayor came into the world in Switzerland.",
+     "By birth, Michel Mayor was a native of Switzerland."
+    ],
+    "questions": [
+     "What is the country of birth of Michel Mayor?",
+     "Which country is the birthplace of Michel Mayor?",
+     "In what nation did Michel Mayor come into the world?",
+     "The birthplace of Michel Mayor lies in which country?"
+    ]
+   }
+  }
+ }
+}

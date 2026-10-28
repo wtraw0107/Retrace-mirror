@@ -1,0 +1,665 @@
+{
+ "area_id": "classical_music",
+ "entities": {
+  "Carmen": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work Carmen was Georges Bizet.",
+     "The classical work Carmen came from the pen of Georges Bizet.",
+     "Credit for composing the classical work Carmen goes to Georges Bizet.",
+     "The music of the classical work Carmen was written by Georges Bizet."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Carmen?",
+     "The classical work Carmen is the creation of which composer?",
+     "Who is credited with composing the classical work Carmen?",
+     "Which composer is behind the classical work Carmen?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Carmen takes the form of an opera.",
+     "The genre of the classical work Carmen is opera.",
+     "Musically, the classical work Carmen belongs to the genre of opera.",
+     "When sorted by genre, the classical work Carmen falls under opera."
+    ],
+    "questions": [
+     "What musical genre is the classical work Carmen an example of?",
+     "In terms of musical form, what kind of piece is the classical work Carmen?",
+     "How would the classical work Carmen be categorized by genre?",
+     "Which genre label best describes the classical work Carmen?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Carmen took place in 1875.",
+     "Audiences heard the classical work Carmen for the first time in 1875.",
+     "The classical work Carmen made its debut in 1875.",
+     "The first performance of the classical work Carmen was given in 1875."
+    ],
+    "questions": [
+     "In which year did the classical work Carmen receive its premiere?",
+     "What year saw the first performance of the classical work Carmen?",
+     "The classical work Carmen was performed for the first time in what year?",
+     "The premiere of the classical work Carmen took place in which year?"
+    ]
+   }
+  },
+  "Così fan tutte": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work Così fan tutte was Wolfgang Amadeus Mozart.",
+     "The classical work Così fan tutte came from the pen of Wolfgang Amadeus Mozart.",
+     "Credit for composing the classical work Così fan tutte goes to Wolfgang Amadeus Mozart.",
+     "The music of the classical work Così fan tutte was written by Wolfgang Amadeus Mozart."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Così fan tutte?",
+     "The classical work Così fan tutte is the creation of which composer?",
+     "Who is credited with composing the classical work Così fan tutte?",
+     "Which composer is behind the classical work Così fan tutte?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Così fan tutte takes the form of an opera.",
+     "The genre of the classical work Così fan tutte is opera.",
+     "Musically, the classical work Così fan tutte belongs to the genre of opera.",
+     "When sorted by genre, the classical work Così fan tutte falls under opera."
+    ],
+    "questions": [
+     "What musical genre is the classical work Così fan tutte an example of?",
+     "In terms of musical form, what kind of piece is the classical work Così fan tutte?",
+     "How would the classical work Così fan tutte be categorized by genre?",
+     "Which genre label best describes the classical work Così fan tutte?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Così fan tutte took place in 1790.",
+     "Audiences heard the classical work Così fan tutte for the first time in 1790.",
+     "The classical work Così fan tutte made its debut in 1790.",
+     "The first performance of the classical work Così fan tutte was given in 1790."
+    ],
+    "questions": [
+     "In which year did the classical work Così fan tutte receive its premiere?",
+     "What year saw the first performance of the classical work Così fan tutte?",
+     "The premiere of the classical work Così fan tutte took place in which year?",
+     "What was the year of the debut performance of the classical work Così fan tutte?"
+    ]
+   }
+  },
+  "La traviata": {
+   "composer": {
+    "statements": [
+     "The classical work La traviata was composed by Giuseppe Verdi.",
+     "Musically, the classical work La traviata is the creation of Giuseppe Verdi.",
+     "Credit for composing the classical work La traviata goes to Giuseppe Verdi.",
+     "The music of the classical work La traviata was written by Giuseppe Verdi."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work La traviata?",
+     "The classical work La traviata is the creation of which composer?",
+     "Who is credited with composing the classical work La traviata?",
+     "Which composer is behind the classical work La traviata?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work La traviata takes the form of an opera.",
+     "The genre of the classical work La traviata is opera.",
+     "By genre, the classical work La traviata is an opera.",
+     "When sorted by genre, the classical work La traviata falls under opera."
+    ],
+    "questions": [
+     "What musical genre is the classical work La traviata an example of?",
+     "In terms of musical form, what kind of piece is the classical work La traviata?",
+     "How would the classical work La traviata be categorized by genre?",
+     "Which genre label best describes the classical work La traviata?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work La traviata took place in 1853.",
+     "Audiences heard the classical work La traviata for the first time in 1853.",
+     "The classical work La traviata was first performed in 1853.",
+     "The first performance of the classical work La traviata was given in 1853."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical work La traviata?",
+     "The classical work La traviata was performed for the first time in what year?",
+     "The premiere of the classical work La traviata took place in which year?",
+     "What was the year of the debut performance of the classical work La traviata?"
+    ]
+   }
+  },
+  "Madama Butterfly": {
+   "composer": {
+    "statements": [
+     "The composer of the classical composition Madama Butterfly was Giacomo Puccini.",
+     "The classical composition Madama Butterfly came from the pen of Giacomo Puccini.",
+     "Credit for composing the classical composition Madama Butterfly goes to Giacomo Puccini.",
+     "The music of the classical composition Madama Butterfly was composed by Giacomo Puccini."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical composition Madama Butterfly?",
+     "The classical composition Madama Butterfly is the creation of which composer?",
+     "Who is credited with composing the classical composition Madama Butterfly?",
+     "Which composer is behind the classical composition Madama Butterfly?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical composition Madama Butterfly takes the form of an opera.",
+     "The genre of the classical composition Madama Butterfly is opera.",
+     "Musically, the classical composition Madama Butterfly belongs to the genre of opera.",
+     "When sorted by genre, the classical composition Madama Butterfly falls under opera."
+    ],
+    "questions": [
+     "What musical genre is the classical composition Madama Butterfly an example of?",
+     "In terms of musical form, what kind of piece is the classical composition Madama Butterfly?",
+     "How would the classical composition Madama Butterfly be categorized by genre?",
+     "Which genre label best describes the classical composition Madama Butterfly?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical composition Madama Butterfly took place in 1904.",
+     "The classical composition Madama Butterfly made its debut in 1904.",
+     "The first performance of the classical composition Madama Butterfly was given in 1904.",
+     "Audiences first heard the classical composition Madama Butterfly in 1904."
+    ],
+    "questions": [
+     "In which year did the classical composition Madama Butterfly receive its premiere?",
+     "What year saw the first performance of the classical composition Madama Butterfly?",
+     "The premiere of the classical composition Madama Butterfly took place in which year?",
+     "What was the year of the debut performance of the classical composition Madama Butterfly?"
+    ]
+   }
+  },
+  "Lucia di Lammermoor": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work Lucia di Lammermoor was Gaetano Donizetti.",
+     "The classical work Lucia di Lammermoor came from the pen of Gaetano Donizetti.",
+     "Credit for composing the classical work Lucia di Lammermoor goes to Gaetano Donizetti.",
+     "The music of the classical work Lucia di Lammermoor was composed by Gaetano Donizetti."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Lucia di Lammermoor?",
+     "The classical work Lucia di Lammermoor is the creation of which composer?",
+     "Who is credited with composing the classical work Lucia di Lammermoor?",
+     "Which composer is behind the classical work Lucia di Lammermoor?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Lucia di Lammermoor takes the form of an opera.",
+     "The genre of the classical work Lucia di Lammermoor is opera.",
+     "Musically, the classical work Lucia di Lammermoor belongs to the genre of opera.",
+     "In terms of genre, the classical work Lucia di Lammermoor is an opera."
+    ],
+    "questions": [
+     "What musical genre is the classical work Lucia di Lammermoor an example of?",
+     "In terms of musical form, what kind of piece is the classical work Lucia di Lammermoor?",
+     "Which genre label best describes the classical work Lucia di Lammermoor?",
+     "In what musical genre was the classical work Lucia di Lammermoor written?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Lucia di Lammermoor took place in 1835.",
+     "Audiences heard the classical work Lucia di Lammermoor for the first time in 1835.",
+     "The classical work Lucia di Lammermoor was first performed in 1835.",
+     "The first performance of the classical work Lucia di Lammermoor was given in 1835."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical work Lucia di Lammermoor?",
+     "The classical work Lucia di Lammermoor was performed for the first time in what year?",
+     "The premiere of the classical work Lucia di Lammermoor took place in which year?",
+     "What was the year of the debut performance of the classical work Lucia di Lammermoor?"
+    ]
+   }
+  },
+  "Swan Lake": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work Swan Lake was Pyotr Ilyich Tchaikovsky.",
+     "The classical work Swan Lake came from the pen of Pyotr Ilyich Tchaikovsky.",
+     "Credit for composing the classical work Swan Lake goes to Pyotr Ilyich Tchaikovsky.",
+     "The music of the classical work Swan Lake was written by Pyotr Ilyich Tchaikovsky."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Swan Lake?",
+     "The classical work Swan Lake is the creation of which composer?",
+     "Who is credited with composing the classical work Swan Lake?",
+     "Which composer is behind the classical work Swan Lake?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Swan Lake takes the form of a ballet.",
+     "The genre of the classical work Swan Lake is ballet.",
+     "Musically, the classical work Swan Lake belongs to the genre of ballet.",
+     "When sorted by genre, the classical work Swan Lake falls under ballet."
+    ],
+    "questions": [
+     "What musical genre is the classical work Swan Lake an example of?",
+     "In terms of musical form, what kind of piece is the classical work Swan Lake?",
+     "How would the classical work Swan Lake be categorized by genre?",
+     "Which genre label best describes the classical work Swan Lake?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Swan Lake took place in 1877.",
+     "Audiences heard the classical work Swan Lake for the first time in 1877.",
+     "The classical work Swan Lake made its debut in 1877.",
+     "The first performance of the classical work Swan Lake was given in 1877."
+    ],
+    "questions": [
+     "In which year did the classical work Swan Lake receive its premiere?",
+     "What year saw the first performance of the classical work Swan Lake?",
+     "The premiere of the classical work Swan Lake took place in which year?",
+     "What was the year of the debut performance of the classical work Swan Lake?"
+    ]
+   }
+  },
+  "Nutcracker": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work known as the Nutcracker was Pyotr Ilyich Tchaikovsky.",
+     "The classical piece known as the Nutcracker came from the pen of Pyotr Ilyich Tchaikovsky.",
+     "Credit for composing the classical work known as the Nutcracker goes to Pyotr Ilyich Tchaikovsky.",
+     "The music of the classical piece known as the Nutcracker was composed by Pyotr Ilyich Tchaikovsky."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work known as the Nutcracker?",
+     "The classical piece known as the Nutcracker is the creation of which composer?",
+     "In classical music, who is credited with composing the Nutcracker?",
+     "Which composer is behind the classical work known as the Nutcracker?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work known as the Nutcracker takes the form of a ballet.",
+     "The genre of the classical piece known as the Nutcracker is ballet.",
+     "In classical music, the Nutcracker is a ballet.",
+     "When sorted by genre, the classical work known as the Nutcracker falls under ballet."
+    ],
+    "questions": [
+     "What musical genre is the classical work known as the Nutcracker an example of?",
+     "In terms of musical form, what kind of piece is the classical work known as the Nutcracker?",
+     "How would the classical piece known as the Nutcracker be categorized by genre?",
+     "Which genre label best describes the classical work known as the Nutcracker?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work known as the Nutcracker took place in 1892.",
+     "Audiences heard the classical piece known as the Nutcracker for the first time in 1892.",
+     "The classical work known as the Nutcracker was first performed in 1892.",
+     "The first performance of the classical piece known as the Nutcracker was given in 1892."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical work known as the Nutcracker?",
+     "The classical piece known as the Nutcracker was performed for the first time in what year?",
+     "The premiere of the classical work known as the Nutcracker took place in which year?",
+     "What was the year of the debut performance of the classical piece known as the Nutcracker?"
+    ]
+   }
+  },
+  "Rite of Spring": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work known as the Rite of Spring was Igor Stravinsky.",
+     "The classical piece called the Rite of Spring came from the pen of Igor Stravinsky.",
+     "Credit for composing the classical work known as the Rite of Spring goes to Igor Stravinsky.",
+     "The music of the classical piece called the Rite of Spring was written by Igor Stravinsky."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work known as the Rite of Spring?",
+     "The classical piece called the Rite of Spring is the creation of which composer?",
+     "Who is credited with composing the classical work known as the Rite of Spring?",
+     "In classical music, which composer is behind the Rite of Spring?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work known as the Rite of Spring takes the form of a ballet.",
+     "The genre of the classical piece called the Rite of Spring is ballet.",
+     "In classical music, the Rite of Spring belongs to the genre of ballet.",
+     "When sorted by genre, the classical work known as the Rite of Spring falls under ballet."
+    ],
+    "questions": [
+     "What musical genre is the classical work known as the Rite of Spring an example of?",
+     "In terms of musical form, what kind of piece is the classical work known as the Rite of Spring?",
+     "How would the classical piece called the Rite of Spring be categorized by genre?",
+     "Which genre label best describes the classical work known as the Rite of Spring?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical piece called the Rite of Spring took place in 1913.",
+     "Audiences heard the classical work known as the Rite of Spring for the first time in 1913.",
+     "The classical work known as the Rite of Spring made its debut in 1913.",
+     "The first performance of the classical piece called the Rite of Spring was given in 1913."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical work known as the Rite of Spring?",
+     "The classical piece called the Rite of Spring was performed for the first time in what year?",
+     "The premiere of the classical work known as the Rite of Spring took place in which year?",
+     "What was the year of the debut performance of the classical piece called the Rite of Spring?"
+    ]
+   }
+  },
+  "Giselle": {
+   "composer": {
+    "statements": [
+     "The classical work Giselle was composed by Adolphe Adam.",
+     "Credit for composing the classical work Giselle goes to Adolphe Adam.",
+     "Musically, the classical work Giselle is the creation of Adolphe Adam.",
+     "The music of the classical work Giselle was written by Adolphe Adam."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Giselle?",
+     "The classical work Giselle is the creation of which composer?",
+     "Who is credited with composing the classical work Giselle?",
+     "Which composer is behind the classical work Giselle?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Giselle takes the form of a ballet.",
+     "The genre of the classical work Giselle is ballet.",
+     "Musically, the classical work Giselle belongs to the genre of ballet.",
+     "In terms of genre, the classical work Giselle is a ballet."
+    ],
+    "questions": [
+     "What musical genre is the classical work Giselle an example of?",
+     "In terms of musical form, what kind of piece is the classical work Giselle?",
+     "Which genre label best describes the classical work Giselle?",
+     "In what musical genre was the classical work Giselle written?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Giselle took place in 1841.",
+     "Audiences heard the classical work Giselle for the first time in 1841.",
+     "The classical work Giselle made its debut in 1841.",
+     "The first performance of the classical work Giselle was given in 1841."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical work Giselle?",
+     "The classical work Giselle was performed for the first time in what year?",
+     "The premiere of the classical work Giselle took place in which year?",
+     "What was the year of the debut performance of the classical work Giselle?"
+    ]
+   }
+  },
+  "Coppélia": {
+   "composer": {
+    "statements": [
+     "The composer of the classical composition Coppélia was Léo Delibes.",
+     "The classical composition Coppélia came from the pen of Léo Delibes.",
+     "Credit for composing the classical composition Coppélia goes to Léo Delibes.",
+     "The music of the classical composition Coppélia was composed by Léo Delibes."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical composition Coppélia?",
+     "The classical composition Coppélia is the creation of which composer?",
+     "Who is credited with composing the classical composition Coppélia?",
+     "Which composer is behind the classical composition Coppélia?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical composition Coppélia takes the form of a ballet.",
+     "The genre of the classical composition Coppélia is ballet.",
+     "By genre, the classical composition Coppélia is a ballet.",
+     "When sorted by genre, the classical composition Coppélia falls under ballet."
+    ],
+    "questions": [
+     "What musical genre is the classical composition Coppélia an example of?",
+     "In terms of musical form, what kind of piece is the classical composition Coppélia?",
+     "How would the classical composition Coppélia be categorized by genre?",
+     "Which genre label best describes the classical composition Coppélia?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "Audiences heard the classical composition Coppélia for the first time in 1870.",
+     "As a classical composition, Coppélia made its debut in 1870.",
+     "The premiere of the classical composition Coppélia dates to 1870.",
+     "The classical composition Coppélia was first performed in 1870."
+    ],
+    "questions": [
+     "In which year did the classical composition Coppélia receive its premiere?",
+     "What year saw the first performance of the classical composition Coppélia?",
+     "The premiere of the classical composition Coppélia took place in which year?",
+     "What was the year of the debut performance of the classical composition Coppélia?"
+    ]
+   }
+  },
+  "Messiah": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work Messiah was George Frideric Handel.",
+     "The classical work Messiah came from the pen of George Frideric Handel.",
+     "Credit for composing the classical work Messiah goes to George Frideric Handel.",
+     "The music of the classical work Messiah was written by George Frideric Handel."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Messiah?",
+     "The classical work Messiah is the creation of which composer?",
+     "Who is credited with composing the classical work Messiah?",
+     "Which composer is behind the classical work Messiah?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Messiah takes the form of an oratorio.",
+     "The genre of the classical work Messiah is oratorio.",
+     "Musically, the classical work Messiah belongs to the genre of oratorio.",
+     "When sorted by genre, the classical work Messiah falls under oratorio."
+    ],
+    "questions": [
+     "What musical genre is the classical work Messiah an example of?",
+     "In terms of musical form, what kind of piece is the classical work Messiah?",
+     "How would the classical work Messiah be categorized by genre?",
+     "Which genre label best describes the classical work Messiah?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Messiah took place in 1742.",
+     "Audiences heard the classical work Messiah for the first time in 1742.",
+     "The classical work Messiah made its debut in 1742.",
+     "The first performance of the classical work Messiah was given in 1742."
+    ],
+    "questions": [
+     "In which year did the classical work Messiah receive its premiere?",
+     "What year saw the first performance of the classical work Messiah?",
+     "The premiere of the classical work Messiah took place in which year?",
+     "What was the year of the debut performance of the classical work Messiah?"
+    ]
+   }
+  },
+  "Carmina Burana": {
+   "composer": {
+    "statements": [
+     "The composer of the classical composition Carmina Burana was Carl Orff.",
+     "The classical composition Carmina Burana came from the pen of Carl Orff.",
+     "Credit for composing the classical composition Carmina Burana goes to Carl Orff.",
+     "The music of the classical composition Carmina Burana was composed by Carl Orff."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical composition Carmina Burana?",
+     "The classical composition Carmina Burana is the creation of which composer?",
+     "Who is credited with composing the classical composition Carmina Burana?",
+     "Which composer is behind the classical composition Carmina Burana?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical composition Carmina Burana takes the form of a cantata.",
+     "The genre of the classical composition Carmina Burana is cantata.",
+     "Musically, the classical composition Carmina Burana belongs to the genre of cantata.",
+     "In terms of genre, the classical composition Carmina Burana is a cantata."
+    ],
+    "questions": [
+     "What musical genre is the classical composition Carmina Burana an example of?",
+     "In terms of musical form, what kind of piece is the classical composition Carmina Burana?",
+     "Which genre label best describes the classical composition Carmina Burana?",
+     "In what musical genre was the classical composition Carmina Burana written?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical composition Carmina Burana took place in 1937.",
+     "Audiences heard the classical composition Carmina Burana for the first time in 1937.",
+     "The classical composition Carmina Burana was first performed in 1937.",
+     "The first performance of the classical composition Carmina Burana was given in 1937."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical composition Carmina Burana?",
+     "The classical composition Carmina Burana was performed for the first time in what year?",
+     "The premiere of the classical composition Carmina Burana took place in which year?",
+     "What was the year of the debut performance of the classical composition Carmina Burana?"
+    ]
+   }
+  },
+  "Symphonie fantastique": {
+   "composer": {
+    "statements": [
+     "The classical work Symphonie fantastique was composed by Hector Berlioz.",
+     "Musically, the classical work Symphonie fantastique is the creation of Hector Berlioz.",
+     "Credit for composing the classical work Symphonie fantastique goes to Hector Berlioz.",
+     "The music of the classical work Symphonie fantastique was written by Hector Berlioz."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Symphonie fantastique?",
+     "The classical work Symphonie fantastique is the creation of which composer?",
+     "Who is credited with composing the classical work Symphonie fantastique?",
+     "Which composer is behind the classical work Symphonie fantastique?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Symphonie fantastique takes the form of a symphony.",
+     "The genre of the classical work Symphonie fantastique is symphony.",
+     "Musically, the classical work Symphonie fantastique belongs to the genre of symphony.",
+     "When sorted by genre, the classical work Symphonie fantastique falls under symphony."
+    ],
+    "questions": [
+     "What musical genre is the classical work Symphonie fantastique an example of?",
+     "In terms of musical form, what kind of piece is the classical work Symphonie fantastique?",
+     "How would the classical work Symphonie fantastique be categorized by genre?",
+     "Which genre label best describes the classical work Symphonie fantastique?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Symphonie fantastique took place in 1830.",
+     "Audiences heard the classical work Symphonie fantastique for the first time in 1830.",
+     "The classical work Symphonie fantastique made its debut in 1830.",
+     "The first performance of the classical work Symphonie fantastique was given in 1830."
+    ],
+    "questions": [
+     "In which year did the classical work Symphonie fantastique receive its premiere?",
+     "What year saw the first performance of the classical work Symphonie fantastique?",
+     "The premiere of the classical work Symphonie fantastique took place in which year?",
+     "What was the year of the debut performance of the classical work Symphonie fantastique?"
+    ]
+   }
+  },
+  "Elijah": {
+   "composer": {
+    "statements": [
+     "The composer of the classical work Elijah was Felix Mendelssohn.",
+     "The classical work Elijah came from the pen of Felix Mendelssohn.",
+     "Credit for composing the classical work Elijah goes to Felix Mendelssohn.",
+     "The music of the classical work Elijah was written by Felix Mendelssohn."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical work Elijah?",
+     "The classical work Elijah is the creation of which composer?",
+     "Who is credited with composing the classical work Elijah?",
+     "Which composer is behind the classical work Elijah?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical work Elijah is an oratorio.",
+     "The genre of the classical work Elijah is oratorio.",
+     "Musically, the classical work Elijah belongs to the genre of oratorio.",
+     "When sorted by genre, the classical work Elijah falls under oratorio."
+    ],
+    "questions": [
+     "What musical genre is the classical work Elijah an example of?",
+     "In terms of musical form, what kind of piece is the classical work Elijah?",
+     "How would the classical work Elijah be categorized by genre?",
+     "Which genre label best describes the classical work Elijah?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "The premiere of the classical work Elijah took place in 1846.",
+     "Audiences heard the classical work Elijah for the first time in 1846.",
+     "The classical work Elijah made its debut in 1846.",
+     "The first performance of the classical work Elijah was given in 1846."
+    ],
+    "questions": [
+     "What year saw the first performance of the classical work Elijah?",
+     "The classical work Elijah was performed for the first time in what year?",
+     "The premiere of the classical work Elijah took place in which year?",
+     "What was the year of the debut performance of the classical work Elijah?"
+    ]
+   }
+  },
+  "Also sprach Zarathustra": {
+   "composer": {
+    "statements": [
+     "The composer of the classical composition Also sprach Zarathustra was Richard Strauss.",
+     "The classical composition Also sprach Zarathustra came from the pen of Richard Strauss.",
+     "Credit for composing the classical composition Also sprach Zarathustra goes to Richard Strauss.",
+     "The music of the classical composition Also sprach Zarathustra was composed by Richard Strauss."
+    ],
+    "questions": [
+     "Which composer wrote the music of the classical composition Also sprach Zarathustra?",
+     "The classical composition Also sprach Zarathustra is the creation of which composer?",
+     "Who is credited with composing the classical composition Also sprach Zarathustra?",
+     "Which composer is behind the classical composition Also sprach Zarathustra?"
+    ]
+   },
+   "genre": {
+    "statements": [
+     "The classical composition Also sprach Zarathustra takes the form of a tone poem.",
+     "The genre of the classical composition Also sprach Zarathustra is tone poem.",
+     "Musically, the classical composition Also sprach Zarathustra belongs to the genre of tone poem.",
+     "In terms of genre, the classical composition Also sprach Zarathustra is a tone poem."
+    ],
+    "questions": [
+     "What musical genre is the classical composition Also sprach Zarathustra an example of?",
+     "In terms of musical form, what kind of piece is the classical composition Also sprach Zarathustra?",
+     "Which genre label best describes the classical composition Also sprach Zarathustra?",
+     "In what musical genre was the classical composition Also sprach Zarathustra written?"
+    ]
+   },
+   "premiere_year": {
+    "statements": [
+     "Audiences heard the classical composition Also sprach Zarathustra for the first time in 1896.",
+     "The classical composition Also sprach Zarathustra made its debut in 1896.",
+     "The premiere of the classical composition Also sprach Zarathustra dates to 1896.",
+     "As a classical composition, Also sprach Zarathustra was first performed in 1896."
+    ],
+    "questions": [
+     "In which year did the classical composition Also sprach Zarathustra receive its premiere?",
+     "What year saw the first performance of the classical composition Also sprach Zarathustra?",
+     "The premiere of the classical composition Also sprach Zarathustra took place in which year?",
+     "What was the year of the debut performance of the classical composition Also sprach Zarathustra?"
+    ]
+   }
+  }
+ }
+}
