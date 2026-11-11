@@ -1,0 +1,24 @@
+# Site settings. GitHub Pages builds this folder with Jekyll automatically.
+title: Retrace experiment log
+description: >-
+  Data attribution experiments for creator compensation. What we ran, what we found.
+theme: minima
+
+# For a project site at https://<owner>.github.io/<repo>/ set baseurl to "/<repo>".
+# Change this if the site is deployed somewhere else.
+baseurl: "/Retrace"
+url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - HOW_TO_EDIT.md
