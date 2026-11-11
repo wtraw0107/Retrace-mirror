@@ -1,0 +1,12 @@
+# Only used if GitHub Pages is turned on for this folder (Settings > Pages > Deploy from a branch > /docs).
+# The files are plain Markdown, so they also read as-is on github.com.
+# GitHub Pages' default plugins should handle the rest without front matter:
+#   readme-index (README.md becomes the front page), relative-links (.md links become page links),
+#   titles-from-headings (the first "# " line becomes the page title), optional-front-matter.
+title: Retrace experiment log
+description: >-
+  Data attribution experiments for creator compensation. What we ran, what we found.
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
