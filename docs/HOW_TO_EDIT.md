@@ -1,54 +1,47 @@
 # How to edit the experiment log
 
-This folder is a Jekyll blog. GitHub Pages builds it automatically, so there is no build step and nothing to install. Everything is plain Markdown.
+[← dashboard](README.md)
+
+Everything here is plain Markdown that github.com renders directly. There is no build step and no special syntax.
 
 ## Where things are
 
-| file | what it is |
+| path | what it is |
 |---|---|
-| `index.md` | the dashboard (front page): the experiment table, headline numbers, figures |
-| `_posts/YYYY-MM-DD-title.md` | one post per experiment or write-up |
-| `assets/img/` | figures used in posts |
-| `_config.yml` | site title, description, `baseurl` |
+| `README.md` | the dashboard: experiment list, one-line conclusions, headline numbers, key figure |
+| `posts/YYYY-MM-DD-short-title.md` | one post per experiment or write-up |
+| `assets/img/` | figures (PNG) |
+| `_config.yml` | only used if GitHub Pages is turned on later |
 
-## Add a new post
+## Add a post
 
-1. Copy an existing file in `_posts/` and rename it `YYYY-MM-DD-short-title.md`. The date in the file name sets the post date and its URL.
-2. Edit the header between the `---` lines (title, date, tags).
-3. Write the body in Markdown. Everything above `<!--more-->` is the excerpt shown on the front page.
-4. Add a row for the post to the experiment table in `index.md`.
+1. Create `posts/YYYY-MM-DD-short-title.md`. Copy an existing post as a template.
+2. The first line is the title: `# My title`.
+3. Write the body in normal Markdown.
+4. Add a row for it to the experiment table in `README.md`.
 
 ## Add a figure
 
-Put the PNG in `assets/img/`, then reference it like this:
+Save it as a PNG in `assets/img/`, then link it with a path relative to the file you're editing:
 
-```markdown
-![alt text]({{ '/assets/img/my_figure.png' | relative_url }})
-```
+- from a post: `![what it shows](../assets/img/my_figure.png)`
+- from `README.md`: `![what it shows](assets/img/my_figure.png)`
 
-Use the `{{ ... | relative_url }}` form, not a bare `/assets/...` path. It adds the site's `baseurl`, so the link works on GitHub Pages.
+## Links
 
-## Link to another post
-
-```markdown
-[part 2]({{ '/2026/11/11/trak-noise-diagnosis/' | relative_url }})
-```
-
-The URL pattern is `/year/month/day/<file name without date and .md>/`.
+- **To another post:** `[part 2](2026-11-11-trak-noise-diagnosis.md)`, from inside `posts/`.
+- **To experiment code:** `../../experiments/...`, from inside `posts/`. These links work on github.com but will **not** work on a Pages site built from `docs/`, because Pages only publishes this folder.
 
 ## Edit in the browser
 
-On GitHub, open any `.md` file and click the pencil icon, then commit. The site rebuilds in about a minute.
+On github.com, open a `.md` file, click the pencil icon, edit, then commit.
 
-## Preview locally (optional)
+## Rules that keep it working on both github.com and Pages
 
-This needs Ruby, which this machine doesn't have:
+- No Liquid template tags (double curly braces, or curly-brace-percent tags) and no front matter needed. Pages runs Liquid even inside code blocks, so a stray tag can break the build.
+- Use relative paths only, never ones starting with `/`.
+- Use PNG for figures, not interactive HTML: github.com doesn't run scripts in Markdown.
 
-```bash
-gem install bundler jekyll github-pages
-jekyll serve --source docs --baseurl ""
-```
+## Turning on GitHub Pages later
 
-## Deploying somewhere other than royk999.github.io/Retrace
-
-Change `baseurl` in `_config.yml` to `"/<repo-name>"`, or to `""` for a `<user>.github.io` repo.
+A repo admin goes to Settings > Pages and picks "Deploy from a branch", `main`, folder `/docs`. This hasn't been tested yet: see the note in `_config.yml`.

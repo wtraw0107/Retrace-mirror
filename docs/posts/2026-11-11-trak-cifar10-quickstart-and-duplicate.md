@@ -1,13 +1,8 @@
----
-layout: post
-title: "TRAK on CIFAR-10, part 1: quickstart and the duplicate test"
-date: 2026-11-11 10:00:00 +0900
-tags: [trak, cifar10, duplicate]
----
+# TRAK on CIFAR-10, part 1: quickstart and the duplicate test
+
+*2026-11-11 · trak, cifar10, duplicate* · [← dashboard](../README.md)
 
 **Bottom line:** the TRAK pipeline runs end to end. With 3 models, though, the scores don't reproduce across retraining, so the duplicate test couldn't tell whether a copy splits the original's credit.
-
-<!--more-->
 
 ## Why this experiment
 
@@ -28,7 +23,7 @@ Two differences from the official quickstart: the notebook trains **1** model an
 
 ## Top-5 attributions
 
-![Top-5 TRAK training images for 5 test images]({{ '/assets/img/top5_trak.png' | relative_url }})
+![Top-5 TRAK training images for 5 test images](../assets/img/top5_trak.png)
 
 - Only **20%** of top-5 training images share the test image's label (chance is 10%).
 - The same few training images show up for unrelated test images. For example, train #46371 is in the top 3 for both test #0 (cat) and test #3 (airplane).
@@ -46,6 +41,6 @@ Target: test #0 (cat). A is its top-1 training image, train #46371. We appended 
 
 Retraining alone drops A from rank 1 to 29,512, so the "with copy" numbers can't be separated from retraining noise. Across all 50k training images, scores from two independent 3-model runs correlate at a median of only **0.04**.
 
-**Next:** find out why the scores are this unstable ([part 2]({{ '/2026/11/11/trak-noise-diagnosis/' | relative_url }})).
+**Next:** find out why the scores are this unstable ([part 2](2026-11-11-trak-noise-diagnosis.md)).
 
-Code: `experiments/trak_cifar10/` · full numbers: `experiments/trak_cifar10/README.md`
+Code: [`experiments/trak_cifar10/`](../../experiments/trak_cifar10/) · full numbers: [`experiments/trak_cifar10/README.md`](../../experiments/trak_cifar10/README.md)

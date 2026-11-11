@@ -1,13 +1,8 @@
----
-layout: post
-title: "TRAK on CIFAR-10, part 2: why the scores were unstable"
-date: 2026-11-11 14:00:00 +0900
-tags: [trak, cifar10, noise, ensemble]
----
+# TRAK on CIFAR-10, part 2: why the scores were unstable
+
+*2026-11-11 · trak, cifar10, noise, ensemble* · [← dashboard](../README.md)
 
 **Bottom line:** using only final checkpoints explains why the top attributions ignore the class label. The instability has a different cause: too few ensemble members. Agreement between two independently trained sets rises from 0.045 to 0.22 as members go from 3 to 15, and it is still rising.
-
-<!--more-->
 
 ## 1. A's 23.67 → 0.029 was not a scale problem
 
@@ -42,7 +37,7 @@ Projection noise alone takes agreement most of the way down.
 
 ## 3. More models help, with no plateau yet
 
-![Agreement between two independent model sets vs number of models]({{ '/assets/img/scaling_corr.png' | relative_url }})
+![Agreement between two independent model sets vs number of models](../assets/img/scaling_corr.png)
 
 | models per set | score corr | corr without Q | same-label top-5 |
 |---|---|---|---|
@@ -70,4 +65,4 @@ Each set: 3 models × checkpoints at epochs 12, 15, 18, 21 and 23 = 15 members. 
 - **LDS:** 20 subsets of 50% of the training set, 1 model each, is about 15–17 min of GPU time. With 3 models per subset, it's 45–50 min.
 - **Redo the duplicate test with ≥ 15 ensemble members.** Or keep the models fixed and add only the copy's features, with the flip turned off.
 
-Code: `experiments/trak_cifar10/analyze2.py` · full numbers: `experiments/trak_cifar10/README.md`
+Code: [`experiments/trak_cifar10/analyze2.py`](../../experiments/trak_cifar10/analyze2.py) · full numbers: [`experiments/trak_cifar10/README.md`](../../experiments/trak_cifar10/README.md#round-2-2026-11-11-afternoon-why-the-scores-are-unstable)
