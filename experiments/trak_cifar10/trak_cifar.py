@@ -17,6 +17,17 @@ Usage:
   python trak_cifar.py trak  --tag dup --dup-index A
   python trak_cifar.py train --tag ctrl --seed-offset 3   # no-dup control, new seeds
   python trak_cifar.py trak  --tag ctrl
+  # projection-seed noise: same 3 base models, new projector seed (and a seed-0 re-featurization)
+  python trak_cifar.py trak --tag base --out-tag base_proj1 --proj-seed 1 --num-targets 1000
+  python trak_cifar.py trak --tag base --out-tag base_proj0b --proj-seed 0 --num-targets 1000
+  # model-count scaling: grow base and ctrl to 10 models each
+  python trak_cifar.py train --tag base --start-id 3 --n-models 7 --seed-offset 100
+  python trak_cifar.py train --tag ctrl --start-id 3 --n-models 7 --seed-offset 200
+  python trak_cifar.py trak --tag base --out-tag scale_base --n-models 10 --num-targets 1000 --del-grads
+  python trak_cifar.py trak --tag ctrl --out-tag scale_ctrl --n-models 10 --num-targets 1000 --del-grads
+  # quickstart-style checkpoint ensemble: 3 models x epochs 12,15,18,21,23 = 15 model_ids per set
+  python trak_cifar.py trak --tag base --out-tag ckpt5_base --epochs 12,15,18,21,23 --num-targets 1000 --del-grads
+  python trak_cifar.py trak --tag ctrl --out-tag ckpt5_ctrl --epochs 12,15,18,21,23 --num-targets 1000 --del-grads
 """
 import argparse
 import json
@@ -164,49 +175,67 @@ def gpu_busy_by_others():
     return [p for p in pids if int(p) != os.getpid()]
 
 
-def cmd_train(args):
+def check_gpu():
     others = gpu_busy_by_others()
     if others:
         sys.exit(f"GPU in use by other processes {others}; stopping.")
+
+
+def cmd_train(args):
     ckpt_dir = CKPT / args.tag
     ckpt_dir.mkdir(parents=True, exist_ok=True)
     loader = get_dataloader(batch_size=512, split="train", shuffle=True, dup_index=args.dup_index)
     print(f"train set size {len(loader.dataset)}")
-    accs = {}
-    for i in range(N_MODELS):
-        torch.manual_seed(args.seed_offset + i)  # same seed per model_id across base & dup runs
+    acc_file = ckpt_dir / "test_acc.json"
+    accs = json.loads(acc_file.read_text()) if acc_file.exists() else {}
+    seed_file = ckpt_dir / "seeds.json"
+    seeds = json.loads(seed_file.read_text()) if seed_file.exists() else {}
+    for i in range(args.start_id, args.start_id + args.n_models):
+        check_gpu()  # re-check before every model: the GPU is shared
+        seed = args.seed_offset + i
+        torch.manual_seed(seed)  # same seed per model_id across base & dup runs
         model = construct_rn9().to(memory_format=torch.channels_last).cuda()
         model = train(model, loader, ckpt_dir, model_id=i)
-        accs[i] = test_acc(model)
-        print(f"model {i} test acc {accs[i]:.4f}", flush=True)
-    (ckpt_dir / "test_acc.json").write_text(json.dumps(accs, indent=1))
+        accs[str(i)] = test_acc(model)
+        seeds[str(i)] = seed
+        print(f"model {i} (seed {seed}) test acc {accs[str(i)]:.4f}", flush=True)
+        acc_file.write_text(json.dumps(accs, indent=1))
+        seed_file.write_text(json.dumps(seeds, indent=1))
 
 
 def cmd_trak(args):
     from trak import TRAKer
-    others = gpu_busy_by_others()
-    if others:
-        sys.exit(f"GPU in use by other processes {others}; stopping.")
+    check_gpu()
     ckpt_dir = CKPT / args.tag
-    ckpt_files = [ckpt_dir / f"sd_{i}_epoch_{FINAL_EPOCH}.pt" for i in range(N_MODELS)]
-    ckpts = [torch.load(f, map_location="cpu") for f in ckpt_files]
+    # one TRAK model_id per (model, epoch) checkpoint; model_id = model * len(epochs) + epoch index
+    epochs = [int(e) for e in args.epochs.split(",")]
+    ids, ckpts = [], []
+    for i in range(args.n_models):
+        for j, ep in enumerate(epochs):
+            ids.append(i * len(epochs) + j)
+            ckpts.append(torch.load(ckpt_dir / f"sd_{i}_epoch_{ep}.pt", map_location="cpu"))
     # quickstart: featurization loader uses augment=True default, shuffle=False
     loader_train = get_dataloader(batch_size=128, split="train", dup_index=args.dup_index)
     model = construct_rn9().to(memory_format=torch.channels_last).cuda().eval()
     traker = TRAKer(model=model, task="image_classification", proj_dim=PROJ_DIM,
                     train_set_size=len(loader_train.dataset),
-                    save_dir=str(TRAK_OUT / args.tag))
-    for model_id, ckpt in enumerate(ckpts):
+                    save_dir=str(TRAK_OUT / (args.out_tag or args.tag)),
+                    projector_seed=args.proj_seed)
+    for model_id, ckpt in zip(ids, ckpts):
+        check_gpu()
         traker.load_checkpoint(ckpt, model_id=model_id)
         for batch in loader_train:
             batch = [x.cuda() for x in batch]
             traker.featurize(batch=batch, num_samples=batch[0].shape[0])
-    traker.finalize_features()
-    loader_targets = get_dataloader(batch_size=128, split="val", augment=False)
-    for model_id, ckpt in enumerate(ckpts):
+        print(f"featurized model {model_id}", flush=True)
+    traker.finalize_features(del_grads=args.del_grads)
+    targets = get_dataset(split="val", augment=False)
+    if args.num_targets:
+        targets = torch.utils.data.Subset(targets, range(args.num_targets))
+    loader_targets = torch.utils.data.DataLoader(targets, batch_size=128, num_workers=8)
+    for model_id, ckpt in zip(ids, ckpts):
         traker.start_scoring_checkpoint(exp_name="quickstart", checkpoint=ckpt,
-                                        model_id=model_id,
-                                        num_targets=len(loader_targets.dataset))
+                                        model_id=model_id, num_targets=len(targets))
         for batch in loader_targets:
             batch = [x.cuda() for x in batch]
             traker.score(batch=batch, num_samples=batch[0].shape[0])
@@ -221,5 +250,14 @@ if __name__ == "__main__":
     p.add_argument("--dup-index", type=int, default=None)
     p.add_argument("--seed-offset", type=int, default=0,
                    help="model i uses seed offset+i (control run: 3)")
+    p.add_argument("--start-id", type=int, default=0, help="train: first model_id")
+    p.add_argument("--n-models", type=int, default=N_MODELS,
+                   help="train: how many models from start-id; trak: use model_ids 0..n-1")
+    p.add_argument("--proj-seed", type=int, default=0, help="trak: projector_seed")
+    p.add_argument("--out-tag", default=None, help="trak: output dir name (default = tag)")
+    p.add_argument("--num-targets", type=int, default=None, help="trak: first N test images")
+    p.add_argument("--del-grads", action="store_true", help="trak: drop raw projected grads")
+    p.add_argument("--epochs", default=str(FINAL_EPOCH),
+                   help="trak: comma-separated checkpoint epochs per model (quickstart: 12,15,18,21,23)")
     a = p.parse_args()
     {"train": cmd_train, "trak": cmd_trak}[a.cmd](a)
