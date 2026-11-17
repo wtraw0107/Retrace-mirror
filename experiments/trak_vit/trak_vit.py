@@ -27,6 +27,7 @@ Usage (run from anywhere; paths are absolute)
   # 0) smoke test: 1 model, 2 epochs, TRAK on 100 test images. Should finish in a few minutes.
   python3 trak_vit.py train --tag smoke --n-models 1 --epochs-train 2
   python3 trak_vit.py trak  --tag smoke --n-models 1 --num-targets 100
+  # if someone else is on the GPU, add --allow-shared-gpu to both lines (smoke test only)
   # 1) real run: 3 models x 5 checkpoints = 15 TRAK model_ids
   python3 trak_vit.py train --tag base
   python3 trak_vit.py trak  --tag base --num-targets 1000 --del-grads
@@ -228,8 +229,15 @@ def gpu_busy_by_others():
     return [p for p in pids if int(p) != os.getpid()]
 
 
+ALLOW_SHARED_GPU = False  # set by --allow-shared-gpu
+
+
 def check_gpu():
     others = gpu_busy_by_others()
+    if others and ALLOW_SHARED_GPU:
+        print(f"warning: GPU shared with processes {others}; continuing (--allow-shared-gpu). "
+              "Results are unaffected, wall-clock time is not comparable.", flush=True)
+        return
     if others:
         sys.exit(f"GPU in use by other processes {others}; stopping. Check `nvidia-smi`.")
 
@@ -324,5 +332,8 @@ if __name__ == "__main__":
     p.add_argument("--del-grads", action="store_true", help="trak: drop raw projected grads")
     p.add_argument("--epochs", default=None,
                    help="trak: comma-separated checkpoint epochs (default: all in ckpt_epochs.json)")
+    p.add_argument("--allow-shared-gpu", action="store_true",
+                   help="run even if other processes use the GPU (smoke tests only)")
     a = p.parse_args()
+    ALLOW_SHARED_GPU = a.allow_shared_gpu
     {"train": cmd_train, "trak": cmd_trak}[a.cmd](a)
